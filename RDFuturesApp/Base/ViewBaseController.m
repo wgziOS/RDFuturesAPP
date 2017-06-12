@@ -7,6 +7,12 @@
 //
 
 #import "ViewBaseController.h"
+#import "OpenAccountFirstViewController.h"
+#import "OtherInforViewController.h"
+#import "AccountChooseController.h"
+#import "RiskWarningController.h"
+#import "TakePhotoController.h"
+
 
 @interface ViewBaseController ()
 
@@ -29,14 +35,14 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 
 - (void) setUpNavigationBar
@@ -86,9 +92,86 @@
     self.tabBarController.tabBar.hidden = hidden;//隐藏导航栏
 }
 -(void)gotoGoshopViewController{
-   
+    
 }
 -(void)gotoStoreViewController{
     
+}
+
++(instancetype)allocWithZone:(struct _NSZone *)zone{
+    ViewBaseController *vc = [super allocWithZone:zone];
+    @weakify(vc);
+    [[vc rac_signalForSelector:@selector(viewDidLoad)] subscribeNext:^(id x) {
+        @strongify(vc)
+        [vc addChildView];
+        [vc bindViewModel];
+    }];
+    
+    [[vc rac_signalForSelector:@selector(viewWillAppear:)] subscribeNext:^(id x) {
+        
+        @strongify(vc)
+        [vc layoutNavigation];
+        [vc getNewData];
+        
+        
+    }];
+    
+    return vc;
+}
+
+
+
+
+-(void)addChildView{
+    
+}
+-(void)bindViewModel{
+    
+}
+-(void)getNewData{
+    
+}
+-(void)layoutNavigation{
+    
+}
++(CGSize)textForFont:(int)font andMAXSize:(CGSize)size andText:(NSString*)text
+{
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:2];
+    NSDictionary *attributes = @{ NSParagraphStyleAttributeName:paragraphStyle,NSFontAttributeName:[UIFont systemFontOfSize:font]};
+    CGRect rect = [text boundingRectWithSize:size
+                                     options:NSStringDrawingUsesLineFragmentOrigin
+                                  attributes:attributes
+                                     context:nil];
+    
+    return rect.size;
+}
+
+-(void)puchOpenfirst{
+    
+    OpenAccountFirstViewController *open = [[OpenAccountFirstViewController alloc] init];
+    [self.navigationController pushViewController:open animated:YES];
+    
+}
+-(void)puchtakePhoto{
+    
+    TakePhotoController *takePhoto = [[TakePhotoController alloc] init];
+    [self.navigationController pushViewController:takePhoto animated:YES];
+    
+}
+-(void)puchOtherInformation{
+
+    UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"OtherInfor" bundle:nil];
+    OtherInforViewController *secondViewController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"OtherInforViewController"];
+    [self.navigationController pushViewController:secondViewController animated:YES];
+}
+-(void)puchAccountChoose{
+    AccountChooseController *account = [[AccountChooseController alloc] init];
+    [self.navigationController pushViewController:account animated:YES];
+}
+
+-(void)puchRiskWarning{
+    RiskWarningController *account = [[RiskWarningController alloc] init];
+    [self.navigationController pushViewController:account animated:YES];
 }
 @end

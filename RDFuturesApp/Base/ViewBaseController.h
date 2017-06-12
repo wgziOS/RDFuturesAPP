@@ -16,5 +16,10 @@
 - (UIView *)centerView;
 -(void)gotoGoshopViewController;
 -(void)gotoStoreViewController;
-
+-(void)puchOpenfirst;
+-(void)puchOtherInformation;
+-(void)puchAccountChoose;
+-(void)puchRiskWarning;
+-(void)puchtakePhoto;
++(CGSize)textForFont:(int)font andMAXSize:(CGSize)size andText:(NSString*)text;
 @end
