@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ExperienceViewController : UIViewController
+#import "AccountBaseController.h"
+@interface ExperienceViewController : AccountBaseController
+@property (nonatomic, copy)NSString *loadType;
 
 @end

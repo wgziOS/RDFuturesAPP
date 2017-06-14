@@ -21,7 +21,7 @@
 @end
 
 @interface ZMBAddressSelectionView : UIView
-
+//
 @property (nonatomic,weak) id<ZMBAddressSelectionViewDelegate> delegate;
 
 @property (nonatomic, copy) void(^addressSelectionFinished)(NSString *Id,NSString *fullName);

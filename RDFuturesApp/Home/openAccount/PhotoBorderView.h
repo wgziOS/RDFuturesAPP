@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotoBorderView : UIView
-
+@property (nonatomic,assign) CGRect facePathRect;
 @end

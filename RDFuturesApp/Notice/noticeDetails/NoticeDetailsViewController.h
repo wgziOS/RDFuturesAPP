@@ -7,7 +7,9 @@
 //
 
 #import "ViewBaseController.h"
+#import "NoticeModel.h"
 
 @interface NoticeDetailsViewController : ViewBaseController
-@property(nonatomic,copy)NSString *web_url;
+@property(nonatomic,strong)NoticeModel *model;
+
 @end

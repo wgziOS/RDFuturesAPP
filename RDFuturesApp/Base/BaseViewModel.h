@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseViewModelProtocol.h"
 
-@interface BaseViewModel : NSObject
+@interface BaseViewModel : NSObject<BaseViewModelProtocol>
 
 @end

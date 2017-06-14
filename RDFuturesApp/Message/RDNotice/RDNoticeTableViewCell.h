@@ -7,7 +7,8 @@
 //
 
 #import "BaseTableViewCell.h"
+#import "RDNoticeModel.h"
 
 @interface RDNoticeTableViewCell : BaseTableViewCell
-
+@property(nonatomic,strong)RDNoticeModel *model;
 @end

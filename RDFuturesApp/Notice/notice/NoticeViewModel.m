@@ -8,20 +8,48 @@
 
 #import "NoticeViewModel.h"
 
+@interface NoticeViewModel()
+
+@property (nonatomic, assign) int currentPage;//页数
+
+@end
+
 @implementation NoticeViewModel
 -(void)initialize{
-    @weakify(self)
+    WS(weakself)
     [self.refreshDataCommand.executionSignals.switchToLatest subscribeNext:^(NSMutableArray *array) {
         
+        NSMutableArray *data = [[NSMutableArray alloc] init];
+        for (int i = 0 ; i<array.count; i++) {
+            [data addObject:array[array.count-i-1]];
+        }
+       
+        self.dataArray = data;
         
-        @strongify(self);
-        self.dataArray = array;
         
-        [self.refreshUI sendNext:nil];
-        [self.refreshEndSubject sendNext:@(FooterRefresh_HasMoreData)];
+        [weakSelf.refreshUI sendNext:nil];
+        [weakSelf.refreshEndSubject sendNext:@(FooterRefresh_HasMoreData)];
         
     }];
-   
+    
+    [self.nextPageCommand.executionSignals.switchToLatest subscribeNext:^(NSMutableArray *array) {
+        
+        if (array) {
+            NSMutableArray *data = [[NSMutableArray alloc] initWithArray:self.dataArray];
+            for (int i=0; i<array.count; i++){
+                [ data insertObject:array[i] atIndex:0];
+            }
+            self.dataArray = data;
+            [weakSelf.refreshUI sendNext:nil];
+            [weakSelf.refreshEndSubject sendNext:@(FooterRefresh_HasMoreData)];
+        }else{
+            [weakSelf.refreshUI sendNext:nil];
+            [weakSelf.refreshEndSubject sendNext:@(FooterRefresh_HasNoMoreData)];
+
+        }
+        
+        
+    }];
     
     
 }
@@ -31,17 +59,29 @@
     if (!_refreshDataCommand) {
         _refreshDataCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
             return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+           
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
                     NSError *error;
-                    RDRequestModel * model = [RDRequest postHomeNoticeListWithParam:nil
+                    NSMutableDictionary *paramDic = [[NSMutableDictionary alloc] init];
+                    [paramDic setObject:@"1" forKey:@"page_no"];
+                    RDRequestModel * model = [RDRequest postHomeNoticeListWithParam:paramDic
                                                                               error:&error];
                     
                     dispatch_async(dispatch_get_main_queue(), ^{
                         if (error==nil) {
-                            
-                            [subscriber sendNext:model.Data];
-                            [subscriber sendCompleted];
+                            if ([model.State isEqualToString:@"1"]) {
+                                
+                                [subscriber sendNext:model.Data];
+                            }else{
+                                showMassage(model.Message);
+                            }
+                        }else{
+                            [MBProgressHUD showError:promptString];
                         }
+                        
+                        
+                        [subscriber sendCompleted];
+
                     });
                 });
                 
@@ -56,7 +96,50 @@
     return _refreshDataCommand;
 }
 
+-(RACCommand *)nextPageCommand{
+   
+    WS(weakself)
+    if (!_nextPageCommand) {
+        _nextPageCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
+            return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+                weakSelf.currentPage++;
+                NSString *pageValue = [NSString stringWithFormat:@"%d",weakSelf.currentPage];
+                NSMutableDictionary *paramDic = [[NSMutableDictionary alloc] init];
+                [paramDic setObject:pageValue forKey:@"page_no"];
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                    NSError *error;
+                    
+                    RDRequestModel * model = [RDRequest postHomeNoticeListWithParam:paramDic
+                                                                              error:&error];
+                    
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        if (error==nil) {
+                            if ([model.State isEqualToString:@"1"]) {
+                                [subscriber sendNext:model.Data];
+                            }else{
+                                weakSelf.currentPage--;
+                                showMassage(model.Message)
+                            }
+                        }else{
+                            weakSelf.currentPage--;
 
+                            [MBProgressHUD showError:promptString];
+                        }
+                        [subscriber sendCompleted];
+                        
+                    });
+                });
+                
+                
+                
+                return nil;
+            }];
+            
+        }];
+        
+    }
+    return _nextPageCommand;
+}
 -(RACSubject *)refreshEndSubject{
     if (!_refreshEndSubject) {
         _refreshEndSubject = [RACSubject subject];
@@ -72,20 +155,18 @@
     return _refreshUI;
 }
 
--(RACSubject *)cellclickSubject{
-    if (!_cellclickSubject) {
+-(RACSubject *)cellClickSubject{
+    if (!_cellClickSubject) {
         
-        _cellclickSubject = [RACSubject subject];
+        _cellClickSubject = [RACSubject subject];
     }
-    return _cellclickSubject;
+    return _cellClickSubject;
 }
 
--(NSMutableArray *)dataArray{
-    
-    if (!_dataArray) {
-        _dataArray = [[NSMutableArray alloc] init];
+-(int)currentPage{
+    if (!_currentPage) {
+        _currentPage = 1;
     }
-    return _dataArray;
+    return _currentPage;
 }
-
 @end

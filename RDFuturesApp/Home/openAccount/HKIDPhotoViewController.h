@@ -6,8 +6,8 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import "ViewBaseController.h"
+#import "AccountBaseController.h"
 
-@interface HKIDPhotoViewController : ViewBaseController
-
+@interface HKIDPhotoViewController : AccountBaseController
+@property (nonatomic, copy)NSString *loadType;
 @end

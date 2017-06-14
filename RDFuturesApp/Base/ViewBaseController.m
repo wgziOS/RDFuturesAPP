@@ -7,13 +7,24 @@
 //
 
 #import "ViewBaseController.h"
+#import "BondViewController.h"
+#import "LoginViewController.h"
+#import "RDProfileViewController.h"
+#import "ContactUsViewController.h"
+#import "NavigationBaseController.h"
+#import "BreedRulesViewController.h"
+#import "LastTradingDayViewController.h"
+#import "LoginViewController.h"
+#import "BankInformationViewController.h"
 #import "OpenAccountFirstViewController.h"
-#import "OtherInforViewController.h"
-#import "AccountChooseController.h"
-#import "RiskWarningController.h"
-#import "TakePhotoController.h"
-
-
+#import "ProgressViewController.h"
+#import "AboutUsViewController.h"
+#import "CompanyNoticeViewController.h"
+#import "InfoFeedBackViewController.h"
+#import "HelpCenterViewController.h"
+#import "BillViewController.h"
+#import "BusinessHandlingViewController.h"
+#import "MagicBoxViewController.h"
 @interface ViewBaseController ()
 
 @end
@@ -32,22 +43,14 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
 }
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 
 - (void) setUpNavigationBar
 {
-    //    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"title.png"] forBarMetrics:UIBarMetricsDefault];//设置导航栏图片
+
     [self.navigationController.navigationBar setBarTintColor:RGB(255, 165, 33)];//设置导航栏的背景颜色
     
     //    self.navigationController.navigationBar.alpha = 0;
@@ -55,6 +58,7 @@
     
     self.navigationItem.leftBarButtonItem = [self leftButton];//设置导航栏左边按钮
     self.navigationItem.rightBarButtonItem = [self rightButton];//设置导航栏右边按钮
+    
     self.navigationItem.titleView = [self centerView];//设置titel
     if([[[UIDevice currentDevice]systemVersion]floatValue]>=7.0)
     {
@@ -66,9 +70,9 @@
 - (UIBarButtonItem *)leftButton
 {
     UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
-    [btn setImage:[UIImage imageNamed:@"et_back.png"] forState:UIControlStateNormal];//设置左边按钮的图片
+    [btn setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];//设置左边按钮的图片
     [btn addTarget:self action:@selector(actionOnTouchBackButton:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
-    return [[UIBarButtonItem alloc] initWithCustomView:btn];;
+    return [[UIBarButtonItem alloc] initWithCustomView:btn];
     
 }
 
@@ -146,32 +150,78 @@
     
     return rect.size;
 }
+-(void)pushMagicBox{
+    
+    MagicBoxViewController * MVC = [[MagicBoxViewController alloc]init];
+    [self.navigationController pushViewController:MVC animated:YES];
 
+}
+-(void)pushBusinessBandling{
+
+    BusinessHandlingViewController * BVC = [[BusinessHandlingViewController alloc]init];
+    [self.navigationController pushViewController:BVC animated:YES];
+}
+-(void)pushBills{
+
+    BillViewController * BVC = [[BillViewController alloc]init];
+    [self.navigationController pushViewController:BVC animated:YES];
+}
+-(void)pushHelpCenter{
+    
+    HelpCenterViewController * HVC = [[HelpCenterViewController alloc]init];
+    [self.navigationController pushViewController:HVC animated:YES];
+}
+-(void)pushInfoFeedBack{
+    
+    InfoFeedBackViewController * IVC = [[InfoFeedBackViewController alloc]init];
+    [self.navigationController pushViewController:IVC animated:YES];
+}
+-(void)pushCompanyNotice{
+
+    CompanyNoticeViewController * CVC = [[CompanyNoticeViewController alloc]init];
+    [self.navigationController pushViewController:CVC animated:YES];
+}
+-(void)pushProgress{
+    
+    ProgressViewController * PVC = [[ProgressViewController alloc]init];
+    [self.navigationController pushViewController:PVC animated:YES];
+}
+-(void)puchContactUs{
+        ContactUsViewController *contactUs = [[ContactUsViewController alloc] init];
+        [self.navigationController pushViewController:contactUs animated:YES];
+//    AboutUsViewController * AVC = [[AboutUsViewController alloc]init];
+//    [self.navigationController pushViewController:AVC animated:YES];
+}
+-(void)puchLastTradingDay{
+    LastTradingDayViewController *lastDay = [[LastTradingDayViewController alloc] init];
+    [self.navigationController pushViewController:lastDay animated:YES];
+}
+-(void)puchBond{
+    BondViewController *bond = [[BondViewController alloc] init];
+    [self.navigationController pushViewController:bond animated:YES];
+}
+-(void)puchBankInformation{
+    BankInformationViewController *bankInfor = [[BankInformationViewController alloc] init];
+    [self.navigationController pushViewController:bankInfor animated:YES];
+}
+-(void)puchBreedRules{
+    BreedRulesViewController *breedRules = [[BreedRulesViewController alloc] init];
+    [self.navigationController pushViewController:breedRules animated:YES];
+}
+-(void)puchRDProfile{
+    RDProfileViewController *profile = [[RDProfileViewController alloc] init];
+    [self.navigationController pushViewController:profile animated:YES];
+}
 -(void)puchOpenfirst{
-    
-    OpenAccountFirstViewController *open = [[OpenAccountFirstViewController alloc] init];
-    [self.navigationController pushViewController:open animated:YES];
-    
-}
--(void)puchtakePhoto{
-    
-    TakePhotoController *takePhoto = [[TakePhotoController alloc] init];
-    [self.navigationController pushViewController:takePhoto animated:YES];
-    
-}
--(void)puchOtherInformation{
-
-    UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"OtherInfor" bundle:nil];
-    OtherInforViewController *secondViewController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"OtherInforViewController"];
-    [self.navigationController pushViewController:secondViewController animated:YES];
-}
--(void)puchAccountChoose{
-    AccountChooseController *account = [[AccountChooseController alloc] init];
-    [self.navigationController pushViewController:account animated:YES];
+    OpenAccountFirstViewController *main = [[OpenAccountFirstViewController alloc] init];
+    [self.navigationController pushViewController:main animated:YES];
 }
 
--(void)puchRiskWarning{
-    RiskWarningController *account = [[RiskWarningController alloc] init];
-    [self.navigationController pushViewController:account animated:YES];
+-(void)puchLogin{
+    LoginViewController *login = [[LoginViewController alloc] init];
+    login.puchTheWay =2;
+    [self.navigationController pushViewController:login animated:YES];
+    
 }
+
 @end

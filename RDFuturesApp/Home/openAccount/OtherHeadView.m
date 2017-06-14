@@ -30,18 +30,18 @@
 -(void)addChildView{
 
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(10, 0, 40, 40);
+    button.frame = CGRectMake(10, 2, 30, 30);
     [button setImage:[UIImage imageNamed:@"other_infor_nomal"] forState:UIControlStateNormal];
     [button setImage:[UIImage imageNamed:@"other_infor_select"] forState:UIControlStateSelected];
     button.imageEdgeInsets = UIEdgeInsetsMake(5, 5, 5, 5);
-
+    button.userInteractionEnabled = NO;
     button.showsTouchWhenHighlighted = NO;
     [self addSubview:button];
     self.selectButton = button;
     
-    UILabel *titlelabel = [[UILabel alloc] initWithFrame:CGRectMake( 50, 5, self.frame.size.width-60, self.frame.size.height-20)];
+    UILabel *titlelabel = [[UILabel alloc] initWithFrame:CGRectMake( 50, 4, self.frame.size.width-60, self.frame.size.height-6)];
     titlelabel.numberOfLines = 0;
-    titlelabel.font = [UIFont fontWithName:@"FZHei-B01S" size:14];
+    titlelabel.font = [UIFont rdSystemFontOfSize:14];
     [self addSubview:titlelabel];
     self.labelTitle = titlelabel;
     

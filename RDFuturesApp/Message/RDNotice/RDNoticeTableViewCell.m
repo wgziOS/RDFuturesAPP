@@ -11,6 +11,10 @@
 
 #import "RDNoticeTableViewCell.h"
 
+
+#define kBackgroundImageViewWidth SCREEN_WIDTH-70
+
+
 @interface RDNoticeTableViewCell()
 
 @property(nonatomic,strong)UIImageView *iconImage;//图标
@@ -18,7 +22,7 @@
 @property(nonatomic,strong)UIImageView *backgroudImageView;//背景图
 @property(nonatomic,strong)UILabel *messageTitle;//消息标题
 @property(nonatomic,strong)UILabel *messageText;//消息文本
-
+@property(nonatomic,assign)CGFloat kBackgroundImageViewHeight;
 @end
 
 @implementation RDNoticeTableViewCell
@@ -32,8 +36,7 @@
     [self.backgroudImageView addSubview:self.messageText];
     self.backgroundColor = [UIColor clearColor];
     
-    [self setNeedsUpdateConstraints];
-    [self updateConstraintsIfNeeded];
+    
 }
 
 
@@ -50,7 +53,9 @@
         make.size.mas_offset(CGSizeMake(30, 30));
     }];
     [self.backgroudImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(weakSelf.contentView).mas_offset(UIEdgeInsetsMake(40, 55, 0, 15));
+        make.top.equalTo(weakSelf.timeLabel.mas_bottom).with.offset(10);
+        make.left.equalTo(weakSelf.iconImage.mas_right).with.offset(10);
+        make.size.mas_offset(CGSizeMake(kBackgroundImageViewWidth, self.kBackgroundImageViewHeight));
     }];
     [self.messageTitle mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.backgroudImageView).with.offset(5);
@@ -58,21 +63,33 @@
         make.size.mas_offset(CGSizeMake(200, 16));
     }];
     [self.messageText mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(weakSelf.backgroudImageView).mas_offset(UIEdgeInsetsMake(31, 10, 5, 5));
+        make.edges.equalTo(weakSelf.backgroudImageView).mas_offset(UIEdgeInsetsMake(31, 15, 5, 5));
     }];
     [super updateConstraints];
 }
+
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
+-(void)setModel:(RDNoticeModel *)model{
+    if (model) {
+        _model = model;
+        self.timeLabel.text = model.createTime;
+        self.messageTitle.text = model.title;
+        self.messageText.attributedText = [self changeConnectText:model.content];
+        [self setNeedsUpdateConstraints];
+        [self updateConstraintsIfNeeded];
+    }
 }
-*/
+
+
 -(UILabel *)timeLabel{
     if (!_timeLabel) {
         _timeLabel = [[UILabel alloc] init];
-        _timeLabel.text = @"3月12日 9:20";
         _timeLabel.font = [UIFont rdSystemFontOfSize:fourteenFontSize];
         _timeLabel.textAlignment = NSTextAlignmentCenter;
     }
@@ -96,7 +113,6 @@
 -(UILabel *)messageTitle{
     if (!_messageTitle) {
         _messageTitle = [[UILabel alloc] init];
-        _messageTitle.text = @"开户进度";
         _messageTitle.font = [UIFont rdSystemFontOfSize:sixteenFontSize];
     }
     return _messageTitle;
@@ -105,8 +121,8 @@
     if (!_messageText) {
         _messageText = [[UILabel alloc] init];
         _messageText.font = [UIFont rdSystemFontOfSize:fourteenFontSize];
-        _messageText.text = @"您的开户请求已经提交，工作人员正在加紧为您处理，请耐心等待。点此可查看开户进度。";
         _messageText.numberOfLines = 0;
+        
     }
     return _messageText;
 }
@@ -118,5 +134,28 @@
     NSInteger topCapHeight = normal.size.height*0.5;
     // 重新赋值
     return [normal stretchableImageWithLeftCapWidth:leftCapWidth topCapHeight:topCapHeight];
+}
+-(NSAttributedString *)changeConnectText:(NSString*)text{
+    NSRange range;
+    range = [text rangeOfString:@"^"];
+    NSString *rangeText = [text stringByReplacingOccurrencesOfString:@"^" withString:@""];
+    
+    if (range.location != NSNotFound) {
+        range.length = rangeText.length-range.location;
+    }
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:2];
+    NSDictionary *attributes = @{ NSParagraphStyleAttributeName:paragraphStyle,NSFontAttributeName:[UIFont rdSystemFontOfSize:fourteenFontSize]};
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:rangeText attributes:attributes];
+    [attributedString addAttribute:NSForegroundColorAttributeName value:RGB(22, 131, 251) range: NSMakeRange(range.location, range.length)];
+    return attributedString;
+}
+-(CGFloat)kBackgroundImageViewHeight{
+    if (!_kBackgroundImageViewHeight) {
+        CGSize size = [UILabel textForFont:fourteenFontSize andMAXSize:CGSizeMake(SCREEN_WIDTH-80, MAXFLOAT) andText:self.model.content];
+        
+        _kBackgroundImageViewHeight = size.height+36;
+    }
+    return _kBackgroundImageViewHeight;
 }
 @end

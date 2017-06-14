@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BaseTableViewCellProtocol : NSObject
+@protocol TableViewCellProtocol <NSObject>
+
+@optional
+
+- (void)setupViews;
+- (void)bindViewModel;
+
 
 @end

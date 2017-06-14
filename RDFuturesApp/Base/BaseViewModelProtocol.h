@@ -8,6 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BaseViewModelProtocol : NSObject
+typedef enum : NSUInteger {
+    HeaderRefresh_HasMoreData = 1,
+    HeaderRefresh_HasNoMoreData,
+    FooterRefresh_HasMoreData,
+    FooterRefresh_HasNoMoreData,
+    RefreshError,
+    RefreshUI,
+} LSRefreshDataStatus;
+
+@protocol BaseViewModelProtocol <NSObject>
+
+@optional
+
+- (instancetype)initWithModel:(id)model;
+
+
+/**
+ *  初始化
+ */
+- (void)initialize;
 
 @end

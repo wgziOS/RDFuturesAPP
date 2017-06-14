@@ -9,10 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @interface NoticeModel : NSObject
-@property(nonatomic,copy)NSString *content_url;
-@property(nonatomic,copy)NSString *create_time;
-@property(nonatomic,copy)NSString *image;
-@property(nonatomic,copy)NSString *log;
+
 @property(nonatomic,copy)NSString *notice_id;
+
 @property(nonatomic,copy)NSString *title;
+
+@property(nonatomic,copy)NSString *isCollect;
+
+@property(nonatomic,copy)NSString *image;
+
+@property(nonatomic,copy)NSString *content_url;
+
+@property(nonatomic,copy)NSString *create_time;
+
 @end

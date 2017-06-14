@@ -13,5 +13,5 @@
 @property(nonatomic,copy)NSString *titleText;
 @property(nonatomic,copy)NSString *subtitle;
 @property(nonatomic,copy)NSString *time;
-@property(nonatomic,assign)BOOL newNotice;//新消息
+@property(nonatomic,assign)BOOL is_new_inform;//是否有新通知（1：是，2否）
 @end

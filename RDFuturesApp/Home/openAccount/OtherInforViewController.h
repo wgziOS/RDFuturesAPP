@@ -6,8 +6,8 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import "ViewBaseController.h"
+#import "AccountBaseController.h"
 
-@interface OtherInforViewController : ViewBaseController
-
+@interface OtherInforViewController : AccountBaseController
+@property (nonatomic, copy)NSString *loadType;
 @end

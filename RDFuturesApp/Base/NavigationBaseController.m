@@ -7,28 +7,30 @@
 //
 
 #import "NavigationBaseController.h"
+#import "NotificationModel.h"
+#import "MessageViewController.h"
 
 @interface NavigationBaseController ()
-
+@property(nonatomic,strong)NSMutableArray *array;
 @end
 
 @implementation NavigationBaseController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.interactivePopGestureRecognizer.delegate = self;
+    [self leftBarItem];
+//    [self getNotify];
 
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 + (void)initialize
 {
     UINavigationBar *bar = [UINavigationBar appearance];
-        [bar setBackgroundImage:[UIImage imageNamed:@"icon_navigationbar"] forBarMetrics:UIBarMetricsDefault];
+    
+//    icon_navigationbar_backgroundImage
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigation_redBackgroundImage"] forBarMetrics:UIBarMetricsDefault];
     bar.translucent = YES;
     
     NSMutableDictionary *barAttrs = [NSMutableDictionary dictionary];
@@ -45,37 +47,47 @@
     NSMutableDictionary *disabledAttrs = [NSMutableDictionary dictionary];
     disabledAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
     [item setTitleTextAttributes:disabledAttrs forState:UIControlStateDisabled];
+
+    
+    
+    [bar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],
+                                  NSFontAttributeName:[UIFont boldSystemFontOfSize:18]
+                                  }];
+    
+//    .titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"home_navigation_image"]];
+}
+-(void)leftBarItem{
+    
+
 }
 
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+/**
+ * 可以在这个方法中拦截所有push进来的控制器
+ */
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    
-    if (self.childViewControllers.count >= 1) {
-        
-        UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [backButton setTitle:@"返回" forState:UIControlStateNormal];
-        [backButton setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
-        [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
-        [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
-        [backButton sizeToFit];
-        [backButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-        backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    if (self.childViewControllers.count > 0) { // 如果push进来的不是第一个控制器
+        //        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        ////        [button setTitle:@"返回" forState:UIControlStateNormal];
+        //        [button setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];
+        //        [button setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateHighlighted];
+        //        button.size = CGSizeMake(70, 30);
+        //
+        //        button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        //
+        //        button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+        //        [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        //        [button setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+        //        [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+        //        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+        //        // 隐藏tabbar
         viewController.hidesBottomBarWhenPushed = YES;
     }
     
     [super pushViewController:viewController animated:animated];
+    
 }
 
 - (void)back
@@ -88,5 +100,11 @@
 {
     return self.childViewControllers.count > 1;
 }
-
+-(NSMutableArray *)array{
+    if (!_array) {
+        _array = [[NSMutableArray alloc] init];
+        
+    }
+    return _array;
+}
 @end

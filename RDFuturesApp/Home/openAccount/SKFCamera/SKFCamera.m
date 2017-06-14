@@ -45,29 +45,32 @@
     self.snapButton.clipsToBounds = YES;
     self.snapButton.layer.cornerRadius =75 / 2.0f;
     [self.snapButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/cameraButton"] forState:UIControlStateNormal];
+    //
     [self.snapButton addTarget:self action:@selector(snapButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.snapButton];
-    //闪关灯按钮
-    self.flashButton = [UIButton buttonWithType:UIButtonTypeSystem];
+//    //闪关灯按钮
+//    self.flashButton = [UIButton buttonWithType:UIButtonTypeSystem];
+//    
+//    self.flashButton.tintColor = [UIColor whiteColor];
+////     UIImage *image = [UIImage imageNamed:@"SKFCamera.bundle/camera-flash.png"];
+//    [self.flashButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/camera-flash"] forState:UIControlStateNormal];
+//    self.flashButton.imageEdgeInsets = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
+//    [self.flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:self.flashButton];
     
-    self.flashButton.tintColor = [UIColor whiteColor];
-//     UIImage *image = [UIImage imageNamed:@"SKFCamera.bundle/camera-flash.png"];
-    [self.flashButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/camera-flash"] forState:UIControlStateNormal];
-    self.flashButton.imageEdgeInsets = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
-    [self.flashButton addTarget:self action:@selector(flashButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:self.flashButton];
     if([LLSimpleCamera isFrontCameraAvailable] && [LLSimpleCamera isRearCameraAvailable]) {
-        //摄像头转换按钮
-        self.switchButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        
-        //        self.switchButton.tintColor = [UIColor whiteColor];
-        [self.switchButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/swapButton"] forState:UIControlStateNormal];
-        [self.switchButton addTarget:self action:@selector(switchButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-        [self.view addSubview:self.switchButton];
+//        //摄像头转换按钮
+//        self.switchButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//        
+//        //        self.switchButton.tintColor = [UIColor whiteColor];
+//        [self.switchButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/swapButton"] forState:UIControlStateNormal];
+//        [self.switchButton addTarget:self action:@selector(switchButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+//        [self.view addSubview:self.switchButton];
         //返回按钮
         self.backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         
-        [self.backButton setImage:[UIImage imageNamed:@"SKFCamera.bundle/closeButton"] forState:UIControlStateNormal];
+        [self.backButton setImage:[UIImage imageNamed:@"X"] forState:UIControlStateNormal];
+        //SKFCamera.bundle/closeButton
         [self.backButton addTarget:self action:@selector(backButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:self.backButton];
     }
@@ -105,7 +108,6 @@
     __weak typeof(self) weakSelf = self;
     [self.camera setOnDeviceChange:^(LLSimpleCamera *camera, AVCaptureDevice * device) {
         
-        NSLog(@"Device changed.");
         
         // device changed, check if flash is available
         if([camera isFlashAvailable]) {
@@ -124,7 +126,6 @@
     }];
     
     [self.camera setOnError:^(LLSimpleCamera *camera, NSError *error) {
-        NSLog(@"Camera error: %@", error);
         
         if([error.domain isEqualToString:LLSimpleCameraErrorDomain]) {
             if(error.code == LLSimpleCameraErrorCodeCameraPermission) {
@@ -188,14 +189,12 @@
     __weak typeof(self) weakSelf = self;
     // 去拍照
     [self.camera capture:^(LLSimpleCamera *camera, UIImage *image, NSDictionary *metadata, NSError *error) {
-        NSLog(@"拍照结束");
         if(!error) {
             TOCropViewController *cropController = [[TOCropViewController alloc] initWithImage:image];
             cropController.delegate = self;
             [weakSelf presentViewController:cropController animated:YES completion:nil];
         }
         else {
-            NSLog(@"An error has occured: %@", error);
         }
     } exactSeenImage:YES];
 }

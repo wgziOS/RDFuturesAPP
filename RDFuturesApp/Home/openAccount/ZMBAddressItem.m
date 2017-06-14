@@ -13,7 +13,7 @@
 + (instancetype)initWithName:(NSString *)name isSelected:(BOOL)isSelected{
     
     ZMBAddressItem * item = [[ZMBAddressItem alloc]init];
-    item.name = name;
+    item.local_name = name;
     item.isSelected = isSelected;
     return item;
 }
@@ -21,10 +21,22 @@
 + (instancetype)initWithId:(NSString *)Id name:(NSString *)name fullName:(NSString *)fullName
 {
   ZMBAddressItem * item = [[ZMBAddressItem alloc]init];
-  item.Id = Id;
-  item.name = name;
-  item.fullName = fullName;
+  item.region_id = Id;
+  item.local_name = name;
+//  item.fullName = fullName;
   return item;
 }
 
+-(id)initWithInfoDic:(NSDictionary *)infoDic
+{
+    if (self = [super init]) {
+        [self setValuesForKeysWithDictionary:infoDic];
+    }
+    return self;
+    
+}
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
 @end

@@ -9,6 +9,7 @@
 #import "NewPassWordViewController.h"
 
 @interface NewPassWordViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextfield;
 
 @end
 
@@ -16,7 +17,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = @"密码找回";
+    
+}
+
+- (IBAction)loginBtnClick:(id)sender {
+    
+//    if ([_codeStr boolValue] || [_phoneStr boolValue]) {
+//        return;
+//    }
+    
+    loading(@"正在请求数据");
+    __weak __typeof(self)weakSelf = self;
+    NSMutableDictionary * dic = [NSMutableDictionary dictionary];
+
+    [dic setObject:self.phoneStr forKey:@"phone"];
+    [dic setObject:self.passwordTextfield.text forKey:@"password"];
+    [dic setObject:self.codeStr forKey:@"validate_code"];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSError *error ;
+        
+        RDRequestModel * model = [RDRequest getWithApi:@"/api/user/fandPassword.api" andParam:dic error:&error];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            hiddenHUD;
+            if (error==nil) {
+                showMassage(model.Message);
+                NSLog(@"%@",model.Data);
+                
+                if ([model.Message isEqualToString:@"成功"]) {
+                    
+                    
+                    [weakSelf dismissViewControllerAnimated:YES completion:nil];
+                }
+                
+            }else{
+                [MBProgressHUD showError:@"请求失败"];
+            }
+        });
+        
+    });
+
 }
 
 - (void)didReceiveMemoryWarning {

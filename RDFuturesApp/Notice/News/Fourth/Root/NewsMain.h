@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewsMain : UIView
+#import "BaseView.h"
+
+@interface NewsMain : BaseView
 
 @end

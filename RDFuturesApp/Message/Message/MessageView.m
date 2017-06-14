@@ -18,9 +18,7 @@
 
 @interface MessageView()
 @property(nonatomic,strong)UITableView *tableView;
-@property(nonatomic,strong)NSMutableArray *modelArray;
 @property(nonatomic,strong)MessageViewModel *viewModel;
-
 @end
 
 
@@ -40,10 +38,20 @@
     }];
     [super updateConstraints];
 }
-
 -(instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel{
     self.viewModel = (MessageViewModel*)viewModel;
     return [super initWithViewModel:viewModel];
+}
+-(void)bindViewModel{
+    [self.viewModel.reloadDataCommand execute:nil];
+    [self.viewModel.refreshUI subscribeNext:^(id  _Nullable x) {
+        [self.tableView reloadData];
+    }];
+    [self.viewModel.refreshTable subscribeNext:^(id  _Nullable x) {
+        [self.tableView reloadData];
+
+    }];
+
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 0.5f;
@@ -58,13 +66,15 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     MessageTableViewCell *cell  = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MessageTableViewCell class])] forIndexPath:indexPath];
-    cell.model = self.modelArray[indexPath.row];
+    cell.model = self.viewModel.dataArray[indexPath.row];
+    
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *index = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
     
-    [self.viewModel.cellClickSubject sendNext:nil];
+    [self.viewModel.cellClickSubject sendNext:index];
     
 }
 
@@ -76,27 +86,7 @@
     // Drawing code
 }
 */
--(NSMutableArray *)modelArray{
-    if (!_modelArray) {
-        _modelArray = [[NSMutableArray alloc] init];
-        MessageModel *model = [[MessageModel alloc] init];
-        model.image = @"Message_online_service_icon";
-        model.titleText = @"在线客服";
-        model.subtitle = @"最新聊天记录";
-        model.time = @"昨天";
-        model.newNotice = NO;
-        [_modelArray addObject:model];
-        MessageModel *model1 = [[MessageModel alloc] init];
-        model1.image = @"Message_RDNotice_icon";
-        model1.titleText = @"瑞达通知";
-        model1.subtitle = @"最新推送消息和标题";
-        model1.time = @"16：00";
-        model1.newNotice = YES;
-        [_modelArray addObject:model1];
-        
-    }
-    return _modelArray;
-}
+
 
 -(UITableView *)tableView{
     if (!_tableView) {

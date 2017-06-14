@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface TabBarBaseController : UITabBarController<UITabBarDelegate,UITabBarControllerDelegate>
-
 @end

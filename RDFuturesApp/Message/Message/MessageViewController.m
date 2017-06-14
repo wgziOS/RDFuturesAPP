@@ -8,9 +8,10 @@
 
 #import "MessageViewController.h"
 #import "MessageView.h"
+#import "MessageModel.h"
 #import "MessageViewModel.h"
 #import "RDNoitceViewController.h"
-
+#import "OnlineServiceViewController.h"
 
 @interface MessageViewController ()
 @property(nonatomic,strong)MessageView *messageView;
@@ -26,7 +27,10 @@
     [self setTitle:@"消息"];
     [self.view addSubview:self.messageView];
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.messageViewModel.refreshTable sendNext:nil];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -44,11 +48,29 @@
 }
 
 -(void)bindViewModel{
+    
     [[self.messageViewModel.cellClickSubject takeUntil:self.rac_willDeallocSignal] subscribeNext:^(id x) {
+        int index = [x intValue];
+        switch (index) {
+            case 0:
+            {
+                OnlineServiceViewController *online = [[OnlineServiceViewController alloc] init];
+                [self.navigationController pushViewController:online animated:YES];
+
+            }
+                break;
+            case 1:{
+                RDNoitceViewController *rdNotice = [[RDNoitceViewController alloc] init];
+                [self.navigationController pushViewController:rdNotice animated:YES];
+                MessageModel *model = self.messageViewModel.dataArray[1];
+                model.is_new_inform = NO;
+            }
+                
+                break;
+            default:
+                break;
+        }
         
-        RDNoitceViewController *rdNotice = [[RDNoitceViewController alloc] init];
-        
-        [self.navigationController pushViewController:rdNotice animated:YES];
         
     }];
 }

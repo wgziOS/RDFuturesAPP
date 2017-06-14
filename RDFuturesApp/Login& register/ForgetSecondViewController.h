@@ -9,5 +9,5 @@
 #import "ViewBaseController.h"
 
 @interface ForgetSecondViewController : ViewBaseController
-
+@property (nonatomic,strong) NSString *phoneStr;
 @end

@@ -8,7 +8,11 @@
 
 #import "BaseTableViewCell.h"
 #import "NoticeModel.h"
+#import "NoticeViewModel.h"
 
 @interface NoticeTableCell : BaseTableViewCell
 @property(nonatomic,strong) NoticeModel *model;
+@property(nonatomic,strong) NSArray *array;
+@property(nonatomic,strong) NoticeViewModel *viewModel;
+
 @end

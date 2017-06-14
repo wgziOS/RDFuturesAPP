@@ -6,8 +6,10 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import "View.h"
+#import "BaseView.h"
+#import "BaseViewProtocol.h"
+#import <UIKit/UIKit.h>
 
-@interface BaseView : View
+@interface BaseView : UIView<BaseViewProtocol>
 
 @end

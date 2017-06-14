@@ -6,8 +6,8 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import "View.h"
+#import "BaseView.h"
 
-@interface HomeView : View
+@interface HomeView : BaseView<UIScrollViewDelegate>
 
 @end

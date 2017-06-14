@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseScrollView.h"
+#import "NewsViewModel.h"
 @interface NewsTitleScrollView :BaseScrollView
-
+@property (nonatomic,strong) NewsViewModel * viewModel;
+@property (nonatomic,strong) UIView *lineView;
 @end

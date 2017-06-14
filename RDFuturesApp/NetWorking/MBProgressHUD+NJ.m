@@ -19,7 +19,7 @@
  */
 + (void)show:(NSString *)text icon:(NSString *)icon view:(UIView *)view
 {
-    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
+    if (view == nil) view = [UIApplication sharedApplication].keyWindow;
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.label.text = text;
@@ -41,8 +41,8 @@
  *  @param success 信息内容
  */
 + (void)showSuccess:(NSString *)success
-{
-    [self showSuccess:success toView:nil];
+{    
+    [self showSuccess:success toView:[UIApplication sharedApplication].keyWindow];
 }
 
 /**
@@ -65,6 +65,29 @@
     [self showError:error toView:nil];
 }
 
+//-(void)showSuccess:(NSString *)success
+//{
+//    MBProgressHUD *HUD=[[MBProgressHUD alloc]initWithView:[self getView]];
+//    HUD.contentColor=[UIColor whiteColor];
+//    HUD.bezelView.color=[UIColor blackColor];
+//    HUD.mode=MBProgressHUDModeText;
+//    HUD.label.text=success;
+//    HUD.removeFromSuperViewOnHide=YES;
+//    [[self getView] addSubview:HUD];
+//    [HUD showAnimated:YES];
+//    [HUD hideAnimated:YES afterDelay:1];
+//}
+//-(UIView *)getView
+//{
+//    UIView *view;
+//    if (self.navigationController.view) {
+//        view=self.navigationController.view;
+//    }else
+//    {
+//        view=self.view;
+//    }
+//    return view;
+//}
 /**
  *  显示错误信息
  *
@@ -84,7 +107,7 @@
  */
 + (MBProgressHUD *)showMessage:(NSString *)message
 {
-    return [self showMessage:message toView:nil];
+    return [self showMessage:message toView:[UIApplication sharedApplication].keyWindow];
 }
 
 /**
@@ -95,15 +118,16 @@
  *
  *  @return 直接返回一个MBProgressHUD，需要手动关闭
  */
-+ (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view {
++ (MBProgressHUD *)showMessage:(NSString *)message toView:(UIView *)view  {
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     hud.label.text = message;
     // 隐藏时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
+    hud.graceTime = 2.0f;
     // YES代表需要蒙版效果
-    hud.dimBackground = YES;
+//    hud.dimBackground = NO;
     return hud;
 }
 
@@ -122,7 +146,7 @@
  */
 + (void)hideHUDForView:(UIView *)view
 {
-    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
+    if (view == nil) view = [UIApplication sharedApplication].keyWindow;
     [self hideHUDForView:view animated:YES];
 }
 

@@ -7,16 +7,61 @@
 //
 
 #import "NewsSecondViewController.h"
+#import "NewsSecondView.h"
+#import "NewsSecondViewModel.h"
+#import "DetailsViewController.h"
 
 @interface NewsSecondViewController ()
-
+@property (nonatomic,strong)NewsSecondView * firstView;
+@property (nonatomic,strong)NewsSecondViewModel * newsViewModel;
 @end
 
 @implementation NewsSecondViewController
+-(void)viewDidAppear:(BOOL)animated{
 
+   
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+     [self.view addSubview:self.firstView];
+}
+
+
+-(void)bindViewModel{
+    
+    
+    [[self.newsViewModel.cellClick takeUntil:self.rac_willDeallocSignal] subscribeNext:^(id x) {
+        
+        //发个信号给rootVC去接收
+        [self.rootViewModel.firstCellClick sendNext:x];
+        
+    }];
+    
+    
+}
+
+-(void)updateViewConstraints{
+    WS(weakself)
+    [self.firstView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(weakSelf.view);
+    }];
+    [super updateViewConstraints];
+}
+-(NewsSecondViewModel *)newsViewModel{
+    
+    if (!_newsViewModel) {
+        _newsViewModel = [[NewsSecondViewModel alloc]init];
+    }
+    return _newsViewModel;
+}
+-(NewsSecondView *)firstView{
+    
+    if (!_firstView) {
+        _firstView = [[NewsSecondView alloc]initWithViewModel:self.newsViewModel];
+    }
+    return _firstView;
 }
 
 - (void)didReceiveMemoryWarning {

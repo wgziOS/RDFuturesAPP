@@ -8,7 +8,7 @@
 
 #import "ZMBAddressCell.h"
 #import "ZMBAddressItem.h"
-#import <Masonry.h>
+#import "Masonry.h"
 @interface ZMBAddressCell ()
 
 @property (strong, nonatomic) UIImageView *selectFlag;
@@ -31,7 +31,7 @@
 
   
   
-  _selectFlag = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"choose_select"]];
+  _selectFlag = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"selected_icon"]];
   [self.contentView addSubview:_selectFlag];
   
   
@@ -39,13 +39,14 @@
         make.left.equalTo(self.contentView).offset(15);
 //        make.right.equalTo(_selectFlag.left).offset(-15);
         make.size.mas_equalTo(CGSizeMake(200, 15));
-        make.top.bottom.equalTo(self.contentView);
+//        make.top.bottom.equalTo(self.contentView);
+        make.centerY.equalTo(self.contentView);
     }];
     
     [_selectFlag mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.equalTo(self.contentView).offset(-15);
 //        make.size.equalTo(CGSizeMake(15, 15));
-        make.size.mas_equalTo(CGSizeMake(15, 15));
+        make.size.mas_equalTo(CGSizeMake(12, 12));
         make.centerY.equalTo(self.contentView);
     }];
     

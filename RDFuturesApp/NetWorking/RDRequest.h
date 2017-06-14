@@ -39,6 +39,18 @@
 + (instancetype)request;
 
 /**
+ *功能：POST请求 上传图片用 timeout = 10.0f
+ *参数：(1)请求的url: urlString
+ *     (2)POST请求体参数:parameters
+ *     (3)请求成功调用的Block: success
+ *     (4)请求失败调用的Block: failure
+ */
+- (void)POSTUploadImageWithURLString:(NSString *)URLString
+                          parameters:(NSDictionary*)parameters
+                             success:(void (^)(RDRequest *request, id response))success
+                             failure:(void (^)(RDRequest *request, NSError *error))failure;
+
+/**
  *功能：GET请求
  *参数：(1)请求的url: urlString
  *     (2)请求成功调用的Block: success

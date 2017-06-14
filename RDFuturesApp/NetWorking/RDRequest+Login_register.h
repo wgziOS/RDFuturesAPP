@@ -22,5 +22,7 @@
 //发送验证码
 +(RDRequestModel *)postSendValidateCodeWithParam:(NSDictionary*)data_dic
                              error:(NSError* __autoreleasing*)error ;
-
+//验证验证码
++(RDRequestModel *)postCheckValidateCodeWithParam:(NSDictionary*)data_dic
+                                            error:(NSError* __autoreleasing*)error;
 @end

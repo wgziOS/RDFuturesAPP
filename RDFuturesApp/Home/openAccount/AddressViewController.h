@@ -6,8 +6,12 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import "ViewBaseController.h"
+#import "AccountBaseController.h"
 
-@interface AddressViewController : ViewBaseController
-
+@interface AddressViewController : AccountBaseController
+@property (nonatomic,strong) NSString *nameStr;
+@property (nonatomic,strong) NSString *pinYinStr;
+@property (nonatomic,strong) NSString *cardNumStr;
+@property (nonatomic,strong) NSString *addressStr;
+@property (nonatomic,strong) UIImage *passportImage;
 @end

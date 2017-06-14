@@ -7,54 +7,275 @@
 //
 
 #import "RDRequest+Home.h"
+#import "ZMBAddressItem.h"
 
 @implementation RDRequest (Home)
-+(NSString *)getHomeDataWithParam:(NSDictionary*)data_dic
-                            error:(NSError* __autoreleasing*)error andMessage:(NSString *)message{
+
++(RDRequestModel *)postBaidu{
     
+    [[RDRequest request] POST:@"https://www.baidu.com"
+                   parameters:nil
+                      success:^(RDRequest *request, id response) {
+                          
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          
+                      }];
+
+    return nil;
+}
+
+//获取首页广告轮播图
++(RDRequestModel *)postAdvListWithParam:(NSDictionary*)data_dic
+                                      error:(NSError* __autoreleasing*)error{
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/home/getAdvList.api",HostUrlBak];
+    __block NSError *blockError = nil;
+    __block RDRequestModel *model;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
+                          [dic setObject:[response objectForKey:@"Code"] forKey:@"Code"];
+                          [dic setObject:[response objectForKey:@"Message"] forKey:@"Message"];
+                          [dic setObject:[response objectForKey:@"State"] forKey:@"State"];
+                          NSMutableArray *array = [response objectForKey:@"Data"];
+                          NSMutableArray *modelArray =[[NSMutableArray alloc] init];
+                          for (NSDictionary *dic in array) {
+                              HomeScrollModel *model = [HomeScrollModel mj_objectWithKeyValues:dic];
+                              [modelArray addObject:model];
+                          }
+                          
+                          [dic setObject:modelArray forKey:@"Data"];
+                          model = [RDRequestModel mj_objectWithKeyValues:dic];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+//首页公告
++(RDRequestModel *)postHomeNoticeListWithParam:(NSDictionary*)data_dic
+                                         error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/home/getNoticeList.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
+//检查是否收藏
++(RDRequestModel *)postCheckCollectWithParam:(NSDictionary*)data_dic
+                                    error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/user/checkCollect.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
+
+//提交收藏
++(RDRequestModel *)postMyCollectWithParam:(NSDictionary*)data_dic
+                                    error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/user/setMyCollect.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
+#pragma mark ----- 获取省市区
+
++(NSArray * )postRegionsListWithWithParam:(NSDictionary*)param Error:(NSError* __autoreleasing*)error andMessage:(NSString *)message{
+    
+
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/sys/getRegionsList.api",HostUrlBak];
+    
+    __block NSArray *shengArr = nil;
     __block NSString *blockMessage=nil;
     __block NSError *blockError = nil;
-    [[RDRequest request] GET:@"http://api.douban.com/v2/movie/nowplaying?app_name=doubanmovie&client=e:iPhone4,1%7Cy:iPhoneOS_6.1%7Cs:mobile%7Cf:doubanmovie_2%7Cv:3.3.1%7Cm:PP_market%7Cudid:aa1b815b8a4d1e961347304e74b9f9593d95e1c5&alt=json&city=%E5%8C%97%E4%BA%ACversion=2&apikey=0df993c66c0c636e29ecbb5344252a4a"
-                  parameters:nil success:^(RDRequest *request, id response) {
-                      NSLog(@"%@",response);
-                      blockMessage = [NSString stringWithFormat:@"%@",[response objectForKey:@"title"]];
-                  } failure:^(RDRequest *request, NSError *error) {
-                      blockError = error;
-                  }];
+    
+    [[RDRequest request] POST:hostUrl parameters:param success:^(RDRequest *request, id response) {
+        
+        blockMessage = [NSString stringWithFormat:@"%@",[response objectForKey:@"Message"]];
+        
+        NSArray * array = [NSArray arrayWithArray:[response objectForKey:@"Data"]];
+        
+        NSMutableArray * modelArr = [NSMutableArray array];
+        for (NSDictionary * dict in array)
+        {
+            
+            ZMBAddressItem * shengItem = [ZMBAddressItem mj_objectWithKeyValues:dict];
+            [modelArr addObject:shengItem];
+        }
+        shengArr = modelArr;
+        
+    } failure:^(RDRequest *request, NSError *error) {
+        blockError = error;
+    }];
+    
     if (blockMessage!=nil) {
         message = blockMessage;
     }
     if (blockError!=nil) {
         *error = blockError;
     }
-    return nil;
-}
+    return shengArr;
 
-+(NSString *)postTakePhotoWithParam:(NSDictionary*)data_dic
-                             error:(NSError* __autoreleasing*)error andMessage:(NSString *)message{
+}
+#pragma mark -----提交见证城市信息
+
++(NSArray * )postWitnessCityWithParam:(NSDictionary*)param Error:(NSError* __autoreleasing*)error andMessage:(NSString *)message{
     
-    NSString *hostUrl = [NSString stringWithFormat:@"%@api/account/setIdCardImage.api",HostUrlBak];
-//    [MBProgressHUD showMessage:@"" toView:self];
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/account/setWitnessCityInfo.api",HostUrlBak];
+    
+    __block NSArray *returnArr = nil;
     __block NSString *blockMessage=nil;
     __block NSError *blockError = nil;
-    [[RDRequest request] POST:hostUrl
-                   parameters:data_dic
-                      success:^(RDRequest *request, id response) {
-                          
-                          
-                          blockMessage = [NSString stringWithFormat:@"%@",[response objectForKey:@"title"]];
-                      }
-                      failure:^(RDRequest *request, NSError *error) {
-                          blockError = error;
-
-                      }];
-    if (blockMessage!=nil){
+    
+    [[RDRequest request] POST:hostUrl parameters:param success:^(RDRequest *request, id response) {
         
+        blockMessage = [NSString stringWithFormat:@"%@",[response objectForKey:@"Message"]];
+        
+        returnArr = [NSArray arrayWithArray:[response objectForKey:@""]];
+        
+    } failure:^(RDRequest *request, NSError *error) {
+        blockError = error;
+    }];
+    
+    if (blockMessage!=nil) {
         message = blockMessage;
     }
     if (blockError!=nil) {
         *error = blockError;
     }
-    return nil;
+    return returnArr;
+    
 }
+//瑞达通知信息
++(RDRequestModel *)postInfomListWithParam:(NSDictionary*)data_dic
+                                         error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/account/getInfomList.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
+//检查是否有未读通知
++(RDRequestModel *)postCheckNewInformWithParam:(NSDictionary*)data_dic
+                                    error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/user/checkNewInform.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
+//首页广告加载
++(RDRequestModel *)postOpenAdvListWithParam:(NSDictionary*)data_dic
+                                         error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/home/getOpenAdvList.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
 @end

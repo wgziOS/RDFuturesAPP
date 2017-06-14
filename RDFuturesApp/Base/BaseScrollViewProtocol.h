@@ -14,7 +14,7 @@
 
 @optional
 
-- (instancetype)initWithViewModel:(id <BaseViewModelProtocol>)viewModel andFrame:(CGRect)frame;
+- (instancetype)initWithViewModel:(id <BaseViewModelProtocol>)viewModel;
 
 -(void)bindViewModel;
 -(void)setupViews;

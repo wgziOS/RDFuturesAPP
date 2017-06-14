@@ -15,6 +15,9 @@
 
 @property(nonatomic,strong)RACSubject * didEndScrollSubject;//滚动结束时
 
+@property (nonatomic,strong) RACSubject *firstCellClick;//第一个控制器cell点击
+
+
 
 
 

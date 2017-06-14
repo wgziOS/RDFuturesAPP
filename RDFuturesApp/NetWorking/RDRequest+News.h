@@ -10,4 +10,10 @@
 
 @interface RDRequest (News)
 
++(void)postNewsWithApi:(NSString *)apiStr andParam:(NSDictionary *)data_dic
+               success:(void (^)(RDRequestModel *model))success
+               failure:(void (^)(NSError * error))failure;
+
++(RDRequestModel *)getNewsListWithApi:(NSString *)apiStr andParam:(NSDictionary*)data_dic
+                        error:(NSError* __autoreleasing*)error;
 @end

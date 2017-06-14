@@ -44,15 +44,15 @@
         make.size.mas_offset(CGSizeMake(10, 10));
     }];
     [self.titleText mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(weakSelf.contentView).with.offset(15);
-        make.left.equalTo(weakSelf.icon.mas_right).with.offset(10);
-        make.size.mas_offset(CGSizeMake(150, 13.5));
+        make.top.equalTo(weakSelf.contentView).with.offset(20);
+        make.left.equalTo(weakSelf.icon.mas_right).with.offset(15);
+        make.size.mas_offset(CGSizeMake(150, 25));
     }];
-    [self.subtitle mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(weakSelf.titleText.mas_bottom).with.offset(8);
-        make.left.equalTo(weakSelf.icon.mas_right).with.offset(10);
-        make.size.mas_offset(CGSizeMake(150,  13.5));
-    }];
+//    [self.subtitle mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(weakSelf.titleText.mas_bottom).with.offset(8);
+//        make.left.equalTo(weakSelf.icon.mas_right).with.offset(10);
+//        make.size.mas_offset(CGSizeMake(150,  13.5));
+//    }];
     [self.time mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.contentView).with.offset(15);
         make.right.equalTo(weakSelf.contentView.mas_right).with.offset(-15);
@@ -76,7 +76,7 @@
         self.titleText.text = model.titleText;
         self.subtitle.text = model.subtitle;
         self.time.text = model.time;
-        self.prompt.hidden = !model.newNotice;
+        self.prompt.hidden = !model.is_new_inform;
     }
 }
 -(UIImageView *)icon{
@@ -90,7 +90,7 @@
 -(UILabel *)titleText{
     if (!_titleText) {
         _titleText = [[UILabel alloc] init];
-        _subtitle.font = [UIFont rdSystemFontOfSize:13];
+        _subtitle.font = [UIFont rdSystemFontOfSize:20];
     }
     return _titleText;
 }

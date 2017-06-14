@@ -11,7 +11,14 @@
 @implementation NewsViewModel
 
 
-
+-(RACSubject *)firstCellClick{
+    
+    if (!_firstCellClick) {
+        _firstCellClick = [RACSubject subject];
+        
+    }
+    return _firstCellClick;
+}
 
 -(RACSubject *)didEndScrollSubject{
 

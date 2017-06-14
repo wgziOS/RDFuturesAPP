@@ -162,7 +162,7 @@ UIGestureRecognizerDelegate>
   [self.coverView addGestureRecognizer:tapGesture];
   tapGesture.delegate = self;
   
-  _presentView = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height, self.frame.size.width, 350)];
+  _presentView = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height, self.frame.size.width, 380)];
   [self addSubview:_presentView];
   
   
@@ -186,7 +186,7 @@ UIGestureRecognizerDelegate>
   closeButton.titleLabel.font = [UIFont systemFontOfSize:15.0f];
   [closeButton setTitleColor: [UIColor redColor] forState:UIControlStateNormal];
 //  [closeButton addTarget:self action:@selector(hidden)];
-    [closeButton addTarget:self action:@selector(hidden) forControlEvents:UIControlStateNormal];
+    [closeButton addTarget:self action:@selector(hidden) forControlEvents:UIControlEventTouchUpInside];
 
   UIView * separateLine = [self separateLine];
   [topView addSubview: separateLine];
@@ -223,14 +223,15 @@ UIGestureRecognizerDelegate>
   underLineFrame.origin.y = separateLine1.frame.origin.y - underLine.frame.size.height;
   underLine.frame = underLineFrame;
   
-  
-  _underLine.backgroundColor = [UIColor orangeColor];
+
+  _underLine.backgroundColor = [UIColor redColor];
   UIScrollView * contentView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(topTabbar.frame), _presentView.frame.size.width, _presentView.frame.size.height - kHYTopViewHeight - kHYTopTabbarHeight)];
   contentView.contentSize = CGSizeMake(HYScreenW, 0);
   [_presentView addSubview:contentView];
   _contentView = contentView;
   _contentView.pagingEnabled = YES;
   [self addNewTableView];
+    
   _contentView.delegate = self;
 }
 
@@ -238,7 +239,7 @@ UIGestureRecognizerDelegate>
 - (void)addNewTableView
 {
   
-  UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(self.tableViews.count * HYScreenW, 0, HYScreenW, _contentView.frame.size.height)];
+  UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(self.tableViews.count * HYScreenW, 0, HYScreenW, _contentView.frame.size.height-60)];
   [_contentView addSubview:tableView];
   [self.tableViews addObject:tableView];
   tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -286,21 +287,22 @@ UIGestureRecognizerDelegate>
   if([self.tableViews indexOfObject:tableView] == 0){
     
     ZMBAddressItem * item = self.dataSouce[indexPath.row];
-    cell.addressLabel.text = item.name;
+    cell.addressLabel.text = item.local_name;
     cell.isSelected = item.isSelected;
     
     //市级别
   }else if ([self.tableViews indexOfObject:tableView] == 1){
 //    NSIndexPath * indexPath0 = [self.tableViews.firstObject indexPathForSelectedRow];
     ZMBAddressItem * item = self.dataSouce1[indexPath.row];
-    cell.addressLabel.text = item.name;
+    cell.addressLabel.text = item.local_name;
     cell.isSelected = item.isSelected;
     
     //区级别
-  }else if ([self.tableViews indexOfObject:tableView] == 2){
+  }
+  else if ([self.tableViews indexOfObject:tableView] == 2){
     //        cell.addressLabel.text = self.dataSouce2[indexPath.row];
     ZMBAddressItem * item = self.dataSouce2[indexPath.row];
-    cell.addressLabel.text = item.name;
+    cell.addressLabel.text = item.local_name;
     cell.isSelected = item.isSelected;
   }
   
@@ -325,17 +327,17 @@ UIGestureRecognizerDelegate>
       }
       [self addTopBarItem];
       [self addNewTableView];
-      [self scrollToNextItem:item.name];
-      [self.delegate addressSelectionView:self willSelectedProvince:item.Id];
+      [self scrollToNextItem:item.local_name];
+      [self.delegate addressSelectionView:self willSelectedProvince:item.region_id];
 
       return indexPath;
     }
     //之前未选中省，第一次选择省
     [self addTopBarItem];
     [self addNewTableView];
-    [self scrollToNextItem:item.name];
+    [self scrollToNextItem:item.local_name];
     
-    [self.delegate addressSelectionView:self willSelectedProvince:item.Id];
+    [self.delegate addressSelectionView:self willSelectedProvince:item.region_id];
 
  
   }
@@ -349,17 +351,18 @@ UIGestureRecognizerDelegate>
       [self removeLastItem];
       [self addTopBarItem];
       [self addNewTableView];
-      [self scrollToNextItem:item.name];
-      [self.delegate addressSelectionView:self willSelectedCity:item.Id];
+      [self scrollToNextItem:item.local_name];
+      [self.delegate addressSelectionView:self willSelectedCity:item.region_id];
        return indexPath;
     }
     
     [self addTopBarItem];
     [self addNewTableView];
-    [self scrollToNextItem:item.name];
+    [self scrollToNextItem:item.local_name];
     
-    [self.delegate addressSelectionView:self willSelectedCity:item.Id];
-    
+    [self.delegate addressSelectionView:self willSelectedCity:item.region_id];
+    //不执行 选择区 直接执行block
+    [self setUpAddress:item];
     return indexPath;
   }
   else if ([self.tableViews indexOfObject:tableView] == 2){
@@ -431,7 +434,7 @@ UIGestureRecognizerDelegate>
   
   NSInteger index = self.contentView.contentOffset.x / HYScreenW;
   UIButton * btn = self.topTabbarItems[index];
-  [btn setTitle:addressItem.name forState:UIControlStateNormal];
+  [btn setTitle:addressItem.local_name forState:UIControlStateNormal];
   [btn sizeToFit];
   [_topTabbar layoutIfNeeded];
   [self changeUnderLineFrame:btn];
@@ -441,7 +444,7 @@ UIGestureRecognizerDelegate>
     [self hidden];
     
     if (self.addressSelectionFinished) {
-      self.addressSelectionFinished(addressItem.Id,addressItem.fullName);
+      self.addressSelectionFinished(addressItem.region_id,addressItem.local_name);
     }
   });
 }
@@ -452,6 +455,8 @@ UIGestureRecognizerDelegate>
   
   [self.tableViews.lastObject performSelector:@selector(removeFromSuperview) withObject:nil withObject:nil];
   [self.tableViews removeLastObject];
+
+    
   
   [self.topTabbarItems.lastObject performSelector:@selector(removeFromSuperview) withObject:nil withObject:nil];
   [self.topTabbarItems removeLastObject];

@@ -7,17 +7,62 @@
 //
 
 #import "NewsEighthViewController.h"
+#import "NewsEighthViewModel.h"
+#import "NewsEighthView.h"
+#import "DetailsViewController.h"
 
 @interface NewsEighthViewController ()
-
+@property (nonatomic,strong)NewsEighthView * firstView;
+@property (nonatomic,strong)NewsEighthViewModel* newsViewModel;
 @end
 
 @implementation NewsEighthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [self.view addSubview:self.firstView];
 }
+
+
+-(void)bindViewModel{
+    
+    
+    //    WS(weakself)
+    
+    [[self.newsViewModel.cellClick takeUntil:self.rac_willDeallocSignal] subscribeNext:^(id x) {
+        
+        
+        //发个信号给rootVC去接收
+        [self.rootViewModel.firstCellClick sendNext:x];
+        
+        
+    }];
+    
+    
+}
+
+-(void)updateViewConstraints{
+    WS(weakself)
+    [self.firstView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(weakSelf.view);
+    }];
+    [super updateViewConstraints];
+}
+-(NewsEighthViewModel *)newsViewModel{
+    
+    if (!_newsViewModel) {
+        _newsViewModel = [[NewsEighthViewModel alloc]init];
+    }
+    return _newsViewModel;
+}
+-(NewsEighthView *)firstView{
+    
+    if (!_firstView) {
+        _firstView = [[NewsEighthView alloc]initWithViewModel:self.newsViewModel];
+    }
+    return _firstView;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

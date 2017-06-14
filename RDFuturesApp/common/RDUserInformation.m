@@ -22,14 +22,39 @@
     
     return userInfor;
 }
+//转utf8格式
++ (NSString *)transString:(NSString *)string{
 
--(void)PostUserInformationDataWithUserId:(NSString *)userid andtoken:(NSString*)token{
+    //1
+//    NSString *utf_8_tureName =  [string  stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    //2
+//    NSData * data = [string dataUsingEncoding:NSUTF8StringEncoding];
+//    
+//    NSString * str = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
+//    
+//    return str;
+    
+    return string;
+}
+//转bsae64方法
++ (NSString *)transBase64WithImage:(UIImage *)image{
+
+    NSData* imgData = UIImageJPEGRepresentation(image, 0.1f);
+    
+    NSString *encodedImageStr = [imgData base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+    NSString *string = [NSString stringWithFormat:@"data:image/png;base64,%@",encodedImageStr];
+    
+    return string;
+}
+
+-(void)PostUserInformationDataWithUserId:(NSString *)userid andtoken:(NSString*)token andPhoneNumber:(NSString *)phoneNumber
+{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:userid forKey:@"user_id"];
     [defaults setObject:token forKey:@"token"];
-    
-    
+    [defaults setObject:phoneNumber forKey:@"phoneNumber"];
 }
+//
 -(NSMutableDictionary *)getUserInformationData{
     NSMutableDictionary *infoDictionary = [[NSMutableDictionary alloc] init];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -61,5 +86,20 @@
     
     
     return infoDictionary;
+}
+-(BOOL)getLoginState{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSString *user_id = [userDefaults objectForKey:@"user_id"];
+    NSString *token = [userDefaults objectForKey:@"token"];
+    if (user_id.length<1||token.length<1) {
+        return NO;
+    }
+    return YES;
+}
+-(BOOL)advertisementClick{
+    if (!_advertisementClick) {
+        _advertisementClick = NO;
+    }
+    return _advertisementClick;
 }
 @end

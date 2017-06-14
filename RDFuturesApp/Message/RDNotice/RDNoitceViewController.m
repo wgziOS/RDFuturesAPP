@@ -10,7 +10,7 @@
 #import "RDNoitceViewController.h"
 #import "RDNoticeView.h"
 #import "RDNoticeViewModel.h"
-
+#import "ProgressViewController.h"
 
 @interface RDNoitceViewController ()
 @property(nonatomic,strong)RDNoticeView *noticeView;
@@ -22,6 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setTitle:@"瑞达通知"];
     [self.view addSubview:self.noticeView];
 }
 
@@ -35,6 +36,23 @@
         make.edges.equalTo(weakSelf.view);
     }];
     [super updateViewConstraints];
+}
+-(void)bindViewModel{
+    WS(weakself)
+    [self.viewModel.cellClickSubject subscribeNext:^(id  _Nullable x) {
+        switch ([x intValue]) {
+            case 1:
+            {
+                ProgressViewController * PVC = [[ProgressViewController alloc]init];
+                PVC.PuchStyle = YES;
+                [weakSelf.navigationController pushViewController:PVC animated:YES];
+            }
+                break;
+                
+            default:
+                break;
+        }
+    }];
 }
 /*
 #pragma mark - Navigation

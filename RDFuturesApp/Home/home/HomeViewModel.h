@@ -6,8 +6,27 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import "ViewModel.h"
+#import "BaseViewModel.h"
+#import "RDCommon.h"
 
-@interface HomeViewModel : ViewModel
+@interface HomeViewModel : BaseViewModel
+
+@property(nonatomic,strong)RACSubject *cellClickSubject;//cell 被点击
+
+@property(nonatomic,strong)RACSubject *itemclickSubject;//itemView 被点击
+
+@property(nonatomic,strong)RACSubject *imageclickSubject;//滚动图片 被点击
+
+@property(nonatomic,strong)RACSubject *refreshUI;//刷新UI
+
+@property(nonatomic,strong)RACCommand *refreshDataCommand;//刷新首页广告数据
+
+@property(nonatomic,strong)RACSubject *refreshEndSubject;//刷新结束
+
+@property(nonatomic,strong)NSMutableArray *dataArray;//数据数组
+
+@property(nonatomic,strong)RACCommand *refreshAccountCommand;//获取是否完成开户
+
+@property(nonatomic,strong)RACSubject *accountSubject;//
 
 @end

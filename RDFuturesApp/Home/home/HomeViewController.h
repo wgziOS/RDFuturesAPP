@@ -6,7 +6,7 @@
 //  Copyright © 2017年 FuturesApp. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewBaseController.h"
 
 @interface HomeViewController : ViewBaseController
 

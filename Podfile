@@ -1,17 +1,28 @@
 platform :ios, '8.0'
 target "RDFuturesApp" do
 
-pod 'AFNetworking', '~> 3.1.0'
+pod 'AFNetworking' 
 
-pod 'MJRefresh','~> 3.1.0'
+pod 'MJRefresh'
 
-pod 'SDWebImage', '~> 3.7.5'
+pod 'SDWebImage'
 
-pod 'ReactiveCocoa', '~> 4.0.4-alpha-4'
+pod 'ReactiveObjC'
 
 pod 'MJExtension'
 
+pod 'Masonry'
+
+pod 'IQKeyboardManager'
+
+pod 'MBProgressHUD'
+
 use_frameworks!
+
+pod 'JPush'
+
+use_frameworks!
+
 
 end
 

@@ -9,5 +9,6 @@
 #import "ViewBaseController.h"
 
 @interface NewPassWordViewController : ViewBaseController
-
+@property (nonatomic,strong) NSString *phoneStr;
+@property (nonatomic,strong) NSString *codeStr;
 @end

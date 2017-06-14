@@ -13,6 +13,7 @@
 @property(nonatomic,strong)id Data;
 @property(nonatomic,copy)NSString *Message;
 @property(nonatomic,copy)NSString *State;
+@property(nonatomic,copy)NSString *skip_url;
 @end
 
 

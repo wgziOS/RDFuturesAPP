@@ -10,6 +10,16 @@
 #import "NoticeViewModel.h"
 #import "NoticeTableCell.h"
 #import "NoticeModel.h"
+
+
+#define kCellHeight  (SCREEN_WIDTH-40)*0.559+10+30+65+65+65+2;
+
+#define kCellHeight2 (SCREEN_WIDTH-40)*0.559+10+30+65+65+1;
+
+#define kCellHeight3 (SCREEN_WIDTH-40)*0.559+10+30+65;
+
+#define kCellHeight4 (SCREEN_WIDTH-40)*0.559+10+30;
+
 @interface NoticeView()
 @property(nonatomic,strong)UITableView *tableView;
 @property(nonatomic,strong)NoticeViewModel *noticeViewModel;
@@ -19,11 +29,11 @@
 -(void)setFrame:(CGRect)frame{
     [super setFrame:frame];
 }
--(instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel andFrame:(CGRect)frame{
+-(instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel{
     
     self.noticeViewModel = (NoticeViewModel *)viewModel;
     
-    return [super initWithViewModel:viewModel andFrame:frame];
+    return [super initWithViewModel:viewModel];
     
 }
 -(void)setupViews{
@@ -33,44 +43,65 @@
     
 }
 
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+    return self.noticeViewModel.dataArray.count;
+    
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    NoticeTableCell * cell = [tableView dequeueReusableCellWithIdentifier:@""];
-    if (self.noticeViewModel.dataArray.count>indexPath.row){
-        NoticeModel *model = self.noticeViewModel.dataArray[indexPath.row];
-        cell.model = model;
+    
+    NoticeTableCell * cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([NoticeTableCell class])] forIndexPath:indexPath];
+    cell.viewModel = (NoticeViewModel*)self.noticeViewModel;
+    
+    if (self.noticeViewModel.dataArray) {
+        cell.array = self.noticeViewModel.dataArray[indexPath.row];
+
     }
-    cell.separatorInset =UIEdgeInsetsMake(0, 0, 0, 0);
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self scrollBottom];
+    });
     return cell;
 }
 
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    
-    
-    if (section==0) {
-        return 0;
-    }else{
-        return self.noticeViewModel.dataArray.count;
-    }
-}
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 260;
-}
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    [self.noticeViewModel.cellclickSubject sendNext:nil];
+    NSArray *array  = self.noticeViewModel.dataArray[indexPath.row];
+    switch (array.count) {
+        case 1:
+            return kCellHeight4;
+            
+            break;
+        case 2:
+            return kCellHeight3;
+
+            break;
+        case 3:
+            return kCellHeight2;
+            
+            break;
+        case 4:
+            return kCellHeight;
+            
+            break;
+        default:
+            break;
+    }
+    
+    return kCellHeight;
+    
 }
+
 -(void)bindViewModel{
     @weakify(self);
-    [self.noticeViewModel.refreshScrollDataCommand execute:nil];
     [self.noticeViewModel.refreshDataCommand execute:nil];
     [self.noticeViewModel.refreshUI subscribeNext:^(id x) {
         @strongify(self);
         [self.tableView reloadData];
+        
     }];
-   
+
     
     [self.noticeViewModel.refreshEndSubject subscribeNext:^(id x) {
         @strongify(self);
@@ -84,7 +115,6 @@
                         @strongify(self)
                         
                         [self.noticeViewModel.refreshDataCommand execute:nil];
-                        [self.noticeViewModel.refreshScrollDataCommand execute:nil];
                         
                     }];
                 }
@@ -120,40 +150,43 @@
                 break;
         }
     }];
+
     
 }
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
+-(void)scrollBottom{
+    if ([self.noticeViewModel.dataArray count]) {
+        NSIndexPath *indexPath=[NSIndexPath indexPathForRow:self.noticeViewModel.dataArray.count-1 inSection:0];
+        [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:NO];
+    }
 }
-*/
-
 -(void)updateConstraints{
-    
+    [super updateConstraints];
+
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.edges.equalTo(self);
     }];
     
-    [super updateConstraints];
 }
 -(UITableView *)tableView{
     if (!_tableView) {
-        _tableView = [[UITableView alloc] init];
+        _tableView = [[UITableView alloc] initWithFrame:self.bounds style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
-        
-        @weakify(self)
+        _tableView.backgroundColor = [UIColor clearColor];
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        [_tableView registerClass:[NoticeTableCell class] forCellReuseIdentifier:[NSString stringWithUTF8String:object_getClassName([NoticeTableCell class])]];
+        WS(weakself)
         _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-            @strongify(self)
-            [self.noticeViewModel.refreshDataCommand execute:nil];
-        }];
-        _tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
-            @strongify(self)
-            [self.noticeViewModel.refreshDataCommand execute:nil];
+            [weakSelf.noticeViewModel.nextPageCommand execute:nil];
         }];
     }
     return _tableView;

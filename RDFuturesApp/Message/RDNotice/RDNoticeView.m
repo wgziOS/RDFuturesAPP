@@ -18,7 +18,8 @@
 @interface RDNoticeView()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *table;
 @property(nonatomic,strong)RDNoticeViewModel *viewModel;
-
+@property(nonatomic,strong)NSArray *imageArray;
+@property(nonatomic,strong)NSArray *titleArray;
 @end
 
 @implementation RDNoticeView
@@ -41,28 +42,46 @@
     
     [super updateConstraints];
 }
-
+-(instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel{
+    self.viewModel = (RDNoticeViewModel*)viewModel;
+    return [super initWithViewModel:viewModel];
+}
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-//    return self.viewModel.dateArray.count;
-    return 3;
+    return self.viewModel.dateArray.count;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 0.5f;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-//    RDNoticeModel *notice =self.viewModel.dateArray[indexPath.row];
-    int height = 140;
+    RDNoticeModel *notice =self.viewModel.dateArray[indexPath.row];
+    CGSize size = [UILabel textForFont:fourteenFontSize andMAXSize:CGSizeMake(SCREEN_WIDTH-80, MAXFLOAT) andText:notice.content];
+    int height = size.height+76;
     return height;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     RDNoticeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([RDNoticeTableViewCell class])] forIndexPath:indexPath];
-    
+    cell.model = self.viewModel.dateArray[indexPath.row];
     return cell;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    RDNoticeModel *notice =self.viewModel.dateArray[indexPath.row];
+    switch ([notice.sign intValue]) {
+        case 1:
+            [self.viewModel.cellClickSubject sendNext:notice.sign];
+            break;
+        default:
+            break;
+    }
+}
+-(void)bindViewModel{
 
-
+    [self.viewModel.reloadDataCommand execute:nil];
+    [self.viewModel.refreshUI subscribeNext:^(id  _Nullable x) {
+        [self.table reloadData];
+    }];
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -72,8 +91,18 @@
 }
 */
 
-
-
+-(NSArray *)imageArray{
+    if (!_imageArray) {
+        _imageArray = [NSArray arrayWithObjects:@"",@"", nil];
+    }
+    return _imageArray;
+}
+-(NSArray *)titleArray{
+    if (!_titleArray) {
+        _titleArray = [NSArray arrayWithObjects:@"",@"", nil];
+    }
+    return _titleArray;
+}
 -(UITableView *)table{
     if (!_table) {
         _table = [[UITableView alloc] initWithFrame:self.bounds style:UITableViewStyleGrouped];

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccountBaseController.h"
 
-@interface ProgressViewController : UIViewController
-
+@interface ProgressViewController : AccountBaseController
+@property (nonatomic, copy)NSString *loadType;
+@property (nonatomic, assign)BOOL PuchStyle;
 @end

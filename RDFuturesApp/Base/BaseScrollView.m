@@ -10,9 +10,9 @@
 
 @implementation BaseScrollView
 
-- (instancetype)initWithFrame:(CGRect)frame
+- (instancetype)init
 {
-    self = [super initWithFrame:frame];
+    self = [super init];
     if (self) {
         [self setupViews];
         [self bindViewModel];
@@ -22,9 +22,9 @@
 
 
 
-- (instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel andFrame:(CGRect)frame{
+- (instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel{
 
-    self = [super initWithFrame:frame];
+    self = [super init];
     if (self) {
         [self setupViews];
         [self bindViewModel];

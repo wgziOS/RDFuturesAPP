@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccountBaseController.h"
 
-@interface CommitInfoViewController : UIViewController
-
+@interface CommitInfoViewController : AccountBaseController
+@property (nonatomic, copy)NSString *loadType;
 @end

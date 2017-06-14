@@ -7,7 +7,10 @@
 //
 
 #import "ViewBaseController.h"
+#import <WebKit/WebKit.h>
 
 @interface DetailsViewController : ViewBaseController
+@property (nonatomic,strong) NSString *urlStr;
 
+@property (nonatomic,strong) NSString *titleString;
 @end

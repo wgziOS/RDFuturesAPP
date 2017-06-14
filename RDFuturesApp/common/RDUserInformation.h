@@ -9,10 +9,15 @@
 #import <Foundation/Foundation.h>
 
 @interface RDUserInformation : NSObject
-
 +(RDUserInformation*)getInformation;
+@property(nonatomic,assign)BOOL advertisementClick;
+-(BOOL)getLoginState;//获取登录状态
+-(void)PostUserInformationDataWithUserId:(NSString *)userid andtoken:(NSString*)token andPhoneNumber:(NSString *)phoneNumber;
 
--(void)PostUserInformationDataWithUserId:(NSString *)userid andtoken:(NSString*)token;
+
 -(NSMutableDictionary *)postDataDictionary:(BOOL)state;
++ (NSString *)transString:(NSString *)string;
++ (NSString *)transBase64WithImage:(UIImage *)image;
+
 @end
 

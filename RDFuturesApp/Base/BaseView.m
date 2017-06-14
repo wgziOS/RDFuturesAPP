@@ -10,12 +10,34 @@
 
 @implementation BaseView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        [self setupViews];
+        [self bindViewModel];
+    }
+    return self;
 }
-*/
+
+- (instancetype)initWithViewModel:(id<BaseViewModelProtocol>)viewModel{
+    
+    self = [super init];
+    if (self) {
+        
+        [self setupViews];
+        [self bindViewModel];
+    }
+    return self;
+}
+
+
+- (void)bindViewModel {
+}
+
+- (void)setupViews {
+}
 
 @end

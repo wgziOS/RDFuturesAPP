@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NewsViewModel.h"
+@interface NewsFirstViewController : ViewBaseController
 
-@interface NewsFirstViewController : UIViewController
-
+@property (nonatomic,strong) NewsViewModel *rootViewModel;
+//@property (nonatomic,strong) NSString *string;
 @end

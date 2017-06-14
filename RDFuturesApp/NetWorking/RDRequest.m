@@ -24,6 +24,66 @@
     return self;
 }
 
+#pragma mark - 上传图片（timeout = 10）
+- (void)POSTUploadImageWithURLString:(NSString *)URLString
+                          parameters:(NSDictionary*)parameters
+                             success:(void (^)(RDRequest *request, id response))success
+                             failure:(void (^)(RDRequest *request, NSError *error))failure{
+    
+    self.operationQueue = self.operationManager.operationQueue;
+    //    self.operationManager.requestSerializer.timeoutInterval = 10.f;
+    self.operationManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    self.operationManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/plain", @"text/json", @"text/javascript",@"text/html", nil];
+    
+    
+    NSString *userId = [ [NSUserDefaults standardUserDefaults] objectForKey:@"user_id"];
+    NSString *token =  [ [NSUserDefaults standardUserDefaults] objectForKey:@"token"];
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    NSString *version_no = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    NSString *uuid = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    
+    
+    self.operationManager.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+    if ([self isValidateString:userId]==YES&&[self isValidateString:token]==YES) {
+        [self.operationManager.requestSerializer setValue:userId forHTTPHeaderField:@"user_id"];
+        [self.operationManager.requestSerializer setValue:token  forHTTPHeaderField:@"token"];
+    }
+    [self.operationManager.requestSerializer setValue:uuid forHTTPHeaderField:@"uuid"];
+    [self.operationManager.requestSerializer setValue:@"2" forHTTPHeaderField:@"platform"];
+    [self.operationManager.requestSerializer setValue:version_no forHTTPHeaderField:@"version_no"];
+    [self.operationManager.requestSerializer setValue:version forHTTPHeaderField:@"version"];
+    
+    
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+    
+    [self.operationManager POST:URLString
+                     parameters:parameters
+                       progress:^(NSProgress * _Nonnull uploadProgress) {
+                           
+                       }
+                        success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+                            id object;
+                            if ([responseObject isKindOfClass:[NSData class]]) {
+                                object = [NSJSONSerialization JSONObjectWithData:responseObject options:kNilOptions error:nil];
+                            }else{
+                                object =responseObject;
+                            }
+                            
+                            success(self,object);
+                            dispatch_semaphore_signal(semaphore);
+                            
+                        }
+                        failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                            failure(self,error);
+                            dispatch_semaphore_signal(semaphore);
+                            
+                        }];
+    
+    dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+    
+    
+}
+
 
 - (void)GET:(NSString *)URLString
  parameters:(NSDictionary*)parameters
@@ -32,6 +92,10 @@
     
     self.operationQueue=self.operationManager.operationQueue;
     self.operationManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    self.operationManager.requestSerializer.timeoutInterval = 10.f;
+    self.operationManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/plain", @"text/json", @"text/javascript",@"text/html", nil];
+    
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
     
     [self.operationManager GET:URLString
                     parameters:parameters
@@ -41,15 +105,18 @@
                        success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
                            id object = [NSJSONSerialization JSONObjectWithData:responseObject options:kNilOptions error:nil];
                            
-                           NSLog(@" GET  请求成功 ");
                            success(self,object);
+                           dispatch_semaphore_signal(semaphore);
+                           
                        }
                        failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                           NSLog(@"[RDRequest]: 请求失败 %@",error.localizedDescription);
                            failure(self,error);
+                           dispatch_semaphore_signal(semaphore);
+                           
                        }
      ];
-
+    dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+    
     
 }
 
@@ -59,7 +126,30 @@
      failure:(void (^)(RDRequest *request, NSError *error))failure{
     
     self.operationQueue = self.operationManager.operationQueue;
+    self.operationManager.requestSerializer.timeoutInterval = 10.f;
     self.operationManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    self.operationManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/plain", @"text/json", @"text/javascript",@"text/html", nil];
+    
+    
+    NSString *userId = [ [NSUserDefaults standardUserDefaults] objectForKey:@"user_id"];
+    NSString *token =  [ [NSUserDefaults standardUserDefaults] objectForKey:@"token"];
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    NSString *version_no = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+    NSString *uuid = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    
+    
+    self.operationManager.securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+    if ([self isValidateString:userId]==YES&&[self isValidateString:token]==YES) {
+        [self.operationManager.requestSerializer setValue:userId forHTTPHeaderField:@"user_id"];
+        [self.operationManager.requestSerializer setValue:token  forHTTPHeaderField:@"token"];
+    }
+    [self.operationManager.requestSerializer setValue:uuid forHTTPHeaderField:@"uuid"];
+    [self.operationManager.requestSerializer setValue:@"2" forHTTPHeaderField:@"platform"];
+    [self.operationManager.requestSerializer setValue:version_no forHTTPHeaderField:@"version_no"];
+    [self.operationManager.requestSerializer setValue:version forHTTPHeaderField:@"version"];
+    
+    
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
     
     [self.operationManager POST:URLString
                      parameters:parameters
@@ -67,16 +157,55 @@
                            
                        }
                         success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                            id object = [NSJSONSerialization JSONObjectWithData:responseObject options:kNilOptions error:nil];
+                            id object;
+                            if ([responseObject isKindOfClass:[NSData class]]) {
+                                object = [NSJSONSerialization JSONObjectWithData:responseObject options:kNilOptions error:nil];
+                            }else{
+                                object =responseObject;
+                            }
                             
-                            NSLog(@"[RDRequest]:POST 请求成功 %@",object);
                             success(self,object);
+                            if ([object[@"Code"] intValue]==405) {
+                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
+                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
+                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
+                                [[NSUserDefaults standardUserDefaults] synchronize];
+                            }
+                            dispatch_semaphore_signal(semaphore);
+                            
                         }
                         failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                            NSLog(@"[RDRequest]: 请求失败 %@",error.localizedDescription);
                             failure(self,error);
+                            dispatch_semaphore_signal(semaphore);
+                            
                         }];
     
+    dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+    
+}
+- (BOOL)isValidateString:(NSString*)str
+{
+    if (str == nil)
+    {
+        return NO;
+    }
+    
+    if ([str isKindOfClass:[NSNull class]])
+    {
+        return NO;
+    }
+    
+    if ([str isEqualToString:@""])
+    {
+        return NO;
+    }
+    
+    if ([str length] == 0)
+    {
+        return NO;
+    }
+    
+    return YES;
 }
 
 - (void)postWithURL:(NSString *)URLString parameters:(NSDictionary *)parameters {

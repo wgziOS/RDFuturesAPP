@@ -9,15 +9,35 @@
 #import "DetailsViewController.h"
 
 @interface DetailsViewController ()
-
+@property (nonatomic,strong) WKWebView *webView;
 @end
 
 @implementation DetailsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = _titleString;
+    [self webView];
+    
 }
+
+
+-(WKWebView *)webView{
+
+    if (!_webView) {
+        
+        _webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT-64)];
+        NSURL *url = [NSURL URLWithString:_urlStr];
+        [self.view addSubview:_webView];
+        // 3.创建Request
+        NSURLRequest *request =[NSURLRequest requestWithURL:url];
+        // 4.加载网页
+        [_webView loadRequest:request];
+        
+    }
+    return _webView;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

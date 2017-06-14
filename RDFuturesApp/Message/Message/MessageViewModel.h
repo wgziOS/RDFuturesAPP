@@ -9,5 +9,9 @@
 #import "BaseViewModel.h"
 
 @interface MessageViewModel : BaseViewModel
+@property(nonatomic,strong)RACSubject * refreshUI;//刷新UI
+@property(nonatomic,strong)RACSubject * refreshTable;//刷新UI
 @property(nonatomic,strong)RACSubject * cellClickSubject;
+@property(nonatomic,strong)RACCommand * reloadDataCommand;
+@property(nonatomic,strong)NSMutableArray *dataArray;
 @end

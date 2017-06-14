@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccountBaseController.h"
 
-@interface WitnessCityViewController : UIViewController
-
+@interface WitnessCityViewController : AccountBaseController
+@property (nonatomic, copy)NSString *loadType;
 @end

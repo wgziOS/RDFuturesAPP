@@ -10,4 +10,12 @@
 
 @interface NewsListModel : NSObject
 
+
+
+@property(nonatomic,copy)NSString *newsUrl;
+@property(nonatomic,copy)NSString *releaseDate;
+@property(nonatomic,copy)NSString *name;
+@property(nonatomic,copy)NSString *title;
+@property(nonatomic,copy)NSString *imageUrl;
+
 @end
