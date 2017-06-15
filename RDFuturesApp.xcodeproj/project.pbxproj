@@ -164,7 +164,6 @@
 		CE0957371ED55C6D00394709 /* AdvertisementViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0957361ED55C6D00394709 /* AdvertisementViewModel.m */; };
 		CE09573A1ED55E3300394709 /* AdvertisementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0957391ED55E3300394709 /* AdvertisementModel.m */; };
 		CE09573C1ED580E500394709 /* 免责声明.doc in Resources */ = {isa = PBXBuildFile; fileRef = CE09573B1ED580E500394709 /* 免责声明.doc */; };
-		CE0ADE691ED2BBE8002801D5 /* HomeAdvertisementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0ADE681ED2BBE8002801D5 /* HomeAdvertisementViewController.m */; };
 		CE0ADE6D1ED2D559002801D5 /* DerivativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0ADE6B1ED2D559002801D5 /* DerivativeViewController.m */; };
 		CE0ADE6E1ED2D559002801D5 /* DerivativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0ADE6C1ED2D559002801D5 /* DerivativeViewController.xib */; };
 		CE0ADFD31ED2D937002801D5 /* BillfooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0ADF401ED2D937002801D5 /* BillfooterView.m */; };
@@ -641,8 +640,6 @@
 		CE0957381ED55E3300394709 /* AdvertisementModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisementModel.h; sourceTree = "<group>"; };
 		CE0957391ED55E3300394709 /* AdvertisementModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisementModel.m; sourceTree = "<group>"; };
 		CE09573B1ED580E500394709 /* 免责声明.doc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "免责声明.doc"; path = "../免责声明.doc"; sourceTree = "<group>"; };
-		CE0ADE671ED2BBE8002801D5 /* HomeAdvertisementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAdvertisementViewController.h; sourceTree = "<group>"; };
-		CE0ADE681ED2BBE8002801D5 /* HomeAdvertisementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAdvertisementViewController.m; sourceTree = "<group>"; };
 		CE0ADE6A1ED2D559002801D5 /* DerivativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DerivativeViewController.h; path = RDFuturesApp/Home/OpenAccount/DerivativeViewController.h; sourceTree = SOURCE_ROOT; };
 		CE0ADE6B1ED2D559002801D5 /* DerivativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DerivativeViewController.m; path = RDFuturesApp/Home/OpenAccount/DerivativeViewController.m; sourceTree = SOURCE_ROOT; };
 		CE0ADE6C1ED2D559002801D5 /* DerivativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DerivativeViewController.xib; path = RDFuturesApp/Home/OpenAccount/DerivativeViewController.xib; sourceTree = SOURCE_ROOT; };
@@ -2228,8 +2225,6 @@
 				CE5676ED1E65226F0087125C /* HomeViewController.m */,
 				B24BB68E1E81031900A4A7CA /* OnlineServiceViewController.h */,
 				B24BB68F1E81031900A4A7CA /* OnlineServiceViewController.m */,
-				CE0ADE671ED2BBE8002801D5 /* HomeAdvertisementViewController.h */,
-				CE0ADE681ED2BBE8002801D5 /* HomeAdvertisementViewController.m */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -2808,7 +2803,6 @@
 				CE4D419A1ED15CA400C76015 /* AdvertisementViewController.m in Sources */,
 				CE29DE2B1EE54DB600F1BD15 /* UITextField+Extension.m in Sources */,
 				B2EBCA101E94EB2B005E8F31 /* FinanceInfoModel.m in Sources */,
-				CE0ADE691ED2BBE8002801D5 /* HomeAdvertisementViewController.m in Sources */,
 				CE0ADFDC1ED2D937002801D5 /* CollectionModel.m in Sources */,
 				CE83E8E31E66CD4F00FA8E14 /* BaseTableViewCell.m in Sources */,
 				B24219921EC2DBFC000FE1AC /* NewsSeventhViewModel.m in Sources */,

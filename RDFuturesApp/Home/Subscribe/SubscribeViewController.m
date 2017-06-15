@@ -11,8 +11,7 @@
 #import "SubscribeViewController.h"
 
 
-#define REQUESTURL @"http://192.168.0.200:8092/rdfuture/api/notice/detail.api?noticeId=39"
-#define iOS10_1Later ([UIDevice currentDevice].systemVersion.floatValue >= 10.1f)
+#define REQUESTURL self.web_url
 
 
 @interface SubscribeViewController ()<WKScriptMessageHandler, WKNavigationDelegate, WKUIDelegate>
@@ -28,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title =@"订阅";
+    self.title = self.titleName;
     [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 -(void)addChildView{
@@ -288,7 +287,8 @@
     if (!_progressView) {
         _progressView = [[UIProgressView alloc] init];
         _progressView.frame = self.view.bounds;
-        _progressView.backgroundColor = [UIColor redColor];
+        _progressView.trackTintColor = [UIColor whiteColor];
+        _progressView.progressTintColor = [UIColor greenColor];
     }
     return _progressView;
 }

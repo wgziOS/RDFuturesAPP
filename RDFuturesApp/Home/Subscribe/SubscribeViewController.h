@@ -10,5 +10,6 @@
 #import <WebKit/WebKit.h>
 
 @interface SubscribeViewController : ViewBaseController
-
+@property(nonatomic,copy)NSString *web_url;
+@property(nonatomic,copy)NSString *titleName;
 @end

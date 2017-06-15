@@ -11,7 +11,6 @@
 #import "AdvertisementViewController.h"
 #import "AdvertisementImageView.h"
 #import "AdvertisementLabel.h"
-#import "HomeAdvertisementViewController.h"
 #import "AdvertisementViewModel.h"
 #import "AdvertisementModel.h"
 

@@ -16,7 +16,6 @@
 #import "WithdrawFundsViewController.h"
 #import "AdvertisementViewController.h"
 #import "OnlineServiceViewController.h"
-#import "HomeAdvertisementViewController.h"
 #import "OtherInforViewController.h"
 #import "AdvertisementModel.h"
 #import "SubscribeViewController.h"
@@ -58,7 +57,7 @@
     if ([RDUserInformation getInformation].advertisementClick==YES) {
         NSMutableDictionary *dictionary = [[NSUserDefaults standardUserDefaults] objectForKey:@"Advertisement_data"];
         AdvertisementModel *model = [AdvertisementModel mj_objectWithKeyValues:dictionary];
-        HomeAdvertisementViewController *homeAdvertisement = [[HomeAdvertisementViewController alloc] init];
+        SubscribeViewController *homeAdvertisement = [[SubscribeViewController alloc] init];
         homeAdvertisement.web_url = model.skip_url;
         homeAdvertisement.titleName = @"广告";
         [weakSelf.navigationController pushViewController:homeAdvertisement animated:YES];
@@ -164,8 +163,7 @@
                 switch ([model.within_sign intValue]) {
                     case 1:
                     {//订阅农产品
-                        SubscribeViewController *sub = [[SubscribeViewController alloc] init];
-                        [self.navigationController pushViewController:sub animated:YES];
+                        
                     }
                         break;
                         
@@ -175,10 +173,11 @@
             }
                 break;
             case 2:{
-                HomeAdvertisementViewController *homeAdvertisement = [[HomeAdvertisementViewController alloc] init];
-                homeAdvertisement.web_url = model.skip_url;
-                homeAdvertisement.titleName = model.name;
-                [weakSelf.navigationController pushViewController:homeAdvertisement animated:YES];
+                
+                SubscribeViewController *sub = [[SubscribeViewController alloc] init];
+                sub.web_url = model.skip_url;
+                sub.titleName = model.name;
+                [self.navigationController pushViewController:sub animated:YES];
             }
                 break;
             default:
