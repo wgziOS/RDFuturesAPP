@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -130,7 +130,7 @@
                         <constraint firstItem="rVO-2L-wTh" firstAttribute="leading" secondItem="qCp-6L-H2I" secondAttribute="leading" constant="15" id="woC-Zm-7ya"/>
                     </constraints>
                 </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="longBtn" translatesAutoresizingMaskIntoConstraints="NO" id="8h3-a0-RhY">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_btn" translatesAutoresizingMaskIntoConstraints="NO" id="8h3-a0-RhY">
                     <rect key="frame" x="20" y="237" width="335" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="mHm-8S-DAH"/>
@@ -166,6 +166,6 @@
         </view>
     </objects>
     <resources>
-        <image name="longBtn" width="275" height="40"/>
+        <image name="b_btn" width="156" height="40"/>
     </resources>
 </document>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -25,24 +25,24 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="行业领先服务商安全快捷有保障" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lev-Pk-gzi">
-                    <rect key="frame" x="9.5" y="30" width="300" height="35"/>
+                    <rect key="frame" x="85" y="30" width="150" height="70"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="35" id="4ZE-tY-3dS"/>
-                        <constraint firstAttribute="width" constant="300" id="O3A-UE-kpc"/>
+                        <constraint firstAttribute="height" constant="70" id="4ZE-tY-3dS"/>
+                        <constraint firstAttribute="width" constant="150" id="O3A-UE-kpc"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="20"/>
                     <color key="textColor" red="0.23921568627450979" green="0.23921568627450979" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Pzg-Iz-WcD">
-                    <rect key="frame" x="71.5" y="85" width="176" height="140"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Pzg-Iz-WcD">
+                    <rect key="frame" x="50.5" y="160" width="218" height="41"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="140" id="YSI-2B-Jog"/>
-                        <constraint firstAttribute="width" constant="176" id="sEP-Ch-KtC"/>
+                        <constraint firstAttribute="height" constant="41" id="YSI-2B-Jog"/>
+                        <constraint firstAttribute="width" constant="218" id="sEP-Ch-KtC"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="准备有效身份证件、银行储蓄卡、wifi环境" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLc-Bj-dEh">
-                    <rect key="frame" x="26.5" y="240" width="267" height="25"/>
+                    <rect key="frame" x="26.5" y="261" width="267" height="25"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="RXs-eI-EMi"/>
                         <constraint firstAttribute="width" constant="267" id="lI7-NT-aYx"/>
@@ -52,7 +52,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHI-nn-Hpg">
-                    <rect key="frame" x="58.5" y="310" width="203" height="25"/>
+                    <rect key="frame" x="58.5" y="331" width="203" height="25"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="203" id="NMi-rH-ab1"/>
                         <constraint firstAttribute="height" constant="25" id="XMG-81-G5a"/>
@@ -62,34 +62,34 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="id_icon" translatesAutoresizingMaskIntoConstraints="NO" id="b63-zn-CLk">
-                    <rect key="frame" x="75" y="275" width="45" height="30"/>
+                    <rect key="frame" x="62.5" y="296" width="45" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="L9m-6y-quZ"/>
                         <constraint firstAttribute="width" constant="45" id="hqT-IG-mCL"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_icon" translatesAutoresizingMaskIntoConstraints="NO" id="T8D-w9-O6P">
-                    <rect key="frame" x="137.5" y="275" width="45" height="30"/>
+                    <rect key="frame" x="137.5" y="296" width="45" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="IkA-Qm-432"/>
                         <constraint firstAttribute="width" constant="45" id="qUP-6D-fc3"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WIFI" translatesAutoresizingMaskIntoConstraints="NO" id="5Yr-CU-ZYd">
-                    <rect key="frame" x="200" y="275" width="45" height="30"/>
+                    <rect key="frame" x="212.5" y="296" width="45" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="45" id="4Jq-zF-g7t"/>
                         <constraint firstAttribute="height" constant="30" id="WDT-gH-vra"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_btn" translatesAutoresizingMaskIntoConstraints="NO" id="jz9-xX-x51">
-                    <rect key="frame" x="20" y="355" width="280" height="40"/>
+                    <rect key="frame" x="20" y="386" width="280" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="3YI-nn-aC4"/>
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V46-QB-kni">
-                    <rect key="frame" x="20" y="355" width="280" height="40"/>
+                    <rect key="frame" x="20" y="386" width="280" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="AeB-wP-t8E"/>
                     </constraints>
@@ -116,8 +116,8 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="jz9-xX-x51" firstAttribute="top" secondItem="rHI-nn-Hpg" secondAttribute="bottom" constant="20" id="43w-6y-Mvz"/>
-                <constraint firstItem="T8D-w9-O6P" firstAttribute="leading" secondItem="b63-zn-CLk" secondAttribute="trailing" constant="17.5" id="5Jq-nq-WTa"/>
+                <constraint firstItem="jz9-xX-x51" firstAttribute="top" secondItem="rHI-nn-Hpg" secondAttribute="bottom" constant="30" id="43w-6y-Mvz"/>
+                <constraint firstItem="T8D-w9-O6P" firstAttribute="leading" secondItem="b63-zn-CLk" secondAttribute="trailing" constant="30" id="5Jq-nq-WTa"/>
                 <constraint firstItem="rHI-nn-Hpg" firstAttribute="top" secondItem="5Yr-CU-ZYd" secondAttribute="bottom" constant="5" id="8yB-BS-RXW"/>
                 <constraint firstItem="Pzg-Iz-WcD" firstAttribute="centerX" secondItem="Lev-Pk-gzi" secondAttribute="centerX" id="CFt-D7-rvU"/>
                 <constraint firstItem="b63-zn-CLk" firstAttribute="centerY" secondItem="T8D-w9-O6P" secondAttribute="centerY" id="Cah-kD-8T5"/>
@@ -130,17 +130,17 @@
                 <constraint firstItem="V46-QB-kni" firstAttribute="centerX" secondItem="rHI-nn-Hpg" secondAttribute="centerX" id="RlK-tu-E7v"/>
                 <constraint firstItem="V46-QB-kni" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Sto-tO-mt9"/>
                 <constraint firstItem="rHI-nn-Hpg" firstAttribute="centerX" secondItem="T8D-w9-O6P" secondAttribute="centerX" id="VWr-UI-qsC"/>
-                <constraint firstItem="V46-QB-kni" firstAttribute="top" secondItem="rHI-nn-Hpg" secondAttribute="bottom" constant="20" id="XXr-88-wiP"/>
+                <constraint firstItem="V46-QB-kni" firstAttribute="top" secondItem="rHI-nn-Hpg" secondAttribute="bottom" constant="30" id="XXr-88-wiP"/>
                 <constraint firstItem="oLc-Bj-dEh" firstAttribute="centerX" secondItem="Pzg-Iz-WcD" secondAttribute="centerX" id="Xi2-bX-k5f"/>
-                <constraint firstItem="Pzg-Iz-WcD" firstAttribute="top" secondItem="Lev-Pk-gzi" secondAttribute="bottom" constant="20" id="Zn5-Rg-Cq5"/>
+                <constraint firstItem="Pzg-Iz-WcD" firstAttribute="top" secondItem="Lev-Pk-gzi" secondAttribute="bottom" constant="60" id="Zn5-Rg-Cq5"/>
                 <constraint firstItem="Lev-Pk-gzi" firstAttribute="top" secondItem="B5D-do-wp2" secondAttribute="bottom" constant="10" id="a5k-qb-doX"/>
                 <constraint firstItem="Lev-Pk-gzi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cm9-cw-5qW"/>
                 <constraint firstItem="Lev-Pk-gzi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="cx1-Gd-upc"/>
-                <constraint firstItem="oLc-Bj-dEh" firstAttribute="top" secondItem="Pzg-Iz-WcD" secondAttribute="bottom" constant="15" id="d6q-SB-Pgz"/>
+                <constraint firstItem="oLc-Bj-dEh" firstAttribute="top" secondItem="Pzg-Iz-WcD" secondAttribute="bottom" constant="60" id="d6q-SB-Pgz"/>
                 <constraint firstItem="T8D-w9-O6P" firstAttribute="top" secondItem="oLc-Bj-dEh" secondAttribute="bottom" constant="10" id="hBm-iE-r9E"/>
                 <constraint firstItem="jz9-xX-x51" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="iDw-vC-W49"/>
                 <constraint firstAttribute="trailing" secondItem="V46-QB-kni" secondAttribute="trailing" constant="20" id="kti-nq-ZU4"/>
-                <constraint firstItem="5Yr-CU-ZYd" firstAttribute="leading" secondItem="T8D-w9-O6P" secondAttribute="trailing" constant="17.5" id="zgs-3Q-a7s"/>
+                <constraint firstItem="5Yr-CU-ZYd" firstAttribute="leading" secondItem="T8D-w9-O6P" secondAttribute="trailing" constant="30" id="zgs-3Q-a7s"/>
             </constraints>
             <point key="canvasLocation" x="24" y="52"/>
         </view>
@@ -150,6 +150,6 @@
         <image name="b_btn" width="156" height="40"/>
         <image name="card_icon" width="47" height="34"/>
         <image name="id_icon" width="49" height="35"/>
-        <image name="new_logo" width="175" height="140"/>
+        <image name="launch_logo" width="218" height="40"/>
     </resources>
 </document>

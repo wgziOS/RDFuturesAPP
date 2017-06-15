@@ -33,9 +33,9 @@
     WS(weakself)
     [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf);
-        make.left.equalTo(weakSelf).with.offset(15);
+        make.left.equalTo(weakSelf).with.offset(0);
         make.bottom.equalTo(weakSelf).with.offset(-3);
-        make.right.equalTo(weakSelf).with.offset(-15);
+        make.right.equalTo(weakSelf).with.offset(0);
     }];
     
     [self.yellowView mas_makeConstraints:^(MASConstraintMaker *make) {
