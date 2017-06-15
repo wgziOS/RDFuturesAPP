@@ -8,8 +8,8 @@
 
 #import "InfoFeedBackViewController.h"
 #import <WebKit/WebKit.h>
-@interface InfoFeedBackViewController ()
-@property(nonatomic, strong)WKWebView * webView;
+@interface InfoFeedBackViewController ()<UIWebViewDelegate>
+@property(nonatomic, strong)UIWebView * webView;
 @end
 
 @implementation InfoFeedBackViewController
@@ -18,15 +18,39 @@
     [super viewDidLoad];
     self.title= @"信息反馈";
     [self.view addSubview:self.webView];
+    
 }
--(WKWebView *)webView{
+-(UIWebView *)webView{
     if (!_webView) {
-        _webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, VIEW_WIDTH, VIEW_HEIGHT-64)];
+        _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, VIEW_WIDTH, VIEW_HEIGHT-64)];
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://p.qiao.baidu.com/cps/chat?siteId=10801271&userId=23236096"]];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         [_webView loadRequest:request];
+        _webView.delegate = self;//
+        _webView.scalesPageToFit = YES;
     }
     return _webView;
+}
+- (void)webViewDidFinishLoad:(UIWebView *)theWebView
+{
+    //半 0.25
+    CGSize contentSize = theWebView.scrollView.contentSize;
+    CGSize viewSize = self.view.bounds.size;
+    
+    float rw = viewSize.width / contentSize.width;
+    
+    theWebView.scrollView.minimumZoomScale = rw/4;
+    theWebView.scrollView.maximumZoomScale = rw;
+    theWebView.scrollView.zoomScale = rw;
+    
+    
+//    NSString * javascript = [NSString stringWithFormat:@"var viewPortTag=document.createElement('meta');  \
+//                  viewPortTag.id='viewport';  \
+//                  viewPortTag.name = 'viewport';  \
+//                  viewPortTag.content = 'width=%d; initial-scale=0.75; maximum-scale=0.5; user-scalable=0;';  \
+//                  document.getElementsByTagName('head')[0].appendChild(viewPortTag);" , (int)theWebView.bounds.size.width];
+//    
+//    [theWebView stringByEvaluatingJavaScriptFromString:javascript];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

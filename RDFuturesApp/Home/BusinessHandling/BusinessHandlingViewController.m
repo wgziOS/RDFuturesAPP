@@ -10,10 +10,12 @@
 #import "BusinessHandlingCell.h"
 #import "WithdrawFundsViewController.h"
 #import "DepositFundsViewController.h"
+#import "APIServiceViewController.h"
 @interface BusinessHandlingViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     BOOL isFinishAccount;
 }
+@property (nonatomic,strong)NSArray * array;
 @end
 
 @implementation BusinessHandlingViewController
@@ -22,6 +24,7 @@
     [super viewDidLoad];
     self.title = @"业务办理";
     [self isAccount];
+    [self array];
     
     _tableView.delegate = self;
     _tableView.dataSource = self;
@@ -29,51 +32,66 @@
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
-
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    if(![[RDUserInformation getInformation] getLoginState]){
-        [self puchLogin];
-    }
-    
-    
-    if (indexPath.row== 0) {
-        if (isFinishAccount) {
-            DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
-            [self.navigationController pushViewController:DVC animated:YES];
-        }else showMassage(@"您尚未完成开户")
-        
-    }else{
-        
-        //提取资金
-        if(!isFinishAccount){
-
-            showMassage(@"您尚未完成开户");
-        }else{
-            WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
-            [self.navigationController pushViewController:WVC animated:YES];
+    switch (indexPath.row) {
+        case 0:{
+            if(![[RDUserInformation getInformation] getLoginState]){
+                [self puchLogin];
+            }else if (isFinishAccount) {
+                DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
+                [self.navigationController pushViewController:DVC animated:YES];
+            }else showMassage(@"您尚未完成开户")
         }
+            break;
+        case 1:{
+            if(![[RDUserInformation getInformation] getLoginState]){
+                [self puchLogin];
+            }else if(!isFinishAccount){
+                
+                showMassage(@"您尚未完成开户");
+            }else{
+                WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
+                [self.navigationController pushViewController:WVC animated:YES];
+            }
+            
+        }
+            break;
+        case 2:{
+            APIServiceViewController * AVC = [[APIServiceViewController alloc]init];
+            [self.navigationController pushViewController:AVC animated:YES];
+        }
+            break;
+        default:
+            break;
     }
+    
     
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     BusinessHandlingCell * cell = [tableView dequeueReusableCellWithIdentifier:kBusinessHandlingCell];
-    if (indexPath.row == 0) {
-        cell.titleLabel.text = @"存入资金";
-    }else cell.titleLabel.text = @"提取资金";
+    cell.titleLabel.text = _array[indexPath.row];
     return cell;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
-    return 2;
+    return 3;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     return 45;
 
 }
+-(NSArray *)array{
+    
+    if (!_array) {
+        _array = [NSArray arrayWithObjects:@"存入资金",@"提取资金",@"API服务申请", nil];
+    }
+    return _array;
+}
+
 -(void)isAccount{
-    WS(weakself)
+//    WS(weakself)
     //    speed_status			进度状态（1：资料审核 2：完成 3：失败 4：未开户）
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error ;
@@ -88,7 +106,7 @@
                 }else isFinishAccount = NO;
                 [[NSUserDefaults standardUserDefaults] setObject:str forKey:@"isFinishAccount"];
                 [[NSUserDefaults standardUserDefaults] synchronize];
-                [weakSelf puchOpenfirst];
+//                [weakSelf puchOpenfirst];
             }else{
 //                showMassage(@"请求失败")
             }

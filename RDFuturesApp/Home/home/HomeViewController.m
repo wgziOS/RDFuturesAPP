@@ -132,19 +132,19 @@
                 break;
             case 5://账单查询
                 [weakSelf pushBills];
-//                [weakSelf puchBreedRules];//品种细则
+
                 break;
             case 6://公司公告
                 [weakSelf pushCompanyNotice];
-//                [weakSelf puchBankInformation];//银行信息
+
                 break;
             case 7://帮助信息
                 [weakSelf pushHelpCenter];
-//                [weakSelf puchBond];//保证金
+
                 break;
             case 8://信息反馈
                 [weakSelf pushInfoFeedBack];
-//                [weakSelf puchLastTradingDay];//最后交易日
+
                 break;
 
             default:
