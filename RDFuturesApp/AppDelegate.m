@@ -252,7 +252,8 @@
 
 -(void)outLogin{
     
-   PromptView *prompt = [[PromptView alloc] initWithTitleString:@"提示" SubTitleString:@"您的账户刚刚在其他设备上登录，如果是您本人操作请忽略此通知，如非您本人操作，建议您及时修改密码"];
+   PromptView *prompt = [[PromptView alloc] initWithTitleString:@"提示" SubTitleString:[NSString stringWithFormat:@"%@您好：您的账户刚刚在一台之前未登录过次ID的设备上登录，如果是您本人操作请忽略此通知，如非您本人操作，建议您登录app并及时修改密码。"]];
+    
     
     [prompt show];
     

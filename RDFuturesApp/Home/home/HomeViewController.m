@@ -19,6 +19,7 @@
 #import "HomeAdvertisementViewController.h"
 #import "OtherInforViewController.h"
 #import "AdvertisementModel.h"
+#import "SubscribeViewController.h"
 
 @interface HomeViewController ()
 {
@@ -112,7 +113,9 @@
         int index= [x intValue];
         switch (index) {
             case 0:
+            {
                 [weakSelf puchRDProfile];//瑞达简介
+            }
                 break;
             case 1://（1：资料审核 2：完成 3：失败 4：未开户）
                 
@@ -154,12 +157,16 @@
     }];
     
     [[self.homeviewModel.imageclickSubject takeUntil:self.rac_willDeallocSignal]  subscribeNext:^(id x) {
+       
         HomeScrollModel *model  = (HomeScrollModel*)x;
         switch ([model.skip_type intValue]) {
             case 1:{
                 switch ([model.within_sign intValue]) {
                     case 1:
-                        
+                    {//订阅农产品
+                        SubscribeViewController *sub = [[SubscribeViewController alloc] init];
+                        [self.navigationController pushViewController:sub animated:YES];
+                    }
                         break;
                         
                     default:
