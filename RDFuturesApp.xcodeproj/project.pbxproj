@@ -151,6 +151,7 @@
 		B2ED06AC1EF11FCC0046DE91 /* MagicBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ED06AA1EF11FCC0046DE91 /* MagicBoxViewController.m */; };
 		B2ED06AD1EF11FCC0046DE91 /* MagicBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2ED06AB1EF11FCC0046DE91 /* MagicBoxViewController.xib */; };
 		CE041EC11EBF03F8006D2471 /* RDTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE041EC01EBF03F8006D2471 /* RDTabbar.m */; };
+		CE059EE81EF2146F00164FC0 /* SubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE059EE71EF2146F00164FC0 /* SubscribeViewController.m */; };
 		CE09571F1ED3FC6300394709 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE09571D1ED3FC6300394709 /* AnswerViewController.m */; };
 		CE0957201ED3FC6300394709 /* AnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE09571E1ED3FC6300394709 /* AnswerViewController.xib */; };
 		CE09572C1ED436B400394709 /* AreaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0957231ED436B400394709 /* AreaTableViewCell.m */; };
@@ -163,7 +164,6 @@
 		CE0957371ED55C6D00394709 /* AdvertisementViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0957361ED55C6D00394709 /* AdvertisementViewModel.m */; };
 		CE09573A1ED55E3300394709 /* AdvertisementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0957391ED55E3300394709 /* AdvertisementModel.m */; };
 		CE09573C1ED580E500394709 /* 免责声明.doc in Resources */ = {isa = PBXBuildFile; fileRef = CE09573B1ED580E500394709 /* 免责声明.doc */; };
-		CE0ADE691ED2BBE8002801D5 /* HomeAdvertisementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0ADE681ED2BBE8002801D5 /* HomeAdvertisementViewController.m */; };
 		CE0ADE6D1ED2D559002801D5 /* DerivativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0ADE6B1ED2D559002801D5 /* DerivativeViewController.m */; };
 		CE0ADE6E1ED2D559002801D5 /* DerivativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0ADE6C1ED2D559002801D5 /* DerivativeViewController.xib */; };
 		CE0ADFD31ED2D937002801D5 /* BillfooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0ADF401ED2D937002801D5 /* BillfooterView.m */; };
@@ -618,6 +618,8 @@
 		B2ED06AB1EF11FCC0046DE91 /* MagicBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MagicBoxViewController.xib; sourceTree = "<group>"; };
 		CE041EBF1EBF03F8006D2471 /* RDTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDTabbar.h; sourceTree = "<group>"; };
 		CE041EC01EBF03F8006D2471 /* RDTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDTabbar.m; sourceTree = "<group>"; };
+		CE059EE61EF2146F00164FC0 /* SubscribeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeViewController.h; sourceTree = "<group>"; };
+		CE059EE71EF2146F00164FC0 /* SubscribeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeViewController.m; sourceTree = "<group>"; };
 		CE09571C1ED3FC6300394709 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
 		CE09571D1ED3FC6300394709 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
 		CE09571E1ED3FC6300394709 /* AnswerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerViewController.xib; sourceTree = "<group>"; };
@@ -638,8 +640,6 @@
 		CE0957381ED55E3300394709 /* AdvertisementModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertisementModel.h; sourceTree = "<group>"; };
 		CE0957391ED55E3300394709 /* AdvertisementModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertisementModel.m; sourceTree = "<group>"; };
 		CE09573B1ED580E500394709 /* 免责声明.doc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "免责声明.doc"; path = "../免责声明.doc"; sourceTree = "<group>"; };
-		CE0ADE671ED2BBE8002801D5 /* HomeAdvertisementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAdvertisementViewController.h; sourceTree = "<group>"; };
-		CE0ADE681ED2BBE8002801D5 /* HomeAdvertisementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAdvertisementViewController.m; sourceTree = "<group>"; };
 		CE0ADE6A1ED2D559002801D5 /* DerivativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DerivativeViewController.h; path = RDFuturesApp/Home/OpenAccount/DerivativeViewController.h; sourceTree = SOURCE_ROOT; };
 		CE0ADE6B1ED2D559002801D5 /* DerivativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DerivativeViewController.m; path = RDFuturesApp/Home/OpenAccount/DerivativeViewController.m; sourceTree = SOURCE_ROOT; };
 		CE0ADE6C1ED2D559002801D5 /* DerivativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DerivativeViewController.xib; path = RDFuturesApp/Home/OpenAccount/DerivativeViewController.xib; sourceTree = SOURCE_ROOT; };
@@ -1778,6 +1778,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE059EE51EF2144E00164FC0 /* Subscribe */ = {
+			isa = PBXGroup;
+			children = (
+				CE059EE91EF21D3100164FC0 /* VC */,
+				CE059EE61EF2146F00164FC0 /* SubscribeViewController.h */,
+				CE059EE71EF2146F00164FC0 /* SubscribeViewController.m */,
+			);
+			path = Subscribe;
+			sourceTree = "<group>";
+		};
+		CE059EE91EF21D3100164FC0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
 		CE0957211ED436B400394709 /* SelectArea */ = {
 			isa = PBXGroup;
 			children = (
@@ -2134,6 +2151,7 @@
 		CE5676DC1E651CE50087125C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CE059EE51EF2144E00164FC0 /* Subscribe */,
 				B2ED06A81EF116320046DE91 /* MagicBox */,
 				B2ED069D1EF100D90046DE91 /* BusinessHandling */,
 				B25119BA1EEFE94200E95771 /* InfoFeedBack */,
@@ -2207,8 +2225,6 @@
 				CE5676ED1E65226F0087125C /* HomeViewController.m */,
 				B24BB68E1E81031900A4A7CA /* OnlineServiceViewController.h */,
 				B24BB68F1E81031900A4A7CA /* OnlineServiceViewController.m */,
-				CE0ADE671ED2BBE8002801D5 /* HomeAdvertisementViewController.h */,
-				CE0ADE681ED2BBE8002801D5 /* HomeAdvertisementViewController.m */,
 			);
 			name = VC;
 			sourceTree = "<group>";
@@ -2541,7 +2557,7 @@
 					CE87C4FE1E650DDD00103EDE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5GT7M52QLG;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2787,7 +2803,6 @@
 				CE4D419A1ED15CA400C76015 /* AdvertisementViewController.m in Sources */,
 				CE29DE2B1EE54DB600F1BD15 /* UITextField+Extension.m in Sources */,
 				B2EBCA101E94EB2B005E8F31 /* FinanceInfoModel.m in Sources */,
-				CE0ADE691ED2BBE8002801D5 /* HomeAdvertisementViewController.m in Sources */,
 				CE0ADFDC1ED2D937002801D5 /* CollectionModel.m in Sources */,
 				CE83E8E31E66CD4F00FA8E14 /* BaseTableViewCell.m in Sources */,
 				B24219921EC2DBFC000FE1AC /* NewsSeventhViewModel.m in Sources */,
@@ -2834,6 +2849,7 @@
 				B24219821EC2C060000FE1AC /* NewsFifthView.m in Sources */,
 				B24D29621E713A5A004FF894 /* ExperienceViewController.m in Sources */,
 				B246555F1EB08E0E00C414CF /* DetailsViewController.m in Sources */,
+				CE059EE81EF2146F00164FC0 /* SubscribeViewController.m in Sources */,
 				B21166BE1EA5EB7D009C64CE /* NewsViewModel.m in Sources */,
 				B262DB561E9DBB910057736F /* NoticeViewModel.m in Sources */,
 				B262DB541E9DBB910057736F /* NoticeView.m in Sources */,
@@ -3145,8 +3161,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruida.RDFutures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
-				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -3188,8 +3204,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruida.RDFutures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
-				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

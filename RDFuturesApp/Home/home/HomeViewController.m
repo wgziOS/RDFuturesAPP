@@ -16,9 +16,9 @@
 #import "WithdrawFundsViewController.h"
 #import "AdvertisementViewController.h"
 #import "OnlineServiceViewController.h"
-#import "HomeAdvertisementViewController.h"
 #import "OtherInforViewController.h"
 #import "AdvertisementModel.h"
+#import "SubscribeViewController.h"
 
 @interface HomeViewController ()
 {
@@ -57,7 +57,7 @@
     if ([RDUserInformation getInformation].advertisementClick==YES) {
         NSMutableDictionary *dictionary = [[NSUserDefaults standardUserDefaults] objectForKey:@"Advertisement_data"];
         AdvertisementModel *model = [AdvertisementModel mj_objectWithKeyValues:dictionary];
-        HomeAdvertisementViewController *homeAdvertisement = [[HomeAdvertisementViewController alloc] init];
+        SubscribeViewController *homeAdvertisement = [[SubscribeViewController alloc] init];
         homeAdvertisement.web_url = model.skip_url;
         homeAdvertisement.titleName = @"广告";
         [weakSelf.navigationController pushViewController:homeAdvertisement animated:YES];
@@ -112,7 +112,9 @@
         int index= [x intValue];
         switch (index) {
             case 0:
+            {
                 [weakSelf puchRDProfile];//瑞达简介
+            }
                 break;
             case 1://（1：资料审核 2：完成 3：失败 4：未开户）
                 
@@ -154,12 +156,15 @@
     }];
     
     [[self.homeviewModel.imageclickSubject takeUntil:self.rac_willDeallocSignal]  subscribeNext:^(id x) {
+       
         HomeScrollModel *model  = (HomeScrollModel*)x;
         switch ([model.skip_type intValue]) {
             case 1:{
                 switch ([model.within_sign intValue]) {
                     case 1:
+                    {//订阅农产品
                         
+                    }
                         break;
                         
                     default:
@@ -168,10 +173,11 @@
             }
                 break;
             case 2:{
-                HomeAdvertisementViewController *homeAdvertisement = [[HomeAdvertisementViewController alloc] init];
-                homeAdvertisement.web_url = model.skip_url;
-                homeAdvertisement.titleName = model.name;
-                [weakSelf.navigationController pushViewController:homeAdvertisement animated:YES];
+                
+                SubscribeViewController *sub = [[SubscribeViewController alloc] init];
+                sub.web_url = model.skip_url;
+                sub.titleName = model.name;
+                [self.navigationController pushViewController:sub animated:YES];
             }
                 break;
             default:
