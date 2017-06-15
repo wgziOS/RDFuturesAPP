@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -36,7 +36,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以下的银行账户是结算账户，并作有关之结算安排。客户谨此指示及授权瑞达国际金融控股有限公司将所有应付客户之款项存入下列之银行账户。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKr-Oa-OYu">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="以下的银行帐户是结算帐户，并作有关之结算安排。客户谨此指示及授权瑞达国际金融控股有限公司将所有应付客户之款项存入下列之银行帐户。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKr-Oa-OYu">
                     <rect key="frame" x="15" y="15" width="290" height="65"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="65" id="hge-Ua-8ap"/>
@@ -157,10 +157,10 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="eUQ-wh-rDD">
-                            <rect key="frame" x="277" y="110" width="18" height="12"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mine_downArrow_icon" translatesAutoresizingMaskIntoConstraints="NO" id="eUQ-wh-rDD">
+                            <rect key="frame" x="277" y="111" width="18" height="10"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="12" id="JIo-eS-nQY"/>
+                                <constraint firstAttribute="height" constant="10" id="JIo-eS-nQY"/>
                                 <constraint firstAttribute="width" constant="18" id="dN7-KC-Zd4"/>
                             </constraints>
                         </imageView>
@@ -274,11 +274,11 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_icon-1" translatesAutoresizingMaskIntoConstraints="NO" id="LBT-TS-j9P">
-                            <rect key="frame" x="277" y="249" width="18" height="12"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mine_downArrow_icon" translatesAutoresizingMaskIntoConstraints="NO" id="LBT-TS-j9P">
+                            <rect key="frame" x="277" y="250" width="18" height="10"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="18" id="8eT-WE-ET7"/>
-                                <constraint firstAttribute="height" constant="12" id="Mdx-Og-TMQ"/>
+                                <constraint firstAttribute="height" constant="10" id="Mdx-Og-TMQ"/>
                             </constraints>
                         </imageView>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uss-Pc-nMl">
@@ -321,7 +321,7 @@
                                 <constraint firstAttribute="width" constant="25" id="SB6-ZF-X4c"/>
                                 <constraint firstAttribute="height" constant="25" id="kT1-OB-hJu"/>
                             </constraints>
-                            <state key="normal" image="tanhao_icon"/>
+                            <state key="normal" image="bang_icon"/>
                             <connections>
                                 <action selector="shengmingBtnClick:" destination="-1" eventType="touchUpInside" id="b2z-Ra-LPN"/>
                             </connections>
@@ -492,8 +492,8 @@
         </view>
     </objects>
     <resources>
+        <image name="Mine_downArrow_icon" width="17" height="10"/>
         <image name="b_btn" width="156" height="40"/>
-        <image name="down_icon-1" width="12" height="7"/>
-        <image name="tanhao_icon" width="20" height="20"/>
+        <image name="bang_icon" width="27" height="27"/>
     </resources>
 </document>

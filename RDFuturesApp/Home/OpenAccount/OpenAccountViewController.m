@@ -38,7 +38,7 @@
     
     [_readButton setImage:[UIImage imageNamed:@"unselected_icon"] forState:UIControlStateNormal];
     sectionBtnCount = 1;
-    titleArray = @[@"1.經紀資料",@"2.期貨合約交易服務之一般條款及條件",@"3.互聯網期貨合約交易服務條款及條件",@"4.風險披露聲明"];
+    titleArray = @[@"1.經紀資料",@"2.客戶協議條款",@"3.互聯網期貨合約交易服務條款及條件",@"4.風險披露聲明"];
     
 
     
@@ -57,14 +57,25 @@
 - (NSArray *)loadContentStr{
     if (!contentArray) {
         contentArray = @[[self turnTxtStringWithResourceStr:@"1.經紀資料"],
-                         [self turnTxtStringWithResourceStr:@"2.期貨合約交易服務之一般條款及條件"],
+                         [self turnTxtStringWithJianStr:@"2.客戶協議條款"],
                          [self turnTxtStringWithResourceStr:@"3.互聯網期貨合約交易服務條款及條件"],
                          [self turnTxtStringWithResourceStr:@"4.風險披露聲明"]];
     }
     return contentArray;
 
 }
-#pragma mark - txt文件转字符串方法
+#pragma mark - txt文件转字符串方法 简体
+- (NSString *) turnTxtStringWithJianStr:(NSString *)JianStr{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:JianStr ofType:@"txt"];
+    
+    NSString *string = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    if (string == nil) {
+        string = @"";
+    }
+    return string;
+}
+#pragma mark - txt文件转字符串方法 繁体
 - (NSString *) turnTxtStringWithResourceStr:(NSString *)resourceStr{
     
     NSString *path = [[NSBundle mainBundle] pathForResource:resourceStr ofType:@"txt"];
@@ -187,13 +198,15 @@
     OpenAccountFileGroup *group = dataArray1[indexPath.section];
     
     CGSize ret1;
+    CGSize ret2;
     CGFloat height = 0.0;
     //320 375 414
     if (SCREEN_WIDTH == 320) {
         
         ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 65, MAXFLOAT) andText:group.contentStr];
         if (indexPath.section == 1) {
-            height = ret1.height - 70;
+            ret2 = [self textForFont:12.5 andMAXSize:CGSizeMake(SCREEN_WIDTH - 73, MAXFLOAT) andText:group.contentStr];
+            height = ret2.height + 175;//-70 2.5
         }else height = ret1.height;
         
         return height;
@@ -202,7 +215,8 @@
         
         ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 75, MAXFLOAT) andText:group.contentStr];
         if (indexPath.section == 1) {
-            height = ret1.height - 120;
+            ret2 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 75, MAXFLOAT) andText:group.contentStr];
+            height = ret2.height +100; //-120 +300
         }else height = ret1.height;
         
         return height;
@@ -210,7 +224,7 @@
         
         ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 80, MAXFLOAT) andText:group.contentStr];
         if (indexPath.section == 1) {
-            height = ret1.height - 340;
+            height = ret1.height+60;//340
         }else if (indexPath.section == 2|| indexPath.section == 3){
             height = ret1.height - 40;
             

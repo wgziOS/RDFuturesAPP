@@ -32,11 +32,11 @@
 -(void)updateConstraints{
     WS(weakself)
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.edges.equalTo(weakSelf);
-        make.top.equalTo(weakSelf);
-        make.left.equalTo(weakSelf).with.offset(15);
-        make.bottom.equalTo(weakSelf);
-        make.right.equalTo(weakSelf).with.offset(-15);
+        make.edges.equalTo(weakSelf);
+//        make.top.equalTo(weakSelf);
+//        make.left.equalTo(weakSelf).with.offset(15);
+//        make.bottom.equalTo(weakSelf);
+//        make.right.equalTo(weakSelf).with.offset(-15);
     }];
     [super updateConstraints];
 }
@@ -59,8 +59,8 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-//    return CGSizeMake(SCREEN_WIDTH*0.33333-0.5, SCREEN_WIDTH*0.33333);
-    return CGSizeMake((SCREEN_WIDTH-30)/3-0.5, SCREEN_WIDTH*0.33333);
+    return CGSizeMake(SCREEN_WIDTH*0.33333-0.5, SCREEN_WIDTH*0.33333);
+//    return CGSizeMake((SCREEN_WIDTH-30)/3-0.5, SCREEN_WIDTH*0.33333);
 }
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
 {
