@@ -283,6 +283,7 @@
     }
     return _webViewConfiguration;
 }
+
 -(UIProgressView*)progressView{
     if (!_progressView) {
         _progressView = [[UIProgressView alloc] init];
