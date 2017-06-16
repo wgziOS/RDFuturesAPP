@@ -99,6 +99,7 @@
                 weakSelf.model.holdBankType = value;
                 NSIndexPath *indexPath=[NSIndexPath indexPathForRow:1 inSection:0];
                 [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath,nil] withRowAnimation:UITableViewRowAnimationNone];
+                self.model.holdBank = @"";
             };
             cell.title = @"银行";
             cell.contentText.text = self.bankAreaArray[0];
@@ -110,23 +111,23 @@
             if([self.model.holdBankType isEqualToString:@"0"]){
                 MAChooseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MAChooseTableViewCell class])] forIndexPath:indexPath];
                 cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
+                cell.title = self.titleArray[indexPath.row];
                 cell.titleArray = self.bankNameArray;
+                cell.contentText.text = self.bankNameArray[0];
+                self.model.holdBank = self.bankNameArray[0];
                 cell.chooseCellBlock = ^(NSString *value) {
                     weakSelf.model.holdBank = self.bankNameArray[[value intValue]];
                 };
-                cell.title = @"银行名称";
-                cell.contentText.text = self.bankNameArray[0];
+               
                 return cell;
-                
-                
             }else{
                 MATextFieldTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MATextFieldTableViewCell class])] forIndexPath:indexPath];
                 cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
                 cell.titleStr = self.titleArray[indexPath.row];
                 cell.textfieldPrompt = @"请输入银行名称全称";
-                
+                self.model.holdBank = @"";
                 cell.textFieldBlock = ^(NSString *value) {
-                    weakSelf.model.holdCardNum = value;
+                    weakSelf.model.holdBank = value;
                 };
                 return cell;
             }
@@ -167,6 +168,7 @@
 
 
 -(void)nextStepClick{
+    
     if(self.model.holdBank.length<1){
         showMassage(@"请核对您的银行名称");
         return;
@@ -245,7 +247,7 @@
 }
 -(NSArray *)bankNameArray{
     if (!_bankNameArray) {
-        _bankNameArray = [NSArray arrayWithObjects:@"中國銀行(香港)",@"交通銀行(香港)",@"招商银行(香港分行)",@"東亞銀行",@"中國建設銀行(亞洲)",@"集友銀行",@"創興銀行有限公司",@"花旗銀行",@"中信銀行国际",@"星展銀行(香港)",@"恆生銀行",@"匯豐銀行",@"中國工商亞洲銀行",@"南洋商業銀行",@"澳洲銀行",@"上海商業銀行",@"渣打銀行",@"永隆銀行", nil];
+        _bankNameArray = [NSArray arrayWithObjects:@"中國銀行(香港)",@"交通銀行(香港)",@"招商银行(香港分行)",@"東亞銀行",@"中國建設銀行(亞洲)",@"集友銀行",@"創興銀行有限公司",@"花旗銀行",@"中信銀行国际",@"星展銀行(香港)",@"匯豐銀行",@"中國工商亞洲銀行",@"南洋商業銀行",@"澳洲銀行",@"上海商業銀行",@"渣打銀行",@"永隆銀行", nil];
     }
     return _bankNameArray;
 }

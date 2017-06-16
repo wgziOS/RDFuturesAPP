@@ -1,6 +1,3 @@
-
-
-
 //
 //  AdvertisementLabel.m
 //  RDFuturesApp
@@ -42,9 +39,12 @@
         
         UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
         [self addGestureRecognizer:singleTap];
+
         
-        
-        _timer= [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(jumpNewViewController) userInfo:nil repeats:YES];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(jumpNewViewController) userInfo:nil repeats:YES];
+        [[NSRunLoop mainRunLoop]addTimer:self.timer forMode:NSDefaultRunLoopMode];
+        //开始循环
+        [self.timer fire];
     }
     return self;
 }
@@ -53,8 +53,8 @@
 - (void)handleSingleTap:(UITapGestureRecognizer *)sender
 {
     if (self.blockNewViewController) {
-        [_timer invalidate];
-        _timer = nil;
+        [self.timer invalidate];
+        self.timer = nil;
         self.blockNewViewController();
     }
 }
@@ -63,20 +63,19 @@
     
     static int z = 0;
     z ++;
-    if (z<3) {
-        self.text = [NSString stringWithFormat:@"%d秒后跳转",3-z];
+    if (z<4) {
+        self.text = [NSString stringWithFormat:@"%d秒后跳转",4-z];
 
     }
     
-    if (z == 3) {
+    if (z == 4) {
         if (self.blockNewViewController) {
             self.text = [NSString stringWithFormat:@"正在跳转..."];
-            [_timer invalidate];
-            _timer = nil;
+            [self.timer invalidate];
+            self.timer = nil;
             self.blockNewViewController();
         }
     }
 }
-
 
 @end

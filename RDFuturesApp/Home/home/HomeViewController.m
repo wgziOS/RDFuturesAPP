@@ -19,6 +19,8 @@
 #import "OtherInforViewController.h"
 #import "AdvertisementModel.h"
 #import "SubscribeViewController.h"
+#import "WitnessCityViewController.h"
+
 
 @interface HomeViewController ()
 {
@@ -51,7 +53,6 @@
     WS(weakself)
      NSString *firstAdvertisement = [[NSUserDefaults standardUserDefaults] objectForKey:@"firstAdvertisement"];
     if(firstAdvertisement.length<3){
-        [[NSUserDefaults standardUserDefaults] setObject:@"first" forKey:@"firstAdvertisement"];
         return;
     }
     if ([RDUserInformation getInformation].advertisementClick==YES) {
@@ -113,7 +114,9 @@
         switch (index) {
             case 0:
             {
-                [weakSelf puchRDProfile];//瑞达简介
+                WitnessCityViewController *wit = [[WitnessCityViewController alloc] init];
+                [self.navigationController pushViewController:wit animated:YES];
+//                [weakSelf puchRDProfile];//瑞达简介
             }
                 break;
             case 1://（1：资料审核 2：完成 3：失败 4：未开户）

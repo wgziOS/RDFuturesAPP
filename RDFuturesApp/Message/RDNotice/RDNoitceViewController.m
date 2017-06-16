@@ -12,6 +12,7 @@
 #import "RDNoticeViewModel.h"
 #import "ProgressViewController.h"
 
+
 @interface RDNoitceViewController ()
 @property(nonatomic,strong)RDNoticeView *noticeView;
 @property(nonatomic,strong)RDNoticeViewModel *viewModel;

@@ -128,7 +128,7 @@
     // 设置代理
     locationManager.delegate = self;
     // 设置定位精确度到米
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
     // 设置过滤器为无
     locationManager.distanceFilter = kCLDistanceFilterNone;
     // 一个是requestAlwaysAuthorization，一个是requestWhenInUseAuthorization
@@ -182,14 +182,17 @@
                 //四大直辖市的城市信息无法通过locality获得，只能通过获取省份的方法来获得（如果city为空，则可知为直辖市）
                 city = placemark.administrativeArea;
             }
-
+            NSString *administrativeArea = placemark.administrativeArea!=nil?[NSString stringWithFormat:@"%@",placemark.administrativeArea]:@"";
+            NSString *subLocality = placemark.subLocality!=nil? [NSString stringWithFormat:@"%@",placemark.subLocality]:@"";
+            administrativeArea= administrativeArea.length>0 ? [administrativeArea stringByReplacingOccurrencesOfString:@"省" withString:@""]: administrativeArea;
+            city = city.length>0 ? [city stringByReplacingOccurrencesOfString:@"市" withString:@""]: city;
             showMassage(@"定位成功");
-            self.cityLabel.text = city;
+            self.cityLabel.text = [NSString stringWithFormat:@"%@%@%@",administrativeArea,city,subLocality];
             
         }
         else if (error == nil && [array count] == 0){
             
-           self.cityLabel.text = @"定位失败";
+        self.cityLabel.text = @"定位失败";
             showMassage(@"定位失败");
         }
         else if (error != nil){

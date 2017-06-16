@@ -47,7 +47,7 @@
         case 1:{
             if(![[RDUserInformation getInformation] getLoginState]){
                 [self puchLogin];
-            }else if(!isFinishAccount){
+            }else if(isFinishAccount){
                 
                 showMassage(@"您尚未完成开户");
             }else{
@@ -101,7 +101,7 @@
             if ([model.State intValue]==1) {
                 NSString * str = [NSString stringWithFormat:@"%@",model.Data[@"speed_status"]];
                 NSLog(@"开户state=%@",model.Data);
-                if ([str isEqualToString:@"2"]) {
+                if ([str isEqualToString:@"8"]) {
                     isFinishAccount = YES;
                 }else isFinishAccount = NO;
                 [[NSUserDefaults standardUserDefaults] setObject:str forKey:@"isFinishAccount"];

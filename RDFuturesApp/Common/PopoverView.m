@@ -79,21 +79,21 @@
 
 -(void)dismiss:(BOOL)animate
 {
-    if (!animate)
+    if (animate)
     {
         [_handerView removeFromSuperview];
         [self removeFromSuperview];
         return;
     }
     
-    [UIView animateWithDuration:0.3f animations:^{
-        self.transform = CGAffineTransformMakeScale(0.1f, 0.1f);
-        self.alpha = 0.f;
-    } completion:^(BOOL finished) {
-        self.transform = CGAffineTransformIdentity;
-        [_handerView removeFromSuperview];
-        [self removeFromSuperview];
-    }];
+//    [UIView animateWithDuration:0.3f animations:^{
+//        self.transform = CGAffineTransformMakeScale(0.1f, 0.1f);
+//        self.alpha = 0.f;
+//    } completion:^(BOOL finished) {
+//        self.transform = CGAffineTransformIdentity;
+//        [_handerView removeFromSuperview];
+//        [self removeFromSuperview];
+//    }];
 }
 
 - (id)init
@@ -116,7 +116,7 @@
     }
     
     CGPoint point = [UIApplication sharedApplication].keyWindow.center;
-    CGRect frame = CGRectMake(point.x - 120, point.y - (height*0.5), 240, height);
+    CGRect frame = CGRectMake(point.x - 150, point.y - (height*0.5), self.popViewWidth, height);
     self.frame = frame;
     self.tableView.frame = self.bounds;
 }
