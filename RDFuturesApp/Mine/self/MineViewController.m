@@ -149,6 +149,7 @@
     _tableView.sectionHeaderHeight = 15;
     [_tableView registerNib:[UINib nibWithNibName:kMineFirstTableViewCell bundle:nil] forCellReuseIdentifier:kMineFirstTableViewCell];
     [_tableView registerNib:[UINib nibWithNibName:kMineSecondTableViewCell bundle:nil] forCellReuseIdentifier:kMineSecondTableViewCell];
+    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     WS(weakself)
     _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         [weakSelf getPersonalInfo];

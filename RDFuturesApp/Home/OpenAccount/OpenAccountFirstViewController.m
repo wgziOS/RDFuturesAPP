@@ -53,19 +53,19 @@
     }
     
     if (user_id!=nil) {
-        if (self.step==9) {
+        if (self.step==11) {
             ProgressViewController *fifteenth = [[ProgressViewController alloc] init];
             fifteenth.loadType = @"1";
             [self.navigationController pushViewController:fifteenth animated:YES];
 
         }else{
-            if (self.step == 0) {
+            if (self.step == 0 || self.step == 1) {
                 
                 OpenAccountViewController *openAccount = [[OpenAccountViewController alloc] init];
                 [self.navigationController pushViewController:openAccount animated:YES];
                 
             }else{
-                for (int i = 0; i <self.step; i++) {
+                for (int i = 0; i <self.step-1; i++) {
                     [self.navigationController pushViewController:self.arrayControllers[i] animated:NO];
                 }
             }
@@ -107,6 +107,7 @@
             hiddenHUD;
             if ([model.State isEqualToString:@"1"]) {
                 self.step = [[NSString stringWithFormat:@"%@",[model.Data objectForKey:@"step_num"]] intValue];
+                //("1":"开户文件","2":"身份信息","3":"银行卡验证","4":"联系信息","5":"财务信息","6":"投资经验","7":"衍生产品认知","8":"其他资料","9":"见证信息","10":"提交信息","11":"完成")
                 for (int i = 0; i<self.step; i++) {
                        self.stateControllers[i] = @"1";
                 }

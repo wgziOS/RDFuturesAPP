@@ -47,12 +47,22 @@
                             <constraint firstAttribute="width" constant="10" id="IbW-QV-d7d"/>
                         </constraints>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gna-9h-vHa">
+                        <rect key="frame" x="0.0" y="49.5" width="324" height="1"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="aOb-1p-tmA"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Gna-9h-vHa" secondAttribute="bottom" id="29B-78-ZY3"/>
                     <constraint firstItem="Ei4-Zy-53o" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="47z-Kx-1rp"/>
+                    <constraint firstItem="Gna-9h-vHa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="B1a-5M-9W7"/>
                     <constraint firstItem="w6V-Pi-cVF" firstAttribute="centerY" secondItem="qnE-rX-XbU" secondAttribute="centerY" id="D27-pg-dbc"/>
                     <constraint firstAttribute="trailing" secondItem="w6V-Pi-cVF" secondAttribute="trailing" constant="15" id="KfG-gX-yck"/>
                     <constraint firstItem="qnE-rX-XbU" firstAttribute="leading" secondItem="Ei4-Zy-53o" secondAttribute="trailing" constant="8" id="W6n-Wh-OZa"/>
+                    <constraint firstAttribute="trailing" secondItem="Gna-9h-vHa" secondAttribute="trailing" id="Zet-Yq-1md"/>
                     <constraint firstItem="qnE-rX-XbU" firstAttribute="centerY" secondItem="Ei4-Zy-53o" secondAttribute="centerY" id="e1g-d4-Omk"/>
                     <constraint firstItem="Ei4-Zy-53o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="vgb-Qe-yqL"/>
                 </constraints>
