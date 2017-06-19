@@ -11,7 +11,7 @@
 @interface WithdrawFundsModel : NSObject
 @property(nonatomic,copy)NSString *currency;//币种标识
 @property(nonatomic,copy)NSString *extractingAmount;//提取金额
-@property(nonatomic,copy)NSString *holdBankType;//
+@property(nonatomic,copy)NSString *holdBankType;//银行类型
 @property(nonatomic,copy)NSString *receiveBank;//收款银行
 @property(nonatomic,copy)NSString *receiver;//收款人
 @property(nonatomic,copy)NSString *receiveCardNum;//银行账号

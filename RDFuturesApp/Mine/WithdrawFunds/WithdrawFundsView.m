@@ -134,7 +134,7 @@
             cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
             cell.titleStr = self.titleArray[indexPath.row];
             cell.textFieldBlock = ^(NSString *value) {
-                weakSelf.model.extractingAmount = value;
+                weakSelf.model.extractingAmount = value;//提取金额
             };
             return cell;
             
@@ -146,9 +146,13 @@
                        cell.titleArray = self.methodArray;
             cell.contentText.text = self.methodArray[0];
             cell.chooseCellBlock = ^(NSString *value) {
-                weakSelf.model.holdBankType = value;
-                NSIndexPath *indexPath=[NSIndexPath indexPathForRow:3 inSection:0];
-                [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath,nil] withRowAnimation:UITableViewRowAnimationNone];
+                weakSelf.model.holdBankType = value;//银行类型
+                NSIndexPath *indexPath_three = [NSIndexPath indexPathForRow:3 inSection:0];
+                [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath_three,nil] withRowAnimation:UITableViewRowAnimationNone];
+                NSIndexPath *indexPath_six = [NSIndexPath indexPathForRow:6 inSection:0];
+                [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath_six,nil] withRowAnimation:UITableViewRowAnimationNone];
+                NSIndexPath *indexPath_seven = [NSIndexPath indexPathForRow:7 inSection:0];
+                [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath_seven,nil] withRowAnimation:UITableViewRowAnimationNone];
             };
             return cell;
             
@@ -160,6 +164,7 @@
                 MAChooseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MAChooseTableViewCell class])] forIndexPath:indexPath];
                 cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
                 cell.titleArray = self.bankArray;
+                self.model.receiveBank = self.bankArray[0];
                 cell.chooseCellBlock = ^(NSString *value) {
                     weakSelf.model.receiveBank = weakSelf.bankArray[[value intValue]];
                 };
@@ -173,6 +178,7 @@
                 MATextFieldTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MATextFieldTableViewCell class])] forIndexPath:indexPath];
                 cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
                 cell.titleStr = self.titleArray[indexPath.row];
+                self.model.receiveBank = @"";
                 cell.textfieldPrompt = @"请输入银行名称全称";
                 cell.textFieldBlock = ^(NSString *value) {
                     weakSelf.model.receiveBank = value;
@@ -184,6 +190,7 @@
         case 4:{
             MATextFieldTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MATextFieldTableViewCell class])] forIndexPath:indexPath];
             cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
+            cell.contentField.keyboardType = UIKeyboardTypeASCIICapable;
             cell.titleStr = self.titleArray[indexPath.row];
             cell.textFieldBlock = ^(NSString *value) {
                 weakSelf.model.receiver = value;
@@ -207,6 +214,8 @@
             MATextFieldTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MATextFieldTableViewCell class])] forIndexPath:indexPath];
             cell.separatorInset = UIEdgeInsetsMake(0, 15, 0, 15);
             cell.titleStr = self.titleArray[indexPath.row];
+            
+            cell.textfieldPrompt = [self.model.holdBankType intValue] == 0 ? @"选填":@"必填";
             cell.textFieldBlock = ^(NSString *value) {
                 weakSelf.model.bankAddress = value;
             };
@@ -217,6 +226,7 @@
         case 7:{
             WithdrawFundsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([WithdrawFundsTableViewCell class])] forIndexPath:indexPath];
             cell.titleStr = self.titleArray[indexPath.row];
+            cell.placeholder = [self.model.holdBankType intValue] == 0 ? @"选填":@"必填";
             cell.textFieldBlock = ^(NSString *value) {
                 weakSelf.model.interRemittanceCode = value;
             };
@@ -239,20 +249,16 @@
         showMassage(@"请填写收款金额")
         return;
     }
+    if (self.model.receiveBank.length<1) {
+        showMassage(@"请填写银行名称")
+        return;
+    }
     if (self.model.receiver.length<1) {
-        showMassage(@"请填写收款人")
+        showMassage(@"请填写账户人")
         return;
     }
     if (self.model.receiveCardNum.length<1) {
         showMassage(@"请填写银行账号")
-        return;
-    }
-    if (self.model.bankAddress.length<1) {
-        showMassage(@"请填写银行地址")
-        return;
-    }
-    if (self.model.interRemittanceCode.length<1) {
-        showMassage(@"请填写国际汇款编码")
         return;
     }
     NSMutableDictionary *dataDictionary = [[NSMutableDictionary alloc] init];
@@ -262,9 +268,22 @@
     [dataDictionary setObject:self.bankArray[[self.model.receiveBank intValue]] forKey:@"receiveBank"];
     [dataDictionary setObject:self.model.receiver forKey:@"receiver"];
     [dataDictionary setObject:self.model.receiveCardNum forKey:@"receiveCardNum"];
-    [dataDictionary setObject:self.model.bankAddress forKey:@"bankAddress"];
-    [dataDictionary setObject:self.model.interRemittanceCode forKey:@"interRemittanceCode"];
+    if ([self.model.holdBankType intValue]==1) {
+        if (self.model.bankAddress.length<1) {
+            showMassage(@"请填写银行地址")
+            return;
+        }
+        if (self.model.interRemittanceCode.length<1) {
+            showMassage(@"请填写国际汇款编码")
+            return;
+        }
+        
+        [dataDictionary setObject:self.model.bankAddress forKey:@"bankAddress"];
+        [dataDictionary setObject:self.model.interRemittanceCode forKey:@"interRemittanceCode"];
 
+    }
+    
+    
     [self.viewModel.sumbitWithdrawFundsCommand execute:dataDictionary];
 
 
@@ -278,7 +297,7 @@
  */
 -(NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = [NSArray arrayWithObjects:@"提款币种",@"提款金额",@"提取方式",@"银行名称",@"收款人",@"银行账号",@"银行地址",@"国际汇款编码 SWIFT#", nil];
+        _titleArray = [NSArray arrayWithObjects:@"提款币种",@"提款金额",@"提取方式",@"银行名称",@"账户人",@"银行账号",@"银行地址",@"国际汇款编码 SWIFT#", nil];
     }
     return _titleArray;
 }
@@ -327,7 +346,7 @@
         _model = [[WithdrawFundsModel alloc] init];
         _model.currency = @"0";
         _model.holdBankType = @"0";
-        _model.receiveBank = @"0";
+        _model.receiveBank = self.bankArray[0];
         
     }
     return _model;
@@ -340,7 +359,7 @@
 }
 -(NSArray *)methodArray{
     if (!_methodArray) {
-        _methodArray = [NSArray arrayWithObjects:@"香港本地银行",@"大陆银行",@"海外银行", nil];
+        _methodArray = [NSArray arrayWithObjects:@"香港本地银行",@"海外银行", nil];
     }
     return _methodArray;
 }

@@ -83,11 +83,24 @@
             cell.contentText.text = self.bankTextArray[indexPath.row];
             cell.chooseCellBlock = ^(NSString *value) {
                 weakSelf.model.bankIndex = value;
+                NSIndexPath *indexPath = [NSIndexPath indexPathForRow:1 inSection:0];
+                [tableView reloadRowsAtIndexPaths:[NSArray arrayWithObjects:indexPath,nil] withRowAnimation:UITableViewRowAnimationNone];
             };
             return cell;
         }
             break;
-
+        case 1:{
+            MAChooseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MAChooseTableViewCell class])] forIndexPath:indexPath];
+            cell.title = self.titleArray[indexPath.row];
+            NSArray *array = self.cardNumTextArray[[self.model.bankIndex intValue]];
+            cell.titleArray = array;
+            cell.contentText.text = array[0];
+            cell.chooseCellBlock = ^(NSString *value) {
+                weakSelf.model.bankIndex = value;
+            };
+            return cell;
+        }
+            break;
         default:
             break;
     }
@@ -110,7 +123,7 @@
  */
 -(NSArray *)titleArray{
     if (!_titleArray) {
-        _titleArray = [NSArray arrayWithObjects:@"银行", nil];
+        _titleArray = [NSArray arrayWithObjects:@"银行",@"银行账号", nil];
     }
     return _titleArray;
 }
@@ -157,16 +170,21 @@
 }
 -(NSArray *)bankTextArray{
     if (!_bankTextArray) {
-        _bankTextArray = [NSArray arrayWithObjects:@"中国银行(香港)",@"建设银行(亚洲)",@"恒生银行",@"中国银行(子账号)", nil];
+        _bankTextArray = [NSArray arrayWithObjects:@"中国银行(香港)",@"建设银行(亚洲)",@"中国银行(子账号)", nil];
     }
     return _bankTextArray;
 }
-
 -(DepositBankModel *)model{
     if (!_model) {
         _model = [[DepositBankModel alloc] init];
         _model.bankIndex = @"0";
     }
     return _model;
+}
+-(NSArray *)cardNumTextArray{
+    if (!_cardNumTextArray) {
+        _cardNumTextArray = @[@[@"012-676-0-007251-6 (港币)",@"012-676-9-213706-5 (美元&人民币)"],@[@"009-639-0010040670 (港币)",@"009-639-0010040719 (美元&人民币)"],@[@"个人子账户"]];
+    }
+    return _cardNumTextArray;
 }
 @end

@@ -81,8 +81,24 @@
         _textFieldView.layer.borderWidth = 0.5f;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] init];
         [[tap rac_gestureSignal] subscribeNext:^(id x) {
+            [self.itemArray removeAllObjects];
+            for (int i = 0; i<self.titleArray.count; i++) {
+                MenuItem *item = [[MenuItem alloc] init];
+                item.title = self.titleArray[i];
+                item.index = i;
+                
+                WS(weakself)
+                item.selectItemBlock = ^(MenuItem *model){
+                    weakSelf.contentText.text = model.title;
+                    NSString *index = [NSString stringWithFormat:@"%d",model.index];
+                    if (weakSelf.chooseCellBlock) {
+                        weakSelf.chooseCellBlock(index);
+                    }
+                };
+                [self.itemArray addObject:item];
+            }
             CGPoint point ={0,0};
-            [PopoverView showPopoverViewAtPoint:point withWidth:_textFieldView.frame.size.width withMenuItems:self.itemArray];
+            [PopoverView showPopoverViewAtPoint:point withWidth:300 withMenuItems:self.itemArray];
         }];
         [_textFieldView addGestureRecognizer:tap];
     }
@@ -108,21 +124,6 @@
 -(NSMutableArray *)itemArray{
     if (!_itemArray) {
         _itemArray = [[NSMutableArray alloc] init];
-        for (int i = 0; i<self.titleArray.count; i++) {
-            MenuItem *item = [[MenuItem alloc] init];
-            item.title = self.titleArray[i];
-            item.index = i;
-            
-            WS(weakself)
-            item.selectItemBlock = ^(MenuItem *model){
-                weakSelf.contentText.text = model.title;
-                NSString *index = [NSString stringWithFormat:@"%d",model.index];
-                if (weakSelf.chooseCellBlock) {
-                    weakSelf.chooseCellBlock(index);
-                }
-            };
-            [_itemArray addObject:item];
-        }
     }
     return _itemArray;
 }

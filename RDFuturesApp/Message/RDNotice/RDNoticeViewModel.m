@@ -12,6 +12,7 @@
 
 #import "RDNoticeViewModel.h"
 #import "RDNoticeModel.h"
+#import "JPUSHService.h"
 
 @implementation RDNoticeViewModel
 
@@ -51,7 +52,7 @@
                         hiddenHUD;
                         if (error ==nil) {
                             if ([model.State isEqualToString:@"1"]) {
-                                
+                                [JPUSHService setBadge:0];
                                 [subscriber sendNext:model.Data];
                             }else{
                                 self.page--;
