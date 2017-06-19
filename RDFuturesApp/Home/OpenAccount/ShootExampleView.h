@@ -13,7 +13,7 @@
 {
     
 }
-
+@property (nonatomic,strong) UITableView *noticeTableView;//重要通知 tableView
 @property (nonatomic, strong) UILabel * title;
 @property (nonatomic, strong) UILabel * subTitle;
 @property (nonatomic, strong) UIView  * backImageView;
@@ -21,7 +21,7 @@
 @property(nonatomic,strong) void (^goonBlock)();
 
 -(id)initViewTitleImgString:(NSString *)titleImgString TitleString:(NSString *)titleString SubTitleString:(NSString *)subTitleString BtnImgString:(NSString *)btnImgString;
-
+-(id)initWithImportContentStr:(NSString *)contentStr;
 - (void)show;
 -(id)initViewTitleImgString:(NSString *)title cachString:(NSString *)cach financingString:(NSString *)financing;
 - (void)showCachAccount;

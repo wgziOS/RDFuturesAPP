@@ -121,12 +121,7 @@
     });
     
 }
-#pragma mark ---邮箱地址的正则表达式
-- (BOOL)isValidateEmail:(NSString *)email{
-    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
-    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
-    return [emailTest evaluateWithObject:email];
-}
+
 //手机号码的正则表达式
 - (BOOL)isValidateMobile:(NSString *)mobile{
     //手机号以13、15、18开头，八个\d数字字符
@@ -138,14 +133,14 @@
 - (NSArray *)natureArray
 {
     if (!natureArray) {
-        natureArray = @[@"机构组织",@"农林牧渔",@"医药卫生",@"建筑建材",@"冶金矿产",@"石油化工",@"水利水电",@"交通运输",@"信息产业",@"机械机电",@"服装纺织",@"专业服务",@"安全防护",@"环保绿化",@"旅游休闲",@"办公文教",@"电子电工",@"玩具礼品",@"家居用品",@"物资",@"包装",@"体育",@"办公"];
+        natureArray = @[@"金融业",@"机构组织",@"农林牧渔",@"医药卫生",@"建筑建材",@"冶金矿产",@"石油化工",@"水利水电",@"交通运输",@"信息产业",@"机械机电",@"服装纺织",@"专业服务",@"安全防护",@"环保绿化",@"旅游休闲",@"办公文教",@"电子电工",@"玩具礼品",@"家居用品",@"物资",@"包装",@"体育",@"办公"];
     }
     return natureArray;
 }
 - (NSArray *)statusArray
 {
     if (!statusArray) {
-        statusArray = @[@"受雇",@"自雇",@"退休",@"其他"];
+        statusArray = @[@"受雇",@"自雇",@"退休",@"自由职业"];
     }
     return statusArray;
 }
@@ -243,7 +238,7 @@
         
         sender.text = array[[tStr intValue]];
         if ([sender.text isEqualToString:@"退休"] ||
-            [sender.text isEqualToString:@"其他"]) {
+            [sender.text isEqualToString:@"自由职业"]) {
             _lastView.hidden = YES;
         }else{
             _lastView.hidden = NO;
@@ -269,15 +264,39 @@
     
     return YES;
 }
+#pragma mark ---邮箱地址的正则表达式
+- (BOOL)isValidateEmail:(NSString *)email{
+    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    return [emailTest evaluateWithObject:email];
+}
 #pragma mark - 文本框结束编辑时
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
     if (textField==self.emailTextfield){
         //弹框
-
-        [self setAlertView];
+        if ([self isValidateEmail:self.emailTextfield.text]) {
+            [self setAlertView];
+        }else{
+            [self emailErrorAlert];
+        }
+        
     }
     [textField resignFirstResponder];
+}
+-(void)emailErrorAlert{
+
+    NSString * str = [NSString stringWithFormat:@"您填写的邮箱地址:%@格式不正确,请重新输入！",_emailTextfield.text];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:str preferredStyle:  UIAlertControllerStyleAlert];
+    
+    
+    [alert addAction:[UIAlertAction actionWithTitle:@"重新输入" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        _emailTextfield.text = @"";//赋值空
+    }]];
+
+    //弹出
+    [self presentViewController:alert animated:true completion:nil];
 }
 #pragma mark - 提示框
 -(void)setAlertView {

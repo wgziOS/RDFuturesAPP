@@ -17,6 +17,22 @@ static CGFloat kTransitionDuration = 0.3;
     }
     return self;
 }
+//重要通知tableView
+-(id)initWithImportContentStr:(NSString *)contentStr {
+    
+    self = [super init];
+    if (self) {
+        
+        UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(10, 5, MyEditorWidth-20, MyEditorHeight)];
+        label.text = contentStr;
+        [self addSubview:label];
+        
+        label.font = [UIFont rdSystemFontOfSize:12.0f];
+        label.textColor = [UIColor darkGrayColor];
+        
+    }
+    return self;
+}
 
 -(id)initViewTitleImgString:(NSString *)imgString TitleString:(NSString *)titleString SubTitleString:(NSString *)subTitleString BtnImgString:(NSString *)btnImgString
 {

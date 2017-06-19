@@ -27,7 +27,8 @@
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         [_webView loadRequest:request];
         _webView.delegate = self;//
-        _webView.scalesPageToFit = YES;
+    
+        [_webView setScalesPageToFit:YES];
     }
     return _webView;
 }
@@ -42,7 +43,7 @@
     theWebView.scrollView.minimumZoomScale = rw/4;
     theWebView.scrollView.maximumZoomScale = rw;
     theWebView.scrollView.zoomScale = rw;
-    
+
     
 //    NSString * javascript = [NSString stringWithFormat:@"var viewPortTag=document.createElement('meta');  \
 //                  viewPortTag.id='viewport';  \

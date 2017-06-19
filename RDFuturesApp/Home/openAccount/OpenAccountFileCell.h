@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 static NSString * const kOpenAccountFileCell  = @"OpenAccountFileCell";
 @interface OpenAccountFileCell : UITableViewCell
-
-@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+@property (nonatomic,strong) NSString *contentText;
+@property (strong, nonatomic) UILabel *contentLabel;
 @end

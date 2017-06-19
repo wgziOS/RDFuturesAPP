@@ -12,6 +12,9 @@
 {
     NSString * statesStr;
 }
+@property (weak, nonatomic) IBOutlet UILabel *huifangStatusLabel;//回访状态
+@property (weak, nonatomic) IBOutlet UILabel *jianzhengStatusLabel;//见证状态
+@property (weak, nonatomic) IBOutlet UILabel *checkStatusLabel;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *AccountLabel;
 @property (weak, nonatomic)  IBOutlet UIImageView *statesImgView;
@@ -23,17 +26,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"进度查询";
-    
-//    WS(weakself)
-//    [self.whiteBGView addSubview:self.statesImgView];
-//    [self.statesImgView mas_makeConstraints:^(MASConstraintMaker *make) {
-////        make.centerY.equalTo(weakSelf.whiteBGView);
-////        make.left.equalTo(weakSelf.whiteBGView).with.offset(15);
-////        make.size.mas_offset(CGSizeMake(100, 100*1.92));
-//        make.edges.equalTo(weakSelf.whiteBGView);
-//    }];
-//    _statesImgView.image = [UIImage imageNamed:@"all_blue"];
-    
     
     [self loadingGetData];
     [self changeImageViewAndData];
@@ -56,8 +48,8 @@
             if (error ==nil) {
                 if ([model.State  isEqualToString:@"1"]) {
                     NSDictionary *dic = model.Data;
-                    self.nameLabel.text = [NSString stringWithFormat:@"%@",[dic objectForKey:@"account_name"]];
-                    self.AccountLabel.text = [NSString stringWithFormat:@"%@",[dic objectForKey:@"account_num"]];
+                    self.nameLabel.text = [NSString stringWithFormat:@"%@",[dic objectForKey:@"chinese_name"]];
+                    self.AccountLabel.text = [NSString stringWithFormat:@"%@",[dic objectForKey:@"customer_id"]];
                     statesStr = [NSString stringWithFormat:@"%@",[dic objectForKey:@"speed_status"]];
                     [self changeImageViewAndData];
                 }else{
@@ -80,20 +72,71 @@
 }
 
 -(void)changeImageViewAndData{
-    
+    //progress_zero_red  progress_one_red progress_two_red progress_three_red   progress_four_red
+
     switch ([statesStr intValue]) {
-        case 0:
-            _statesImgView.image = [UIImage imageNamed:@"all_gray"];
+        case 0:{
+            _statesImgView.image = [UIImage imageNamed:@"progress_zero_red"];
+            _checkStatusLabel.text = @"未开户";
+        }
             break;
-        case 1:
-            _statesImgView.image = [UIImage imageNamed:@"h_blue1"];
+        case 1:{//1：资料审核
+            _statesImgView.image = [UIImage imageNamed:@"progress_one_red"];
+            _checkStatusLabel.text = @"等待审核";
+        }
             break;
-        case 2:
-            _statesImgView.image = [UIImage imageNamed:@"h_blue2"];
+        case 2:{//2：资料审核完成（见证客户中）
+            _statesImgView.image = [UIImage imageNamed:@"progress_two_red"];
+            _checkStatusLabel.text = @"审核通过";
+            _jianzhengStatusLabel.text = @"见证中";
+        }
             break;
-        case 3:
-            _statesImgView.image = [UIImage imageNamed:@"all_blue"];
+        case 3:{//3：资料审核失败
+            _statesImgView.image = [UIImage imageNamed:@"progress_zero_red"];
+            _checkStatusLabel.text = @"审核未通过";
+        }
             break;
+        case 4:{//4：见证客户完成（客服回访中）
+            _statesImgView.image = [UIImage imageNamed:@"progress_three_red"];
+            _checkStatusLabel.text = @"审核通过";
+            _jianzhengStatusLabel.text = @"见证完成";
+            _huifangStatusLabel.text = @"正在回访……";
+        }
+            break;
+        case 5:{// 5：见证客户失败
+            _statesImgView.image = [UIImage imageNamed:@"progress_zero_red"];
+            _checkStatusLabel.text = @"审核通过";
+            _jianzhengStatusLabel.text = @"客户见证未通过";
+        }
+            break;
+        case 6:{//客服回访完成
+            _statesImgView.image = [UIImage imageNamed:@"progress_three_red"];
+            _checkStatusLabel.text = @"审核通过";
+            _jianzhengStatusLabel.text = @"见证完成";
+            _huifangStatusLabel.text = @"回访完成";
+        }
+            break;
+        case 7:{//	7：客服回访失败
+            _statesImgView.image = [UIImage imageNamed:@"progress_zero_red"];
+            _checkStatusLabel.text = @"审核通过";
+            _jianzhengStatusLabel.text = @"见证完成";
+            _huifangStatusLabel.text = @"客服回访未通过";
+        }
+            break;
+        case 8:{//8：开户成功
+            _statesImgView.image = [UIImage imageNamed:@"progress_four_red"];
+            _checkStatusLabel.text = @"审核通过";
+            _jianzhengStatusLabel.text = @"见证完成";
+            _huifangStatusLabel.text = @"回访完成";
+        }
+            break;
+        case 9:{//9：开户失败）
+            _statesImgView.image = [UIImage imageNamed:@"progress_zero_red"];
+            _checkStatusLabel.text =_jianzhengStatusLabel.text =_huifangStatusLabel.text= @"开户未通过";
+        
+        }
+            break;
+            
         default:
             break;
     }
