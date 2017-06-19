@@ -97,6 +97,9 @@
 		B24BB68C1E81006600A4A7CA /* RDRequest+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = B24BB6881E81006600A4A7CA /* RDRequest+Home.m */; };
 		B24BB68D1E81006600A4A7CA /* RDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B24BB68A1E81006600A4A7CA /* RDRequest.m */; };
 		B24BB6901E81031900A4A7CA /* OnlineServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24BB68F1E81031900A4A7CA /* OnlineServiceViewController.m */; };
+		B24C0B0D1EF3806C00016E0C /* IntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24C0B0B1EF3806C00016E0C /* IntroduceViewController.m */; };
+		B24C0B0E1EF3806C00016E0C /* IntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B24C0B0C1EF3806C00016E0C /* IntroduceViewController.xib */; };
+		B24C0B111EF3D83A00016E0C /* ImportantNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B24C0B101EF3D83A00016E0C /* ImportantNoticeView.m */; };
 		B24C51E91EC16FAF00E53605 /* ForgetPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24C51E71EC16FAF00E53605 /* ForgetPassWordViewController.m */; };
 		B24C51EA1EC16FAF00E53605 /* ForgetPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B24C51E81EC16FAF00E53605 /* ForgetPassWordViewController.xib */; };
 		B24C51EF1EC1920E00E53605 /* ForgetSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24C51ED1EC1920E00E53605 /* ForgetSecondViewController.m */; };
@@ -518,6 +521,11 @@
 		B24BB68A1E81006600A4A7CA /* RDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRequest.m; sourceTree = "<group>"; };
 		B24BB68E1E81031900A4A7CA /* OnlineServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineServiceViewController.h; sourceTree = "<group>"; };
 		B24BB68F1E81031900A4A7CA /* OnlineServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineServiceViewController.m; sourceTree = "<group>"; };
+		B24C0B0A1EF3806C00016E0C /* IntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroduceViewController.h; sourceTree = "<group>"; };
+		B24C0B0B1EF3806C00016E0C /* IntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroduceViewController.m; sourceTree = "<group>"; };
+		B24C0B0C1EF3806C00016E0C /* IntroduceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroduceViewController.xib; sourceTree = "<group>"; };
+		B24C0B0F1EF3D83A00016E0C /* ImportantNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportantNoticeView.h; sourceTree = "<group>"; };
+		B24C0B101EF3D83A00016E0C /* ImportantNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportantNoticeView.m; sourceTree = "<group>"; };
 		B24C51E61EC16FAF00E53605 /* ForgetPassWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPassWordViewController.h; sourceTree = "<group>"; };
 		B24C51E71EC16FAF00E53605 /* ForgetPassWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPassWordViewController.m; sourceTree = "<group>"; };
 		B24C51E81EC16FAF00E53605 /* ForgetPassWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPassWordViewController.xib; sourceTree = "<group>"; };
@@ -1738,6 +1746,8 @@
 				B2CCC2561EF2167F00C20F18 /* APIServiceViewController.h */,
 				B2CCC2571EF2167F00C20F18 /* APIServiceViewController.m */,
 				B2CCC2581EF2167F00C20F18 /* APIServiceViewController.xib */,
+				B24C0B0F1EF3D83A00016E0C /* ImportantNoticeView.h */,
+				B24C0B101EF3D83A00016E0C /* ImportantNoticeView.m */,
 			);
 			name = APIService;
 			sourceTree = "<group>";
@@ -1784,6 +1794,9 @@
 				B2ED06A91EF11FCC0046DE91 /* MagicBoxViewController.h */,
 				B2ED06AA1EF11FCC0046DE91 /* MagicBoxViewController.m */,
 				B2ED06AB1EF11FCC0046DE91 /* MagicBoxViewController.xib */,
+				B24C0B0A1EF3806C00016E0C /* IntroduceViewController.h */,
+				B24C0B0B1EF3806C00016E0C /* IntroduceViewController.m */,
+				B24C0B0C1EF3806C00016E0C /* IntroduceViewController.xib */,
 			);
 			path = MagicBox;
 			sourceTree = "<group>";
@@ -2572,7 +2585,7 @@
 					CE87C4FE1E650DDD00103EDE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5GT7M52QLG;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2647,6 +2660,7 @@
 				CE0AE0191ED2D937002801D5 /* TestViewController.xib in Resources */,
 				CE0ADE6E1ED2D559002801D5 /* DerivativeViewController.xib in Resources */,
 				CE77106F1E712F2F000720EE /* OpenAccountFirstViewController.xib in Resources */,
+				B24C0B0E1EF3806C00016E0C /* IntroduceViewController.xib in Resources */,
 				CE0AE0111ED2D937002801D5 /* ChangeNumSecondViewController.xib in Resources */,
 				CE77106C1E712F2F000720EE /* IdPhotoViewController.xib in Resources */,
 				B2199E701E83788600F61065 /* OpenAccountFileCell.xib in Resources */,
@@ -2867,6 +2881,7 @@
 				B21166BE1EA5EB7D009C64CE /* NewsViewModel.m in Sources */,
 				B262DB561E9DBB910057736F /* NoticeViewModel.m in Sources */,
 				B262DB541E9DBB910057736F /* NoticeView.m in Sources */,
+				B24C0B0D1EF3806C00016E0C /* IntroduceViewController.m in Sources */,
 				CE4D41A01ED15EEF00C76015 /* AdvertisementLabel.m in Sources */,
 				CE0ADFF11ED2D937002801D5 /* MoneyAmountViewModel.m in Sources */,
 				CE5676E21E651D880087125C /* TabBarBaseController.m in Sources */,
@@ -2938,6 +2953,7 @@
 				CE7710621E712F2F000720EE /* BankCardInfoViewController.m in Sources */,
 				B24219B11EC3158F000FE1AC /* PassportViewController.m in Sources */,
 				B25119BE1EEFE98C00E95771 /* InfoFeedBackViewController.m in Sources */,
+				B24C0B111EF3D83A00016E0C /* ImportantNoticeView.m in Sources */,
 				B24806ED1EB97162001221BB /* NewsListModel.m in Sources */,
 				B24219621EC29873000FE1AC /* NewsSecondViewModel.m in Sources */,
 				B24BB68C1E81006600A4A7CA /* RDRequest+Home.m in Sources */,
@@ -3178,6 +3194,9 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
+				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -3221,6 +3240,10 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
+				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+
 			};
 			name = Release;
 		};

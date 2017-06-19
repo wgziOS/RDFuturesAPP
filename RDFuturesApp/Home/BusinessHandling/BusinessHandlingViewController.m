@@ -11,11 +11,14 @@
 #import "WithdrawFundsViewController.h"
 #import "DepositFundsViewController.h"
 #import "APIServiceViewController.h"
+
 @interface BusinessHandlingViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     BOOL isFinishAccount;
 }
 @property (nonatomic,strong)NSArray * array;
+@property (nonatomic,strong)NSArray * imgArray;
+
 @end
 
 @implementation BusinessHandlingViewController
@@ -29,6 +32,7 @@
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [_tableView registerNib:[UINib nibWithNibName:kBusinessHandlingCell bundle:nil] forCellReuseIdentifier:kBusinessHandlingCell];
+
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 }
 
@@ -70,7 +74,9 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     BusinessHandlingCell * cell = [tableView dequeueReusableCellWithIdentifier:kBusinessHandlingCell];
+    cell.imgView.image = [UIImage imageNamed:self.imgArray[indexPath.row]];
     cell.titleLabel.text = _array[indexPath.row];
+
     return cell;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -81,6 +87,12 @@
 
     return 45;
 
+}
+-(NSArray *)imgArray{
+    if (!_imgArray) {
+        _imgArray = [NSArray arrayWithObjects:@"Mine_deposit_icon",@"Mine_draw_icon",@"APIService", nil];//
+    }
+    return _imgArray;
 }
 -(NSArray *)array{
     

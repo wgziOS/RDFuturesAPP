@@ -38,12 +38,10 @@
     
     [_readButton setImage:[UIImage imageNamed:@"unselected_icon"] forState:UIControlStateNormal];
     sectionBtnCount = 1;
+    
     titleArray = @[@"1.經紀資料",@"2.客戶協議條款",@"3.互聯網期貨合約交易服務條款及條件",@"4.風險披露聲明"];
     
 
-    
-    
-    
     [self loadContentStr];
     
     [self loadTableView];
@@ -153,9 +151,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 
 {
-    
     return 50;
-    
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
@@ -165,32 +161,15 @@
 - (CGSize)textForFont:(int)font andMAXSize:(CGSize)size andText:(NSString*)text
 {
     
-//    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-
-    
-    NSDictionary *attributes = @{NSFontAttributeName:[UIFont systemFontOfSize:font]};
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont rdSystemFontOfSize:font]};
     CGRect rect = [text boundingRectWithSize:size
-                                     options:NSStringDrawingUsesLineFragmentOrigin
+                                     options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
                                   attributes:attributes
                                      context:nil];
-    
     return rect.size;
 }
 
-- (CGSize)textForFont:(int)font andMAXSize:(CGSize)size andText:(NSString*)text andLineSpacing:(NSInteger)lineSpacing
-{
 
-    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-    [paragraphStyle setLineSpacing:lineSpacing];
-    
-    NSDictionary *attributes = @{ NSParagraphStyleAttributeName:paragraphStyle,NSFontAttributeName:[UIFont systemFontOfSize:font]};
-    CGRect rect = [text boundingRectWithSize:size
-                                     options:NSStringDrawingUsesLineFragmentOrigin
-                                  attributes:attributes
-                                     context:nil];
-    
-    return rect.size;
-}
 #pragma mark - 自适应高度
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -198,51 +177,23 @@
     OpenAccountFileGroup *group = dataArray1[indexPath.section];
     
     CGSize ret1;
-    CGSize ret2;
-    CGFloat height = 0.0;
-    //320 375 414
-    if (SCREEN_WIDTH == 320) {
-        
-        ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 65, MAXFLOAT) andText:group.contentStr];
-        if (indexPath.section == 1) {
-            ret2 = [self textForFont:12.5 andMAXSize:CGSizeMake(SCREEN_WIDTH - 73, MAXFLOAT) andText:group.contentStr];
-            height = ret2.height + 175;//-70 2.5
-        }else height = ret1.height;
-        
-        return height;
-        
-    }else if (SCREEN_WIDTH == 375) {
-        
-        ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 75, MAXFLOAT) andText:group.contentStr];
-        if (indexPath.section == 1) {
-            ret2 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 75, MAXFLOAT) andText:group.contentStr];
-            height = ret2.height +100; //-120 +300
-        }else height = ret1.height;
-        
-        return height;
-    }else{
-        
-        ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 80, MAXFLOAT) andText:group.contentStr];
-        if (indexPath.section == 1) {
-            height = ret1.height+60;//340
-        }else if (indexPath.section == 2|| indexPath.section == 3){
-            height = ret1.height - 40;
-            
-        }else height = ret1.height;
-        
-        return height;
-    }
+
+    CGFloat height;
+
+    ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 60, MAXFLOAT) andText:group.contentStr];
+
+    height = ret1.height;
+    
+    return height;
 
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    
     OpenAccountFileCell * cell = [tableView dequeueReusableCellWithIdentifier:kOpenAccountFileCell];
     OpenAccountFileGroup *group = dataArray1[indexPath.section];
-    
-    cell.contentLabel.text =  group.contentStr;
-    
+    cell.contentText = group.contentStr;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
     return cell;
 }
