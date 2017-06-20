@@ -80,6 +80,7 @@
             MAChooseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MAChooseTableViewCell class])] forIndexPath:indexPath];
             cell.title = self.titleArray[indexPath.row];
             cell.titleArray = self.bankTextArray;
+            self.model.bankIndex = @"0";
             cell.contentText.text = self.bankTextArray[indexPath.row];
             cell.chooseCellBlock = ^(NSString *value) {
                 weakSelf.model.bankIndex = value;
@@ -90,11 +91,12 @@
         }
             break;
         case 1:{
+            NSArray *array = self.cardNumTextArray[[self.model.bankIndex intValue]];
             MAChooseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[NSString stringWithUTF8String:object_getClassName([MAChooseTableViewCell class])] forIndexPath:indexPath];
             cell.title = self.titleArray[indexPath.row];
-            NSArray *array = self.cardNumTextArray[[self.model.bankIndex intValue]];
             cell.titleArray = array;
             cell.contentText.text = array[0];
+            self.model.inBankNum = @"0";
             cell.chooseCellBlock = ^(NSString *value) {
                 weakSelf.model.bankIndex = value;
             };
@@ -108,8 +110,11 @@
 }
 
 -(void)nextStepClick{
+    
+    
     NSMutableDictionary *dataDictionary = [[NSMutableDictionary alloc] init];
-    [dataDictionary setObject:self.model.bankIndex forKey:@"inBank"];
+    [dataDictionary setObject:[NSString stringWithFormat:@"%d",[self.model.bankIndex intValue]+1] forKey:@"inBank"];
+    [dataDictionary setObject:[NSString stringWithFormat:@"%d",[self.model.inBankNum intValue]+1] forKey:@"inBankNum"];
     [dataDictionary setObject:self.model.accountAccessId forKey:@"accountAccessId"];
     [self.viewModel.sumbitDepositBankCommand execute:dataDictionary];
     
