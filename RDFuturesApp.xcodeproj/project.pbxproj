@@ -34,6 +34,7 @@
 		B21166BE1EA5EB7D009C64CE /* NewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B21166BA1EA5EB7D009C64CE /* NewsViewModel.m */; };
 		B21166C61EA5EDC3009C64CE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21166C41EA5EDC3009C64CE /* NewsViewController.m */; };
 		B21166CA1EA606F9009C64CE /* NewsMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B21166C91EA606F9009C64CE /* NewsMain.m */; };
+		B21473B91EF8B27E00D48780 /* white_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B21473B81EF8B27E00D48780 /* white_bar.png */; };
 		B217F1E21EB82139004AEB6A /* 1.經紀資料.txt in Resources */ = {isa = PBXBuildFile; fileRef = B217F1DE1EB82139004AEB6A /* 1.經紀資料.txt */; };
 		B217F1E31EB82139004AEB6A /* 2.期貨合約交易服務之一般條款及條件.txt in Resources */ = {isa = PBXBuildFile; fileRef = B217F1DF1EB82139004AEB6A /* 2.期貨合約交易服務之一般條款及條件.txt */; };
 		B217F1E41EB82139004AEB6A /* 3.互聯網期貨合約交易服務條款及條件.txt in Resources */ = {isa = PBXBuildFile; fileRef = B217F1E01EB82139004AEB6A /* 3.互聯網期貨合約交易服務條款及條件.txt */; };
@@ -140,6 +141,9 @@
 		B2B134781E7A7095005FCFF9 /* OtherInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1346A1E7A7095005FCFF9 /* OtherInforViewController.m */; };
 		B2B1347C1E7A7095005FCFF9 /* TakePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B134711E7A7095005FCFF9 /* TakePhotoView.m */; };
 		B2B1347F1E7A71AA005FCFF9 /* ViewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1347E1E7A71AA005FCFF9 /* ViewBaseController.m */; };
+		B2B5BC3F1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2B5BC3E1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt */; };
+		B2B5BC421EF76DDC0083C44D /* APISignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B5BC411EF76DDC0083C44D /* APISignatureViewController.m */; };
+		B2B5BC451EF798AC0083C44D /* APIServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B5BC441EF798AC0083C44D /* APIServiceModel.m */; };
 		B2BF92F71E88AECC00393DDA /* RDRequest+Account.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BF92F21E88AECC00393DDA /* RDRequest+Account.m */; };
 		B2BF92F81E88AECC00393DDA /* RDRequest+Login_register.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BF92F41E88AECC00393DDA /* RDRequest+Login_register.m */; };
 		B2BF92F91E88AECC00393DDA /* RDRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BF92F61E88AECC00393DDA /* RDRequestModel.m */; };
@@ -408,6 +412,7 @@
 		B21166C41EA5EDC3009C64CE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		B21166C81EA606F9009C64CE /* NewsMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsMain.h; sourceTree = "<group>"; };
 		B21166C91EA606F9009C64CE /* NewsMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsMain.m; sourceTree = "<group>"; };
+		B21473B81EF8B27E00D48780 /* white_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bar.png; sourceTree = "<group>"; };
 		B217F1DE1EB82139004AEB6A /* 1.經紀資料.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1.經紀資料.txt"; sourceTree = "<group>"; };
 		B217F1DF1EB82139004AEB6A /* 2.期貨合約交易服務之一般條款及條件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2.期貨合約交易服務之一般條款及條件.txt"; sourceTree = "<group>"; };
 		B217F1E01EB82139004AEB6A /* 3.互聯網期貨合約交易服務條款及條件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3.互聯網期貨合約交易服務條款及條件.txt"; sourceTree = "<group>"; };
@@ -599,6 +604,11 @@
 		B2B134711E7A7095005FCFF9 /* TakePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePhotoView.m; sourceTree = "<group>"; };
 		B2B1347D1E7A71AA005FCFF9 /* ViewBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBaseController.h; sourceTree = "<group>"; };
 		B2B1347E1E7A71AA005FCFF9 /* ViewBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBaseController.m; sourceTree = "<group>"; };
+		B2B5BC3E1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "易盛應用程式介面(“API”)服務的使用條款及重要事項.txt"; sourceTree = "<group>"; };
+		B2B5BC401EF76DDC0083C44D /* APISignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APISignatureViewController.h; sourceTree = "<group>"; };
+		B2B5BC411EF76DDC0083C44D /* APISignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APISignatureViewController.m; sourceTree = "<group>"; };
+		B2B5BC431EF798AC0083C44D /* APIServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIServiceModel.h; sourceTree = "<group>"; };
+		B2B5BC441EF798AC0083C44D /* APIServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIServiceModel.m; sourceTree = "<group>"; };
 		B2BF92F11E88AECC00393DDA /* RDRequest+Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RDRequest+Account.h"; sourceTree = "<group>"; };
 		B2BF92F21E88AECC00393DDA /* RDRequest+Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RDRequest+Account.m"; sourceTree = "<group>"; };
 		B2BF92F31E88AECC00393DDA /* RDRequest+Login_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RDRequest+Login_register.h"; sourceTree = "<group>"; };
@@ -1112,6 +1122,7 @@
 		B21166C21EA5EBD5009C64CE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B21473B81EF8B27E00D48780 /* white_bar.png */,
 				B21166C81EA606F9009C64CE /* NewsMain.h */,
 				B21166C91EA606F9009C64CE /* NewsMain.m */,
 				B21166B71EA5EB7D009C64CE /* NewsTitleScrollView.h */,
@@ -1743,6 +1754,14 @@
 				B2CCC2561EF2167F00C20F18 /* APIServiceViewController.h */,
 				B2CCC2571EF2167F00C20F18 /* APIServiceViewController.m */,
 				B2CCC2581EF2167F00C20F18 /* APIServiceViewController.xib */,
+
+
+				B2B5BC431EF798AC0083C44D /* APIServiceModel.h */,
+				B2B5BC441EF798AC0083C44D /* APIServiceModel.m */,
+				B2B5BC3E1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt */,
+				B2B5BC401EF76DDC0083C44D /* APISignatureViewController.h */,
+				B2B5BC411EF76DDC0083C44D /* APISignatureViewController.m */,
+
 			);
 			name = APIService;
 			sourceTree = "<group>";
@@ -2642,6 +2661,7 @@
 				CE0957311ED436B400394709 /* SelectAreaViewController.xib in Resources */,
 				B24C51F01EC1920E00E53605 /* ForgetSecondViewController.xib in Resources */,
 				B25119BF1EEFE98C00E95771 /* InfoFeedBackViewController.xib in Resources */,
+				B21473B91EF8B27E00D48780 /* white_bar.png in Resources */,
 				B21166A11EA5EB2B009C64CE /* NewsFirstViewController.xib in Resources */,
 				CE0ADFFA1ED2D937002801D5 /* PersonalFirstCell.xib in Resources */,
 				B2CCC2601EF228B100C20F18 /* 2.客戶協議條款.txt in Resources */,
@@ -2685,6 +2705,7 @@
 				B240B3A41E67B754003445AB /* 方正黑体简体.TTF in Resources */,
 				CE77106A1E712F2F000720EE /* FinanceInfoViewController.xib in Resources */,
 				B2CCC25A1EF2167F00C20F18 /* APIServiceViewController.xib in Resources */,
+				B2B5BC3F1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt in Resources */,
 				CE7710401E712F05000720EE /* LoginViewController.xib in Resources */,
 				CE7710651E712F2F000720EE /* BankCell.xib in Resources */,
 				B20C7C861E7397D60025C821 /* CommitInfoViewController.xib in Resources */,
@@ -2847,6 +2868,7 @@
 				CE77103F1E712F05000720EE /* LoginViewController.m in Sources */,
 				CE09571F1ED3FC6300394709 /* AnswerViewController.m in Sources */,
 				B24806EA1EB96BF7001221BB /* RDRequest+News.m in Sources */,
+				B2B5BC421EF76DDC0083C44D /* APISignatureViewController.m in Sources */,
 				CE0ADFF71ED2D937002801D5 /* PeronalInfoViewController.m in Sources */,
 				B2310F681EC43FFF008CC5BA /* TOCropView.m in Sources */,
 				B2BF92F71E88AECC00393DDA /* RDRequest+Account.m in Sources */,
@@ -2958,6 +2980,7 @@
 				CE7710701E712F2F000720EE /* OpenAccountViewController.m in Sources */,
 				CEEE9B6D1EA49F8F0062671E /* HomeItemCollectionCell.m in Sources */,
 				CE0ADFEF1ED2D937002801D5 /* MoneyAmountView.m in Sources */,
+				B2B5BC451EF798AC0083C44D /* APIServiceModel.m in Sources */,
 				CE0ADFE31ED2D937002801D5 /* PPSSignatureView.m in Sources */,
 				CE0ADFFD1ED2D937002801D5 /* MineFirstTableViewCell.m in Sources */,
 				CE0ADFDF1ED2D937002801D5 /* CollectionViewController.m in Sources */,

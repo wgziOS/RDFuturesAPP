@@ -29,31 +29,47 @@
 }
 
 -(void)layoutSubviews{
+    
 
-    [self.imgView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.contentView).with.offset(10);
-        make.left.equalTo(self.contentView).with.offset(10);
-        make.size.mas_offset(CGSizeMake(120, 95));
-        
+    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.contentView).with.offset(15);
+        make.left.equalTo(self.contentView).with.offset(15);
+        make.right.equalTo(self.contentView).with.offset(-15);
+        make.height.mas_offset(20);
     }];
     
     [self.timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.contentView).with.offset(-5);
-        make.right.equalTo(self.contentView).with.offset(-8);
-        make.size.mas_offset(CGSizeMake(150, 20));
+        
+        make.top.equalTo(self.titleLabel.mas_bottom).with.offset(10);
+        make.left.equalTo(self.contentView).with.offset(15);
+        make.right.equalTo(self.contentView).with.offset(-15);
+        make.height.equalTo(@20);
         
     }];
-    
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-       
-        make.top.equalTo(self.contentView).with.offset(8);
-        make.left.equalTo(self.imgView.mas_right).with.offset(8);
-//        make.bottom.equalTo(self.timeLabel.mas_top).with.offset(-5);
-        make.right.equalTo(self.contentView.mas_right).with.offset(-8);
-        make.height.equalTo(@55);
-        
-        
-    }];
+
+//    [self.imgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.top.equalTo(self.contentView).with.offset(10);
+//        make.left.equalTo(self.contentView).with.offset(10);
+//        make.size.mas_offset(CGSizeMake(120, 95));
+//        
+//    }];
+//    
+//    [self.timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.bottom.equalTo(self.contentView).with.offset(-5);
+//        make.right.equalTo(self.contentView).with.offset(-8);
+//        make.size.mas_offset(CGSizeMake(150, 20));
+//        
+//    }];
+//    
+//    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//       
+//        make.top.equalTo(self.contentView).with.offset(8);
+//        make.left.equalTo(self.imgView.mas_right).with.offset(8);
+////        make.bottom.equalTo(self.timeLabel.mas_top).with.offset(-5);
+//        make.right.equalTo(self.contentView.mas_right).with.offset(-8);
+//        make.height.equalTo(@55);
+//        
+//    }];
     
     [super layoutSubviews];
 }
@@ -73,6 +89,7 @@
         _titleLabel = [[UILabel alloc]init];
         _titleLabel.numberOfLines = 0;
         _titleLabel.font = [UIFont rdSystemFontOfSize:16.f];
+        _titleLabel.textColor = RGB(51, 51, 51);
         [self.contentView addSubview:_titleLabel];
     }
     return _titleLabel;
@@ -82,9 +99,9 @@
 
     if (!_timeLabel) {
         _timeLabel = [[UILabel alloc]init];
-        _timeLabel.textAlignment = NSTextAlignmentRight;
+        _timeLabel.textAlignment = NSTextAlignmentLeft;
         _timeLabel.font = [UIFont rdSystemFontOfSize:13.f];
-        _timeLabel.textColor = GRAYCOLOR;
+        _timeLabel.textColor = RGB(132, 131, 131);
         
         [self.contentView addSubview:_timeLabel];
     }

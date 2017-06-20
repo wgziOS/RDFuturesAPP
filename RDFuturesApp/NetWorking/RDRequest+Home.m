@@ -277,5 +277,28 @@
     }
     return model;
 }
+//提交api服务申请详情
++(RDRequestModel *)postApplySignatureWithParam:(NSDictionary*)data_dic
+                                           error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/apply/setApply.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POSTUploadImageWithURLString:hostUrl
+                                           parameters:data_dic
+                                              success:^(RDRequest *request, id response) {
+                                                  model = [RDRequestModel mj_objectWithKeyValues: response];
+                                              }
+                                              failure:^(RDRequest *request, NSError *error) {
+                                                  blockError = error;
+                                              }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
+
 
 @end

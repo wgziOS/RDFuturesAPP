@@ -149,7 +149,7 @@
 
     if (!_lineView) {
         _lineView = [[UIView alloc]init];
-        _lineView.backgroundColor = BLUECOLOR;
+        _lineView.backgroundColor = RGB(216, 1, 1);
         
     }
     return _lineView;
@@ -177,7 +177,8 @@
         [_segment setDividerImage:[UIImage imageNamed:@"white_bar"] forLeftSegmentState:UIControlStateNormal rightSegmentState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
         
         // 设置选中的文字颜色
-        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: BLUECOLOR} forState:UIControlStateSelected];
+        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: RGB(102, 102, 102)} forState:UIControlStateSelected];
+        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: RGB(102, 102, 102)} forState:UIControlStateNormal];
 
 
         

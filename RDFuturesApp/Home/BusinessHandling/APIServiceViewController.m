@@ -7,7 +7,10 @@
 //
 
 #import "APIServiceViewController.h"
-
+#import "ShootExampleView.h"
+#import "APISignatureViewController.h"
+#import "SaveCompletedViewController.h"
+#import "APIServiceModel.h"
 @interface APIServiceViewController (){
 
     BOOL is_Algostar;
@@ -32,19 +35,84 @@
     [self setLabelTap];
     [self loadBtnStatus];
     
-    
+    //获取 数据 有提交过申请patentButton不能点击
+    [self getApplyInfo];
+}
+-(void)getApplyInfo{
+    //type       类型id（0: 未申请 ，1：第一个选项，2 ：第二个选项）
+    loading(@"获取数据")
+    WS(weakself)
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+       
+        NSError * error;
+        RDRequestModel * model = [RDRequest getWithApi:@"/api/apply/getApply.api" andParam:nil error:&error];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+        
+            hiddenHUD;
+            if (error == nil) {
+                if ([model.State isEqualToString:@"1"]) {
+                    NSDictionary * dic = [NSDictionary dictionary];
+                    dic = model.Data;
+                    
+                    APIServiceModel * model = [APIServiceModel mj_objectWithKeyValues:dic];
+                    NSString * type = [NSString stringWithFormat:@"%@",model.type];
+                    
+                    if ([type isEqualToString:@"1"]) {
+                        
+                        _patentButton.userInteractionEnabled = NO;
+                        [_patentButton setBackgroundImage:[UIImage imageNamed:@"gray_btn"] forState:UIControlStateNormal];
+                        
+                        [self first];
+                        
+                        _readBtn.enabled = NO;
+                        
+                    }else if([type isEqualToString:@"2"]){
+                        
+                        _patentButton.userInteractionEnabled = NO;
+                        [_patentButton setBackgroundImage:[UIImage imageNamed:@"gray_btn"] forState:UIControlStateNormal];
+                        
+                        [weakSelf second];
+                        
+                        _readBtn.enabled = NO;
+                    }else  return;
+                    
+                }
+                
+            }else{
+                [MBProgressHUD showError:promptString];
+            }
+        });
+        
+    });
 }
 //下一步
 - (IBAction)nextBtnClick:(id)sender {
     
     NSString * str;
-    
     str = is_Algostar?@"1":@"2";
+    
+    APISignatureViewController * AVC = [[APISignatureViewController alloc]init];
+    AVC.typeStr = str;
+    AVC.AutographBlock = ^(BOOL result){
+        if (result == YES) {
+            SaveCompletedViewController *saveCompleted = [[SaveCompletedViewController alloc] init];
+            saveCompleted.prompt = promptTypeApiService;
+            [self.navigationController pushViewController:saveCompleted animated:YES];
+        }
+    };
+    [self presentViewController:AVC animated:YES completion:nil];
     
 }
 
 //弹框
 -(void)pushImportantNotice{
+    
+    ShootExampleView * shootView = [[ShootExampleView alloc]initWithImportContentStr:[NSString turnTxtStringWithResourceStr:@"易盛應用程式介面(“API”)服務的使用條款及重要事項"]];
+    [shootView show];
+    shootView.goonBlock = ^(){
+    
+    };
     
 }
 
@@ -61,6 +129,9 @@
 
 - (IBAction)firstBtnClick:(id)sender {
     
+    [self first];
+}
+-(void) first{
     if (is_Algostar) {
         return;
     }
@@ -80,7 +151,8 @@
         return;
     }
 }
-- (IBAction)secondBtnClick:(id)sender {
+-(void) second{
+    
     if (!is_Algostar) {
         return;
     }
@@ -100,6 +172,11 @@
         topClick = 1;
         return;
     }
+
+}
+- (IBAction)secondBtnClick:(id)sender {
+    
+    [self second];
 }
 
 -(void)AlgostarIsYES{

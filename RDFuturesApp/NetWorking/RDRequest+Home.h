@@ -38,4 +38,7 @@
 //首页广告加载
 +(RDRequestModel *)postOpenAdvListWithParam:(NSDictionary*)data_dic
                                       error:(NSError* __autoreleasing*)error;
+//提交api服务申请详情
++(RDRequestModel *)postApplySignatureWithParam:(NSDictionary*)data_dic
+                                         error:(NSError* __autoreleasing*)error;
 @end
