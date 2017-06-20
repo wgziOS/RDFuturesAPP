@@ -54,36 +54,16 @@
 #pragma mark -
 - (NSArray *)loadContentStr{
     if (!contentArray) {
-        contentArray = @[[self turnTxtStringWithResourceStr:@"1.經紀資料"],
-                         [self turnTxtStringWithJianStr:@"2.客戶協議條款"],
-                         [self turnTxtStringWithResourceStr:@"3.互聯網期貨合約交易服務條款及條件"],
-                         [self turnTxtStringWithResourceStr:@"4.風險披露聲明"]];
+        contentArray = @[[NSString turnTxtStringWithResourceStr:@"1.經紀資料"],
+                         [NSString turnTxtStringWithJianStr:@"2.客戶協議條款"],
+                         [NSString turnTxtStringWithResourceStr:@"3.互聯網期貨合約交易服務條款及條件"],
+                         [NSString turnTxtStringWithResourceStr:@"4.風險披露聲明"]];
     }
     return contentArray;
 
 }
-#pragma mark - txt文件转字符串方法 简体
-- (NSString *) turnTxtStringWithJianStr:(NSString *)JianStr{
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:JianStr ofType:@"txt"];
-    
-    NSString *string = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-    if (string == nil) {
-        string = @"";
-    }
-    return string;
-}
-#pragma mark - txt文件转字符串方法 繁体
-- (NSString *) turnTxtStringWithResourceStr:(NSString *)resourceStr{
-    
-    NSString *path = [[NSBundle mainBundle] pathForResource:resourceStr ofType:@"txt"];
-    
-    NSString *string = [NSString stringWithContentsOfFile:path encoding:CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000) error:nil];
-    if (string == nil) {
-        string = @"";
-    }
-    return string;
-}
+
+
 
 #pragma mark -- Load 表示图
 - (void) loadTableView{
