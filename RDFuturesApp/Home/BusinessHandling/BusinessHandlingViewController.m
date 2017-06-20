@@ -42,7 +42,7 @@
         case 0:{
             if(![[RDUserInformation getInformation] getLoginState]){
                 [self puchLogin];
-            }else if (isFinishAccount) {
+            }else if (!isFinishAccount) {
                 DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
                 [self.navigationController pushViewController:DVC animated:YES];
             }else showMassage(@"您尚未完成开户")
@@ -51,13 +51,12 @@
         case 1:{
             if(![[RDUserInformation getInformation] getLoginState]){
                 [self puchLogin];
-            }else if(isFinishAccount){
-                
-                showMassage(@"您尚未完成开户");
-            }else{
+            }else if(!isFinishAccount){
                 WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
                 [self.navigationController pushViewController:WVC animated:YES];
-            }
+
+                
+            }else showMassage(@"您尚未完成开户");
             
         }
             break;

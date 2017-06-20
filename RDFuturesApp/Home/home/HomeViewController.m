@@ -165,9 +165,7 @@
             case 1:{
                 switch ([model.within_sign intValue]) {
                     case 1:
-                    {//订阅农产品
-                        
-                    }
+                   
                         break;
                         
                     default:
