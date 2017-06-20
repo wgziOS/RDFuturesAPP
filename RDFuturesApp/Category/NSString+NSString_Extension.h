@@ -14,4 +14,6 @@
 - (NSString *)cutStringFrom:(NSString *)startString to:(NSString *)endString;
 
 + (BOOL)isMobileNumber:(NSString *)mobileNum;//手机号正则表达式
++ (NSString *) turnTxtStringWithResourceStr:(NSString *)resourceStr;
++ (NSString *) turnTxtStringWithJianStr:(NSString *)JianStr;
 @end

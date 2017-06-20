@@ -39,7 +39,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    
-//    [self.view addSubview:self.mainView];
+    [self.view addSubview:self.mainView];
     
     
     
@@ -58,6 +58,7 @@
     [self.mainView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(weakSelf.view);
     }];
+    
     [super updateViewConstraints];
 }
 -(UIBarButtonItem *)leftButton{
@@ -70,11 +71,11 @@
     
     [[self.viewModel.firstCellClick takeUntil:self.rac_willDeallocSignal] subscribeNext:^(id x) {
         
-
         //push详情页
         DetailsViewController * DVC = [[DetailsViewController alloc]init];
 
         DVC.urlStr = [NSString stringWithFormat:@"%@",x];
+        DVC.titleString = @"详情";
         [self.navigationController pushViewController:DVC animated:YES];
 
     }];
