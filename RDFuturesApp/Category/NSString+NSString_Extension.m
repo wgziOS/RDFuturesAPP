@@ -9,7 +9,28 @@
 #import "NSString+NSString_Extension.h"
 
 @implementation NSString (NSString_Extension)
-
+#pragma mark - txt文件转字符串方法 简体
++ (NSString *) turnTxtStringWithJianStr:(NSString *)JianStr{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:JianStr ofType:@"txt"];
+    
+    NSString *string = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    if (string == nil) {
+        string = @"";
+    }
+    return string;
+}
+#pragma mark - txt文件转字符串方法 繁体
++ (NSString *) turnTxtStringWithResourceStr:(NSString *)resourceStr{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:resourceStr ofType:@"txt"];
+    
+    NSString *string = [NSString stringWithContentsOfFile:path encoding:CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000) error:nil];
+    if (string == nil) {
+        string = @"";
+    }
+    return string;
+}
 - (NSString *)cutStringFrom:(NSString *)startString to:(NSString *)endString{
     
     NSRange startRange = [self rangeOfString:startString];

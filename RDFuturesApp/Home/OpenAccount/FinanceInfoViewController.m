@@ -41,7 +41,7 @@
     
 }
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (weak, nonatomic) IBOutlet UITextField *property_valuationTextfield;
+//@property (weak, nonatomic) IBOutlet UITextField *property_valuationTextfield;
 
 @end
 
@@ -87,7 +87,7 @@
                 FinanceInfoModel * model = [FinanceInfoModel mj_objectWithKeyValues:infoDic];
 
                 NSLog(@"%@",infoDic);
-                _property_valuationTextfield.text = [NSString stringWithFormat:@"%@",model.property_valuation];
+//                _property_valuationTextfield.text = [NSString stringWithFormat:@"%@",model.property_valuation];
 
                 if ([model.year_income_id intValue]>0) {
                     year_income_id = [model.year_income_id intValue];
@@ -224,7 +224,7 @@
         [dic setObject:[NSString stringWithFormat:@"%d",total_assets_id] forKey:@"total_assets_id"];
         [dic setObject:[NSString stringWithFormat:@"%d",investment_purpose_id] forKey:@"investment_purpose_id"];
         [dic setObject:[NSString stringWithFormat:@"%d",housing_ownership_id] forKey:@"housing_ownership_id"];
-        [dic setObject:[NSString stringWithFormat:@"%@",_property_valuationTextfield.text] forKey:@"property_valuation"];
+//        [dic setObject:[NSString stringWithFormat:@"%@",_property_valuationTextfield.text] forKey:@"property_valuation"];
     
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             NSError *error ;

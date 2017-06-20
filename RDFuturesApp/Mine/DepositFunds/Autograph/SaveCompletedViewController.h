@@ -10,7 +10,8 @@
 
 typedef enum : NSInteger {
     promptTypeDepositFunds,
-    promptTypeWitdrawFunds
+    promptTypeWitdrawFunds,
+    promptTypeApiService
     
 } PromptStyle;
 

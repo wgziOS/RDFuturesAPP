@@ -7,13 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#define MyEditorWidth 300.0f
+#define MyEditorWidth  300
 #define MyEditorHeight 420.0f
 @interface ShootExampleView : UIView
 {
     
 }
-@property (nonatomic,strong) UITableView *noticeTableView;//重要通知 tableView
+@property (nonatomic,strong) UITableView *noticeTableView;//重要通知 tableView(API申请页面)
+@property (nonatomic,strong) NSString *noticeString;//重要通知str (API申请页面)
 @property (nonatomic, strong) UILabel * title;
 @property (nonatomic, strong) UILabel * subTitle;
 @property (nonatomic, strong) UIView  * backImageView;

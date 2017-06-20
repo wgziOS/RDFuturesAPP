@@ -7,7 +7,11 @@
 //
 
 #import "ShootExampleView.h"
+#import "OpenAccountFileCell.h"
 static CGFloat kTransitionDuration = 0.3;
+@interface ShootExampleView ()<UITableViewDelegate,UITableViewDataSource>
+
+@end
 @implementation ShootExampleView
 -(id)init {
     
@@ -23,17 +27,56 @@ static CGFloat kTransitionDuration = 0.3;
     self = [super init];
     if (self) {
         
-        UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(10, 5, MyEditorWidth-20, MyEditorHeight)];
-        label.text = contentStr;
-        [self addSubview:label];
-        
-        label.font = [UIFont rdSystemFontOfSize:12.0f];
-        label.textColor = [UIColor darkGrayColor];
-        
+        self.noticeTableView = [[UITableView alloc] initWithFrame:CGRectMake(0,0, MyEditorWidth,MyEditorHeight) style:UITableViewStylePlain];
+        self.noticeTableView.dataSource = self;
+        self.noticeTableView.delegate = self;
+        self.noticeTableView.tableHeaderView.hidden = YES;
+        self.noticeTableView.backgroundColor = [UIColor whiteColor];
+        [self addSubview:self.noticeTableView];
+    
+        [self.noticeTableView registerNib:[UINib nibWithNibName:kOpenAccountFileCell bundle:nil] forCellReuseIdentifier:kOpenAccountFileCell];
+        self.noticeString = contentStr;
     }
     return self;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+     [self dismissAlert];
+}
+- (CGSize)textForFont:(int)font andMAXSize:(CGSize)size andText:(NSString*)text
+{
+    
+    NSDictionary *attributes = @{NSFontAttributeName:[UIFont rdSystemFontOfSize:font]};
+    CGRect rect = [text boundingRectWithSize:size
+                                     options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
+                                  attributes:attributes
+                                     context:nil];
+    return rect.size;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    OpenAccountFileCell * cell = [tableView dequeueReusableCellWithIdentifier:kOpenAccountFileCell];
+    cell.contentText = self.noticeString;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    return cell;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    CGSize ret1;
+    
+    CGFloat height;
+    
+    ret1 = [self textForFont:12 andMAXSize:CGSizeMake(SCREEN_WIDTH - 60, MAXFLOAT) andText:self.noticeString];
+    
+    height = ret1.height;
+    
+    return height;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+    return 1;
+}
 -(id)initViewTitleImgString:(NSString *)imgString TitleString:(NSString *)titleString SubTitleString:(NSString *)subTitleString BtnImgString:(NSString *)btnImgString
 {
     
@@ -81,10 +124,12 @@ static CGFloat kTransitionDuration = 0.3;
         [self addSubview:imgView];
         
         UIButton * go_onbuuton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [go_onbuuton setFrame:CGRectMake(MyEditorWidth / 2 - 65, MyEditorHeight - 60, 130, 45)];
+        [go_onbuuton setFrame:CGRectMake(MyEditorWidth / 2 - 80, MyEditorHeight - 60, 160, 45)];
         [go_onbuuton setTitle:@"拍摄照片" forState:UIControlStateNormal];
         go_onbuuton.titleLabel.font = [UIFont rdSystemFontOfSize:16];
-        [go_onbuuton setTintColor:[UIColor blueColor]];
+//        [go_onbuuton setTintColor:[UIColor blueColor]];
+        [go_onbuuton setBackgroundImage:[UIImage imageNamed:@"b_btn"] forState:UIControlStateNormal];
+        [go_onbuuton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [go_onbuuton addTarget:self action:@selector(goonAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:go_onbuuton];
         

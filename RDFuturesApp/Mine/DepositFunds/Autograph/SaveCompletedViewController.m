@@ -111,9 +111,11 @@ WS(weakself)
         [_completedLabel setTextAlignment:NSTextAlignmentCenter];
         if (self.prompt==promptTypeWitdrawFunds) {
             _completedLabel.text = @"提款申请已提交，请耐心等待";
-        }else{
-            _completedLabel.text = @"存款申请已提交，请在尽快完成存款转入";
-        }
+        }else if (self.prompt==promptTypeApiService){
+            _completedLabel.text = @"API申请已提交，请在尽快提交认证副本";
+            self.title = @"API服务申请";
+        }else _completedLabel.text = @"存款申请已提交，请在尽快完成存款转入";
+        
     }
     return _completedLabel;
 }
