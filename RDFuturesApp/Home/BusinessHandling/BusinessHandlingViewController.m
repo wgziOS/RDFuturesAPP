@@ -71,18 +71,10 @@
             }else showMassage(@"您尚未完成开户");
             
 
-            DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
-            [self.navigationController pushViewController:DVC animated:YES];
           
         }
             break;
-        case 1:{
-            WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
-            [self.navigationController pushViewController:WVC animated:YES];
         
-
-        }
-            break;
         case 2:{
             APIServiceViewController * AVC = [[APIServiceViewController alloc]init];
             [self.navigationController pushViewController:AVC animated:YES];
