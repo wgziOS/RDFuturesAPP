@@ -20,7 +20,7 @@
 #import "AdvertisementModel.h"
 #import "SubscribeViewController.h"
 #import "WitnessCityViewController.h"
-
+#import "GuidanceView.h"
 
 @interface HomeViewController ()
 {
@@ -43,12 +43,25 @@
     [self.view addSubview:self.mainView];
     
     
-    
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadingAdvertisementController];
+    
+    //是否第一次启动
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+        //第一次启动
+        NSLog(@"第一次启动");
+        GuidanceView * Gview = [[GuidanceView alloc]initWithGuidance];
+        [Gview show];
+        Gview.goonBlock = ^(){
+            
+        };
+    
+    }
 
 }
+
 -(void)loadingAdvertisementController{
     WS(weakself)
      NSString *firstAdvertisement = [[NSUserDefaults standardUserDefaults] objectForKey:@"firstAdvertisement"];
@@ -80,6 +93,8 @@
 
 
 -(void)bindViewModel{
+    
+
     
     WS(weakself)
     [[self.homeviewModel.accountSubject takeUntil:self.rac_willDeallocSignal] subscribeNext:^(NSString * x) {
