@@ -108,7 +108,7 @@
     1、phone					手机号
     2、validate_code			验证码
      */
-    
+    loading(@"")
     WS(weakself)
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:self.phoneStr forKey:@"phone"];
@@ -119,6 +119,7 @@
         
         RDRequestModel *model = [RDRequest postCheckValidateCodeWithParam:dic error:&error];
         dispatch_async(dispatch_get_main_queue(), ^{
+            hiddenHUD
             if (error==nil) {
                 if ([model.State isEqualToString:@"1"]) {
                     

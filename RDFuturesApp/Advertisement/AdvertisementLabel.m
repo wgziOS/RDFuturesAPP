@@ -31,7 +31,7 @@
         self.userInteractionEnabled = YES;
         self.backgroundColor = [UIColor whiteColor];
         self.textAlignment = NSTextAlignmentCenter;
-        self.text = @"3秒后跳转";
+        self.text = @"4秒后跳转";
         self.textColor = [UIColor darkGrayColor];
         self.font = [UIFont systemFontOfSize:10];
         self.layer.borderColor = [UIColor whiteColor].CGColor;
@@ -63,12 +63,12 @@
     
     static int z = 0;
     z ++;
-    if (z<4) {
-        self.text = [NSString stringWithFormat:@"%d秒后跳转",4-z];
+    if (z<5) {
+        self.text = [NSString stringWithFormat:@"%d秒后跳转",5-z];
 
     }
     
-    if (z == 4) {
+    if (z == 5) {
         if (self.blockNewViewController) {
             self.text = [NSString stringWithFormat:@"正在跳转..."];
             [self.timer invalidate];

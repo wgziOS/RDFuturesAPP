@@ -92,6 +92,7 @@
 -(UIBarButtonItem *)leftButton{
     UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 40, 20)];
     [btn setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];//设置左边按钮的图片
+    btn.imageEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 10);
     [btn addTarget:self action:@selector(exitBack) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
     return [[UIBarButtonItem alloc] initWithCustomView:btn];
 
