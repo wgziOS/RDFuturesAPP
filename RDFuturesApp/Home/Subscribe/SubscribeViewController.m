@@ -236,6 +236,9 @@
     if ([keyPath isEqualToString:@"loading"]) {
         NSLog(@"loading");
     } else if ([keyPath isEqualToString:@"title"]) {
+        if ([self.title isEqualToString:@""]||[self.title isKindOfClass:[NSNull class]]||self.title.length<1) {
+            return;
+        }
         self.title = self.webView.title;
     } else if ([keyPath isEqualToString:@"estimatedProgress"]) {
         self.progressView.progress = self.webView.estimatedProgress;
