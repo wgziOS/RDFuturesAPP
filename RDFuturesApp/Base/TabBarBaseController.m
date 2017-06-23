@@ -12,6 +12,7 @@
 #import "LoginViewController.h"
 #import "MessageViewController.h"
 #import "BillViewController.h"
+#import "CompanyNoticeViewController.h"
 
 @interface TabBarBaseController ()
 @property(nonatomic,assign)int oldIndex;
@@ -92,10 +93,15 @@
         if (![[RDUserInformation getInformation] getLoginState]) {
             
             LoginViewController *login = [[LoginViewController alloc] init];
+
             NavigationBaseController *vc = [self getCurrentVC];
 
             [vc pushViewController:login animated:YES];
 //            [self setSelectedIndex:self.oldIndex];
+
+            NavigationBaseController *nav = self.childViewControllers[3];
+            [nav pushViewController:login animated:NO];
+
         }
         return;
     }
@@ -123,7 +129,7 @@
                     
                 case 2:
                 {
-                    weakSelf.selectedIndex = 2;
+                    //待定
                 }
                     break;
                     
@@ -133,7 +139,13 @@
                     [vc pushViewController:message animated:YES];
                 }
                     break;
-                    
+                case 4:
+                {
+                    CompanyNoticeViewController * CVC = [[CompanyNoticeViewController alloc]init];
+                    [vc pushViewController:CVC animated:YES];
+                   
+                }
+                    break;
                 default:
                     break;
             }
@@ -169,5 +181,12 @@
     }
     
     return nav;
+}
+-(void)outLogin{
+    NavigationBaseController *nav = [self getCurrentVC];
+    if(nav.childViewControllers.count>1){
+        [nav popToRootViewControllerAnimated:YES];
+    }
+    self.tabBarController.selectedIndex = 0;
 }
 @end

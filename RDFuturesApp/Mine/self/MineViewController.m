@@ -110,7 +110,7 @@
                     [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
                     
                     [[NSUserDefaults standardUserDefaults] synchronize];
-//                    [self.navigationController popToRootViewControllerAnimated:NO];
+
                     weakSelf.tabBarController.selectedIndex = 0;
                     
                 }

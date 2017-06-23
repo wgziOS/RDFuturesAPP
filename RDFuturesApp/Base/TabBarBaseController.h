@@ -9,4 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TabBarBaseController : UITabBarController<UITabBarDelegate,UITabBarControllerDelegate>
+-(void)outLogin;
 @end
