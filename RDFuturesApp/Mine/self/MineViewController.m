@@ -22,6 +22,7 @@
 #import "LoginViewController.h"
 #import "AboutUsViewController.h"
 #import "AccountSecurityViewController.h"
+#import "MessageViewController.h"
 @interface MineViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     BOOL isShare;
@@ -39,7 +40,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *headImage;
 @property (weak, nonatomic) IBOutlet UILabel *nickName;
 @property (weak, nonatomic) IBOutlet UILabel *customerID;
-
+@property (nonatomic,strong) UIButton * messageButton;
 @end
 
 @implementation MineViewController
@@ -65,6 +66,27 @@
     click = 1;
 
     
+}
+- (UIBarButtonItem *)rightButton
+{
+    return [[UIBarButtonItem alloc] initWithCustomView:self.messageButton];
+}
+-(UIButton *)messageButton{
+    if (!_messageButton) {
+        _messageButton  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message"] forState:UIControlStateNormal];//设置左边按钮的图片
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message_select"] forState:UIControlStateSelected];//设置左边按钮的图片
+        [_messageButton addTarget:self action:@selector(actionOnTouchBackButton:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
+    }
+    return _messageButton;
+}
+-(void)actionOnTouchBackButton:(id)sender{
+    if(![[RDUserInformation getInformation] getLoginState]){
+        [self puchLogin];
+        return ;
+    }
+    MessageViewController *message = [[MessageViewController alloc] init];
+    [self.navigationController pushViewController:message animated:YES];
 }
 - (IBAction)logoutBtnClick:(id)sender {
     

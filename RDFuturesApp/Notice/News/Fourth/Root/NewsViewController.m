@@ -22,7 +22,7 @@
 #import "NewsContentScrollView.h"
 #import "NewsMain.h"
 #import "DetailsViewController.h"
-
+#import "MessageViewController.h"
 @interface NewsViewController ()<UIScrollViewDelegate>
 
 
@@ -32,6 +32,7 @@
 @property (nonatomic, strong)NewsTitleScrollView * titleScrollView;
 @property (nonatomic, strong)NewsContentScrollView * contentScrollView;
 @property (nonatomic, strong)NewsMain * mainView;
+@property (nonatomic,strong)UIButton * messageButton;
 @end
 
 @implementation NewsViewController
@@ -44,7 +45,27 @@
     
     
 }
-
+- (UIBarButtonItem *)rightButton
+{
+    return [[UIBarButtonItem alloc] initWithCustomView:self.messageButton];
+}
+-(UIButton *)messageButton{
+    if (!_messageButton) {
+        _messageButton  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message"] forState:UIControlStateNormal];//设置左边按钮的图片
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message_select"] forState:UIControlStateSelected];//设置左边按钮的图片
+        [_messageButton addTarget:self action:@selector(actionOnTouchBackButton:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
+    }
+    return _messageButton;
+}
+-(void)actionOnTouchBackButton:(id)sender{
+    if(![[RDUserInformation getInformation] getLoginState]){
+        [self puchLogin];
+        return ;
+    }
+    MessageViewController *message = [[MessageViewController alloc] init];
+    [self.navigationController pushViewController:message animated:YES];
+}
 -(NewsMain *)mainView{
 
     if (!_mainView) {
