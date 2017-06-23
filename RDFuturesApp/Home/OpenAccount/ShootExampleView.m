@@ -125,7 +125,7 @@ static CGFloat kTransitionDuration = 0.3;
         
         UIButton * go_onbuuton = [UIButton buttonWithType:UIButtonTypeCustom];
         [go_onbuuton setFrame:CGRectMake(MyEditorWidth / 2 - 80, MyEditorHeight - 60, 160, 45)];
-        [go_onbuuton setTitle:@"拍摄照片" forState:UIControlStateNormal];
+        [go_onbuuton setTitle:@"开始拍摄" forState:UIControlStateNormal];
         go_onbuuton.titleLabel.font = [UIFont rdSystemFontOfSize:16];
 //        [go_onbuuton setTintColor:[UIColor blueColor]];
         [go_onbuuton setBackgroundImage:[UIImage imageNamed:@"b_btn"] forState:UIControlStateNormal];

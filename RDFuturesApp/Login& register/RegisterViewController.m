@@ -15,10 +15,11 @@
 @property (weak, nonatomic) IBOutlet UITextField *passWordTextfield;
 @property (weak, nonatomic) IBOutlet UIButton *verificationCode;
 @property (weak, nonatomic) IBOutlet UILabel *verificationCodeLabel;
-@property (strong, nonatomic) NSTimer *timer;
+
 @property (weak, nonatomic) IBOutlet UILabel *areaLabel;//区号
 @property (strong, nonatomic)NSString * areaNumStr;
 @property (assign, nonatomic) int count;
+@property (strong, nonatomic) NSTimer *timer;
 @end
 
 @implementation RegisterViewController

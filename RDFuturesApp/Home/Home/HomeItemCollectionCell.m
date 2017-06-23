@@ -90,7 +90,7 @@
 -(UILabel *)titleLabel{
     if (!_titleLabel) {
         _titleLabel = [[UILabel alloc] init];
-        [_titleLabel setTextColor:RGB(151, 152, 152)];
+        [_titleLabel setTextColor:RGB(51, 51, 51)];
         [_titleLabel setBackgroundColor:[UIColor clearColor]];
         [_titleLabel setFont:[UIFont rdSystemFontOfSize:15]];
         

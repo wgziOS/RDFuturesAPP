@@ -34,15 +34,15 @@
                     <color key="textColor" red="0.23921568627450979" green="0.23921568627450979" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Pzg-Iz-WcD">
-                    <rect key="frame" x="48.5" y="105" width="222" height="174"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_newlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Pzg-Iz-WcD">
+                    <rect key="frame" x="9.5" y="105" width="300" height="79"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="174" id="YSI-2B-Jog"/>
-                        <constraint firstAttribute="width" constant="222" id="sEP-Ch-KtC"/>
+                        <constraint firstAttribute="height" constant="79" id="YSI-2B-Jog"/>
+                        <constraint firstAttribute="width" constant="300" id="sEP-Ch-KtC"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="准备有效身份证件、银行储蓄卡、wifi环境" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLc-Bj-dEh">
-                    <rect key="frame" x="26.5" y="309" width="267" height="25"/>
+                    <rect key="frame" x="26.5" y="214" width="267" height="25"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="RXs-eI-EMi"/>
                         <constraint firstAttribute="width" constant="267" id="lI7-NT-aYx"/>
@@ -51,8 +51,8 @@
                     <color key="textColor" red="0.38431372549019605" green="0.38431372549019605" blue="0.38431372549019605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(只支持中国大陆居民开户)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHI-nn-Hpg">
-                    <rect key="frame" x="58.5" y="379" width="203" height="25"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHI-nn-Hpg">
+                    <rect key="frame" x="58.5" y="284" width="203" height="25"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="203" id="NMi-rH-ab1"/>
                         <constraint firstAttribute="height" constant="25" id="XMG-81-G5a"/>
@@ -62,34 +62,34 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="id_icon" translatesAutoresizingMaskIntoConstraints="NO" id="b63-zn-CLk">
-                    <rect key="frame" x="75" y="344" width="45" height="30"/>
+                    <rect key="frame" x="75" y="249" width="45" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="L9m-6y-quZ"/>
                         <constraint firstAttribute="width" constant="45" id="hqT-IG-mCL"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card_icon" translatesAutoresizingMaskIntoConstraints="NO" id="T8D-w9-O6P">
-                    <rect key="frame" x="137.5" y="344" width="45" height="30"/>
+                    <rect key="frame" x="137.5" y="249" width="45" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="IkA-Qm-432"/>
                         <constraint firstAttribute="width" constant="45" id="qUP-6D-fc3"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WiFi_icon" translatesAutoresizingMaskIntoConstraints="NO" id="5Yr-CU-ZYd">
-                    <rect key="frame" x="200" y="344" width="45" height="30"/>
+                    <rect key="frame" x="200" y="249" width="45" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="45" id="4Jq-zF-g7t"/>
                         <constraint firstAttribute="height" constant="30" id="WDT-gH-vra"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_btn" translatesAutoresizingMaskIntoConstraints="NO" id="jz9-xX-x51">
-                    <rect key="frame" x="20" y="434" width="280" height="40"/>
+                    <rect key="frame" x="20" y="339" width="280" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="3YI-nn-aC4"/>
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V46-QB-kni">
-                    <rect key="frame" x="20" y="434" width="280" height="40"/>
+                    <rect key="frame" x="20" y="339" width="280" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="AeB-wP-t8E"/>
                     </constraints>
@@ -150,6 +150,6 @@
         <image name="b_btn" width="156" height="40"/>
         <image name="card_icon" width="47" height="34"/>
         <image name="id_icon" width="49" height="35"/>
-        <image name="new_logo" width="111" height="86"/>
+        <image name="new_newlogo" width="375" height="98"/>
     </resources>
 </document>

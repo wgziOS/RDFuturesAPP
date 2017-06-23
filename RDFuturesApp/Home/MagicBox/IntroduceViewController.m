@@ -8,23 +8,56 @@
 
 #import "IntroduceViewController.h"
 #import <WebKit/WebKit.h>
-@interface IntroduceViewController ()
-@property(nonatomic, strong)WKWebView * webView;
+@interface IntroduceViewController ()<UIWebViewDelegate>{
+    BOOL isLoadingFinished;
+}
+@property(nonatomic, strong)UIWebView * webView;
 @end
 
 @implementation IntroduceViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    WS(weakself)
+    self.webView = [[UIWebView alloc] init];
+    [self.view addSubview:self.webView];
     
-    _webView = [[WKWebView alloc] initWithFrame:CGRectMake(0, 0, VIEW_WIDTH, VIEW_HEIGHT-64)];
-    
+    [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(weakSelf.view);
+    }];
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/api/companyProfile/detail.api?contentId=%@",HostUrlBak,self.contentId]];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [_webView loadRequest:request];
+    [self.webView loadRequest:request];
 
-    _webView.contentScaleFactor = YES;
-    [self.view addSubview:_webView];
+//    _webView.contentScaleFactor = YES;
+
+    [self.webView setScalesPageToFit:YES];
+
+    self.webView.delegate = self;
+    
+    
+}
+
+-(void)webViewDidFinishLoad:(UIWebView *)webView{
+    
+    
+    if ([self.contentId isEqualToString:@"194"]) {
+        
+        [webView stringByEvaluatingJavaScriptFromString:@"var element = document.createElement('meta');  element.name = \"viewport\";  element.content = \"width=device-width,initial-scale=0.01,minimum-scale=0.5,maximum-scale=3,user-scalable=8\"; var head = document.getElementsByTagName('head')[0]; head.appendChild(element);"];
+        return;
+    }
+    if ([self.contentId isEqualToString:@"193"]) {
+        [webView stringByEvaluatingJavaScriptFromString:@"var element = document.createElement('meta');  element.name = \"viewport\";  element.content = \"width=device-width,initial-scale=0.75,minimum-scale=0.5,maximum-scale=3,user-scalable=5\"; var head = document.getElementsByTagName('head')[0]; head.appendChild(element);"];
+        return;
+    }
+    if ([self.contentId isEqualToString:@"204"]) {
+        [webView stringByEvaluatingJavaScriptFromString:@"var element = document.createElement('meta');  element.name = \"viewport\";  element.content = \"width=device-width,initial-scale=0.01,minimum-scale=0.5,maximum-scale=3,user-scalable=5\"; var head = document.getElementsByTagName('head')[0]; head.appendChild(element);"];
+        return;
+    }
+    
+    [webView stringByEvaluatingJavaScriptFromString:@"var element = document.createElement('meta');  element.name = \"viewport\";  element.content = \"width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=3,user-scalable=1\"; var head = document.getElementsByTagName('head')[0]; head.appendChild(element);"];
+    
+    // "width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=3,user-scalable=1\"
 }
 
 - (void)didReceiveMemoryWarning {

@@ -18,10 +18,13 @@
     CLLocationManager * locationManager;
     ZMBAddressSelectionView * addressView;
     NSString * city_id;
+    
+
 }
 
 @property (weak, nonatomic) IBOutlet UILabel *cityLabel;
-
+@property (nonatomic,strong) NSString * sheng;
+@property (nonatomic,strong) NSString * city;
 @end
 
 @implementation WitnessCityViewController
@@ -42,14 +45,24 @@
     [addressView showInView:self.view];
     addressView.delegate = self;
 
-    __weak typeof(self) weakSelf = self;
-    
+//    __weak typeof(self) weakSelf = self;
+    WS(weakself)
     addressView.addressSelectionFinished = ^(NSString* id ,NSString *name){
         
-        weakSelf.cityLabel.text = name;
+        weakSelf.cityLabel.text = [NSString stringWithFormat:@"%@%@%@",weakSelf.sheng,weakSelf.city,name];
+        
         city_id = id;
     };
+    addressView.addressShengFinished=^(NSString* id ,NSString *name){
+        NSLog(@"%@",name);
+        _sheng = [NSString stringWithFormat:@"%@",name];
+    };
     
+    addressView.addressCityFinished =^(NSString* id ,NSString *name){
+        NSLog(@"%@",name);
+        _city = [NSString stringWithFormat:@"%@",name];
+    };
+
     //******************
     loading(@"正在加载");
 

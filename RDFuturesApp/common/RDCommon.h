@@ -86,6 +86,11 @@
 
 #define HostUrlBak              @"http://192.168.0.200:8091/rdfuture"
 
+
+//#define HostUrlBak              @"http://210.13.218.130:3299/rdfuture"
+// #define HostUrlBak              @"http://192.168.0.200:8091/rdfuture"
+//#define HostUrlBak              @"http://192.168.0.25:8081/rdfuture"
+
 //#define HostUrlBak              @"http://210.13.218.130:3299/rdfuture"
 
 

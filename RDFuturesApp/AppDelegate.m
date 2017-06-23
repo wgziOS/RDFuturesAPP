@@ -85,6 +85,15 @@
     // 显示窗口
     [self.window makeKeyAndVisible];
 
+    //是否第一次启动
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+        //第一次启动
+        NSLog(@"第一次启动");
+    }else{
+        //不是第一次启动了
+        NSLog(@"不是第一次启动了");
+    }
     
     return YES;
 }

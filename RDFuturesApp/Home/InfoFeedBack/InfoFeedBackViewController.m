@@ -18,11 +18,14 @@
     [super viewDidLoad];
     self.title= @"信息反馈";
     [self.view addSubview:self.webView];
-    
+    WS(weakself)
+    [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(weakSelf.view);
+    }];
 }
 -(UIWebView *)webView{
     if (!_webView) {
-        _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, VIEW_WIDTH, VIEW_HEIGHT-64)];
+        _webView = [[UIWebView alloc] init];
         NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://p.qiao.baidu.com/cps/chat?siteId=10801271&userId=23236096"]];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         [_webView loadRequest:request];

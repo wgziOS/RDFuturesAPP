@@ -13,7 +13,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *getCodeButton;//获取验证码按钮
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextfield;//手机号
 @property (weak, nonatomic) IBOutlet UITextField *codeTextfield;//验证码
-
+@property (assign, nonatomic) int count;
+@property (strong, nonatomic) NSTimer *timer;
 @end
 
 @implementation CommitInfoViewController
@@ -40,7 +41,7 @@
             if (error==nil) {
                 showMassage(model.Message);
                 NSLog(@"验证码返回=%@",model.Message);
-                
+                self.timer= [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(buttonLoadSecond) userInfo:nil repeats:YES];
             }else{
                 showMassage(@"请求失败");
             }
@@ -48,7 +49,23 @@
         });
     });
 }
+-(void)buttonLoadSecond{
+    
+    self.count++;
+    if (60-self.count>0) {
+//        [self.verificationCodeLabel setText:[NSString stringWithFormat:@"%d秒",60-self.count]];
+//        [self.verificationCode setUserInteractionEnabled:NO];
+        [self.getCodeButton setTitle:[NSString stringWithFormat:@"%d秒",60-self.count] forState:UIControlStateNormal];
+        [self.getCodeButton setUserInteractionEnabled:NO];
+    }else{
+        [self.timer invalidate];
+        self.timer= nil;
 
+        [self.getCodeButton setTitle:@"获取验证码" forState:UIControlStateNormal];
+        [self.getCodeButton setUserInteractionEnabled:YES];
+    }
+    
+}
 #pragma mark - 提交
 /*
  ###27、确认并提交信息

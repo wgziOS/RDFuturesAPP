@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -17,8 +17,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IdPhotoViewController">
             <connections>
                 <outlet property="addressTextView" destination="4y1-Ss-9IC" id="eAy-lf-5sg"/>
+                <outlet property="backButton" destination="a3b-7l-sOJ" id="XmC-kw-HBN"/>
                 <outlet property="backImgView" destination="Xql-FM-uZf" id="BgW-C6-Ebe"/>
                 <outlet property="firstView" destination="PvU-kB-h02" id="E8F-7W-fmP"/>
+                <outlet property="frontButton" destination="W6o-Sm-hPi" id="kF5-xo-sEM"/>
                 <outlet property="frontImgView" destination="ezd-IE-aO4" id="bhw-wb-y8I"/>
                 <outlet property="idNumTextfield" destination="Tal-eR-dAF" id="5HQ-ol-Ar6"/>
                 <outlet property="nameTextfield" destination="YOc-6q-AZN" id="ect-tR-Kes"/>
@@ -283,7 +285,7 @@
                             </constraints>
                             <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="16"/>
-                            <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                            <textInputTraits key="textInputTraits"/>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名拼音" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyi-av-vFu">
                             <rect key="frame" x="10" y="59" width="90" height="21"/>
@@ -301,7 +303,7 @@
                             </constraints>
                             <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="16"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="身份证号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vj3-sY-PuC">
                             <rect key="frame" x="10" y="106" width="90" height="22"/>

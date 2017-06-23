@@ -23,6 +23,8 @@
     BOOL isGetInfo;
     NSDictionary * infoDic;//get到的数据
 }
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+@property (weak, nonatomic) IBOutlet UIButton *frontButton;
 @property(nonatomic, strong) UIImagePickerController *imagePicker;
 @property(nonatomic, strong) UIImagePickerController *imagePicker1;
 @property (weak, nonatomic) IBOutlet UIImageView *frontImgView;
@@ -161,6 +163,8 @@
         
         _firstView.hidden = YES;
         [MBProgressHUD showSuccess:@"正在识别"];
+        [_backButton setTitle:@"重拍背面照" forState:UIControlStateNormal];
+        [_frontButton setTitle:@"重拍正面照" forState:UIControlStateNormal];
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             
             [NSThread sleepForTimeInterval:1];

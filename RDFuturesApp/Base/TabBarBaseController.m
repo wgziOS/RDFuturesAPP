@@ -40,15 +40,15 @@
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
     // 添加子控制器
-    [self setupChildVc:[[HomeViewController alloc] init] title:@"瑞达" image:@"tabbar_home_default" selectedImage:@"tabbar_home_selected"];
+    [self setupChildVc:[[HomeViewController alloc] init] title:@"瑞达" image:@"tab_home_default" selectedImage:@"tab_home_select"];
     
-    [self setupChildVc:[[NewsViewController alloc] init] title:@"新闻" image:@"tabbar_news_default" selectedImage:@"tabbar_news_seected"];
+    [self setupChildVc:[[NewsViewController alloc] init] title:@"新闻" image:@"tab_news_default" selectedImage:@"tab_news_select"];
     
-    [self setupChildVc:[[NoticeViewController alloc] init] title:@"圈子" image:@"tabbar_group_default" selectedImage:@"tabbar_group_seected"];
+    [self setupChildVc:[[NoticeViewController alloc] init] title:@"圈子" image:@"tab_group_default" selectedImage:@"tab_group_select"];
     
-    [self setupChildVc:[[MineViewController alloc] init] title:@"我的" image:@"tabbar_self_default" selectedImage:@"tabbar_self_selected"];
+    [self setupChildVc:[[MineViewController alloc] init] title:@"我的" image:@"tab_self_default" selectedImage:@"tab_self_select"];
     
-    
+
     // 更换tabBar
     [self setValue:[[RDTabbar alloc] init] forKeyPath:@"tabBar"];
     [self addNSNotification];
@@ -138,8 +138,8 @@
             case 3:
             {
                 BillViewController *message = [[BillViewController alloc] init];
-                UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:message];
-                [weakSelf presentViewController:nav animated:YES completion:nil];
+                UINavigationController *vc = weakSelf.childViewControllers.firstObject;
+                [vc pushViewController:message animated:YES];
             }
                 break;
                 

@@ -48,13 +48,13 @@
     
     [self.icon mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(weakSelf.bgView);
-        make.left.equalTo(weakSelf.bgView).with.offset(5);
+        make.left.equalTo(weakSelf.bgView).with.offset(35);
         make.size.mas_offset(CGSizeMake(79, 67));
     }];
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(weakSelf.bgView);
-        make.left.equalTo(weakSelf.icon.mas_right).with.offset(10);
-        make.right.equalTo(weakSelf.bgView.mas_right).with.offset(-5);
+        make.left.equalTo(weakSelf.icon.mas_right).with.offset(0);
+        make.right.equalTo(weakSelf.bgView.mas_right).with.offset(-2);
         make.height.offset(75);
     }];
 }
@@ -98,7 +98,7 @@
         }else{
             _titleLabel.font = [UIFont rdSystemFontOfSize:fifteenFontSize];
         }
-        _titleLabel.textColor = RGB(122, 122, 122);
+        _titleLabel.textColor = RGB(51, 51, 51);
         _titleLabel.textAlignment = NSTextAlignmentCenter;
     }
     return _titleLabel;

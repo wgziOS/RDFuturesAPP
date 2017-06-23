@@ -162,7 +162,7 @@ UIGestureRecognizerDelegate>
   [self.coverView addGestureRecognizer:tapGesture];
   tapGesture.delegate = self;
   
-  _presentView = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height, self.frame.size.width, 380)];
+  _presentView = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height, self.frame.size.width, 350)];
   [self addSubview:_presentView];
   
   
@@ -184,9 +184,10 @@ UIGestureRecognizerDelegate>
   closeButton.frame = CGRectMake(topView.frame.size.width - 60 , 0, 45, kHYTopViewHeight);
   [closeButton setTitle:@"取消" forState:UIControlStateNormal];
   closeButton.titleLabel.font = [UIFont systemFontOfSize:15.0f];
-  [closeButton setTitleColor: [UIColor redColor] forState:UIControlStateNormal];
-//  [closeButton addTarget:self action:@selector(hidden)];
+    [closeButton setTitleColor: [UIColor redColor] forState:UIControlStateNormal];
+    //  [closeButton addTarget:self action:@selector(hidden)];
     [closeButton addTarget:self action:@selector(hidden) forControlEvents:UIControlEventTouchUpInside];
+  
 
   UIView * separateLine = [self separateLine];
   [topView addSubview: separateLine];
@@ -223,15 +224,14 @@ UIGestureRecognizerDelegate>
   underLineFrame.origin.y = separateLine1.frame.origin.y - underLine.frame.size.height;
   underLine.frame = underLineFrame;
   
-
-  _underLine.backgroundColor = [UIColor redColor];
+  
+  _underLine.backgroundColor = [UIColor orangeColor];
   UIScrollView * contentView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(topTabbar.frame), _presentView.frame.size.width, _presentView.frame.size.height - kHYTopViewHeight - kHYTopTabbarHeight)];
   contentView.contentSize = CGSizeMake(HYScreenW, 0);
   [_presentView addSubview:contentView];
   _contentView = contentView;
   _contentView.pagingEnabled = YES;
   [self addNewTableView];
-    
   _contentView.delegate = self;
 }
 
@@ -239,7 +239,7 @@ UIGestureRecognizerDelegate>
 - (void)addNewTableView
 {
   
-  UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(self.tableViews.count * HYScreenW, 0, HYScreenW, _contentView.frame.size.height-60)];
+    UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(self.tableViews.count * HYScreenW, 0, HYScreenW, _contentView.frame.size.height-60)];
   [_contentView addSubview:tableView];
   [self.tableViews addObject:tableView];
   tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -298,8 +298,7 @@ UIGestureRecognizerDelegate>
     cell.isSelected = item.isSelected;
     
     //区级别
-  }
-  else if ([self.tableViews indexOfObject:tableView] == 2){
+  }else if ([self.tableViews indexOfObject:tableView] == 2){
     //        cell.addressLabel.text = self.dataSouce2[indexPath.row];
     ZMBAddressItem * item = self.dataSouce2[indexPath.row];
     cell.addressLabel.text = item.local_name;
@@ -322,6 +321,7 @@ UIGestureRecognizerDelegate>
     //之前有选中省，重新选择省,切换省.
     if (indexPath0 != indexPath && indexPath0) {
       
+        
       for (int i = 0; i < self.tableViews.count; i++) {
         [self removeLastItem];
       }
@@ -329,7 +329,9 @@ UIGestureRecognizerDelegate>
       [self addNewTableView];
       [self scrollToNextItem:item.local_name];
       [self.delegate addressSelectionView:self willSelectedProvince:item.region_id];
-
+        if (self.addressShengFinished) {
+            self.addressShengFinished(item.region_id,item.local_name);
+        }
       return indexPath;
     }
     //之前未选中省，第一次选择省
@@ -339,13 +341,18 @@ UIGestureRecognizerDelegate>
     
     [self.delegate addressSelectionView:self willSelectedProvince:item.region_id];
 
- 
+      if (self.addressShengFinished) {
+          self.addressShengFinished(item.region_id,item.local_name);
+      }
   }
   else if ([self.tableViews indexOfObject:tableView] == 1){
     
     ZMBAddressItem * item = self.dataSouce1[indexPath.row];
     self.selectedItem = item;
-
+      
+      if (self.addressCityFinished) {
+          self.addressCityFinished(item.region_id,item.local_name);
+      }
     //重新选择市,切换市
     if (indexPath0 != indexPath && indexPath0) {
       [self removeLastItem];
@@ -361,8 +368,8 @@ UIGestureRecognizerDelegate>
     [self scrollToNextItem:item.local_name];
     
     [self.delegate addressSelectionView:self willSelectedCity:item.region_id];
-    //不执行 选择区 直接执行block
-    [self setUpAddress:item];
+     
+    
     return indexPath;
   }
   else if ([self.tableViews indexOfObject:tableView] == 2){
@@ -434,7 +441,7 @@ UIGestureRecognizerDelegate>
   
   NSInteger index = self.contentView.contentOffset.x / HYScreenW;
   UIButton * btn = self.topTabbarItems[index];
-  [btn setTitle:addressItem.local_name forState:UIControlStateNormal];
+  [btn setTitle:addressItem.name forState:UIControlStateNormal];
   [btn sizeToFit];
   [_topTabbar layoutIfNeeded];
   [self changeUnderLineFrame:btn];
@@ -455,8 +462,6 @@ UIGestureRecognizerDelegate>
   
   [self.tableViews.lastObject performSelector:@selector(removeFromSuperview) withObject:nil withObject:nil];
   [self.tableViews removeLastObject];
-
-    
   
   [self.topTabbarItems.lastObject performSelector:@selector(removeFromSuperview) withObject:nil withObject:nil];
   [self.topTabbarItems removeLastObject];

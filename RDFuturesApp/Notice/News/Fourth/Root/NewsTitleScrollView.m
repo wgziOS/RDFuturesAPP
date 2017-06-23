@@ -177,8 +177,8 @@
         [_segment setDividerImage:[UIImage imageNamed:@"white_bar"] forLeftSegmentState:UIControlStateNormal rightSegmentState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
         
         // 设置选中的文字颜色
-        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: RGB(102, 102, 102)} forState:UIControlStateSelected];
-        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: RGB(102, 102, 102)} forState:UIControlStateNormal];
+        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: RGB(0, 0, 0)} forState:UIControlStateSelected];
+        [_segment setTitleTextAttributes:@{NSForegroundColorAttributeName: RGB(51, 51, 51)} forState:UIControlStateNormal];
 
 
         
