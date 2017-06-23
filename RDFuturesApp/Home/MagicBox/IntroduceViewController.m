@@ -50,7 +50,7 @@
         [webView stringByEvaluatingJavaScriptFromString:@"var element = document.createElement('meta');  element.name = \"viewport\";  element.content = \"width=device-width,initial-scale=0.75,minimum-scale=0.5,maximum-scale=3,user-scalable=5\"; var head = document.getElementsByTagName('head')[0]; head.appendChild(element);"];
         return;
     }
-    if ([self.contentId isEqualToString:@"204"]) {
+    if ([self.contentId isEqualToString:@"200"]) {
         [webView stringByEvaluatingJavaScriptFromString:@"var element = document.createElement('meta');  element.name = \"viewport\";  element.content = \"width=device-width,initial-scale=0.01,minimum-scale=0.5,maximum-scale=3,user-scalable=5\"; var head = document.getElementsByTagName('head')[0]; head.appendChild(element);"];
         return;
     }

@@ -53,19 +53,24 @@
             [self pushIntroduceWithcontentID:@"195" title:@"最后交易日"];
             break;
         case 4://个人客户开户需知
-            [self pushIntroduceWithcontentID:@"202" title:@"个人客户开户需知"];
+//            [self pushIntroduceWithcontentID:@"202" title:@"个人客户开户需知"];
+             [self pushIntroduceWithcontentID:@"189" title:@"个人客户开户需知"];
             break;
         case 5://机构客户开户需知
-            [self pushIntroduceWithcontentID:@"203" title:@"机构客户开户需知"];
+//            [self pushIntroduceWithcontentID:@"203" title:@"机构客户开户需知"];
+            [self pushIntroduceWithcontentID:@"199" title:@"机构客户开户需知"];
             break;
         case 6://出入金流程
-            [self pushIntroduceWithcontentID:@"201" title:@"出入金流程"];
+//            [self pushIntroduceWithcontentID:@"201" title:@"出入金流程"];
+            [self pushIntroduceWithcontentID:@"197" title:@"出入金流程"];
             break;
         case 7://品种介绍
-            [self pushIntroduceWithcontentID:@"204" title:@"品种介绍"];
+//            [self pushIntroduceWithcontentID:@"204" title:@"品种介绍"];
+            [self pushIntroduceWithcontentID:@"200" title:@"品种介绍"];
             break;
         case 8://交易需知
-            [self pushIntroduceWithcontentID:@"205" title:@"交易须知"];
+//            [self pushIntroduceWithcontentID:@"205" title:@"交易须知"];
+             [self pushIntroduceWithcontentID:@"303" title:@"交易须知"];
             break;
             
         default:

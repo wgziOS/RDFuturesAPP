@@ -95,7 +95,7 @@
             NavigationBaseController *vc = [self getCurrentVC];
 
             [vc pushViewController:login animated:YES];
-            [self setSelectedIndex:self.oldIndex];
+//            [self setSelectedIndex:self.oldIndex];
         }
         return;
     }
