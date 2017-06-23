@@ -27,7 +27,7 @@
 
     NSUserDefaults *userdefault = [NSUserDefaults standardUserDefaults];
     _phoneNumStr = [userdefault objectForKey:@"phoneNumber"];
-    _idStr = [userdefault objectForKey:@"user_id"];
+    _idStr = [userdefault objectForKey:@"customer_id"];
 
     
     self.title = @"账户安全";
