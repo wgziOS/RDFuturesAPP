@@ -11,9 +11,11 @@
 #import "NoticeViewModel.h"
 #import "NoticeDetailsViewController.h"
 #import "NoticeModel.h"
+#import "MessageViewController.h"
 @interface NoticeViewController ()
 @property(nonatomic,strong)NoticeView *noticeView;
 @property(nonatomic,strong)NoticeViewModel *noticeViewModel;
+@property(nonatomic,strong)UIButton *messageButton;
 @end
 
 @implementation NoticeViewController
@@ -25,6 +27,27 @@
     
     [self.view addSubview:self.noticeView];
     
+}
+- (UIBarButtonItem *)rightButton
+{
+    return [[UIBarButtonItem alloc] initWithCustomView:self.messageButton];
+}
+-(UIButton *)messageButton{
+    if (!_messageButton) {
+        _messageButton  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message"] forState:UIControlStateNormal];//设置左边按钮的图片
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message_select"] forState:UIControlStateSelected];//设置左边按钮的图片
+        [_messageButton addTarget:self action:@selector(actionOnTouchBackButton:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
+    }
+    return _messageButton;
+}
+-(void)actionOnTouchBackButton:(id)sender{
+    if(![[RDUserInformation getInformation] getLoginState]){
+        [self puchLogin];
+        return ;
+    }
+    MessageViewController *message = [[MessageViewController alloc] init];
+    [self.navigationController pushViewController:message animated:YES];
 }
 -(void)bindViewModel{
     WS(weakself)
