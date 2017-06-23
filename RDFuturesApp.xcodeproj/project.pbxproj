@@ -317,6 +317,7 @@
 		CEB3D9291E6D59460030F5F6 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3D9281E6D59460030F5F6 /* HomeView.m */; };
 		CEB3D9311E6D59600030F5F6 /* HomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3D9301E6D59600030F5F6 /* HomeScrollView.m */; };
 		CEB3D9371E6D59710030F5F6 /* HomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3D9361E6D59710030F5F6 /* HomeCellModel.m */; };
+		CED00DFB1EFCBCD600791B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA70731EFBC32E0046AF84 /* Assets.xcassets */; };
 		CED95C371E9F772700206E64 /* ScrollCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95C361E9F772700206E64 /* ScrollCollectionViewCell.m */; };
 		CED95C3A1E9F806800206E64 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95C391E9F806800206E64 /* BaseCollectionViewCell.m */; };
 		CEDA7E111E97454900E93C93 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE77103B1E712F05000720EE /* RegisterViewController.m */; };
@@ -2609,7 +2610,7 @@
 					CE87C4FE1E650DDD00103EDE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5GT7M52QLG;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2714,6 +2715,7 @@
 				B24219A81EC31526000FE1AC /* ChooseIDViewController.xib in Resources */,
 				B240B3A41E67B754003445AB /* 方正黑体简体.TTF in Resources */,
 				CE77106A1E712F2F000720EE /* FinanceInfoViewController.xib in Resources */,
+				CED00DFB1EFCBCD600791B47 /* Assets.xcassets in Resources */,
 				B299BB611EFCBDDE0047438E /* Assets.xcassets in Resources */,
 				B2CCC25A1EF2167F00C20F18 /* APIServiceViewController.xib in Resources */,
 				B2B5BC3F1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt in Resources */,
@@ -3190,7 +3192,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDFuturesApp/RDFuturesApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhibin Lin (UH2HAG56T3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5GT7M52QLG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3219,8 +3221,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruida.RDFutures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
-				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -3233,7 +3235,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDFuturesApp/RDFuturesApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhibin Lin (UH2HAG56T3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5GT7M52QLG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3262,8 +3264,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruida.RDFutures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
-				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -92,9 +92,9 @@
         if (![[RDUserInformation getInformation] getLoginState]) {
             
             LoginViewController *login = [[LoginViewController alloc] init];
-            login.puchTheWay = 1;
-            NavigationBaseController *nav = [[NavigationBaseController alloc] initWithRootViewController:login];
-            [self presentViewController:nav animated:YES completion:nil];
+            NavigationBaseController *vc = [self getCurrentVC];
+
+            [vc pushViewController:login animated:YES];
             [self setSelectedIndex:self.oldIndex];
         }
         return;
@@ -109,65 +109,65 @@
             return ;
         }
         NotificationModel *model = (NotificationModel*)notification.object;
-        
-        switch ([model.inward_id intValue]) {
-            case 1:
-            {
-                MessageViewController *message = [[MessageViewController alloc] init];
-//                UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:message];
-//                [weakSelf presentViewController:nav animated:YES completion:nil];
-//                                                self.tabBarController.childViewControllers[0];
-                                UIView *view = [[UIApplication sharedApplication].windows lastObject];
-                                UIResponder *responder = view;
-                                //循环获取下一个响应者,直到响应者是一个UIViewController类的一个对象为止,然后返回该对象.
-                                while ((responder = [responder nextResponder])) {
-                                    if ([responder isKindOfClass:[UINavigationController class]]) {
-                                        UINavigationController *viewController =  (UINavigationController *)responder;
-                                        [viewController.navigationController pushViewController:message animated:YES];
-                                    }
-                                }
+        if ([model.skip_type intValue]==1) {
+            NavigationBaseController *vc = [weakSelf getCurrentVC];
+
+            switch ([model.inward_id intValue]) {
+                case 1:
+                {
+                    MessageViewController *message = [[MessageViewController alloc] init];
+                    [vc pushViewController:message animated:YES];
+
+                }
+                    break;
+                    
+                case 2:
+                {
+                    weakSelf.selectedIndex = 2;
+                }
+                    break;
+                    
+                case 3:
+                {
+                    BillViewController *message = [[BillViewController alloc] init];
+                    [vc pushViewController:message animated:YES];
+                }
+                    break;
+                    
+                default:
+                    break;
             }
-                break;
-                
-            case 2:
-            {
-                weakSelf.selectedIndex = 2;
-            }
-                break;
-                
-            case 3:
-            {
-                BillViewController *message = [[BillViewController alloc] init];
-                UINavigationController *vc = weakSelf.childViewControllers.firstObject;
-                [vc pushViewController:message animated:YES];
-            }
-                break;
-                
-            default:
-                break;
+
+        }else{
+            
         }
+        
     }];
     
     
 }
-
-//-(void)viewWillAppear:(BOOL)animated
-//{
-//    [self.selectedViewController beginAppearanceTransition: YES animated: animated];
-//}
-//
-//-(void) viewDidAppear:(BOOL)animated
-//{
-//    [self.selectedViewController endAppearanceTransition];
-//}
-//
-//-(void) viewWillDisappear:(BOOL)animated
-//{
-//    [self.selectedViewController beginAppearanceTransition: NO animated: animated];
-//}
-//
-//-(void) viewDidDisappear:(BOOL)animated
-//{
-//    [self.selectedViewController endAppearanceTransition];
-//}
+- (NavigationBaseController *)getCurrentVC
+{
+    NavigationBaseController *nav ;
+    int index = (int)self.selectedIndex;
+    switch (index) {
+        case 0:
+            nav = self.childViewControllers[0];
+            break;
+        case 1:
+            nav = self.childViewControllers[1];
+            break;
+        case 2:
+            nav = self.childViewControllers[2];
+            break;
+        case 3:
+            nav = self.childViewControllers[3];
+            break;
+            
+        default:
+            break;
+    }
+    
+    return nav;
+}
 @end

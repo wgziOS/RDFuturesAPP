@@ -132,11 +132,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    if (indexPath.row == 2) {
-//        TestViewController * XVC = [[TestViewController alloc]init];
-//        //            [self.navigationController pushViewController:XVC animated:YES];
-//        [self presentViewController:XVC animated:YES completion:nil];
-//    }
+
     
 }
 -(void)pushNextVC{
