@@ -21,11 +21,12 @@
 @end
 
 @interface ZMBAddressSelectionView : UIView
-//
+
 @property (nonatomic,weak) id<ZMBAddressSelectionViewDelegate> delegate;
 
 @property (nonatomic, copy) void(^addressSelectionFinished)(NSString *Id,NSString *fullName);
-
+@property (nonatomic, copy) void(^addressShengFinished)(NSString *Id,NSString *fullName);
+@property (nonatomic, copy) void(^addressCityFinished)(NSString *Id,NSString *fullName);
 - (void)showInView:(UIView *)view;
 
 - (void)reloadProvinceTable:(NSArray *)provinces;

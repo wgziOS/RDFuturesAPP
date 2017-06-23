@@ -153,7 +153,7 @@
 #pragma mark - 拍照
 - (IBAction)takePhoto:(id)sender {
     
-    ShootExampleView * view = [[ShootExampleView alloc]initViewTitleImgString:@"takePhoto" TitleString:@"拍照示范" SubTitleString:@"请将证件放平，手机横向拍摄。保证照片中的身份证边框完整，字体清晰，亮度均匀" BtnImgString:@"blue_btn"];
+    ShootExampleView * view = [[ShootExampleView alloc]initViewTitleImgString:@"takePhoto" TitleString:@"拍照示范" SubTitleString:@"请将证件放平，手机横向拍摄。保证照片中的护照的边框完整，字体清晰，亮度均匀" BtnImgString:@"blue_btn"];
     [view show];
     
     view.goonBlock = ^(){

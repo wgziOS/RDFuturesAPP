@@ -7,7 +7,7 @@
 //
 
 #import "ProgressViewController.h"
-
+#import "IntroduceViewController.h"
 @interface ProgressViewController ()
 {
     NSString * statesStr;
@@ -64,6 +64,11 @@
 }
 #pragma mark - 指引按钮
 - (IBAction)guideBtnClick:(id)sender {
+    
+    IntroduceViewController * IVC = [[IntroduceViewController alloc]init];
+    IVC.title = @"出入金流程";
+    IVC.contentId = @"201";
+    [self.navigationController pushViewController:IVC animated:YES];
 }
 #pragma mark - 完成按钮
 - (IBAction)finishBtnClick:(id)sender {

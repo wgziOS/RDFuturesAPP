@@ -37,6 +37,7 @@
     // Do any additional setup after loading the view from its nib.
     self.title =@"开户";
     [self getStepStatus];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 #pragma mark - 下一步
 - (IBAction)nextClick:(id)sender {

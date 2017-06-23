@@ -31,6 +31,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *idNumTextfield;
 @property (weak, nonatomic) IBOutlet UITextField *addressTextfield;
 @property (weak, nonatomic) IBOutlet UITextView *addressTextView;
+@property (weak, nonatomic) IBOutlet UIButton *frontButton;
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
 
 @end
 //
@@ -150,6 +152,9 @@
         
         _firstView.hidden = YES;
         [MBProgressHUD showSuccess:@"正在识别"];
+        
+        [_backButton setTitle:@"重拍背面照" forState:UIControlStateNormal];
+        [_frontButton setTitle:@"重拍正面照" forState:UIControlStateNormal];
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             
             [NSThread sleepForTimeInterval:1];

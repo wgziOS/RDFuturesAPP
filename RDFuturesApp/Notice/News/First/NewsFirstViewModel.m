@@ -65,7 +65,7 @@
 -(RACCommand *)refreshDataCommand{
 
 //    (109：要闻 102：股指 103：债券 104：外汇 105：贵金属
-//     106：农产品 107：有色金属 108：能源化工)
+//     106：农产品 107：有色金属 108：能源化工)d
     if (!_refreshDataCommand) {
         
         _refreshDataCommand = [[RACCommand alloc]initWithSignalBlock:^RACSignal *(id input) {

@@ -12,6 +12,7 @@
 
 @property (nonatomic,copy) NSString *region_id;
 
+@property (nonatomic,copy) NSString *name;
 @property (nonatomic,copy) NSString *local_name;
 //@property (nonatomic,copy) NSString *fullName;
 @property (nonatomic,copy) NSArray * cityList;
