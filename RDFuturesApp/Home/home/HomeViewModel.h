@@ -29,4 +29,8 @@
 
 @property(nonatomic,strong)RACSubject *accountSubject;//
 
+@property(nonatomic,strong)RACCommand *refreshMessageStateCommand;//获取首页消息状态
+
+@property(nonatomic,strong)RACSubject *refreshMessageStateSubject;//刷新首页消息状态
+
 @end

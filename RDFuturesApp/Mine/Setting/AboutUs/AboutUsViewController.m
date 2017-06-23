@@ -29,10 +29,9 @@
     self.mainView.versionLabel.text = [NSString stringWithFormat:@"瑞达国际 V%@",app_Version];
     self.mainView.infoLabel.text = app_Version;
     
-    self.mainView.infoLabel.userInteractionEnabled = YES;
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(versionTap)];
     [self.mainView.infoLabel addGestureRecognizer:tap];
-    
+
 }
 -(void)versionTap{
 
@@ -44,7 +43,6 @@
  */
 -(void)getVersionNo{
     
-    WS(weakself)
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error ;
         
@@ -56,18 +54,16 @@
             if (error==nil) {
                 if ([model.State isEqualToString:@"1"]) {
                     //服务器版本号
-                    NSString * str = [NSString stringWithFormat:@"%@",model.Data[@"version_no"]];
+                    NSString * service_Version = [NSString stringWithFormat:@"%@",model.Data[@"version_no"]];
                     
                     // 获取app版本
                     NSString *app_Version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-                    NSLog(@"当前版本%@",app_Version);
                     
-                    if ([weakSelf compareEditionNumber:str localNumber:app_Version]) {
-                        //服务器大与本地
-                        weakSelf.mainView.infoLabel.text = [NSString stringWithFormat:@"可更新至：%@",str];
+                    if ([self compareEditionNumber:service_Version localNumber:app_Version]) {
+                        
+                    }else{
 
-                    }else weakSelf.mainView.infoLabel.userInteractionEnabled = NO;
-                    
+                    }
                     
                 }
                 

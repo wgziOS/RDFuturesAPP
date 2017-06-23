@@ -306,7 +306,6 @@
 		CE83E8E31E66CD4F00FA8E14 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83E8E21E66CD4F00FA8E14 /* BaseTableViewCell.m */; };
 		CE87C5041E650DDD00103EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87C5031E650DDD00103EDE /* main.m */; };
 		CE87C5071E650DDD00103EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87C5061E650DDD00103EDE /* AppDelegate.m */; };
-		CE87C50F1E650DDD00103EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE87C50E1E650DDD00103EDE /* Assets.xcassets */; };
 		CE87C5121E650DDD00103EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE87C5101E650DDD00103EDE /* LaunchScreen.storyboard */; };
 		CE87C51D1E650DDD00103EDE /* RDFuturesAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87C51C1E650DDD00103EDE /* RDFuturesAppTests.m */; };
 		CE87C5281E650DDD00103EDE /* RDFuturesAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87C5271E650DDD00103EDE /* RDFuturesAppUITests.m */; };
@@ -892,7 +891,6 @@
 		CE87C5031E650DDD00103EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE87C5051E650DDD00103EDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		CE87C5061E650DDD00103EDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		CE87C50E1E650DDD00103EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE87C5111E650DDD00103EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE87C5131E650DDD00103EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE87C5181E650DDD00103EDE /* RDFuturesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDFuturesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -943,6 +941,7 @@
 		CEEE9B6C1EA49F8F0062671E /* HomeItemCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeItemCollectionCell.m; path = RDFuturesApp/Home/Home/HomeItemCollectionCell.m; sourceTree = SOURCE_ROOT; };
 		CEF401EB1ED32DF800EC6AD7 /* OtherInforClauseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherInforClauseView.h; sourceTree = "<group>"; };
 		CEF401EC1ED32DF800EC6AD7 /* OtherInforClauseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherInforClauseView.m; sourceTree = "<group>"; };
+		CEFA70731EFBC32E0046AF84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA0889B500B91A107B4F1E78 /* Pods-RDFuturesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RDFuturesApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RDFuturesApp/Pods-RDFuturesApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1754,14 +1753,11 @@
 				B2CCC2561EF2167F00C20F18 /* APIServiceViewController.h */,
 				B2CCC2571EF2167F00C20F18 /* APIServiceViewController.m */,
 				B2CCC2581EF2167F00C20F18 /* APIServiceViewController.xib */,
-
-
 				B2B5BC431EF798AC0083C44D /* APIServiceModel.h */,
 				B2B5BC441EF798AC0083C44D /* APIServiceModel.m */,
 				B2B5BC3E1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt */,
 				B2B5BC401EF76DDC0083C44D /* APISignatureViewController.h */,
 				B2B5BC411EF76DDC0083C44D /* APISignatureViewController.m */,
-
 			);
 			name = APIService;
 			sourceTree = "<group>";
@@ -2396,7 +2392,7 @@
 				B29DDCCF1EC97F88006794EF /* Message */,
 				CE807CA71E8E44D400E45779 /* TextFile */,
 				CE7710331E712F05000720EE /* Login& register */,
-				CE87C50E1E650DDD00103EDE /* Assets.xcassets */,
+				CEFA70731EFBC32E0046AF84 /* Assets.xcassets */,
 				CE87C5101E650DDD00103EDE /* LaunchScreen.storyboard */,
 				CE87C5131E650DDD00103EDE /* Info.plist */,
 				B240B3A31E67B754003445AB /* 方正黑体简体.TTF */,
@@ -2713,7 +2709,6 @@
 				CE7710681E712F2F000720EE /* ContactInfoViewController.xib in Resources */,
 				B25119B61EEF930C00E95771 /* CompanyNoticeCell.xib in Resources */,
 				B24C51F51EC19AF000E53605 /* NewPassWordViewController.xib in Resources */,
-				CE87C50F1E650DDD00103EDE /* Assets.xcassets in Resources */,
 				CE0ADFD71ED2D937002801D5 /* BillTableViewCell.xib in Resources */,
 				CE0AE00E1ED2D937002801D5 /* AccountSecurityViewController.xib in Resources */,
 				CE7710421E712F05000720EE /* RegisterViewController.xib in Resources */,

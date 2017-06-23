@@ -50,7 +50,6 @@
                         hiddenHUD;
                         if (error==nil) {
                             if ([model.State isEqualToString:@"1"]) {
-                                
                                 [subscriber sendNext:nil];
                             }else{
                                 showMassage(model.Message)

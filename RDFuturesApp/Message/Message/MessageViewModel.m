@@ -54,7 +54,7 @@
                         hiddenHUD;
                         if (error ==nil) {
                             if ([model.State isEqualToString:@"1"]) {
-                                [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; //清除角标
+//                                [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; //清除角标
                                 [subscriber sendNext:model.Data];
                             }else{
                                 showMassage(model.Message)
@@ -92,7 +92,7 @@
 -(NSMutableArray *)dataArray{
     if (!_dataArray) {
         MessageModel *onlineService = [[MessageModel alloc] init];
-        onlineService.image = @"Message_online_service_icon";
+        onlineService.image = @"item_service";
         onlineService.titleText = @"在线客服";
         onlineService.subtitle = @"最新聊天记录";
         onlineService.is_new_inform = NO;

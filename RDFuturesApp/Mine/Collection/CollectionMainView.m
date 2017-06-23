@@ -144,8 +144,6 @@
     [self.viewModel.cellClick sendNext:string];
 }
 -(UITableView *)tableView{
-    
-    
     WS(weakself)
     if (!_tableView) {
         _tableView = [[UITableView alloc]init];

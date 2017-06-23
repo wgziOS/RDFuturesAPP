@@ -73,26 +73,21 @@
     
     [self.updateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.equalTo(weakSelf.versionLabel.mas_bottom).with.offset(20);
+        make.top.equalTo(weakSelf.whiteView).with.offset(20);
         make.left.equalTo(weakSelf).with.offset(8);
-//        make.size.mas_offset(CGSizeMake(120, 20));
-        make.height.equalTo(@30);
-        make.right.equalTo(weakSelf.infoLabel.mas_left).with.offset(0);
-        
+        make.size.mas_offset(CGSizeMake(100, 20));
     }];
     
     [self.infoLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.centerY.equalTo(weakSelf.updateLabel);
-        make.right.equalTo(weakSelf).with.offset(-8);
-//        make.size.mas_equalTo(weakSelf.updateLabel);
+        make.right.left.equalTo(weakSelf);
         make.height.equalTo(@30);
-        make.left.equalTo(weakSelf.updateLabel.mas_right).with.offset(0);
+        
     }];
     
     [self.privacyLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
-//        make.centerX.equalTo(weakSelf.updateLabel);
         make.top.equalTo(weakSelf.updateLabel.mas_bottom).with.offset(12);
         make.left.equalTo(weakSelf).with.offset(8);
         make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH-16, 30));
@@ -116,7 +111,7 @@
         
         make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH,1));
         make.centerX.equalTo(weakSelf.logoImgView);
-        make.top.equalTo(weakSelf.updateLabel.mas_bottom).with.offset(5);
+        make.top.equalTo(weakSelf.updateLabel.mas_bottom).with.offset(10);
         
     }];
     
@@ -200,7 +195,7 @@
         _infoLabel.text = @"已经是最新版本";
         _infoLabel.textColor = [UIColor blackColor];
         _infoLabel.font = [UIFont rdSystemFontOfSize:15.0f];
-        _infoLabel.backgroundColor = [UIColor whiteColor];
+        _infoLabel.backgroundColor = [UIColor clearColor];
     }
     return _infoLabel;
 }

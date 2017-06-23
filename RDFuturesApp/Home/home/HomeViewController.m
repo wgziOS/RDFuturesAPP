@@ -30,7 +30,7 @@
 @property(nonatomic,strong)HomeView *mainView;
 @property(nonatomic,strong)HomeViewModel *homeviewModel;
 @property (nonatomic,strong)UIWebView * webView;
-
+@property (nonatomic,strong)UIButton * messageButton;
 @end
 
 @implementation HomeViewController
@@ -42,9 +42,9 @@
     
     [self.view addSubview:self.mainView];
     
-    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"home_navigation_image"]];
     
-    self.view.backgroundColor = DEFAULT_BG_COLOR;
+    
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadingAdvertisementController];
 
@@ -113,21 +113,13 @@
         int index= [x intValue];
         switch (index) {
             case 0:
-            {
-                WitnessCityViewController *wit = [[WitnessCityViewController alloc] init];
-                [self.navigationController pushViewController:wit animated:YES];
-//                [weakSelf puchRDProfile];//瑞达简介
-            }
+                [weakSelf puchRDProfile];//瑞达简介
                 break;
             case 1://（1：资料审核 2：完成 3：失败 4：未开户）
-                
-//                [self.homeviewModel.refreshAccountCommand execute:nil];//存入资金
                 [weakSelf kefu];
                 break;
-            case 2:{
+            case 2:
                 [weakSelf puchContactUs];//联系我们
-
-            }
                 break;
             case 3://                业务办理
                 [weakSelf pushBusinessBandling];
@@ -229,12 +221,7 @@
 -(void)addChildView{
 }
 -(UIView *)centerView{
-    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 30)];
-    titleLabel.textAlignment = NSTextAlignmentCenter;
-    titleLabel.textColor = [UIColor whiteColor];
-    titleLabel.font = [UIFont systemFontOfSize:19];
-    titleLabel.text =@"首页";
-    return titleLabel;
+    return [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"home_navigation_image"]];
 }
 
 -(void)updateViewConstraints{
@@ -251,12 +238,17 @@
 }
 - (UIBarButtonItem *)rightButton
 {
-    UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
-    [btn setImage:[UIImage imageNamed:@"icon_navigationbar_message"] forState:UIControlStateNormal];//设置左边按钮的图片
-    [btn addTarget:self action:@selector(actionOnTouchBackButton:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
-    return [[UIBarButtonItem alloc] initWithCustomView:btn];
+        return [[UIBarButtonItem alloc] initWithCustomView:self.messageButton];
 }
-
+-(UIButton *)messageButton{
+    if (!_messageButton) {
+        _messageButton  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message"] forState:UIControlStateNormal];//设置左边按钮的图片
+        [_messageButton setImage:[UIImage imageNamed:@"icon_navigationbar_message_select"] forState:UIControlStateSelected];//设置左边按钮的图片
+        [_messageButton addTarget:self action:@selector(actionOnTouchBackButton:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
+    }
+    return _messageButton;
+}
 -(void)actionOnTouchBackButton:(id)sender{
     if(![[RDUserInformation getInformation] getLoginState]){
         [self puchLogin];
@@ -267,15 +259,19 @@
 }
 -(HomeView *)mainView{
     if (!_mainView) {
-        
         _mainView = [[HomeView alloc] initWithViewModel:self.homeviewModel];
-        
     }
     return _mainView;
 }
 -(HomeViewModel *)homeviewModel{
     if (!_homeviewModel) {
         _homeviewModel = [[HomeViewModel alloc] init];
+        [_homeviewModel.refreshMessageStateCommand execute:nil];
+        WS(weakself)
+        [_homeviewModel.refreshMessageStateSubject subscribeNext:^(id  _Nullable x) {
+            
+            weakSelf.messageButton.selected  = [x intValue]==1 ? YES:NO;
+        }];
     }
     return _homeviewModel;
 }

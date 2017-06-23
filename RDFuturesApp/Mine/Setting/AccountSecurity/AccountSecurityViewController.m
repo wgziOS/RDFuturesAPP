@@ -44,7 +44,7 @@
 -(NSArray *)titleArray{
     
     if (!_titleArray) {
-        _titleArray = @[@"ID号",@"手机号",@"邮箱"];
+        _titleArray = @[@"客户号",@"手机号",@"邮箱"];
     }
     return _titleArray;
 }
