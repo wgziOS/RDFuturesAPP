@@ -23,6 +23,7 @@
 #import "NotificationModel.h"
 #import "AdvertisementViewController.h"
 
+
 @interface AppDelegate ()<JPUSHRegisterDelegate,UIAlertViewDelegate>
 @property(nonatomic,strong)NotificationModel *notificationModel;
 @property(nonatomic,strong)TabBarBaseController *root;
@@ -85,18 +86,10 @@
     // 显示窗口
     [self.window makeKeyAndVisible];
 
-    //是否第一次启动
-    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"]){
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
-        //第一次启动
-        NSLog(@"第一次启动");
-    }else{
-        //不是第一次启动了
-        NSLog(@"不是第一次启动了");
-    }
     
     return YES;
 }
+
 // NS_DEPRECATED_IOS(3_0, 10_0, "Use UserNotifications Framework's -[UNUserNotificationCenterDelegate willPresentNotification:withCompletionHandler:] or -[UNUserNotificationCenterDelegate didReceiveNotificationResponse:withCompletionHandler:] for user visible notifications and -[UIApplicationDelegate application:didReceiveRemoteNotification:fetchCompletionHandler:] for silent remote notifications")
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
     // 取得 APNs 标准信息内容

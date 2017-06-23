@@ -83,17 +83,8 @@
             secondCell.phoneLabel.text = str1;
             
             secondCell.bBlock = ^(){
-                NSString * str = [NSString stringWithFormat:@"您正在更换认证手机号,发送验证短信到\n%@",self.phoneNumStr];
-                NSMutableString * str1 = [[NSMutableString alloc]initWithString:str];
-                [str1 replaceCharactersInRange:NSMakeRange(22, 4) withString:@"****"];
-                PromptView * pView = [[PromptView alloc]initWithTitleString:@"提示" SubTitleString:str1];
-                [pView show];
-                pView.goonBlock = ^{
                 
-                    [weakSelf pushNextVC];
-                
-                };
-                
+                [weakSelf alertView];
                 
             };
             return secondCell;
@@ -115,6 +106,20 @@
     
     return nil;
 }
+-(void)alertView{
+    
+    WS(weakself)
+    NSString * str = [NSString stringWithFormat:@"您正在更换认证手机号,发送验证短信到\n%@",self.phoneNumStr];
+    NSMutableString * str1 = [[NSMutableString alloc]initWithString:str];
+    [str1 replaceCharactersInRange:NSMakeRange(22, 4) withString:@"****"];
+    PromptView * pView = [[PromptView alloc]initWithTitleString:@"提示" SubTitleString:str1];
+    [pView show];
+    pView.goonBlock = ^{
+        
+        [weakSelf pushNextVC];
+        
+    };
+}
 -(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     return 60;
@@ -132,14 +137,15 @@
 }
 -(void)pushNextVC{
     
-    
+    showMassage(@"正在发送")
+
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:_phoneNumStr forKey:@"phone"];
     [dic setObject:@"2" forKey:@"check_type"];//1 验证类型（1：找回密码 2：注册 3：开户）
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error ;
-        
+        [MBProgressHUD hideHUDForView:nil];
         RDRequestModel *model = [RDRequest postSendValidateCodeWithParam:dic error:&error];
         dispatch_async(dispatch_get_main_queue(), ^{
             if (error==nil) {
