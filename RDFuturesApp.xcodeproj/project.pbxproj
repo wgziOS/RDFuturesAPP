@@ -94,6 +94,7 @@
 		B24655601EB08E0E00C414CF /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B246555E1EB08E0E00C414CF /* DetailsViewController.xib */; };
 		B24806EA1EB96BF7001221BB /* RDRequest+News.m in Sources */ = {isa = PBXBuildFile; fileRef = B24806E91EB96BF7001221BB /* RDRequest+News.m */; };
 		B24806ED1EB97162001221BB /* NewsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B24806EC1EB97162001221BB /* NewsListModel.m */; };
+		B24B70D91EFCE3A200B7EFF8 /* GuidanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B24B70D81EFCE3A200B7EFF8 /* GuidanceView.m */; };
 		B24BB68B1E81006600A4A7CA /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = B24BB6861E81006600A4A7CA /* MBProgressHUD+NJ.m */; };
 		B24BB68C1E81006600A4A7CA /* RDRequest+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = B24BB6881E81006600A4A7CA /* RDRequest+Home.m */; };
 		B24BB68D1E81006600A4A7CA /* RDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B24BB68A1E81006600A4A7CA /* RDRequest.m */; };
@@ -125,6 +126,7 @@
 		B262DB541E9DBB910057736F /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B262DB4D1E9DBB910057736F /* NoticeView.m */; };
 		B262DB551E9DBB910057736F /* NoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B262DB4F1E9DBB910057736F /* NoticeViewController.m */; };
 		B262DB561E9DBB910057736F /* NoticeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B262DB511E9DBB910057736F /* NoticeViewModel.m */; };
+		B299BB611EFCBDDE0047438E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA70731EFBC32E0046AF84 /* Assets.xcassets */; };
 		B29DDCE71EC97F88006794EF /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DDCD21EC97F88006794EF /* MessageModel.m */; };
 		B29DDCE81EC97F88006794EF /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DDCD41EC97F88006794EF /* MessageTableViewCell.m */; };
 		B29DDCE91EC97F88006794EF /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DDCD61EC97F88006794EF /* MessageView.m */; };
@@ -516,6 +518,8 @@
 		B24806E91EB96BF7001221BB /* RDRequest+News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RDRequest+News.m"; sourceTree = "<group>"; };
 		B24806EB1EB97162001221BB /* NewsListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListModel.h; sourceTree = "<group>"; };
 		B24806EC1EB97162001221BB /* NewsListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListModel.m; sourceTree = "<group>"; };
+		B24B70D71EFCE3A200B7EFF8 /* GuidanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidanceView.h; sourceTree = "<group>"; };
+		B24B70D81EFCE3A200B7EFF8 /* GuidanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidanceView.m; sourceTree = "<group>"; };
 		B24BB6851E81006600A4A7CA /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
 		B24BB6861E81006600A4A7CA /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
 		B24BB6871E81006600A4A7CA /* RDRequest+Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RDRequest+Home.h"; sourceTree = "<group>"; };
@@ -1676,6 +1680,15 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		B2597A3D1EFCFA5A00741860 /* GuidanceView */ = {
+			isa = PBXGroup;
+			children = (
+				B24B70D71EFCE3A200B7EFF8 /* GuidanceView.h */,
+				B24B70D81EFCE3A200B7EFF8 /* GuidanceView.m */,
+			);
+			name = GuidanceView;
+			sourceTree = "<group>";
+		};
 		B262DB461E9DBB910057736F /* Notice */ = {
 			isa = PBXGroup;
 			children = (
@@ -2250,6 +2263,7 @@
 		CE5676EA1E6522540087125C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B2597A3D1EFCFA5A00741860 /* GuidanceView */,
 				CE5676F81E65741E0087125C /* Model */,
 				CE5676F71E6574000087125C /* ViewModel */,
 				CE5676F61E6573F60087125C /* View */,
@@ -2700,6 +2714,7 @@
 				B24219A81EC31526000FE1AC /* ChooseIDViewController.xib in Resources */,
 				B240B3A41E67B754003445AB /* 方正黑体简体.TTF in Resources */,
 				CE77106A1E712F2F000720EE /* FinanceInfoViewController.xib in Resources */,
+				B299BB611EFCBDDE0047438E /* Assets.xcassets in Resources */,
 				B2CCC25A1EF2167F00C20F18 /* APIServiceViewController.xib in Resources */,
 				B2B5BC3F1EF7681A0083C44D /* 易盛應用程式介面(“API”)服務的使用條款及重要事項.txt in Resources */,
 				CE7710401E712F05000720EE /* LoginViewController.xib in Resources */,
@@ -2827,6 +2842,7 @@
 				CE9F20671EB9D95500A94A94 /* NoticeCellView.m in Sources */,
 				CE0ADFFF1ED2D937002801D5 /* MineSecondTableViewCell.m in Sources */,
 				CE7710721E712F2F000720EE /* PullDownCell.m in Sources */,
+				B24B70D91EFCE3A200B7EFF8 /* GuidanceView.m in Sources */,
 				CE09572C1ED436B400394709 /* AreaTableViewCell.m in Sources */,
 				B2310F631EC43FFF008CC5BA /* TOActivityCroppedImageProvider.m in Sources */,
 				B2310F6C1EC43FFF008CC5BA /* UIImage+CropRotate.m in Sources */,

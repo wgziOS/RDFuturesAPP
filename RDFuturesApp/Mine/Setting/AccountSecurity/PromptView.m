@@ -44,24 +44,11 @@ static CGFloat kTransitionDuration = 0.3;
         [self addSubview:label1];
         
      
-        
         UILabel * label2 = [[UILabel alloc]initWithFrame:CGRectMake(20, 45, MyEditorWidth-40, self.textHeight+10)];
         label2.textColor = GRAYCOLOR2;
         label2.numberOfLines = 0;
         label2.text = subTitleString;
-//        NSMutableAttributedString* string = [[NSMutableAttributedString alloc]initWithString:subTitleString];
-        
-//        NSRange range2, range3, range4;
-//        
-//        range2 = NSMakeRange(2, 4);
-//        range3 = NSMakeRange(9, 4);
-//        range4 = NSMakeRange(23, 4);
-//        
-//        [string addAttribute:NSForegroundColorAttributeName value:BLUECOLOR range:range2];
-//        [string addAttribute:NSForegroundColorAttributeName value:BLUECOLOR range:range3];
-//        [string addAttribute:NSForegroundColorAttributeName value:BLUECOLOR range:range4];
-//        
-//        [label2 setAttributedText:string];
+
         
         label2.font = [UIFont rdSystemFontOfSize:15];
         label2.textAlignment = NSTextAlignmentCenter;
@@ -92,7 +79,7 @@ static CGFloat kTransitionDuration = 0.3;
     if (!_goonBtn) {
         _goonBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_goonBtn addTarget:self action:@selector(goonAction:) forControlEvents:UIControlEventTouchUpInside];
-        [_goonBtn setBackgroundColor:[UIColor colorWithRed:40.0/255.0 green:146.0/255.0 blue:255.0/255.0 alpha:1.0f]];
+        [_goonBtn setBackgroundColor:RGB(220, 12, 23)];
         [_goonBtn setTitle:@"确定" forState:UIControlStateNormal];
         [_goonBtn setTintColor:[UIColor whiteColor]];
         [_goonBtn setFrame:CGRectMake(MyEditorWidth/2, MyEditorHeight-50, MyEditorWidth/2, 50)];
