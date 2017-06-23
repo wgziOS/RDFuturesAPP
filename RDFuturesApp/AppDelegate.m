@@ -219,6 +219,7 @@
     if ([msg_type intValue]==2) {
         [self outLogin];
     }
+
 }
 
 - (void)networkDidLogin:(NSNotification *)notification {
@@ -266,6 +267,7 @@
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"OutLoginNotificationCenter" object:nil];
+    [self.root outLogin];
     
 }
 -(TabBarBaseController *)root{
