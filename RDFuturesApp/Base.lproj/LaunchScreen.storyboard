@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,14 +18,14 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Advertisement_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Y7k-hC-QfM">
-                                <rect key="frame" x="86" y="346.66666666666669" width="242" height="43"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_newlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Y7k-hC-QfM">
+                                <rect key="frame" x="-28" y="235" width="376" height="99"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="242" id="aDH-3z-kRe"/>
-                                    <constraint firstAttribute="height" constant="43" id="hAY-fr-iws"/>
+                                    <constraint firstAttribute="width" constant="375" id="aDH-3z-kRe"/>
+                                    <constraint firstAttribute="height" constant="99" id="hAY-fr-iws"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Advertisement_logo" width="375" height="98"/>
+        <image name="new_newlogo" width="375" height="98"/>
     </resources>
 </document>
