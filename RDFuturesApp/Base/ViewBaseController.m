@@ -219,7 +219,7 @@
 
 -(void)puchLogin{
     LoginViewController *login = [[LoginViewController alloc] init];
-    login.puchTheWay =2;
+    
     [self.navigationController pushViewController:login animated:YES];
     
 }

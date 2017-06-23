@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface LoginViewController : ViewBaseController
-@property(nonatomic,assign)int puchTheWay;//推出方法1.present 2.puch
 @end

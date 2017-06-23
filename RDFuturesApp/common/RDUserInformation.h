@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface RDUserInformation : NSObject
+@property(nonatomic,copy)NSString *messageState;//消息状态
 +(RDUserInformation*)getInformation;
 @property(nonatomic,assign)BOOL advertisementClick;
 -(BOOL)getLoginState;//获取登录状态

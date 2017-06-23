@@ -44,6 +44,7 @@
         NSDictionary *data = x;
         NSString *state =[NSString stringWithFormat:@"%@",data[@"is_new_inform"]];
         [self.refreshMessageStateSubject sendNext:state];
+        
     }];
     
 }

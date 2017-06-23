@@ -45,6 +45,10 @@
     
     
 }
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.messageButton.selected  = [[RDUserInformation getInformation].messageState intValue]==1 ? YES:NO;
+}
 - (UIBarButtonItem *)rightButton
 {
     return [[UIBarButtonItem alloc] initWithCustomView:self.messageButton];

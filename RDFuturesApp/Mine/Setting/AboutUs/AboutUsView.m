@@ -73,7 +73,7 @@
     
     [self.updateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.equalTo(weakSelf.whiteView).with.offset(20);
+        make.top.equalTo(weakSelf.whiteView).with.offset(10);
         make.left.equalTo(weakSelf).with.offset(8);
         make.size.mas_offset(CGSizeMake(100, 20));
     }];
@@ -85,41 +85,37 @@
         make.height.equalTo(@30);
         
     }];
+    [self.lineView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(weakSelf.updateLabel.mas_bottom).with.offset(10);
+        make.centerX.equalTo(weakSelf.logoImgView);
+        make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH,1));
+        
+    }];
     
     [self.privacyLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.top.equalTo(weakSelf.updateLabel.mas_bottom).with.offset(12);
+        make.top.equalTo(weakSelf.lineView.mas_bottom).with.offset(10);
         make.left.equalTo(weakSelf).with.offset(8);
-        make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH-16, 30));
+        make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH-16, 20));
+    }];
+    
+    [self.lineView1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(weakSelf.privacyLabel.mas_bottom).with.offset(10);
+        make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH,1));
+        make.centerX.equalTo(weakSelf.logoImgView);
     }];
     
     [self.contactLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.top.equalTo(weakSelf.privacyLabel.mas_bottom).with.offset(12);
+        make.top.equalTo(weakSelf.lineView1.mas_bottom).with.offset(12);
         make.left.equalTo(weakSelf).with.offset(8);
         make.size.mas_equalTo(weakSelf.updateLabel);
     }];
     
     [self.phoneLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         
-        make.centerY.equalTo(weakSelf.contactLabel);
-        make.right.equalTo(weakSelf).with.offset(-8);
-        make.size.mas_equalTo(weakSelf.updateLabel);
-    }];
-    
-    [self.lineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        
-        make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH,1));
-        make.centerX.equalTo(weakSelf.logoImgView);
-        make.top.equalTo(weakSelf.updateLabel.mas_bottom).with.offset(10);
-        
-    }];
-    
-    [self.lineView1 mas_makeConstraints:^(MASConstraintMaker *make) {
-       
-        make.size.mas_equalTo(CGSizeMake(SCREEN_WIDTH,1));
-        make.centerX.equalTo(weakSelf.logoImgView);
-        make.top.equalTo(weakSelf.privacyLabel.mas_bottom).with.offset(5);
+        make.top.equalTo(weakSelf.lineView1.mas_bottom).with.offset(10);
+        make.right.equalTo(weakSelf).with.offset(-10);
+        make.size.mas_equalTo(CGSizeMake(120, 20));
     }];
     
     [super updateConstraints];
@@ -192,10 +188,9 @@
     if (!_infoLabel) {
         _infoLabel = [[UILabel alloc]init];
         _infoLabel.textAlignment = NSTextAlignmentRight;
-        _infoLabel.text = @"已经是最新版本";
-        _infoLabel.textColor = [UIColor blackColor];
         _infoLabel.font = [UIFont rdSystemFontOfSize:15.0f];
         _infoLabel.backgroundColor = [UIColor clearColor];
+        _infoLabel.userInteractionEnabled = YES;
     }
     return _infoLabel;
 }
@@ -245,9 +240,7 @@
         _phoneLabel.textAlignment = NSTextAlignmentRight;
         _phoneLabel.font = [UIFont rdSystemFontOfSize:15.0f];
         _phoneLabel.userInteractionEnabled = YES;
-        
         _phoneLabel.tag = 2;
-        
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]init];
         [[tap rac_gestureSignal] subscribeNext:^(id x) {
             

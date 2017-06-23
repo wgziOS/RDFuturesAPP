@@ -52,8 +52,9 @@
         
         self.tabBarController.selectedIndex = 0;
     }else [self getPersonalInfo];
-    
-    
+    ;
+
+    self.messageButton.selected  = [[RDUserInformation getInformation].messageState intValue]==1 ? YES:NO;
     [self isAccount];
 }
 - (void)viewDidLoad {

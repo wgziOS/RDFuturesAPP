@@ -106,7 +106,7 @@
 -(UIImageView *)icon{
     if (!_icon) {
         _icon = [[UIImageView alloc] init];
-        _icon.image = [UIImage imageNamed:@"speed_OpenAcount-1"];
+        _icon.image = [UIImage imageNamed:@"Speed_OpenAcount"];
     }
     return _icon;
 }

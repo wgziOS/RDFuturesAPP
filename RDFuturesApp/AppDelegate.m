@@ -135,7 +135,10 @@
         NSString *string = [dic objectForKey:@"alert"];
         NSString *dataString = [userInfo objectForKey:@"iosNotification extras key"];
         self.notificationModel = [self stringChangeWithStringDictionary:dataString];
-        [self alertControlerWithContentText:string];
+        if ([self.notificationModel.msg_type intValue]!=2) {
+            [self alertControlerWithContentText:string];
+        }
+        
     }
     else {
         // 本地通知
@@ -153,9 +156,7 @@
         NSString *string = [dic objectForKey:@"alert"];
         NSString *dataString = [userInfo objectForKey:@"iosNotification extras key"];
         self.notificationModel = [self stringChangeWithStringDictionary:dataString];
-        if ([self.notificationModel.msg_type intValue]==2 ) {
-            
-        }else{
+        if ([self.notificationModel.msg_type intValue]!=2 ) {
             [self alertControlerWithContentText:string];
         }
     }
@@ -253,6 +254,7 @@
     
     [prompt show];
     prompt.goonBlock = ^{
+        
         [[NSNotificationCenter defaultCenter] postNotificationName:@"NotificationCenter" object:weakSelf.notificationModel];
         
     };
