@@ -30,6 +30,14 @@
     
     [self.nextPageCommand.executionSignals.switchToLatest subscribeNext:^(NSMutableArray * array) {
         
+            if (array.count < 1) {
+                showMassage(@"暂无数据")
+                [self.refreshEndSubject sendNext:@(FooterRefresh_HasNoMoreData)];
+
+                return ;
+            }
+            
+        
         for (NSDictionary *dic in array) {
             CompanyNoticeModel * model = [CompanyNoticeModel mj_objectWithKeyValues:dic];
             [weakSelf.dataArray addObject:model];
@@ -54,22 +62,22 @@
                     [dic setObject:[NSString stringWithFormat:@"%ld",(long)_currentPage] forKey:@"page_no"];
                     
                     [RDRequest postMineWithApi:@"/api/companyNotice/list.api" andParam:dic success:^(RDRequestModel *model) {
-                        
-                        if ([model.Data isKindOfClass:[NSArray class]]) {
-                            NSArray * array = model.Data;
-                            if (array.count == 0) {
-                                self.currentPage --;
-                                showMassage(@"暂无数据")
-                            }
+                        if ([model.State intValue]==1) {
+                            [subscriber sendNext:model.Data];
+                        }else{
+                            self.currentPage --;
+
+                            showMassage(@"请求失败")
                         }
                         
-                        [subscriber sendNext:model.Data];
                         [subscriber sendCompleted];
                         
                     } failure:^(NSError *error) {
                         @strongify(self)
                         self.currentPage --;
                         [subscriber sendCompleted];
+                        showMassage(@"请求失败")
+
                     }];
                     
                 });

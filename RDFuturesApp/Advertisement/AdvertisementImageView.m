@@ -50,7 +50,7 @@
 }
 -(UIImageView *)advertisingPageImageView{
     if (!_advertisingPageImageView) {
-        _advertisingPageImageView = [[UIImageView alloc] initWithFrame:self.bounds];
+        _advertisingPageImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT-SCREEN_WIDTH*0.264)];
         _advertisingPageImageView.userInteractionEnabled = YES;
         UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
         [_advertisingPageImageView addGestureRecognizer:singleTap];
@@ -61,18 +61,15 @@
         }else{
             [_advertisingPageImageView setImage:[self loadImage]];
         }
-        
+        _advertisingPageImageView.contentMode = UIViewContentModeScaleToFill;
     }
     return _advertisingPageImageView;
 }
 -(UIImageView *)advertisingLogoImageView{
     if (!_advertisingLogoImageView) {
-        _advertisingLogoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-(SCREEN_WIDTH-30)*0.1793-30, SCREEN_WIDTH, (SCREEN_WIDTH-30)*0.1793+30)];
-        [_advertisingLogoImageView setBackgroundColor:[UIColor whiteColor]];
-        _advertisingLogoImageView.contentMode = UIViewContentModeScaleAspectFill;
-        UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(15, 15, (SCREEN_WIDTH-30), (SCREEN_WIDTH-30)*0.1793)];
-        [image setImage:[UIImage imageNamed:@"Advertisement_logo"]];
-        [_advertisingLogoImageView addSubview:image];
+        _advertisingLogoImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-SCREEN_WIDTH*0.264, SCREEN_WIDTH, SCREEN_WIDTH*0.264)];
+        [_advertisingLogoImageView setImage:[UIImage imageNamed:@"Advertisement_logo"]];
+        _advertisingLogoImageView.contentMode = UIViewContentModeScaleToFill;
     }
     return _advertisingLogoImageView;
 }

@@ -75,7 +75,7 @@
     
     self.count++;
     if (60-self.count>0) {
-        [self.verificationCodeLabel setText:[NSString stringWithFormat:@"%d秒",60-self.count]];
+        [self.verificationCodeLabel setText:[NSString stringWithFormat:@"改成%dS后可重新获取验证码",60-self.count]];
         [self.verificationCode setUserInteractionEnabled:NO];
     }else{
         [self.timer invalidate];

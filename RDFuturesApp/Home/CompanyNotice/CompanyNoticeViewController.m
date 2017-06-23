@@ -65,16 +65,6 @@
 }
 
 
--(UIBarButtonItem *)rightButton{
-
-    UIButton* btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 20)];
-    [btn setTitle:@"全部已读" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    btn.titleLabel.font = [UIFont rdSystemFontOfSize:14.0f];
-    [btn addTarget:self action:@selector(readBtnClick:) forControlEvents:UIControlEventTouchUpInside];//设置按钮的点击事件
-    return [[UIBarButtonItem alloc] initWithCustomView:btn];
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

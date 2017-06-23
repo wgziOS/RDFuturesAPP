@@ -44,8 +44,11 @@
                 showMassage(model.Message);
                 NSLog(@"%@",model.Data);
                 
-                if ([model.Message isEqualToString:@"成功"]) {
-                    
+                if ([model.State intValue]==1) {
+                    NSDictionary *dic = model.Data;
+                   NSString *user_id = [NSString stringWithFormat:@"%@",dic[@"user_id"]];
+                   NSString *token = [NSString stringWithFormat:@"%@",dic[@"token"]];
+                    [[RDUserInformation getInformation] PostUserInformationDataWithUserId:user_id andtoken:token andPhoneNumber:self.phoneStr];
                     
                     [weakSelf dismissViewControllerAnimated:YES completion:nil];
                 }

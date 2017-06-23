@@ -35,6 +35,7 @@
         [self.viewModel.reloadClollectionStyleCommand execute:self.model.notice_id];
         [self.viewModel.refreshStyle subscribeNext:^(id  _Nullable x) {
             self.isCollect.selected = !self.isCollect.selected;
+            showMassage(self.isCollect.selected==YES? @"收藏成功":@"取消收藏");
         }];
         [self.viewModel.refreshUI subscribeNext:^(id  _Nullable x) {
             
@@ -44,7 +45,6 @@
                 self.isCollect.selected = NO;
             }
         }];
-    
 }
 
 -(WKWebView *)noticeDetails{
@@ -71,12 +71,6 @@
 
 -(void)collectionClick{
     [self.viewModel.collectionClickCommand execute:self.model.notice_id];
-//    PopCollectionView *collection = [[PopCollectionView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-//    collection.viewModel = self.viewModel;
-//    collection.model = self.model;
-//    collection.isCollect = self.isCollect;
-//    [self.navigationController.view  addSubview:collection];
-    
 }
 -(NoticeCollectionViewModel *)viewModel{
     if (!_viewModel) {

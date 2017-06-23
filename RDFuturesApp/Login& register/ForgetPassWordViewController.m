@@ -31,6 +31,7 @@
         return;
     }
     WS(weakself)
+    loading(@"")
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:self.phoneTextField.text forKey:@"phone"];
     [dic setObject:@"1" forKey:@"check_type"];//1 验证类型（1：找回密码 2：注册 3：开户）
@@ -40,9 +41,10 @@
         
         RDRequestModel *model = [RDRequest postSendValidateCodeWithParam:dic error:&error];
         dispatch_async(dispatch_get_main_queue(), ^{
+            hiddenHUD;
             if (error==nil) {
                 showMassage(model.Message);
-                if ([model.Message isEqualToString:@"成功"]) {
+                if ([model.State intValue]==1) {
                     
                     ForgetSecondViewController * FVC = [[ForgetSecondViewController alloc]init];
                     FVC.phoneStr = weakSelf.phoneTextField.text;
