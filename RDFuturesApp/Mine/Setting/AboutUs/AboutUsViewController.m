@@ -10,6 +10,8 @@
 #import "AboutUsView.h"
 #import "AboutUsViewModel.h"
 #import "PrivacyStatementViewController.h"
+#import "PromptView.h"
+
 @interface AboutUsViewController ()
 
 @property (nonatomic, strong) AboutUsView * mainView;
@@ -23,36 +25,32 @@
 
     self.title = @"关于我们";
     [self.view addSubview:self.mainView];
-    [self getVersionNo];
     
     NSString *app_Version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     self.mainView.versionLabel.text = [NSString stringWithFormat:@"瑞达国际 V%@",app_Version];
-    self.mainView.infoLabel.text = app_Version;
-    
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(versionTap)];
     [self.mainView.infoLabel addGestureRecognizer:tap];
 
 }
 -(void)versionTap{
+    
+    [self getVersionNo];
 
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.baidu.com"]];
 }
 /*
 *返回参数*
 1、version_no		版本号
  */
 -(void)getVersionNo{
-    
+    loading(@"");
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error ;
         
         RDRequestModel * model = [RDRequest getWithApi:@"/api/version/getVersionNo.api" andParam:nil error:&error];
         dispatch_async(dispatch_get_main_queue(), ^{
-            
-            NSLog(@"%@",model.Data);
-            
+            hiddenHUD;
             if (error==nil) {
-                if ([model.State isEqualToString:@"1"]) {
+                if ([model.State isEqualToString:@"1"]){
                     //服务器版本号
                     NSString * service_Version = [NSString stringWithFormat:@"%@",model.Data[@"version_no"]];
                     
@@ -61,8 +59,15 @@
                     
                     if ([self compareEditionNumber:service_Version localNumber:app_Version]) {
                         
+                        
+                        PromptView *promptView = [[PromptView alloc]initWithTitleString:@"提示" SubTitleString:[NSString stringWithFormat:@"可更新到版本:%@",service_Version]];
+                        promptView.goonBlock = ^(){
+                            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms://itunes.apple.com/us/app/瑞达国际/id1251809883?l=zh&ls=1&mt=8"]];
+                        };
+                        [promptView show];
+                        
                     }else{
-
+                        showMassage(@"已经是最新版本");
                     }
                     
                 }

@@ -286,6 +286,7 @@
         [_homeviewModel.refreshMessageStateSubject subscribeNext:^(id  _Nullable x) {
             
             weakSelf.messageButton.selected  = [x intValue]==1 ? YES:NO;
+            [RDUserInformation getInformation].messageState = [NSString stringWithFormat:@"%@",x];
         }];
     }
     return _homeviewModel;

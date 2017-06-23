@@ -75,11 +75,9 @@
                     NSString *token =[NSString stringWithFormat:@"%@",[model.Data objectForKey:@"token"]];
 //                    [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"log_status"];//1表示已登录
                     [[RDUserInformation getInformation] PostUserInformationDataWithUserId:userid andtoken:token andPhoneNumber:self.phoneNumTextfield.text];
-                    if (self.puchTheWay==1) {
-                        [self dismissViewControllerAnimated:YES completion:nil];
-                    }else{
+                    
                         [self.navigationController popViewControllerAnimated:YES];
-                    }
+                    
                 }else{
                     showMassage(model.Message);
                 }
@@ -98,11 +96,7 @@
 
 }
 -(void)exitBack{
-    if (self.puchTheWay==1) {
-        [self dismissViewControllerAnimated:YES completion:nil];
-    }else{
-        [self.navigationController popViewControllerAnimated:YES];
-    }
+     [self.navigationController popViewControllerAnimated:YES];
 }
 #pragma mark - 忘记密码
 - (IBAction)forgetPassWordBtnClick:(id)sender {

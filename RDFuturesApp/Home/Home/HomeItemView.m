@@ -59,7 +59,7 @@
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(SCREEN_WIDTH*0.33333-0.5, SCREEN_WIDTH*0.33333);
+    return CGSizeMake(SCREEN_WIDTH*0.333, 98);
 //    return CGSizeMake((SCREEN_WIDTH-30)/3-0.5, SCREEN_WIDTH*0.33333);
 }
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
