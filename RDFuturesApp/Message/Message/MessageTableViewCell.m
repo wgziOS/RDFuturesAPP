@@ -82,7 +82,6 @@
 -(UIImageView *)icon{
     if (!_icon) {
         _icon = [[UIImageView alloc] init];
-        _icon.backgroundColor = [UIColor redColor];
     }
     return _icon;
 }

@@ -194,13 +194,21 @@
     {
         return NO;
     }
-    
-    if ([str isEqualToString:@""])
+    NSString *string = [NSString stringWithFormat:@"%@",str];
+
+    if ([string isEqualToString:@""])
     {
         return NO;
     }
-    
-    if ([str length] == 0)
+    if ([string isEqualToString:@"(null)"])
+    {
+        return NO;
+    }
+    if ([string isEqualToString:@"null"])
+    {
+        return NO;
+    }
+    if ([string length] == 0)
     {
         return NO;
     }

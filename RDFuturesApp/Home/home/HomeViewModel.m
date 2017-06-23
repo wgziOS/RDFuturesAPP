@@ -40,6 +40,11 @@
         
         [self.accountSubject sendNext:x];
     }];
+    [self.refreshMessageStateCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
+        NSDictionary *data = x;
+        NSString *state =[NSString stringWithFormat:@"%@",data[@"is_new_inform"]];
+        [self.refreshMessageStateSubject sendNext:state];
+    }];
     
 }
 -(RACCommand *)refreshAccountCommand{
@@ -111,7 +116,44 @@
     }
     return _refreshDataCommand;
 }
-
+-(RACCommand *)refreshMessageStateCommand{
+    if (!_refreshMessageStateCommand) {
+        _refreshMessageStateCommand= [[RACCommand alloc] initWithSignalBlock:^RACSignal * _Nonnull(id  _Nullable input) {
+            return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+                NSDictionary *dataDictionary = [[NSDictionary alloc] init];
+                loading(@"");
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                    NSError *error;
+                    RDRequestModel * model = [RDRequest postCheckNewInformWithParam:dataDictionary error:&error];
+                    
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        hiddenHUD;
+                        if (error ==nil) {
+                            if ([model.State isEqualToString:@"1"]) {
+                                [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; //清除角标
+                                [subscriber sendNext:model.Data];
+                                
+                            }else{
+                                showMassage(model.Message)
+                            }
+                        }else{
+                            [MBProgressHUD showError:promptString];
+                        }
+                        
+                        [subscriber sendCompleted];
+                        
+                    });
+                    
+                    
+                });
+                
+                return nil;
+            }];
+            
+        }];
+    }
+    return _refreshMessageStateCommand;
+}
 
 -(RACSubject *)accountSubject{
     

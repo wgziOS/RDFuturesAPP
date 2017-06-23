@@ -10,6 +10,6 @@
 
 @interface DepositBankModel : NSObject
 @property(nonatomic,copy)NSString *bankIndex;//银行标识
-
+@property(nonatomic,copy)NSString *inBankNum;//银行号码
 @property(nonatomic,copy)NSString *accountAccessId;//订单号
 @end

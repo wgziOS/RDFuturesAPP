@@ -51,17 +51,30 @@
     
     switch (indexPath.row) {
         case 0:{
-            DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
-            [self.navigationController pushViewController:DVC animated:YES];
-          
+
+            if(![[RDUserInformation getInformation] getLoginState]){
+                [self puchLogin];
+            }else if (!isFinishAccount) {
+                DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
+                [self.navigationController pushViewController:DVC animated:YES];
+            }else showMassage(@"您尚未完成开户")
         }
             break;
         case 1:{
-            WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
-            [self.navigationController pushViewController:WVC animated:YES];
-        
+            if(![[RDUserInformation getInformation] getLoginState]){
+                [self puchLogin];
+            }else if(!isFinishAccount){
+                WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
+                [self.navigationController pushViewController:WVC animated:YES];
+
+                
+            }else showMassage(@"您尚未完成开户");
+            
+
+          
         }
             break;
+        
         case 2:{
             APIServiceViewController * AVC = [[APIServiceViewController alloc]init];
             [self.navigationController pushViewController:AVC animated:YES];
