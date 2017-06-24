@@ -105,11 +105,6 @@
                 if ([model.State isEqualToString:@"1"]) {
                     //成功
                     [[RDUserInformation getInformation] cleanUserInfo];
-//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
-//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
-//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
-//                    
-//                    [[NSUserDefaults standardUserDefaults] synchronize];
 
                     weakSelf.tabBarController.selectedIndex = 0;
                     
@@ -128,7 +123,6 @@
 }
 -(void)getPersonalInfo{
     
-
     __weak __typeof(self)weakSelf = self;
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -156,7 +150,7 @@
                 
                 [self.tableView.mj_header endRefreshing];
             }else{
-//                [MBProgressHUD showError:model.Message];
+
                 [self.tableView.mj_header endRefreshing];
             }
 
@@ -187,7 +181,7 @@
     self.headImgView.userInteractionEnabled = YES;
     self.headImgView.layer.cornerRadius = 30;//设置圆形
     self.headImgView.layer.masksToBounds = YES;
-    self.headImgView.image = [UIImage imageNamed:@"head_icon"];//写死
+    self.headImgView.image = [UIImage imageNamed:@"head_icon"];//默认logo
     
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(pushPersonalInfo)];
     [self.tableView.tableHeaderView addGestureRecognizer:tap];
@@ -204,7 +198,7 @@
         _nickName.text = str;
         username = str;
         user_img = imageUrl;
-        [self.headImage sd_setImageWithURL:imageUrl placeholderImage:[UIImage imageNamed:@"ImageLoadingFaile"]];
+        [self.headImage sd_setImageWithURL:imageUrl placeholderImage:[UIImage imageNamed:@"head_icon"]];
         
         [weakSelf getPersonalInfo];
         
@@ -231,7 +225,7 @@
 
 -(void)isAccount{
     
-//    speed_status			进度状态（1：资料审核 2：完成 3：失败 4：未开户）
+    //    speed_status			进度状态（0：未开户  1：资料审核 2：资料审核完成（见证客户中）							 3：资料审核失败  4：见证客户完成（客服回访中） 5：见证客户失败 6：客服回访完成 	7：客服回访失败 8：开户成功  9：开户失败）
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error ;
         
@@ -261,11 +255,10 @@
                 [self.navigationController pushViewController:COVC animated:YES];
             }
                 break;
-                
+
             case 1:
             {
                 //帮助中心
-                
                 HelpCenterViewController * HVC = [[HelpCenterViewController alloc]init];
                 [self.navigationController pushViewController:HVC animated:YES];
             }
@@ -322,28 +315,9 @@
         cell.imgView.image = [UIImage imageNamed:_titleImgArray[indexPath.row]];
         
     }else{
-//        if (indexPath.section ==1 && indexPath.row ==1) {
-//            if (isShare) {
-//                secondCell.bottonView.hidden = NO;
-//                secondCell.rihgtImgView.hidden = YES;
-//                secondCell.downImgView.hidden = NO;
-//                
-//            }else{
-//                secondCell.bottonView.hidden = YES;
-//                secondCell.rihgtImgView.hidden = NO;
-//                secondCell.downImgView.hidden = YES;
-//                
-//            }
-//            secondCell.titleLabel.text = _titleArray[indexPath.row+3];
-//            secondCell.imgView.image = [UIImage imageNamed:_titleImgArray[indexPath.row+3]];
-//            
-//            return secondCell;
-//        }else{
-            cell.titleLabel.text = _titleArray[indexPath.row+3];
-            cell.imgView.image = [UIImage imageNamed:_titleImgArray[indexPath.row+3]];
-        
+        cell.titleLabel.text = _titleArray[indexPath.row+3];
+        cell.imgView.image = [UIImage imageNamed:_titleImgArray[indexPath.row+3]];
     }
-    
     
     return cell;
 
