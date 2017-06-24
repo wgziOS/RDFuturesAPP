@@ -18,22 +18,6 @@
 
 @implementation IntroduceViewController
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-
-{
-    
-    return UIInterfaceOrientationMaskLandscape;
-    
-}
-
--(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
-    return UIInterfaceOrientationLandscapeRight;
-}
-
--(BOOL)shouldAutorotate
-{
-    return YES;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -48,7 +32,6 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
 
-//    _webView.contentScaleFactor = YES;
 
     [self.webView setScalesPageToFit:YES];
 

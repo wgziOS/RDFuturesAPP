@@ -15,6 +15,7 @@
 @property (nonatomic, strong) HomeViewModel *homeViewModel;
 @property (nonatomic, strong) NSMutableArray *imageArray;
 @property (nonatomic, strong) NSMutableArray *titleArray;
+@property (nonatomic, assign) int oldAnnouncementState;
 @end
 
 @implementation HomeItemView
@@ -28,16 +29,21 @@
     [self setNeedsUpdateConstraints];
     [self updateConstraintsIfNeeded];
 }
-
+-(void)bindViewModel{
+    [self.homeViewModel.refreshAnnouncementStateSubject subscribeNext:^(id  _Nullable x) {
+        if (self.oldAnnouncementState!=[x intValue]) {
+           self.imageArray[6] = [x intValue]==1 ?@"item_publicnotice_selected":@"item_publicnotice";
+            [self.collectionView reloadData];
+        }
+        self.oldAnnouncementState = [x intValue];
+    }];
+}
 -(void)updateConstraints{
     WS(weakself)
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(weakSelf);
-//        make.top.equalTo(weakSelf);
-//        make.left.equalTo(weakSelf).with.offset(15);
-//        make.bottom.equalTo(weakSelf);
-//        make.right.equalTo(weakSelf).with.offset(-15);
     }];
+    
     [super updateConstraints];
 }
 # pragma mark collection代理事件
@@ -47,6 +53,7 @@
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     HomeItemCollectionCell *cell =[collectionView dequeueReusableCellWithReuseIdentifier:[NSString stringWithUTF8String:object_getClassName([HomeItemCollectionCell class])] forIndexPath:indexPath];
+    
     cell.icon = self.imageArray[indexPath.row];
     cell.title = self.titleArray[indexPath.row];
     return cell;
@@ -114,5 +121,11 @@
         
     }
     return _titleArray;
+}
+-(int)oldAnnouncementState{
+    if (!_oldAnnouncementState) {
+        _oldAnnouncementState = 2;
+    }
+    return _oldAnnouncementState;
 }
 @end

@@ -65,8 +65,8 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     if ([[RDUserInformation getInformation] getLoginState]) {
-        [_homeviewModel.refreshMessageStateCommand execute:nil];
-
+        [self.homeviewModel.refreshMessageStateCommand execute:nil];
+        [self.homeviewModel.refreshAnnouncementStateCommand execute:nil];
     }
 }
 -(void)loadingAdvertisementController{
@@ -209,7 +209,11 @@
         }
     }];
     
-    
+    [_homeviewModel.refreshMessageStateSubject subscribeNext:^(id  _Nullable x) {
+        
+        weakSelf.messageButton.selected  = [x intValue]==1 ? YES:NO;
+        [RDUserInformation getInformation].messageState = [NSString stringWithFormat:@"%@",x];
+    }];
 
 }
 -(void)isAccount{
@@ -288,12 +292,7 @@
 -(HomeViewModel *)homeviewModel{
     if (!_homeviewModel) {
         _homeviewModel = [[HomeViewModel alloc] init];
-        WS(weakself)
-        [_homeviewModel.refreshMessageStateSubject subscribeNext:^(id  _Nullable x) {
-            
-            weakSelf.messageButton.selected  = [x intValue]==1 ? YES:NO;
-            [RDUserInformation getInformation].messageState = [NSString stringWithFormat:@"%@",x];
-        }];
+       
     }
     return _homeviewModel;
 }

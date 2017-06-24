@@ -33,4 +33,7 @@
 
 @property(nonatomic,strong)RACSubject *refreshMessageStateSubject;//刷新首页消息状态
 
+@property(nonatomic,strong)RACCommand *refreshAnnouncementStateCommand;//获取首页公告消息状态
+
+@property(nonatomic,strong)RACSubject *refreshAnnouncementStateSubject;//刷新首页公告图片
 @end

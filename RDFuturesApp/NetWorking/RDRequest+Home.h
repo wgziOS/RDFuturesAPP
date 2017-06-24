@@ -41,4 +41,7 @@
 //提交api服务申请详情
 +(RDRequestModel *)postApplySignatureWithParam:(NSDictionary*)data_dic
                                          error:(NSError* __autoreleasing*)error;
+//检查是否有未读公告
++(RDRequestModel *)postCheckNewCompanyNoticeWithParam:(NSDictionary*)data_dic
+                                                error:(NSError* __autoreleasing*)error;
 @end
