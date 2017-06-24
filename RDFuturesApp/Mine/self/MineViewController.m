@@ -104,12 +104,12 @@
                 
                 if ([model.State isEqualToString:@"1"]) {
                     //成功
-                    
-                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
-                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
-                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
-                    
-                    [[NSUserDefaults standardUserDefaults] synchronize];
+                    [[RDUserInformation getInformation] cleanUserInfo];
+//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
+//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
+//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
+//                    
+//                    [[NSUserDefaults standardUserDefaults] synchronize];
 
                     weakSelf.tabBarController.selectedIndex = 0;
                     

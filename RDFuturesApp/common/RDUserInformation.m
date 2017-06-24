@@ -102,4 +102,20 @@
     }
     return _advertisementClick;
 }
+
+-(void)cleanUserInfo{
+    
+    NSString * str  = [[NSUserDefaults standardUserDefaults] objectForKey:@"user_id"];
+    NSString * str1  = [[NSUserDefaults standardUserDefaults] objectForKey:@"token"];
+    NSString * str2  = [[NSUserDefaults standardUserDefaults] objectForKey:@"phoneNumber"];
+    
+    if (str.length > 0 && str1.length >0 && str2.length > 0) {
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
+        [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+    }
+   
+}
 @end

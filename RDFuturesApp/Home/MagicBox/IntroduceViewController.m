@@ -16,6 +16,23 @@
 
 @implementation IntroduceViewController
 
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+
+{
+    
+    return UIInterfaceOrientationMaskLandscape;
+    
+}
+
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return UIInterfaceOrientationLandscapeRight;
+}
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     WS(weakself)

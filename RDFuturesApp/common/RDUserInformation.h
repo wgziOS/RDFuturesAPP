@@ -19,6 +19,6 @@
 -(NSMutableDictionary *)postDataDictionary:(BOOL)state;
 + (NSString *)transString:(NSString *)string;
 + (NSString *)transBase64WithImage:(UIImage *)image;
-
+-(void)cleanUserInfo;
 @end
 

@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"瑞达简介";
+    self.title = @"瑞达品牌";
     [self.view addSubview:self.webView];
 }
 
