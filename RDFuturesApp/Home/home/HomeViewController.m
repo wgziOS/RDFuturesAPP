@@ -61,7 +61,13 @@
     }
 
 }
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    if ([[RDUserInformation getInformation] getLoginState]) {
+        [_homeviewModel.refreshMessageStateCommand execute:nil];
 
+    }
+}
 -(void)loadingAdvertisementController{
     WS(weakself)
      NSString *firstAdvertisement = [[NSUserDefaults standardUserDefaults] objectForKey:@"firstAdvertisement"];
@@ -281,7 +287,6 @@
 -(HomeViewModel *)homeviewModel{
     if (!_homeviewModel) {
         _homeviewModel = [[HomeViewModel alloc] init];
-        [_homeviewModel.refreshMessageStateCommand execute:nil];
         WS(weakself)
         [_homeviewModel.refreshMessageStateSubject subscribeNext:^(id  _Nullable x) {
             

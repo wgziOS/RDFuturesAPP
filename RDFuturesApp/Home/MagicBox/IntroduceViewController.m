@@ -8,6 +8,8 @@
 
 #import "IntroduceViewController.h"
 #import <WebKit/WebKit.h>
+#import "AppDelegate.h"
+
 @interface IntroduceViewController ()<UIWebViewDelegate>{
     BOOL isLoadingFinished;
 }
@@ -37,7 +39,24 @@
     
     
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    AppDelegate *appdelegate=(AppDelegate *)[UIApplication sharedApplication].delegate;
+    appdelegate.isForceLandscape=YES;
+    [appdelegate application:[UIApplication sharedApplication] supportedInterfaceOrientationsForWindow:self.view.window];
+}
+//是否旋转
+-(BOOL)shouldAutorotate{
+    return YES;
+}
+//支持的方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskAll;
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    AppDelegate *appdelegate=(AppDelegate *)[UIApplication sharedApplication].delegate;
+    appdelegate.isForceLandscape=NO;
+    [appdelegate application:[UIApplication sharedApplication] supportedInterfaceOrientationsForWindow:self.view.window];
+}
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
     
     

@@ -219,7 +219,14 @@
     if ([msg_type intValue]==2) {
         [self outLogin];
     }
-
+    [JPUSHService setBadge:0];
+}
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+    if (self.isForceLandscape) {
+        return UIInterfaceOrientationMaskLandscapeRight;
+    }else{
+        return UIInterfaceOrientationMaskPortrait;
+    }
 }
 
 - (void)networkDidLogin:(NSNotification *)notification {
@@ -276,5 +283,10 @@
     }
     return _root;
 }
-
+-(BOOL)isForceLandscape{
+    if (!_isForceLandscape) {
+        _isForceLandscape = NO;
+    }
+    return _isForceLandscape;
+}
 @end

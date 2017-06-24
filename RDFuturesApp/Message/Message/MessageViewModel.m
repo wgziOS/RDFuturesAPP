@@ -54,7 +54,7 @@
                         hiddenHUD;
                         if (error ==nil) {
                             if ([model.State isEqualToString:@"1"]) {
-//                                [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; //清除角标
+                                [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; //清除角标
                                 [subscriber sendNext:model.Data];
                             }else{
                                 showMassage(model.Message)
