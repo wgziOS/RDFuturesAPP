@@ -31,6 +31,7 @@
     IVC.title = title;
     IVC.contentId = contentID;
     [self.navigationController pushViewController:IVC animated:YES];
+//    [self presentViewController:IVC animated:YES completion:nil];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

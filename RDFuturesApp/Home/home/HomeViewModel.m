@@ -46,7 +46,13 @@
         [self.refreshMessageStateSubject sendNext:state];
         
     }];
-    
+    [self.refreshAnnouncementStateCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
+        NSDictionary *data = x;
+        NSString *state =[NSString stringWithFormat:@"%@",data[@"is_new_company_notice"]];
+        //state 1.有 2.没有
+        [self.refreshAnnouncementStateSubject sendNext:state];
+        
+    }];
 }
 -(RACCommand *)refreshAccountCommand{
 
@@ -155,7 +161,55 @@
     }
     return _refreshMessageStateCommand;
 }
-
+//检查是否有新公司公告
+-(RACCommand *)refreshAnnouncementStateCommand{
+    if (!_refreshAnnouncementStateCommand) {
+        _refreshAnnouncementStateCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal * _Nonnull(id  _Nullable input) {
+            return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+                NSDictionary *dataDictionary = [[NSDictionary alloc] init];
+                dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+                    NSError *error;
+                    RDRequestModel * model = [RDRequest postCheckNewCompanyNoticeWithParam:dataDictionary error:&error];
+                    
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        if (error ==nil) {
+                            if ([model.State isEqualToString:@"1"]) {
+                                [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0]; //清除角标
+                                [subscriber sendNext:model.Data];
+                                
+                            }else{
+                                showMassage(model.Message)
+                            }
+                        }else{
+                            [MBProgressHUD showError:promptString];
+                        }
+                        
+                        [subscriber sendCompleted];
+                        
+                    });
+                    
+                    
+                });
+                
+                return nil;
+            }];
+            
+        }];
+    }
+    return _refreshAnnouncementStateCommand;
+}
+-(RACSubject *)refreshAnnouncementStateSubject{
+    if (!_refreshAnnouncementStateSubject) {
+        _refreshAnnouncementStateSubject = [RACSubject subject];
+    }
+    return _refreshAnnouncementStateSubject;
+}
+-(RACSubject *)refreshMessageStateSubject{
+    if (!_refreshMessageStateSubject) {
+        _refreshMessageStateSubject = [RACSubject subject];
+    }
+    return _refreshMessageStateSubject;
+}
 -(RACSubject *)accountSubject{
     
     if (!_accountSubject) {

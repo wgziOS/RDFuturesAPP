@@ -43,7 +43,7 @@
     [self.timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.contentView).with.offset(5);
         make.centerX.equalTo(weakSelf.contentView);
-        make.size.mas_offset(CGSizeMake(100, 20));
+        make.size.mas_offset(CGSizeMake(200, 20));
     }];
     [self.noticeMainView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(weakSelf.bgView);
@@ -78,7 +78,8 @@
             switch (i) {
                 case 0:
                     self.noticeMainView.model = model;
-                    self.timeLabel.text = [NSDate changeTheNoticeTime:model.create_time];
+//                    self.timeLabel.text = [NSDate changeTheNoticeTime:model.create_time];
+                    self.timeLabel.text = model.create_time;
                     break;
                 case 1:
                     self.noticeFirstView.model = model;

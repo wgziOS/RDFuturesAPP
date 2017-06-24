@@ -37,6 +37,14 @@
     
     self.view.backgroundColor= DEFAULT_BG_COLOR;
 }
+//是否旋转
+-(BOOL)shouldAutorotate{
+    return NO;
+}
+//支持的方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

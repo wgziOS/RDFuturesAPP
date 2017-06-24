@@ -25,6 +25,9 @@
 #import "BillViewController.h"
 #import "BusinessHandlingViewController.h"
 #import "MagicBoxViewController.h"
+
+
+
 @interface ViewBaseController ()
 
 @end
@@ -46,7 +49,14 @@
     
 }
 
-
+//是否旋转
+-(BOOL)shouldAutorotate{
+    return NO;
+}
+//支持的方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
 
 - (void) setUpNavigationBar
 {
@@ -219,7 +229,6 @@
 
 -(void)puchLogin{
     LoginViewController *login = [[LoginViewController alloc] init];
-    
     [self.navigationController pushViewController:login animated:YES];
     
 }

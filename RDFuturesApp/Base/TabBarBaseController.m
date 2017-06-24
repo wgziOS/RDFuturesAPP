@@ -93,12 +93,6 @@
         if (![[RDUserInformation getInformation] getLoginState]) {
             
             LoginViewController *login = [[LoginViewController alloc] init];
-
-//            NavigationBaseController *vc = [self getCurrentVC];
-
-//            [vc pushViewController:login animated:YES];
-//            [self setSelectedIndex:self.oldIndex];
-
             NavigationBaseController *nav = self.childViewControllers[3];
             [nav pushViewController:login animated:NO];
 
@@ -108,6 +102,22 @@
     self.oldIndex = (int)tabBarController.selectedIndex;
     
 }
+
+#pragma mark  横屏
+//是否跟随屏幕旋转
+-(BOOL)shouldAutorotate{
+    return self.selectedViewController.shouldAutorotate;
+}
+//支持旋转的方向有哪些
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return [self.selectedViewController supportedInterfaceOrientations];
+}
+//控制 vc present进来的横竖屏和进入方向 ，支持的旋转方向必须包含改返回值的方向 （详细的说明见下文）
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return [self.selectedViewController preferredInterfaceOrientationForPresentation];
+}
+
+#pragma mark  通知
 -(void)addNSNotification{
     WS(weakself)
     [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"NotificationCenter" object:nil] subscribeNext:^(NSNotification *notification) {
@@ -183,10 +193,11 @@
     return nav;
 }
 -(void)outLogin{
+    self.tabBarController.selectedIndex = 0;
+
     NavigationBaseController *nav = [self getCurrentVC];
     if(nav.childViewControllers.count>1){
-        [nav popToRootViewControllerAnimated:YES];
+        [nav popToRootViewControllerAnimated:NO];
     }
-    self.tabBarController.selectedIndex = 0;
 }
 @end

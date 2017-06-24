@@ -8,6 +8,8 @@
 
 #import "IntroduceViewController.h"
 #import <WebKit/WebKit.h>
+#import "AppDelegate.h"
+
 @interface IntroduceViewController ()<UIWebViewDelegate>{
     BOOL isLoadingFinished;
 }
@@ -16,22 +18,6 @@
 
 @implementation IntroduceViewController
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-
-{
-    
-    return UIInterfaceOrientationMaskLandscape;
-    
-}
-
--(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
-    return UIInterfaceOrientationLandscapeRight;
-}
-
--(BOOL)shouldAutorotate
-{
-    return YES;
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -46,7 +32,6 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];
 
-//    _webView.contentScaleFactor = YES;
 
     [self.webView setScalesPageToFit:YES];
 
@@ -54,7 +39,24 @@
     
     
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    AppDelegate *appdelegate=(AppDelegate *)[UIApplication sharedApplication].delegate;
+    appdelegate.isForceLandscape=YES;
+    [appdelegate application:[UIApplication sharedApplication] supportedInterfaceOrientationsForWindow:self.view.window];
+}
+//是否旋转
+-(BOOL)shouldAutorotate{
+    return YES;
+}
+//支持的方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskAll;
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    AppDelegate *appdelegate=(AppDelegate *)[UIApplication sharedApplication].delegate;
+    appdelegate.isForceLandscape=NO;
+    [appdelegate application:[UIApplication sharedApplication] supportedInterfaceOrientationsForWindow:self.view.window];
+}
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
     
     

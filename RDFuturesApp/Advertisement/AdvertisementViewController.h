@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AdvertisementViewController : ViewBaseController
+@interface AdvertisementViewController : UIViewController
 @property (nonatomic, copy) void(^blockMainViewController)();
 
 @end

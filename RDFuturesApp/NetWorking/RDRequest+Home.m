@@ -252,7 +252,30 @@
     }
     return model;
 }
-
+//检查是否有未读通知
++(RDRequestModel *)postCheckNewCompanyNoticeWithParam:(NSDictionary*)data_dic
+                                         error:(NSError* __autoreleasing*)error{
+    
+    NSString *hostUrl = [NSString stringWithFormat:@"%@/api/user/checkNewCompanyNotice.api",HostUrlBak];
+    
+    __block RDRequestModel *model;
+    __block NSError *blockError = nil;
+    [[RDRequest request] POST:hostUrl
+                   parameters:data_dic
+                      success:^(RDRequest *request, id response) {
+                          
+                          model = [RDRequestModel mj_objectWithKeyValues: response];
+                      }
+                      failure:^(RDRequest *request, NSError *error) {
+                          blockError = error;
+                          
+                      }];
+    
+    if (blockError!=nil) {
+        *error = blockError;
+    }
+    return model;
+}
 //首页广告加载
 +(RDRequestModel *)postOpenAdvListWithParam:(NSDictionary*)data_dic
                                          error:(NSError* __autoreleasing*)error{
