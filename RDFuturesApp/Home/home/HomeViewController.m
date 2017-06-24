@@ -52,8 +52,9 @@
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
         //第一次启动
         NSLog(@"第一次启动");
-        GuidanceView * Gview = [[GuidanceView alloc]initWithGuidance];
+        GuidanceView * Gview = [[GuidanceView alloc]initWithGuidanceOfClick];
         [Gview show];
+        
         Gview.goonBlock = ^(){
             
         };

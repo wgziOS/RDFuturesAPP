@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"瑞达简介";
+    self.title = @"瑞达品牌";
     [self.view addSubview:self.webView];
 }
 
@@ -38,7 +38,7 @@
 -(UIWebView *)webView{
     if (!_webView) {
         _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, VIEW_WIDTH, VIEW_HEIGHT-64)];
-        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/api/companyProfile/detail.api?contentId=190",HostUrlBak]];
+        NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@/api/companyProfile/detail.api?contentId=189",HostUrlBak]];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         [_webView loadRequest:request];
     }

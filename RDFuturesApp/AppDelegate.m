@@ -269,11 +269,7 @@
     
     [prompt show];
     
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"OutLoginNotificationCenter" object:nil];
+    [[RDUserInformation getInformation] cleanUserInfo];
     [self.root outLogin];
     
 }

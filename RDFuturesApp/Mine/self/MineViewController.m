@@ -52,7 +52,7 @@
         
         self.tabBarController.selectedIndex = 0;
     }else [self getPersonalInfo];
-    ;
+
 
     self.messageButton.selected  = [[RDUserInformation getInformation].messageState intValue]==1 ? YES:NO;
     [self isAccount];
@@ -104,12 +104,13 @@
                 
                 if ([model.State isEqualToString:@"1"]) {
                     //成功
-                    
-                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
-                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
-                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
-                    
-                    [[NSUserDefaults standardUserDefaults] synchronize];
+                    [[RDUserInformation getInformation] cleanUserInfo];
+//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
+//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
+//                    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
+//                    
+//                    [[NSUserDefaults standardUserDefaults] synchronize];
+
                     weakSelf.tabBarController.selectedIndex = 0;
                     
                 }
@@ -147,6 +148,7 @@
                 email = [NSString stringWithFormat:@"%@",model.Data[@"email"]];
                 
                 [[NSUserDefaults standardUserDefaults] setObject:email forKey:@"email"];
+                [[NSUserDefaults standardUserDefaults] setObject:customer_id forKey:@"customer_id"];
                 [[NSUserDefaults standardUserDefaults] synchronize];
                 
                 user_img = [NSURL URLWithString:[NSString stringWithFormat:@"%@",model.Data[@"user_img"]]];

@@ -4,7 +4,7 @@
 //
 //  Created by 吴桂钊 on 2017/6/15.
 //  Copyright © 2017年 FuturesApp. All rights reserved.
-//
+//green_untick
 
 #import "APIServiceViewController.h"
 #import "ShootExampleView.h"
@@ -122,7 +122,7 @@
     is_Algostar = YES;
     [self AlgostarIsYES];
     readClick = 1;
-    [_readBtn setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+    [_readBtn setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
     
     [_patentButton setBackgroundImage:[UIImage imageNamed:@"gray_btn"] forState:UIControlStateNormal];
 }
@@ -181,26 +181,26 @@
 
 -(void)AlgostarIsYES{
     
-    [_firstBtn setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
-    [_secondBtn setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+    [_firstBtn setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
+    [_secondBtn setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
 }
 -(void)konwDerivativesIsNO{
     
-    [_firstBtn setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+    [_firstBtn setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
     //打钩
-    [_secondBtn setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
+    [_secondBtn setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
 }
 //已读
 - (IBAction)readbtnClick:(id)sender {
     if (readClick == 1) {
-        [_readBtn setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
+        [_readBtn setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
         _patentButton.userInteractionEnabled = YES;
         [_patentButton setBackgroundImage:[UIImage imageNamed:@"b_btn"] forState:UIControlStateNormal];
         readClick =2;
         return;
     }
     if (readClick ==2) {
-        [_readBtn setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+        [_readBtn setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
         _patentButton.userInteractionEnabled = NO;
         [_patentButton setBackgroundImage:[UIImage imageNamed:@"gray_btn"] forState:UIControlStateNormal];
         readClick = 1;

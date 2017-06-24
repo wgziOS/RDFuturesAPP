@@ -10,7 +10,8 @@
 #import "ProgressViewController.h"
 #import "RDRequest+Login_register.h"
 @interface CommitInfoViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *getCodeButton;//获取验证码按钮
+//@property (weak, nonatomic) IBOutlet UIButton *getCodeButton;//获取验证码按钮
+@property (weak, nonatomic) IBOutlet UILabel *getCodeLabel;
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextfield;//手机号
 @property (weak, nonatomic) IBOutlet UITextField *codeTextfield;//验证码
 @property (assign, nonatomic) int count;
@@ -23,12 +24,25 @@
     [super viewDidLoad];
     self.title = @"提交";
     
-    
+    self.getCodeLabel.userInteractionEnabled = YES;
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(getCodeBtnClick)];
+    [self.getCodeLabel addGestureRecognizer:tap];
 }
 
 
 #pragma mark - 获取验证码
-- (IBAction)getCodeBtnClick:(id)sender {
+- (void)getCodeBtnClick{
+    
+    if (![NSString isMobileNumber:self.phoneTextfield.text]) {
+        showMassage(@"手机号格式有误")
+        return;
+    }
+    
+    if (self.phoneTextfield.text.length == 0) {
+        showMassage(@"请输入手机号")
+        return;
+    }
+    
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:self.phoneTextfield.text forKey:@"phone"];
     [dic setObject:@"3" forKey:@"check_type"];//1 验证类型（1：需要判断账号是否存在如：找回密码 2：不需要如：注册 3：无所谓
@@ -53,16 +67,15 @@
     
     self.count++;
     if (60-self.count>0) {
-//        [self.verificationCodeLabel setText:[NSString stringWithFormat:@"%d秒",60-self.count]];
-//        [self.verificationCode setUserInteractionEnabled:NO];
-        [self.getCodeButton setTitle:[NSString stringWithFormat:@"%d秒",60-self.count] forState:UIControlStateNormal];
-        [self.getCodeButton setUserInteractionEnabled:NO];
+        [self.getCodeLabel setText:[NSString stringWithFormat:@"%d秒",60-self.count]];
+        [self.getCodeLabel setUserInteractionEnabled:NO];
+       
     }else{
         [self.timer invalidate];
         self.timer= nil;
 
-        [self.getCodeButton setTitle:@"获取验证码" forState:UIControlStateNormal];
-        [self.getCodeButton setUserInteractionEnabled:YES];
+        [self.getCodeLabel setText:@"获取验证码"];
+        [self.getCodeLabel setUserInteractionEnabled:YES];
     }
     
 }

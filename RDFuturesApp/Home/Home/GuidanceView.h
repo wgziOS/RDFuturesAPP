@@ -16,7 +16,10 @@
 @property (nonatomic, strong) UIView  * backImageView;
 
 @property(nonatomic,strong) void (^goonBlock)();
--(id)initWithGuidance;
+
+-(id)initWithGuidanceOfClick;//点击方式
+-(id)initWithGuidanceOfScroll;//滚动方式
+
 - (void)show;
 
 @end

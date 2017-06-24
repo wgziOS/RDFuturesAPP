@@ -166,10 +166,11 @@
                             
                             success(self,object);
                             if ([object[@"Code"] intValue]==405) {//其他设备登录
-                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
-                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
-                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
-                                [[NSUserDefaults standardUserDefaults] synchronize];
+//                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"user_id"];
+//                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"token"];
+//                                [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"phoneNumber"];
+//                                [[NSUserDefaults standardUserDefaults] synchronize];
+                                [[RDUserInformation getInformation] cleanUserInfo];
                             }
                             dispatch_semaphore_signal(semaphore);
                             
