@@ -36,14 +36,14 @@
     
     self.codeTimerCount = 60;
     _timeLabel.userInteractionEnabled = NO;
-    _timeLabel.text = [NSString stringWithFormat:@"收到短信验证码还需要%d秒",self.codeTimerCount--];
+    _timeLabel.text = [NSString stringWithFormat:@"%d秒后可重新获取验证码",self.codeTimerCount--];
 
     self.codeTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(codeTimerDo) userInfo:nil repeats:YES];
 }
 - (void)codeTimerDo
 {
     if (self.codeTimerCount >= 0) {
-       _timeLabel.text = [NSString stringWithFormat:@"收到短信验证码还需要%d秒",self.codeTimerCount--];
+       _timeLabel.text = [NSString stringWithFormat:@"%d秒后可重新获取验证码",self.codeTimerCount--];
     } else {
         [self codeTimerStop];
     }

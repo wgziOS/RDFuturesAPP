@@ -94,9 +94,9 @@
             
             LoginViewController *login = [[LoginViewController alloc] init];
 
-            NavigationBaseController *vc = [self getCurrentVC];
+//            NavigationBaseController *vc = [self getCurrentVC];
 
-            [vc pushViewController:login animated:YES];
+//            [vc pushViewController:login animated:YES];
 //            [self setSelectedIndex:self.oldIndex];
 
             NavigationBaseController *nav = self.childViewControllers[3];
