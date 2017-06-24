@@ -41,7 +41,7 @@ static CGFloat kTransitionDuration = 0.3;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-     [self dismissAlert];
+//     [self dismissAlert];
 }
 - (CGSize)textForFont:(int)font andMAXSize:(CGSize)size andText:(NSString*)text
 {
@@ -184,7 +184,11 @@ static CGFloat kTransitionDuration = 0.3;
     return topVC;
 }
 
+-(void)tappClick{
 
+    
+    [self dismissAlert];
+}
 - (void)willMoveToSuperview:(UIView *)newSuperview
 {
     if (newSuperview == nil) {
@@ -197,6 +201,9 @@ static CGFloat kTransitionDuration = 0.3;
         self.backImageView.backgroundColor = [UIColor blackColor];
         self.backImageView.alpha = 0.6f;
         self.backImageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+        self.backImageView.userInteractionEnabled = YES;
+        UITapGestureRecognizer * tapp  = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tappClick)];
+        [self.backImageView addGestureRecognizer:tapp];
     }
     [topVC.view addSubview:self.backImageView];
     

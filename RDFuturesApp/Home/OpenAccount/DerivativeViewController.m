@@ -4,7 +4,7 @@
 //
 //  Created by 吴桂钊 on 2017/5/20.
 //  Copyright © 2017年 FuturesApp. All rights reserved.
-//衍生产品认知
+//衍生产品认知 green_untick
 
 #import "DerivativeViewController.h"
 #import "OtherInforViewController.h"
@@ -144,14 +144,14 @@
 }
 -(void)knowDerivativesIsYES{
 
-    [_firstButton setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
-    [_secondButton setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+    [_firstButton setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
+    [_secondButton setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
 }
 -(void)konwDerivativesIsNO{
     
-    [_firstButton setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+    [_firstButton setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
     //打钩
-    [_secondButton setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
+    [_secondButton setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
 }
 - (IBAction)secondBtnClick:(id)sender {
     
@@ -215,15 +215,15 @@
 
 -(void)derivativeTradingIsYES{
     
-    [_thirdButton setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
-    [_fourthButton setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
+    [_thirdButton setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
+    [_fourthButton setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
     
 }
 
 -(void)derivativeTradingIsNO{
  
-    [_thirdButton setImage:[UIImage imageNamed:@"untick_icon"] forState:UIControlStateNormal];
-    [_fourthButton setImage:[UIImage imageNamed:@"tick_icon"] forState:UIControlStateNormal];
+    [_thirdButton setImage:[UIImage imageNamed:@"green_untick"] forState:UIControlStateNormal];
+    [_fourthButton setImage:[UIImage imageNamed:@"green_tick"] forState:UIControlStateNormal];
 }
 
 - (IBAction)fourthBtnClick:(id)sender {
