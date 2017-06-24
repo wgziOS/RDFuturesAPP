@@ -23,11 +23,14 @@
 
 @implementation BusinessHandlingViewController
 
+-(void)viewWillAppear:(BOOL)animated{
 
+    [self isAccount];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"业务办理";
-    [self isAccount];
+    
     [self array];
     
     _tableView.delegate = self;
@@ -45,40 +48,48 @@
         [self puchLogin];
         return;
     }
-    if (!isFinishAccount){
-        showMassage(@"您尚未完成开户")
-        return;
-    }
+
     
     switch (indexPath.row) {
         case 0:{
 
             if(![[RDUserInformation getInformation] getLoginState]){
                 [self puchLogin];
-            }else if (!isFinishAccount) {
+            }else if (isFinishAccount==YES) {
                 DepositFundsViewController * DVC = [[DepositFundsViewController alloc]init];
                 [self.navigationController pushViewController:DVC animated:YES];
-            }else showMassage(@"您尚未完成开户")
+            }else if(isFinishAccount == NO){
+                showMassage(@"您尚未完成开户")
+            }
+            
+                
         }
             break;
         case 1:{
             if(![[RDUserInformation getInformation] getLoginState]){
                 [self puchLogin];
-            }else if(!isFinishAccount){
+            }else if(isFinishAccount == YES){
                 WithdrawFundsViewController * WVC = [[WithdrawFundsViewController alloc]init];
                 [self.navigationController pushViewController:WVC animated:YES];
 
-                
-            }else showMassage(@"您尚未完成开户");
-            
+            }else if(isFinishAccount == NO){
+                showMassage(@"您尚未完成开户")
+            }
 
           
         }
             break;
         
         case 2:{
-            APIServiceViewController * AVC = [[APIServiceViewController alloc]init];
-            [self.navigationController pushViewController:AVC animated:YES];
+            if(![[RDUserInformation getInformation] getLoginState]){
+                [self puchLogin];
+            }else if(isFinishAccount == YES){
+                APIServiceViewController * AVC = [[APIServiceViewController alloc]init];
+                [self.navigationController pushViewController:AVC animated:YES];
+                
+            }else if(isFinishAccount == NO){
+                showMassage(@"您尚未完成开户")
+            }
         }
             break;
         default:
