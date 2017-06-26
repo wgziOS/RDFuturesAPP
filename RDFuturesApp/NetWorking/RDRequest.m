@@ -126,7 +126,7 @@
      failure:(void (^)(RDRequest *request, NSError *error))failure{
     
     self.operationQueue = self.operationManager.operationQueue;
-    self.operationManager.requestSerializer.timeoutInterval = 10.f;
+//    self.operationManager.requestSerializer.timeoutInterval = 60.f;
     self.operationManager.responseSerializer = [AFHTTPResponseSerializer serializer];
     self.operationManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",@"text/plain", @"text/json", @"text/javascript",@"text/html", nil];
     

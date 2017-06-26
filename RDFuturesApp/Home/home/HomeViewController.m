@@ -78,10 +78,26 @@
     if ([RDUserInformation getInformation].advertisementClick==YES) {
         NSMutableDictionary *dictionary = [[NSUserDefaults standardUserDefaults] objectForKey:@"Advertisement_data"];
         AdvertisementModel *model = [AdvertisementModel mj_objectWithKeyValues:dictionary];
-        SubscribeViewController *homeAdvertisement = [[SubscribeViewController alloc] init];
-        homeAdvertisement.web_url = model.skip_url;
-        homeAdvertisement.titleName = @"广告";
-        [weakSelf.navigationController pushViewController:homeAdvertisement animated:YES];
+        switch ([model.skip_type intValue]) {
+            case 1:
+            {
+                
+            }
+                break;
+            case 2:
+            {
+                SubscribeViewController *homeAdvertisement = [[SubscribeViewController alloc] init];
+                homeAdvertisement.web_url = model.skip_url;
+                homeAdvertisement.titleName = @"广告";
+                [weakSelf.navigationController pushViewController:homeAdvertisement animated:YES];
+            }
+                break;
+                
+                
+            default:
+                break;
+        }
+        
     }
    
 

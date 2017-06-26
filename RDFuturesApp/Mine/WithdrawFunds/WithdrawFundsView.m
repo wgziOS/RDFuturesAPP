@@ -280,7 +280,13 @@
         
         [dataDictionary setObject:self.model.bankAddress forKey:@"bankAddress"];
         [dataDictionary setObject:self.model.interRemittanceCode forKey:@"interRemittanceCode"];
-
+    }else{
+        if (self.model.bankAddress.length>1) {
+            [dataDictionary setObject:self.model.bankAddress forKey:@"bankAddress"];
+        }
+        if (self.model.interRemittanceCode.length>1) {
+            [dataDictionary setObject:self.model.interRemittanceCode forKey:@"interRemittanceCode"];
+        }
     }
     
     
