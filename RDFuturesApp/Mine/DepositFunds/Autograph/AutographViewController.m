@@ -165,9 +165,10 @@
 -(UIView *)titleView{
     if (!_titleView) {
         _titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH*0.5-100, 10, 200, 30)];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH*0.5-150, 10, 300, 30)];
         label.text = [NSString stringWithFormat:@"请在此空白区域签写您的姓名:%@",self.model.chinese_name];
         label.font = [UIFont rdSystemFontOfSize:14];
+        label.textAlignment = NSTextAlignmentCenter;
         [_titleView addSubview:label];
         [_titleView setBackgroundColor:[UIColor whiteColor]];
     }
