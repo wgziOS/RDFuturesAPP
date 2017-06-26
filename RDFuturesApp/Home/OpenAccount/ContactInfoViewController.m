@@ -31,6 +31,8 @@
 @property (weak, nonatomic) IBOutlet UIView *lastView;//看情况隐藏
 @property (weak, nonatomic) IBOutlet UILabel *natureLabel;//业务性质
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;//职业状态
+@property (weak, nonatomic) IBOutlet UIView *freeStatusBGView;//选择自由职业 时 的 业务性质
+@property (weak, nonatomic) IBOutlet UILabel *freeNatureLabel;//选择自由职业 时 的 业务性质
 
 @end
 
@@ -90,6 +92,9 @@
                 
                 if (occupational_status_id == 3 || occupational_status_id == 4) {
                     _lastView.hidden = YES;
+                    if (occupational_status_id == 3) {
+                        _freeStatusBGView.hidden = YES;
+                    }else _freeStatusBGView.hidden = NO;
                 }else{
                     _lastView.hidden = NO;
                 }
@@ -101,13 +106,14 @@
 
                 if (business_type_id == 0) {
                     _natureLabel.text =@"";
+                    _freeNatureLabel.text =@"";
                     
                 }else{
                     _natureLabel.text = natureArray[business_type_id - 1];
+                    _freeNatureLabel.text = natureArray[business_type_id - 1];
                 }
                 
 
-                
                 _companyNameTextfield.text = [NSString stringWithFormat:@"%@",model.company_name];
                 _positionTextfield.text = [NSString stringWithFormat:@"%@",model.professional_position];
 
@@ -166,8 +172,11 @@
         [dic setObject:[NSString stringWithFormat:@"%@",_companyNameTextfield.text] forKey:@"company_name"];
         [dic setObject:[NSString stringWithFormat:@"%@",_companyAddressTextfield.text] forKey:@"company_address"];
         [dic setObject:[NSString stringWithFormat:@"%@",_positionTextfield.text] forKey:@"professional_position"];
-        [dic setObject:[NSString stringWithFormat:@"%d",business_type_id] forKey:@"business_type_id"];
         [dic setObject:[NSString stringWithFormat:@"%@",_yearsTextfield.text] forKey:@"service_age"];
+        
+        if (business_type_id == 0) {
+            [dic setObject:[NSString stringWithFormat:@""] forKey:@"business_type_id"];
+        }else [dic setObject:[NSString stringWithFormat:@"%d",business_type_id] forKey:@"business_type_id"];
         
         
         NSLog(@"%@",dic);
@@ -204,6 +213,7 @@
     
     _natureLabel.userInteractionEnabled = YES;
     _statusLabel.userInteractionEnabled = YES;
+    _freeNatureLabel.userInteractionEnabled = YES;
     UITapGestureRecognizer * tapp = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(statusTap:)];
     tapp.numberOfTapsRequired = 1;
     [self.statusLabel addGestureRecognizer:tapp];
@@ -211,6 +221,33 @@
     UITapGestureRecognizer * tapp1 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(natureTap:)];
     tapp1.numberOfTapsRequired = 1;
     [self.natureLabel addGestureRecognizer:tapp1];
+    
+    UITapGestureRecognizer * tapp2 = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(freeNatureTap:)];
+    tapp2.numberOfTapsRequired = 1;
+    [self.freeNatureLabel addGestureRecognizer:tapp2];
+}
+-(void)freeNatureTap:(UILabel *)sender{
+    [self chooseViewWithFreeNatureLabel:_freeNatureLabel andArray:natureArray];
+    
+    isGetInfo = NO;
+}
+#pragma mark - 弹出框 block 回调取值
+-(void)chooseViewWithFreeNatureLabel:(UILabel *)sender andArray:(NSArray *)array
+{
+    
+    ChooseBankView * view = [[ChooseBankView alloc]initWithDataArray:array];
+    [view show];
+    view.callBackBlock = ^(NSString * tStr){
+        
+        sender.text = array[[tStr intValue]];
+
+        if (sender == _freeNatureLabel) {
+            business_type_id = [tStr intValue] + 1;
+        }
+        
+        isGetInfo = NO;
+    };
+    
 }
 -(void)natureTap:(UILabel *)sender{
     [self chooseViewWithTextfield:_natureLabel andArray:natureArray];
@@ -240,8 +277,15 @@
         if ([sender.text isEqualToString:@"退休"] ||
             [sender.text isEqualToString:@"自由职业"]) {
             _lastView.hidden = YES;
+            if ([sender.text isEqualToString:@"退休"]) {
+                _freeStatusBGView.hidden = YES;
+                _freeNatureLabel.text = @"请输入";
+                business_type_id = 0;
+            }else _freeStatusBGView.hidden = NO;
+            
         }else{
             _lastView.hidden = NO;
+            
         }
         
         if (sender == _natureLabel) {
