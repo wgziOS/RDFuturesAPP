@@ -55,7 +55,7 @@
             break;
         case 4://个人客户开户需知
 //            [self pushIntroduceWithcontentID:@"202" title:@"个人客户开户需知"];
-             [self pushIntroduceWithcontentID:@"189" title:@"个人客户开户需知"];
+             [self pushIntroduceWithcontentID:@"198" title:@"个人客户开户需知"];
             break;
         case 5://机构客户开户需知
 //            [self pushIntroduceWithcontentID:@"203" title:@"机构客户开户需知"];

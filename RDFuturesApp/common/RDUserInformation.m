@@ -63,7 +63,6 @@
     [infoDictionary setObject:[defaults objectForKey:@"token"] forKey:@"token"];
     
     
-    
     return infoDictionary;
 }
 -(NSMutableDictionary *)postDataDictionary:(BOOL)state{

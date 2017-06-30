@@ -88,6 +88,7 @@
 -(MessageView *)messageView{
     if (!_messageView) {
         _messageView = [[MessageView alloc] initWithViewModel:self.messageViewModel];
+        _messageView.backgroundColor = [UIColor whiteColor];
     }
     return _messageView;
 }

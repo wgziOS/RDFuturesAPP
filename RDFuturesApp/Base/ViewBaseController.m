@@ -63,6 +63,7 @@
 
     [self.navigationController.navigationBar setBarTintColor:RGB(255, 165, 33)];//设置导航栏的背景颜色
     
+    
     //    self.navigationController.navigationBar.alpha = 0;
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     
