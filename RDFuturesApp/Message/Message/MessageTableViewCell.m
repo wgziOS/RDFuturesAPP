@@ -14,6 +14,7 @@
 @property(nonatomic,strong)UILabel *subtitle;
 @property(nonatomic,strong)UILabel *time;
 @property(nonatomic,strong)UILabel *prompt;//提示
+@property(nonatomic,strong)UIView *line;
 @end
 
 @implementation MessageTableViewCell
@@ -25,6 +26,7 @@
     [self.contentView addSubview:self.titleText];
     [self.contentView addSubview:self.subtitle];
     [self.contentView addSubview:self.time];
+    [self.contentView addSubview:self.line];
     [self setNeedsUpdateConstraints];
     [self updateConstraintsIfNeeded];
     [self setBackgroundColor:[UIColor clearColor]];
@@ -34,7 +36,7 @@
     WS(weakself)
     
     [self.icon mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(weakSelf.contentView).with.offset(15);
+        make.top.equalTo(weakSelf.contentView).with.offset(7.5);
         make.left.equalTo(weakSelf.contentView).with.offset(15);
         make.size.mas_offset(CGSizeMake(35, 35));
     }];
@@ -44,7 +46,8 @@
         make.size.mas_offset(CGSizeMake(10, 10));
     }];
     [self.titleText mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(weakSelf.contentView).with.offset(20);
+//        make.top.equalTo(weakSelf.contentView).with.offset(20);
+        make.centerY.equalTo(weakSelf.icon);
         make.left.equalTo(weakSelf.icon.mas_right).with.offset(15);
         make.size.mas_offset(CGSizeMake(150, 25));
     }];
@@ -59,6 +62,14 @@
         make.size.mas_offset(CGSizeMake(120, 35));
     }];
     
+    
+    [self.line mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(weakSelf.contentView);
+        make.right.equalTo(weakSelf.contentView);
+        make.bottom.equalTo(weakSelf.contentView.mas_bottom);
+        make.height.mas_equalTo(1);
+    }];
+    
     [super updateConstraints];
 }
 
@@ -69,6 +80,13 @@
     // Drawing code
 }
 */
+-(UIView *)line{
+    if (!_line) {
+        _line = [[UIView alloc]init];
+        _line.backgroundColor = RGB(210, 210, 210);
+    }
+    return _line;
+}
 -(void)setModel:(MessageModel *)model{
     if (model) {
         _model = model;

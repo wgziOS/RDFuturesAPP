@@ -171,8 +171,14 @@
 
                 break;
             case 6://公司公告
-                [weakSelf pushCompanyNotice];
-
+            {
+                if(![[RDUserInformation getInformation] getLoginState]){
+                    [weakSelf puchLogin];
+                }else{
+                    [weakSelf pushCompanyNotice];
+                }
+                
+            }
                 break;
             case 7://帮助信息
                 [weakSelf pushHelpCenter];
