@@ -79,7 +79,7 @@
                 ContactInfoModel * model = [ContactInfoModel mj_objectWithKeyValues:infoDic];
                 
                 _emailTextfield.text = [NSString stringWithFormat:@"%@",model.email];
-                _addressTextfield.text = [NSString stringWithFormat:@"%@",model.postal_address];
+//                _addressTextfield.text = [NSString stringWithFormat:@"%@",model.postal_address];
                 
                 _yearsTextfield.text = [NSString stringWithFormat:@"%@",model.service_age];
                 _companyAddressTextfield.text = [NSString stringWithFormat:@"%@",model.company_address];
@@ -155,10 +155,10 @@
 - (IBAction)nextBtnClick:(id)sender {
     
   
-    if (_emailTextfield.text.length == 0 ||
-        _addressTextfield.text.length == 0
+    if (_emailTextfield.text.length == 0
+//        || _addressTextfield.text.length == 0
         ) {
-        showMassage(@"邮箱或地址未填写");
+        showMassage(@"邮箱地址未填写");
     }else{
         
         loading(@"正在提交数据");
@@ -166,7 +166,8 @@
         NSMutableDictionary *dic = [NSMutableDictionary dictionary];
         
         [dic setObject:_emailTextfield.text forKey:@"email"];
-        [dic setObject:_addressTextfield.text forKey:@"postal_address"];
+//        [dic setObject:_addressTextfield.text forKey:@"postal_address"];
+        [dic setObject:@"1" forKey:@"postal_address"];
         
         [dic setObject:[NSString stringWithFormat:@"%d",occupational_status_id] forKey:@"occupational_status_id"];
         [dic setObject:[NSString stringWithFormat:@"%@",_companyNameTextfield.text] forKey:@"company_name"];

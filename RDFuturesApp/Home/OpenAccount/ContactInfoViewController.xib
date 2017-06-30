@@ -16,7 +16,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContactInfoViewController">
             <connections>
-                <outlet property="addressTextfield" destination="bH6-zu-lGc" id="gVc-8W-eBO"/>
                 <outlet property="bottonViewHeight" destination="Ayx-2m-8xC" id="Vxl-FS-2SU"/>
                 <outlet property="companyAddressTextfield" destination="khi-cW-xpd" id="fLb-hl-iJZ"/>
                 <outlet property="companyNameTextfield" destination="Sio-MR-Go3" id="zS6-cs-YVK"/>
@@ -43,7 +42,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="320" height="720"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfy-2f-kKA" userLabel="oneBGView">
-                                    <rect key="frame" x="0.0" y="49" width="320" height="106"/>
+                                    <rect key="frame" x="0.0" y="49" width="320" height="53"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4qT-CS-9hX" userLabel="lineView">
                                             <rect key="frame" x="10" y="52" width="300" height="2"/>
@@ -52,24 +51,6 @@
                                                 <constraint firstAttribute="height" constant="2" id="AkP-ML-q6a"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="通讯地址" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzc-Xz-rgj">
-                                            <rect key="frame" x="13" y="66" width="85" height="28"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="85" id="sqE-r0-kwi"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="16"/>
-                                            <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bH6-zu-lGc">
-                                            <rect key="frame" x="108" y="62" width="202" height="36"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="36" id="mLJ-WR-yrt"/>
-                                            </constraints>
-                                            <color key="textColor" red="0.5450980392" green="0.5450980392" blue="0.5450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="16"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOd-cY-Bpe">
                                             <rect key="frame" x="13" y="12" width="85" height="28"/>
                                             <constraints>
@@ -92,21 +73,15 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="0oR-dO-IXv" firstAttribute="leading" secondItem="FOd-cY-Bpe" secondAttribute="trailing" constant="10" id="0VM-kV-TpJ"/>
-                                        <constraint firstItem="Nzc-Xz-rgj" firstAttribute="leading" secondItem="pfy-2f-kKA" secondAttribute="leading" constant="12.5" id="4Pu-Qy-6bA"/>
-                                        <constraint firstItem="bH6-zu-lGc" firstAttribute="leading" secondItem="Nzc-Xz-rgj" secondAttribute="trailing" constant="10" id="Blh-ax-EIy"/>
-                                        <constraint firstItem="bH6-zu-lGc" firstAttribute="centerY" secondItem="Nzc-Xz-rgj" secondAttribute="centerY" id="GB6-GQ-8pQ"/>
                                         <constraint firstItem="FOd-cY-Bpe" firstAttribute="leading" secondItem="pfy-2f-kKA" secondAttribute="leading" constant="12.5" id="LDP-6v-t7R"/>
-                                        <constraint firstItem="Nzc-Xz-rgj" firstAttribute="top" secondItem="4qT-CS-9hX" secondAttribute="bottom" constant="12" id="NUl-6J-qFW"/>
                                         <constraint firstItem="4qT-CS-9hX" firstAttribute="leading" secondItem="pfy-2f-kKA" secondAttribute="leading" constant="10" id="O99-nh-eEZ"/>
                                         <constraint firstAttribute="trailing" secondItem="0oR-dO-IXv" secondAttribute="trailing" constant="10" id="bUe-Df-yC8"/>
-                                        <constraint firstAttribute="bottom" secondItem="Nzc-Xz-rgj" secondAttribute="bottom" constant="12" id="bin-ny-viP"/>
                                         <constraint firstItem="4qT-CS-9hX" firstAttribute="top" secondItem="pfy-2f-kKA" secondAttribute="top" constant="52" id="eIY-pT-Gme"/>
-                                        <constraint firstAttribute="trailing" secondItem="bH6-zu-lGc" secondAttribute="trailing" constant="10" id="fPn-uT-1Sh"/>
                                         <constraint firstItem="4qT-CS-9hX" firstAttribute="top" secondItem="FOd-cY-Bpe" secondAttribute="bottom" constant="12" id="lor-12-Pmv"/>
                                         <constraint firstItem="0oR-dO-IXv" firstAttribute="centerY" secondItem="FOd-cY-Bpe" secondAttribute="centerY" id="mx5-82-Lrw"/>
                                         <constraint firstItem="FOd-cY-Bpe" firstAttribute="top" secondItem="pfy-2f-kKA" secondAttribute="top" constant="12" id="nF0-0D-Lvb"/>
                                         <constraint firstAttribute="trailing" secondItem="4qT-CS-9hX" secondAttribute="trailing" constant="10" id="tZx-EX-H6F"/>
-                                        <constraint firstAttribute="height" constant="106" id="zD2-am-Jkz"/>
+                                        <constraint firstAttribute="height" constant="53" id="zD2-am-Jkz"/>
                                     </constraints>
                                 </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联系信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bjL-34-Hce">
@@ -120,7 +95,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就业情况" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTy-I2-pun">
-                                    <rect key="frame" x="13" y="167" width="70" height="24"/>
+                                    <rect key="frame" x="13" y="114" width="70" height="24"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="24" id="Zaj-39-bd1"/>
                                         <constraint firstAttribute="width" constant="70" id="siH-b2-fmY"/>
@@ -130,7 +105,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2S-15-Wfn" userLabel="twoBGView">
-                                    <rect key="frame" x="0.0" y="201" width="320" height="54"/>
+                                    <rect key="frame" x="0.0" y="148" width="320" height="54"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C08-cX-x3u" userLabel="lineView">
                                             <rect key="frame" x="10" y="52" width="300" height="2"/>
@@ -183,13 +158,13 @@
                                     </constraints>
                                 </view>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_btn" translatesAutoresizingMaskIntoConstraints="NO" id="kfA-NC-8p9">
-                                    <rect key="frame" x="15" y="555" width="290" height="40"/>
+                                    <rect key="frame" x="15" y="502" width="290" height="40"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="VmP-b4-xco"/>
                                     </constraints>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egl-U3-mRG">
-                                    <rect key="frame" x="15" y="555" width="290" height="40"/>
+                                    <rect key="frame" x="15" y="502" width="290" height="40"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="MUr-Js-Urp"/>
                                     </constraints>
@@ -200,7 +175,7 @@
                                     </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ix-qj-L9s" userLabel="FreeStatusBGView">
-                                    <rect key="frame" x="0.0" y="255" width="320" height="50"/>
+                                    <rect key="frame" x="0.0" y="202" width="320" height="50"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUn-h5-tbp" userLabel="lineView">
                                             <rect key="frame" x="10" y="48" width="300" height="2"/>
@@ -489,7 +464,7 @@
                 <constraint firstItem="cAv-TV-7Ga" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="abj-K7-MmM"/>
                 <constraint firstItem="cAv-TV-7Ga" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jxU-wt-3ex"/>
             </constraints>
-            <point key="canvasLocation" x="-218" y="-265"/>
+            <point key="canvasLocation" x="-128" y="-275"/>
         </view>
     </objects>
     <resources>
