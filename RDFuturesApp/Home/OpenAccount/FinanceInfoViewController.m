@@ -102,10 +102,10 @@
                     thirdStr = dataArr[2][investment_purpose_id - 1];
                 }
                 
-                if ([model.housing_ownership_id intValue]>0) {
-                    housing_ownership_id = [model.housing_ownership_id intValue];
-                    fourthStr = dataArr[3][housing_ownership_id - 1];
-                }
+//                if ([model.housing_ownership_id intValue]>0) {
+//                    housing_ownership_id = [model.housing_ownership_id intValue];
+//                    fourthStr = dataArr[3][housing_ownership_id - 1];
+//                }
 
                 [_tableView  reloadData];
             }else{
@@ -126,7 +126,7 @@
           @[@"20万港币以下",@"20-50万港币",@"50-100万港币",@"100万港币以上"],
           @[@"50万港币以下",@"50-100万港币",@"100-500万港币",@"500万港币以上"],
           @[@"资本增值",@"对冲",@"投机",@"其他"],
-          @[@"自置",@"租用",@"按揭",@"与家人同住"]
+          @[@"自置",@"租用",@"按揭"]
           ];
     }
     return dataArr;
@@ -134,7 +134,7 @@
 - (NSArray *)titleArray{
 
     if (!titleArray) {
-        titleArray = @[@"全年收入",@"总资产净值",@"投资目的",@"住宅所有权"];
+        titleArray = @[@"全年收入",@"总资产净值",@"投资目的"];
     }
     return titleArray;
 }
@@ -144,6 +144,7 @@
     
     _tableView.delegate = self;
     _tableView.dataSource = self;
+    _tableView.backgroundColor = [UIColor whiteColor];
     [_tableView registerNib:[UINib nibWithNibName:kPullDownCell bundle:nil] forCellReuseIdentifier:kPullDownCell];
 }
 #pragma mark - tableView代理
@@ -204,7 +205,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 3;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -223,7 +224,8 @@
         [dic setObject:[NSString stringWithFormat:@"%d",year_income_id] forKey:@"year_income_id"];
         [dic setObject:[NSString stringWithFormat:@"%d",total_assets_id] forKey:@"total_assets_id"];
         [dic setObject:[NSString stringWithFormat:@"%d",investment_purpose_id] forKey:@"investment_purpose_id"];
-        [dic setObject:[NSString stringWithFormat:@"%d",housing_ownership_id] forKey:@"housing_ownership_id"];
+        [dic setObject:[NSString stringWithFormat:@"22"] forKey:@"housing_ownership_id"];
+//        [dic setObject:[NSString stringWithFormat:@"%d",housing_ownership_id] forKey:@"housing_ownership_id"];
 //        [dic setObject:[NSString stringWithFormat:@"%@",_property_valuationTextfield.text] forKey:@"property_valuation"];
     
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{

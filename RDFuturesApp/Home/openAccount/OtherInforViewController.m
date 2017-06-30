@@ -41,7 +41,7 @@
     [super viewDidLoad];
     
     
-    self.title = @"其他资料披露";
+    self.title = @"声明";
     
     [self.view addSubview:self.tableView];
 }
