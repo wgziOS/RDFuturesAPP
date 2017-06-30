@@ -50,7 +50,7 @@
                         </constraints>
                     </view>
                     <view key="tableFooterView" contentMode="scaleToFill" id="oSk-8K-7zv">
-                        <rect key="frame" x="0.0" y="408" width="375" height="259"/>
+                        <rect key="frame" x="0.0" y="96" width="375" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_btn" translatesAutoresizingMaskIntoConstraints="NO" id="M4n-5x-eR7">
