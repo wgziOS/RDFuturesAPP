@@ -57,12 +57,12 @@ static CGFloat kTransitionDuration = 0.3;
         self.bgView1.contentMode = UIViewContentModeScaleAspectFill;
 
         self.bgView2 = [[UIImageView alloc]initWithFrame:CGRectMake(SCREEN_WIDTH*2, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-        self.bgView2.image = [UIImage imageNamed:@"guidance_box"];
+        self.bgView2.image = [UIImage imageNamed:@"guidance_box_new"];
         [self.scrollView addSubview:self.bgView2];
         self.bgView2.contentMode = UIViewContentModeScaleAspectFill;
 
         self.bgView3 = [[UIImageView alloc]initWithFrame:CGRectMake(SCREEN_WIDTH*3, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
-        self.bgView3.image = [UIImage imageNamed:@"guidance_notice"];
+        self.bgView3.image = [UIImage imageNamed:@"guidance_notice_new"];
         [self.scrollView addSubview:self.bgView3];
         self.bgView3.contentMode = UIViewContentModeScaleAspectFill;
 
@@ -125,12 +125,12 @@ static CGFloat kTransitionDuration = 0.3;
             break;
         case 2:
         {
-            self.bgView.image = [UIImage imageNamed:@"guidance_box"];
+            self.bgView.image = [UIImage imageNamed:@"guidance_box_new"];
         }
             break;
         case 3:
         {
-            self.bgView.image = [UIImage imageNamed:@"guidance_notice"];
+            self.bgView.image = [UIImage imageNamed:@"guidance_notice_new"];
         }
             break;
         case 4:
