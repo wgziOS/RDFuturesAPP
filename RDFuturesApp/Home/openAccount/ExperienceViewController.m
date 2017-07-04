@@ -228,7 +228,7 @@
 -(NSMutableArray *)yearsArr{
     if (!_yearsArr) {
     
-        _yearsArr = [NSMutableArray arrayWithObjects:@"没有经验",@"少于一年",@"一至二年",@"三至五年",@"五年以上",nil];
+        _yearsArr = [NSMutableArray arrayWithObjects:@"少于一年",@"一至二年",@"三至五年",@"五年以上",nil];
     }
     return _yearsArr;
 }
