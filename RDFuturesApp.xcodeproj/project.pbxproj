@@ -34,11 +34,6 @@
 		B21166BE1EA5EB7D009C64CE /* NewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B21166BA1EA5EB7D009C64CE /* NewsViewModel.m */; };
 		B21166C61EA5EDC3009C64CE /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21166C41EA5EDC3009C64CE /* NewsViewController.m */; };
 		B21166CA1EA606F9009C64CE /* NewsMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B21166C91EA606F9009C64CE /* NewsMain.m */; };
-		B212BD8B1F131859008D2340 /* 1.经纪资料.txt in Resources */ = {isa = PBXBuildFile; fileRef = B212BD861F131859008D2340 /* 1.经纪资料.txt */; };
-		B212BD8C1F131859008D2340 /* 2.期货合约交易服务之一般条款及条件.txt in Resources */ = {isa = PBXBuildFile; fileRef = B212BD871F131859008D2340 /* 2.期货合约交易服务之一般条款及条件.txt */; };
-		B212BD8D1F131859008D2340 /* 3.互联网期货合约交易服务条款及条件.txt in Resources */ = {isa = PBXBuildFile; fileRef = B212BD881F131859008D2340 /* 3.互联网期货合约交易服务条款及条件.txt */; };
-		B212BD8E1F131859008D2340 /* 4.风险披露声明.txt in Resources */ = {isa = PBXBuildFile; fileRef = B212BD891F131859008D2340 /* 4.风险披露声明.txt */; };
-		B212BD8F1F131859008D2340 /* 5.关于买卖恒生指数期货及期权的免责声明.txt in Resources */ = {isa = PBXBuildFile; fileRef = B212BD8A1F131859008D2340 /* 5.关于买卖恒生指数期货及期权的免责声明.txt */; };
 		B21473B91EF8B27E00D48780 /* white_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B21473B81EF8B27E00D48780 /* white_bar.png */; };
 		B2199E6F1E83788600F61065 /* OpenAccountFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B2199E6D1E83788600F61065 /* OpenAccountFileCell.m */; };
 		B2199E701E83788600F61065 /* OpenAccountFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2199E6E1E83788600F61065 /* OpenAccountFileCell.xib */; };
@@ -313,6 +308,11 @@
 		CE87C5281E650DDD00103EDE /* RDFuturesAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87C5271E650DDD00103EDE /* RDFuturesAppUITests.m */; };
 		CE9EBF0E1ECC55BC004BCAC3 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9EBF0D1ECC5578004BCAC3 /* PopoverView.m */; };
 		CE9F20671EB9D95500A94A94 /* NoticeCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F20661EB9D95500A94A94 /* NoticeCellView.m */; };
+		CEAAC0CE1F132918009F19B7 /* 1.经纪资料.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAAC0C91F132918009F19B7 /* 1.经纪资料.txt */; };
+		CEAAC0CF1F132918009F19B7 /* 2.期货合约交易服务之一般条款及条件.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAAC0CA1F132918009F19B7 /* 2.期货合约交易服务之一般条款及条件.txt */; };
+		CEAAC0D01F132918009F19B7 /* 3.互联网期货合约交易服务条款及条件.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAAC0CB1F132918009F19B7 /* 3.互联网期货合约交易服务条款及条件.txt */; };
+		CEAAC0D11F132918009F19B7 /* 4.风险披露声明.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAAC0CC1F132918009F19B7 /* 4.风险披露声明.txt */; };
+		CEAAC0D21F132918009F19B7 /* 5.关于买卖恒生指数期货及期权的免责声明.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEAAC0CD1F132918009F19B7 /* 5.关于买卖恒生指数期货及期权的免责声明.txt */; };
 		CEB3D9231E6D59320030F5F6 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3D9221E6D59320030F5F6 /* HomeViewModel.m */; };
 		CEB3D9291E6D59460030F5F6 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3D9281E6D59460030F5F6 /* HomeView.m */; };
 		CEB3D9311E6D59600030F5F6 /* HomeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB3D9301E6D59600030F5F6 /* HomeScrollView.m */; };
@@ -414,11 +414,6 @@
 		B21166C41EA5EDC3009C64CE /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		B21166C81EA606F9009C64CE /* NewsMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsMain.h; sourceTree = "<group>"; };
 		B21166C91EA606F9009C64CE /* NewsMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsMain.m; sourceTree = "<group>"; };
-		B212BD861F131859008D2340 /* 1.经纪资料.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1.经纪资料.txt"; sourceTree = "<group>"; };
-		B212BD871F131859008D2340 /* 2.期货合约交易服务之一般条款及条件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2.期货合约交易服务之一般条款及条件.txt"; sourceTree = "<group>"; };
-		B212BD881F131859008D2340 /* 3.互联网期货合约交易服务条款及条件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3.互联网期货合约交易服务条款及条件.txt"; sourceTree = "<group>"; };
-		B212BD891F131859008D2340 /* 4.风险披露声明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4.风险披露声明.txt"; sourceTree = "<group>"; };
-		B212BD8A1F131859008D2340 /* 5.关于买卖恒生指数期货及期权的免责声明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5.关于买卖恒生指数期货及期权的免责声明.txt"; sourceTree = "<group>"; };
 		B21473B81EF8B27E00D48780 /* white_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bar.png; sourceTree = "<group>"; };
 		B2199E6C1E83788600F61065 /* OpenAccountFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAccountFileCell.h; sourceTree = "<group>"; };
 		B2199E6D1E83788600F61065 /* OpenAccountFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenAccountFileCell.m; sourceTree = "<group>"; };
@@ -909,6 +904,11 @@
 		CE9EBF121ECC8B20004BCAC3 /* RDFuturesApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RDFuturesApp.entitlements; sourceTree = "<group>"; };
 		CE9F20651EB9D95500A94A94 /* NoticeCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeCellView.h; sourceTree = "<group>"; };
 		CE9F20661EB9D95500A94A94 /* NoticeCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeCellView.m; sourceTree = "<group>"; };
+		CEAAC0C91F132918009F19B7 /* 1.经纪资料.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1.经纪资料.txt"; sourceTree = "<group>"; };
+		CEAAC0CA1F132918009F19B7 /* 2.期货合约交易服务之一般条款及条件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "2.期货合约交易服务之一般条款及条件.txt"; sourceTree = "<group>"; };
+		CEAAC0CB1F132918009F19B7 /* 3.互联网期货合约交易服务条款及条件.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "3.互联网期货合约交易服务条款及条件.txt"; sourceTree = "<group>"; };
+		CEAAC0CC1F132918009F19B7 /* 4.风险披露声明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4.风险披露声明.txt"; sourceTree = "<group>"; };
+		CEAAC0CD1F132918009F19B7 /* 5.关于买卖恒生指数期货及期权的免责声明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "5.关于买卖恒生指数期货及期权的免责声明.txt"; sourceTree = "<group>"; };
 		CEB3D9211E6D59320030F5F6 /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
 		CEB3D9221E6D59320030F5F6 /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
 		CEB3D9271E6D59460030F5F6 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
@@ -2357,12 +2357,12 @@
 		CE807CA71E8E44D400E45779 /* TextFile */ = {
 			isa = PBXGroup;
 			children = (
+				CEAAC0C91F132918009F19B7 /* 1.经纪资料.txt */,
+				CEAAC0CA1F132918009F19B7 /* 2.期货合约交易服务之一般条款及条件.txt */,
+				CEAAC0CB1F132918009F19B7 /* 3.互联网期货合约交易服务条款及条件.txt */,
+				CEAAC0CC1F132918009F19B7 /* 4.风险披露声明.txt */,
+				CEAAC0CD1F132918009F19B7 /* 5.关于买卖恒生指数期货及期权的免责声明.txt */,
 				CE09573B1ED580E500394709 /* 免责声明.doc */,
-				B212BD861F131859008D2340 /* 1.经纪资料.txt */,
-				B212BD871F131859008D2340 /* 2.期货合约交易服务之一般条款及条件.txt */,
-				B212BD881F131859008D2340 /* 3.互联网期货合约交易服务条款及条件.txt */,
-				B212BD891F131859008D2340 /* 4.风险披露声明.txt */,
-				B212BD8A1F131859008D2340 /* 5.关于买卖恒生指数期货及期权的免责声明.txt */,
 			);
 			path = TextFile;
 			sourceTree = "<group>";
@@ -2660,7 +2660,7 @@
 				B25119AE1EEF867600E95771 /* CompanyNoticeViewController.xib in Resources */,
 				B24219AD1EC31567000FE1AC /* HKIDPhotoViewController.xib in Resources */,
 				B2ED06A71EF103770046DE91 /* BusinessHandlingCell.xib in Resources */,
-				B212BD8B1F131859008D2340 /* 1.经纪资料.txt in Resources */,
+				CEAAC0CE1F132918009F19B7 /* 1.经纪资料.txt in Resources */,
 				B21166AD1EA5EB2B009C64CE /* NewsSeventhViewController.xib in Resources */,
 				CE0AE00C1ED2D937002801D5 /* AccountSecuritySecondCell.xib in Resources */,
 				CE7710711E712F2F000720EE /* OpenAccountViewController.xib in Resources */,
@@ -2673,12 +2673,12 @@
 				B24C51F01EC1920E00E53605 /* ForgetSecondViewController.xib in Resources */,
 				B25119BF1EEFE98C00E95771 /* InfoFeedBackViewController.xib in Resources */,
 				B21473B91EF8B27E00D48780 /* white_bar.png in Resources */,
-				B212BD8C1F131859008D2340 /* 2.期货合约交易服务之一般条款及条件.txt in Resources */,
-				B212BD8F1F131859008D2340 /* 5.关于买卖恒生指数期货及期权的免责声明.txt in Resources */,
+				CEAAC0CF1F132918009F19B7 /* 2.期货合约交易服务之一般条款及条件.txt in Resources */,
+				CEAAC0D21F132918009F19B7 /* 5.关于买卖恒生指数期货及期权的免责声明.txt in Resources */,
 				B21166A11EA5EB2B009C64CE /* NewsFirstViewController.xib in Resources */,
 				CE0ADFFA1ED2D937002801D5 /* PersonalFirstCell.xib in Resources */,
 				B2ED06AD1EF11FCC0046DE91 /* MagicBoxViewController.xib in Resources */,
-				B212BD8E1F131859008D2340 /* 4.风险披露声明.txt in Resources */,
+				CEAAC0D11F132918009F19B7 /* 4.风险披露声明.txt in Resources */,
 				CE0AE0021ED2D937002801D5 /* MineViewController.xib in Resources */,
 				B21166A31EA5EB2B009C64CE /* NewsFourthViewController.xib in Resources */,
 				CE0ADFFC1ED2D937002801D5 /* PersonalSecondCell.xib in Resources */,
@@ -2702,7 +2702,7 @@
 				CE87C5121E650DDD00103EDE /* LaunchScreen.storyboard in Resources */,
 				CE0ADFFE1ED2D937002801D5 /* MineFirstTableViewCell.xib in Resources */,
 				CE09572D1ED436B400394709 /* AreaTableViewCell.xib in Resources */,
-				B212BD8D1F131859008D2340 /* 3.互联网期货合约交易服务条款及条件.txt in Resources */,
+				CEAAC0D01F132918009F19B7 /* 3.互联网期货合约交易服务条款及条件.txt in Resources */,
 				B21166AF1EA5EB2B009C64CE /* NewsSixthViewController.xib in Resources */,
 				B211669F1EA5EB2B009C64CE /* NewsFifthViewController.xib in Resources */,
 				CE0AE0231ED2D9A5002801D5 /* aip.license in Resources */,
@@ -3192,7 +3192,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDFuturesApp/RDFuturesApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhibin Lin (UH2HAG56T3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5GT7M52QLG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3235,7 +3235,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDFuturesApp/RDFuturesApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhibin Lin (UH2HAG56T3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5GT7M52QLG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
