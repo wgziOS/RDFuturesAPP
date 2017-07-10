@@ -1,581 +1,581 @@
-ÆÚ»õºÏÔ¼½»Ò×·şÎñÖ®Ò»°ãÌõ¿î¼°Ìõ¼ş
+æœŸè´§åˆçº¦äº¤æ˜“æœåŠ¡ä¹‹ä¸€èˆ¬æ¡æ¬¾åŠæ¡ä»¶
 General Terms and Conditions for Dealing in futures contracts Services
 
 
-ÒÔÏÂÌõ¿î¼°Ìõ¼şÊÊÓÃÓÚ¿Í»§ÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÆÚ»õºÏÔ¼½»Ò×Ëù¿ªÁ¢¼°Î¬³ÖµÄ»§¿Ú(ÒÔÏÂ¼ò³Æ¡¸»§¿Ú¡¹)£¬ÒÔ½øĞĞÆÚ»õºÏÔ¼½»Ò×¡£
+ä»¥ä¸‹æ¡æ¬¾åŠæ¡ä»¶é€‚ç”¨äºå®¢æˆ·åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„æœŸè´§åˆçº¦äº¤æ˜“æ‰€å¼€ç«‹åŠç»´æŒçš„æˆ·å£(ä»¥ä¸‹ç®€ç§°ã€Œæˆ·å£ã€)ï¼Œä»¥è¿›è¡ŒæœŸè´§åˆçº¦äº¤æ˜“ã€‚
 The following terms and conditions shall apply to and govern the accounts (hereinafter referred to as "the Account") that the Client opens and maintains with Rui Da International Finance Holding Limited (hereinafter referred to as "RUI DA") for Dealing in futures contracts.
 
-1.¶¨ÒåºÍÚ¹ÊÍ Definitions and Interpretation
+1.å®šä¹‰å’Œè¯ é‡Š Definitions and Interpretation
 
-1.1ÔÚ±¾Ìõ¿î¼°Ìõ¼şÖĞ£¬³ı·ÇÉÏÏÂÎÄÁíÓĞÒªÇó£¬ÏÂÁĞÊõÓïÓ¦¾ßÓĞÈçÏÂ¶¨Òå:
+1.1åœ¨æœ¬æ¡æ¬¾åŠæ¡ä»¶ä¸­ï¼Œé™¤éä¸Šä¸‹æ–‡å¦æœ‰è¦æ±‚ï¼Œä¸‹åˆ—æœ¯è¯­åº”å…·æœ‰å¦‚ä¸‹å®šä¹‰:
 In these Terms and Conditions, unless the context otherwise requires, the following expressions shall bear the following meanings:
 
-¡¸ÁªÊôÈË¡¹	¾ÍÈÎºÎÌØ¶¨Ò»·½¶øÑÔ£¬Ö¸ÈÎºÎ·¨ÂÉÊµÌå¶øÔÚÈÎºÎÊ±¼ä£¬´ËÊµÌåÖ±½Ó»ò¼ä½Ó¿ØÖÆ¸ÃÌØ¶¨Ò»·½¡¢ÊÜ¸ÃÌØ¶¨Ò»·½Ö±½Ó»ò¼ä½Ó¿ØÖÆ»òÓëËüÊÜµ½¹²Í¬¿ØÖÆ£»
-¡°Affiliate¡±	in relation to a specific party means, any legal entity at any time directly or indirectly controlling, controlled by or under common control with such specific party;
+ã€Œè”å±äººã€	å°±ä»»ä½•ç‰¹å®šä¸€æ–¹è€Œè¨€ï¼ŒæŒ‡ä»»ä½•æ³•å¾‹å®ä½“è€Œåœ¨ä»»ä½•æ—¶é—´ï¼Œæ­¤å®ä½“ç›´æ¥æˆ–é—´æ¥æ§åˆ¶è¯¥ç‰¹å®šä¸€æ–¹ã€å—è¯¥ç‰¹å®šä¸€æ–¹ç›´æ¥æˆ–é—´æ¥æ§åˆ¶æˆ–ä¸å®ƒå—åˆ°å…±åŒæ§åˆ¶ï¼›
+â€œAffiliateâ€	in relation to a specific party means, any legal entity at any time directly or indirectly controlling, controlled by or under common control with such specific party;
 
-¡¸FATCA¡¹	Ö¸ÃÀ¹úµÄ¡¶1986Äê¹úÄÚË°ÊÕ·¨¡·£¨²»Ê±ĞŞ¶©¡¢ĞŞ¸Ä¼°/»ò²¹³ä£©µÚ 1471 ÖÁ 1474 ÌõÒÔ¼°ÈÎºÎÁªÊô¡¢ÀàËÆ»òÏàËÆµÄ·¨Àı¡¢ÌõÔ¼¡¢Õş¸®ÓëÕş¸®¼äµÄĞ­Òé¡¢·¨¹æ¡¢Ö¸Ê¾»ò²»ÂÛÏã¸ÛÒÔÄÚ»òÒÔÍâµÄÈÎºÎ¹ÜÏ½ÇøµÄÈÎºÎ»ú¹ØµÄÆäËû¹Ù·½Ö¸Òı¡£
-¡°FATCA¡±	means Section 1471 to 1474 of the United States Internal Revenue Code of 1986, as amended,modified and/or supplemented from time to time, and any associated similar or analogous legislation, treaty, intergovernmental agreement, regulation, instruction, or other official guidance of any Authority in any jurisdiction whether within or outside of Hong Kong;
+ã€ŒFATCAã€	æŒ‡ç¾å›½çš„ã€Š1986å¹´å›½å†…ç¨æ”¶æ³•ã€‹ï¼ˆä¸æ—¶ä¿®è®¢ã€ä¿®æ”¹åŠ/æˆ–è¡¥å……ï¼‰ç¬¬ 1471 è‡³ 1474 æ¡ä»¥åŠä»»ä½•è”å±ã€ç±»ä¼¼æˆ–ç›¸ä¼¼çš„æ³•ä¾‹ã€æ¡çº¦ã€æ”¿åºœä¸æ”¿åºœé—´çš„åè®®ã€æ³•è§„ã€æŒ‡ç¤ºæˆ–ä¸è®ºé¦™æ¸¯ä»¥å†…æˆ–ä»¥å¤–çš„ä»»ä½•ç®¡è¾–åŒºçš„ä»»ä½•æœºå…³çš„å…¶ä»–å®˜æ–¹æŒ‡å¼•ã€‚
+â€œFATCAâ€	means Section 1471 to 1474 of the United States Internal Revenue Code of 1986, as amended,modified and/or supplemented from time to time, and any associated similar or analogous legislation, treaty, intergovernmental agreement, regulation, instruction, or other official guidance of any Authority in any jurisdiction whether within or outside of Hong Kong;
 
-¡¸Ğ­Òé¡¹	Ö¸ÓÉ¿Í»§ÓëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ç©ÊğµÄ¿Í»§Ğ­ÒéÊé¡¢±¾ÕÂ½ÚµÄÌõ¿î¼°Ìõ¼ş¡¢±¾Ğ­ÒéµÄËùÓĞ¸½±í¡¢¸½Â¼ºÍ¸½¼ş¡¢ÒÔ¼°Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔÊéÃæĞÎÊ½²»Ê±·¢²¼µÄËùÓĞĞŞ¸Ä¡£
+ã€Œåè®®ã€	æŒ‡ç”±å®¢æˆ·ä¸ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ç­¾ç½²çš„å®¢æˆ·åè®®ä¹¦ã€æœ¬ç« èŠ‚çš„æ¡æ¬¾åŠæ¡ä»¶ã€æœ¬åè®®çš„æ‰€æœ‰é™„è¡¨ã€é™„å½•å’Œé™„ä»¶ã€ä»¥åŠç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥ä¹¦é¢å½¢å¼ä¸æ—¶å‘å¸ƒçš„æ‰€æœ‰ä¿®æ”¹ã€‚
 "Agreement"	means the Client Agreement entered into between the Client and RUI DA, the terms and conditions of this Chapter, all schedules, appendices and attachments thereto, and all amendments issued by RUI DA in writing from time to time.
 
-¡¸ÂòÂô²î¼Û¡¹	Ö¸Âò¼ÛºÍÂô¼ÛÖ®¼äµÄ²î¶î¡£
+ã€Œä¹°å–å·®ä»·ã€	æŒ‡ä¹°ä»·å’Œå–ä»·ä¹‹é—´çš„å·®é¢ã€‚
 "Bid-Offer Spread"	means the difference between the bid price and the offer price.
 
-¡¸¿Í»§¡¹	µÄº¬Òå°üÀ¨ÒÔÏÂ¼¸ÖÖÇé¿ö : ÈçÊô¸öÈËÓ¦°üÀ¨¿Í»§¼°ÆäÒÅÖöÖ´ĞĞÈË¼°ÒÅ²ú¹ÜÀíÈË:ÈçÊô¶À×Ê¾­ÓªÉÌºÅÓ¦°üÀ¨¸Ã¶À×Ê¾­ÓªÕß¼°ÆäÒÅÖöÖ´ĞĞÈË¡¢ÒÅ²ú¹ÜÀíÈË¼°ÒµÎñ¼Ì³ĞÈË;ÈçÊôºÏ»ï¾­ÓªÉÌºÅ,Ó¦°üÀ¨¿Í»§¿ª»§ÆÚ¼äµÄÉÌºÅºÏ»ïÈË£¬ÒÔ¼°±ËµÈµÄÒÅÖöÖ´ĞĞÈË¡¢ÒÅ²ú¹ÜÀíÈË¼°´Ëºóµ£ÈÎ»òÔøµ£ÈÎ¸ÃÉÌºÅºÏ»ïÈËµÄÆäËûÈËÊ¿¼°ÆäÒÅÖöÖ´ĞĞ¼°ÒÅ²ú¹ÜÀíÈË£¬ÒÔ¼°¸ÃºÏ»ï¾­ÓªÒµÎñµÄ¼Ì³ĞÈË ; Èç¿Í»§Îª¹«Ë¾£¬Ó¦°üÀ¨¸Ã¹«Ë¾¼°¼Ì³ĞÈË¡£
+ã€Œå®¢æˆ·ã€	çš„å«ä¹‰åŒ…æ‹¬ä»¥ä¸‹å‡ ç§æƒ…å†µ : å¦‚å±ä¸ªäººåº”åŒ…æ‹¬å®¢æˆ·åŠå…¶é—å˜±æ‰§è¡ŒäººåŠé—äº§ç®¡ç†äºº:å¦‚å±ç‹¬èµ„ç»è¥å•†å·åº”åŒ…æ‹¬è¯¥ç‹¬èµ„ç»è¥è€…åŠå…¶é—å˜±æ‰§è¡Œäººã€é—äº§ç®¡ç†äººåŠä¸šåŠ¡ç»§æ‰¿äºº;å¦‚å±åˆä¼™ç»è¥å•†å·,åº”åŒ…æ‹¬å®¢æˆ·å¼€æˆ·æœŸé—´çš„å•†å·åˆä¼™äººï¼Œä»¥åŠå½¼ç­‰çš„é—å˜±æ‰§è¡Œäººã€é—äº§ç®¡ç†äººåŠæ­¤åæ‹…ä»»æˆ–æ›¾æ‹…ä»»è¯¥å•†å·åˆä¼™äººçš„å…¶ä»–äººå£«åŠå…¶é—å˜±æ‰§è¡ŒåŠé—äº§ç®¡ç†äººï¼Œä»¥åŠè¯¥åˆä¼™ç»è¥ä¸šåŠ¡çš„ç»§æ‰¿äºº ; å¦‚å®¢æˆ·ä¸ºå…¬å¸ï¼Œåº”åŒ…æ‹¬è¯¥å…¬å¸åŠç»§æ‰¿äººã€‚
 "Client"	shall in the case where the client( s) is /are individual(s) includes the client(s) and his/their respective executors and administrators and in the case where the client is a sole proprietorship firm includes the sole proprietor and his executor and administrator and his or their successors in the business and in the case of a partnership firm includes the partners who are the partners of the firm at the time when the client's said account is being maintained and their respective executors and administrators and any other person who shall at any time hereafter be or have been a partner of and in the firm and his or their respective executors and administrators and the successors to such partnership business and where the client is a company includes such company and its successors.
 
-¡¸¿Í»§ÔğÈÎ¡¹	°üÀ¨¿Í»§¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡¢¼°ÆäÁªÊôÈËµÄÒ»ÇĞÒåÎñºÍÔğÈÎ£¬ÎŞÂÛÊÇÄ¿Ç°»ò½«À´£¬Êµ¼Ê»òÅ¼È»£¬Òà²»ÂÛÊÇµ¥¶À¡¢·Ö±ğ»òÁªÍ¬ÆäËûÈËÊ¿ÒÔµ±ÊÂÈË»ò±£Ö¤ÈËÉí·İµÄÔğÈÎºÍÒåÎñ£¬Á¬Í¬ÀûÏ¢¡¢Ó¶½ğ¡¢·ÑÓÃÒÔ¼°ÈÎºÎÆäËû·ÑÓÃºÍÖ§³ö£¬°üÀ¨¾Í¿Í»§»§¿ÚËùÕĞÖÂµÄÂÉ Ê¦¼°¿Í»§¼äµÄ·¨ÂÉ·ÑÓÃ¡£
+ã€Œå®¢æˆ·è´£ä»»ã€	åŒ…æ‹¬å®¢æˆ·å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€åŠå…¶è”å±äººçš„ä¸€åˆ‡ä¹‰åŠ¡å’Œè´£ä»»ï¼Œæ— è®ºæ˜¯ç›®å‰æˆ–å°†æ¥ï¼Œå®é™…æˆ–å¶ç„¶ï¼Œäº¦ä¸è®ºæ˜¯å•ç‹¬ã€åˆ†åˆ«æˆ–è”åŒå…¶ä»–äººå£«ä»¥å½“äº‹äººæˆ–ä¿è¯äººèº«ä»½çš„è´£ä»»å’Œä¹‰åŠ¡ï¼Œè¿åŒåˆ©æ¯ã€ä½£é‡‘ã€è´¹ç”¨ä»¥åŠä»»ä½•å…¶ä»–è´¹ç”¨å’Œæ”¯å‡ºï¼ŒåŒ…æ‹¬å°±å®¢æˆ·æˆ·å£æ‰€æ‹›è‡´çš„å¾‹ å¸ˆåŠå®¢æˆ·é—´çš„æ³•å¾‹è´¹ç”¨ã€‚
 "Client's Liabilities"	includes all obligations and liabilities of the Client to RUI DA and its affiliates, whether present or future, actual or contingent and whether incurred solely, severally, or jointly as principal or surety, together with interest, commission, charges and any other costs and expenses, including legal costs on a solicitor and client basis, incurred in respect of the Client's account.
 
-¡¸¿Í»§»§¿Ú´úÂë¡¹ Ö¸Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸øÓè¿Í»§µÄ»§¿ÚºÅÂë¡¢»§¿ÚÃû³Æ¡¢ÓÃ»§´úÂë¡¢ÓÃ»§Éí·İ Âë¡¢ÓÃ»§ÃÜÂëºÍÈÎºÎÆäËû×ÊÑ¶£¬ÓÃ×÷¼ø¶¨¿Í»§»§¿Ú¡£
+ã€Œå®¢æˆ·æˆ·å£ä»£ç ã€ æŒ‡ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ç»™äºˆå®¢æˆ·çš„æˆ·å£å·ç ã€æˆ·å£åç§°ã€ç”¨æˆ·ä»£ç ã€ç”¨æˆ·èº«ä»½ ç ã€ç”¨æˆ·å¯†ç å’Œä»»ä½•å…¶ä»–èµ„è®¯ï¼Œç”¨ä½œé‰´å®šå®¢æˆ·æˆ·å£ã€‚
 "Client's Account	means  the account  number,  account name, user code,  user ID, user password and any other Codes"	information given by RUI DA to the Client for the unique identification of the Client's account.
 
-¡¸µç×ÓÍ¾¾¶¡¹	Ö¸°üÀ¨»¥ÁªÍø¡¢µçÓÊ¡¢Á÷¶¯µç»°¡¢ÕÆÉÏµçÄÔ»òÈÎºÎÆäËûµç×ÓÍ¨Ñ¶·½Ê½£¬ÒÔ¼°·Çµç×ÓÍ¨Ñ¶£¬°üÀ¨¿ÚÍ·¼°ÊéÃæÖ¸Ê¾¼°´«ÕæÍ¨Ñ¶¡£
+ã€Œç”µå­é€”å¾„ã€	æŒ‡åŒ…æ‹¬äº’è”ç½‘ã€ç”µé‚®ã€æµåŠ¨ç”µè¯ã€æŒä¸Šç”µè„‘æˆ–ä»»ä½•å…¶ä»–ç”µå­é€šè®¯æ–¹å¼ï¼Œä»¥åŠéç”µå­é€šè®¯ï¼ŒåŒ…æ‹¬å£å¤´åŠä¹¦é¢æŒ‡ç¤ºåŠä¼ çœŸé€šè®¯ã€‚
 "Electronic Means"	including the internet, electronic mail, mobile phone, personal digital assistant or any other electronic means of communication but also allowing non-electronic communication including verbal and written instructions and communication via facsimile.
 
-¡¸ÊéÃæĞÎÊ½¡¹	°üÀ¨ÊÖĞ´¡¢Ó¡Ë¢¡¢µç±¨¡¢µç´«¡¢´«Õæ¡¢ÍøÂçÉèÊ©¡¢µç×ÓÓÊ¼şÒÔ¼°ÄÜ¹»ÒÔ¿É¼ûµÄĞÎÊ½¸´ÖÆ»ò¡¸ÊéÃæ¡¹	×ÊÑ¶µÄÆäËûÈÎºÎ·½Ê½¡£
+ã€Œä¹¦é¢å½¢å¼ã€	åŒ…æ‹¬æ‰‹å†™ã€å°åˆ·ã€ç”µæŠ¥ã€ç”µä¼ ã€ä¼ çœŸã€ç½‘ç»œè®¾æ–½ã€ç”µå­é‚®ä»¶ä»¥åŠèƒ½å¤Ÿä»¥å¯è§çš„å½¢å¼å¤åˆ¶æˆ–ã€Œä¹¦é¢ã€	èµ„è®¯çš„å…¶ä»–ä»»ä½•æ–¹å¼ã€‚
 "In writing" or "written"   includes handwriting, printing, telegraph, telex, fax, the Web Facility, electronic mail and any other means capable of reproducing information in a visible form.
-¡¸ÆÚ»õºÏÔ¼½»Ò×¡¹	¶¨ÒåÔØÓÚÖ¤È¯¼°ÆÚ»õÌõÀı¡£
+ã€ŒæœŸè´§åˆçº¦äº¤æ˜“ã€	å®šä¹‰è½½äºè¯åˆ¸åŠæœŸè´§æ¡ä¾‹ã€‚
 "Dealing in Futures	has the meaning ascribed to it in the SFO. Contracts"
 
-¡¸ËğÊ§¡¹	Ö¸ÈÎºÎËğÊ§¡¢Ëğº¦Åâ³¥¡¢ËßËÏ¡¢ÉêË÷¡¢Ë÷Çó¡¢ĞĞ¶¯¡¢ÔğÈÎ¡¢ËÏ·Ñ¡¢ĞÌ·£¡¢·£¿î¡¢Ë°Ïî¡¢·ÑÓÃ¼°Ö§³ö²»µÈ£¬°üÀ¨µ«²»ÏŞÓÚÈÎºÎÖ±½Ó»ò¼ä½Ó¡¢ÌØ±ğ»òÕĞÖÂµÄËğÊ§£¨²»ÂÛÓĞ¹ØºÏÔ¼·½ ÊÇ·ñÖªÏ¤·¢Éú¸ÃµÈËğÊ§µÄ¿ÉÄÜĞÔ»ò¶ÔÆäÓĞºÏÀíÔ¤²â£©¡¢ÈÎºÎÓ¯ÀûËğÊ§¡¢ÊÕÈëËğÊ§¡¢ÉÌÓş »òÉùÓşµÄËğº¦¡¢ËğÊ§ºÏÔ¼»òÉúÒâ»ú»á¡¢ËğÊ§¿î¶îÓÃÍ¾¡¢ÎŞ·¨ÊÕ»Ø¿î¶î¡¢´íÎó½É¸¶¿î¶î¡¢ ÀûÏ¢¼°ÈÎºÎÆäËû¶ÔµÚÈı·½ÈÎºÎĞÔÖÊµÄÔğÈÎ¡£
+ã€ŒæŸå¤±ã€	æŒ‡ä»»ä½•æŸå¤±ã€æŸå®³èµ”å¿ã€è¯‰è®¼ã€ç”³ç´¢ã€ç´¢æ±‚ã€è¡ŒåŠ¨ã€è´£ä»»ã€è®¼è´¹ã€åˆ‘ç½šã€ç½šæ¬¾ã€ç¨é¡¹ã€è´¹ç”¨åŠæ”¯å‡ºä¸ç­‰ï¼ŒåŒ…æ‹¬ä½†ä¸é™äºä»»ä½•ç›´æ¥æˆ–é—´æ¥ã€ç‰¹åˆ«æˆ–æ‹›è‡´çš„æŸå¤±ï¼ˆä¸è®ºæœ‰å…³åˆçº¦æ–¹ æ˜¯å¦çŸ¥æ‚‰å‘ç”Ÿè¯¥ç­‰æŸå¤±çš„å¯èƒ½æ€§æˆ–å¯¹å…¶æœ‰åˆç†é¢„æµ‹ï¼‰ã€ä»»ä½•ç›ˆåˆ©æŸå¤±ã€æ”¶å…¥æŸå¤±ã€å•†èª‰ æˆ–å£°èª‰çš„æŸå®³ã€æŸå¤±åˆçº¦æˆ–ç”Ÿæ„æœºä¼šã€æŸå¤±æ¬¾é¢ç”¨é€”ã€æ— æ³•æ”¶å›æ¬¾é¢ã€é”™è¯¯ç¼´ä»˜æ¬¾é¢ã€ åˆ©æ¯åŠä»»ä½•å…¶ä»–å¯¹ç¬¬ä¸‰æ–¹ä»»ä½•æ€§è´¨çš„è´£ä»»ã€‚
 "Loss"	means any losses, damages, proceedings, claims, demands, actions, liabilities, costs, penalties, fines, taxes, fees and expenses whatsoever, including but not limited to any direct, indirect, special or consequential losses (whether or not the possibility of such were known about or reasonably in the contemplation of the relevant parties), any loss of profits, loss of revenue, damage to goodwill or reputation, loss of contracts or business opportunities, loss of use of money, money not recovered, money paid out in error, interest, and any liability to any third party of any nature whatsoever.
 
-¡¸±£Ö¤½ğ¡¹	Ö¸¿Í»§ÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´¦´æÈëµÄÏÖ½ğ¼°ÆäËûµÖÑºÆ·£¬×÷Îª¿Í»§ÂÄĞĞÆä¿Í»§ÔğÈÎµÄÒ»ÖÖ±£Ö¤¡£
+ã€Œä¿è¯é‡‘ã€	æŒ‡å®¢æˆ·åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¤„å­˜å…¥çš„ç°é‡‘åŠå…¶ä»–æŠµæŠ¼å“ï¼Œä½œä¸ºå®¢æˆ·å±¥è¡Œå…¶å®¢æˆ·è´£ä»»çš„ä¸€ç§ä¿è¯ã€‚
 "Margin"	means the collateral deposited by the Client with RUI DA as a guarantee of the Client's performance in connection with the Client's Liabilities.
 
-¡¸ÊĞ³¡Ìõ¼ş¡¹	°üÀ¨ÓÉ¶ÀÁ¢ÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ×ÊÑ¶Ìá¹©ÉÌ¡¢ÒøĞĞ¡¢½ğÈÚ»ú¹¹»òÊÜ¼à¹Ü¹«Ë¾ËùÌá¹©µÄ¸ÃÊĞ³¡µÄ»ãÂÊ¡¢¼Û¸ñ¡¢ĞÂÎÅºÍÆäËûÈÎºÎ×ÊÑ¶£¬Ú¹ÊÍÈ¨ÊôÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡£
+ã€Œå¸‚åœºæ¡ä»¶ã€	åŒ…æ‹¬ç”±ç‹¬ç«‹äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„èµ„è®¯æä¾›å•†ã€é“¶è¡Œã€é‡‘èæœºæ„æˆ–å—ç›‘ç®¡å…¬å¸æ‰€æä¾›çš„è¯¥å¸‚åœºçš„æ±‡ç‡ã€ä»·æ ¼ã€æ–°é—»å’Œå…¶ä»–ä»»ä½•èµ„è®¯ï¼Œè¯ é‡Šæƒå±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€‚
 "Market Conditions"	includes rates, prices, news and any other information of a market provided by an information provider, a bank, a financial institution or a regulated company, independent of RUI DA, construed and interpreted solely by RUI DA.
 
-¡¸·şÎñ¡¹	Ö¸Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÔÚ±¾Ğ­ÒéÏÂÍ¨¹ıÍøÂçÉèÊ©»òÆäËû·½Ê½Ìá¹©µÄ·şÎñ¡£
+ã€ŒæœåŠ¡ã€	æŒ‡ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åœ¨æœ¬åè®®ä¸‹é€šè¿‡ç½‘ç»œè®¾æ–½æˆ–å…¶ä»–æ–¹å¼æä¾›çš„æœåŠ¡ã€‚
 "Services"	means the services provided by RUI DA under this Agreement, through the Web Facility or otherwise.
  
 
-¡¸½áËã»õ±Ò¡¹	Ö¸¸Û±Ò»ò±»Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½ÓÊÜÓÃÓÚ²»Ê±Óë¿Í»§½øĞĞ½áËãµÄÆäËû»õ±Ò(ÊÓÇé¿ö¶ø¶¨)¡£
+ã€Œç»“ç®—è´§å¸ã€	æŒ‡æ¸¯å¸æˆ–è¢«ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ¥å—ç”¨äºä¸æ—¶ä¸å®¢æˆ·è¿›è¡Œç»“ç®—çš„å…¶ä»–è´§å¸(è§†æƒ…å†µè€Œå®š)ã€‚
 "Settlement Currency"	means Hong Kong Dollars or any other currencies as accepted by RUI DA, as the case may be, for settlement of monies with the Client from time to time.
 
-¡¸Ö¤¼à»á¡¹	Ö¸Ïã¸ÛµÄÖ¤È¯¼°ÆÚ»õÊÂÎñ¼à²ìÎ¯Ô±»á¡£
+ã€Œè¯ç›‘ä¼šã€	æŒ‡é¦™æ¸¯çš„è¯åˆ¸åŠæœŸè´§äº‹åŠ¡ç›‘å¯Ÿå§”å‘˜ä¼šã€‚
 "SFC"	means the Securities and Futures Commission in Hong Kong.
 
-¡¸RUI DA¡¹	Ö¸Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾£¬¼°ÆäÒµÈ¨¼Ì³ĞÈË¼°³ĞÈÃÈË¡£
+ã€ŒRUI DAã€	æŒ‡ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ï¼ŒåŠå…¶ä¸šæƒç»§æ‰¿äººåŠæ‰¿è®©äººã€‚
 means Rui Da International Finance Holding Limited, and its RUI DA in title and assigns.
 
-¡¸Ö¤È¯¼°ÆÚ»õÌõÀı¡¹	Ö¸²»Ê±ĞŞ¶©»òÖØĞÂÖÆ¶¨µÄÏã¸Û·¨ÀıµÚ 571 ÕÂÖ®Ö¤È¯¼°ÆÚ»õÌõÀıÒÔ¼°ÆäÏÂµÄÈÎºÎ¸½ÊôÁ¢·¨ ĞÎÊ½¡£
+ã€Œè¯åˆ¸åŠæœŸè´§æ¡ä¾‹ã€	æŒ‡ä¸æ—¶ä¿®è®¢æˆ–é‡æ–°åˆ¶å®šçš„é¦™æ¸¯æ³•ä¾‹ç¬¬ 571 ç« ä¹‹è¯åˆ¸åŠæœŸè´§æ¡ä¾‹ä»¥åŠå…¶ä¸‹çš„ä»»ä½•é™„å±ç«‹æ³• å½¢å¼ã€‚
 "SFO"	means the Securities and Futures Ordinance (Cap. 571) of the laws of Hong Kong SAR as amended or re-enacted from time to time and any subsidiary legislation made thereunder.
 
-¡¸ÍøÂçÉèÊ©¡¹	Ö¸ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ïò¿Í»§Ìá¹©µÄÓÃÓÚ¿Í»§»§¿ÚÏÂ½øĞĞ½»Ò×ºÍ±¨±íµÄÍøÉÏÉèÊ©ÒÔ¼°µ±ÖĞËùÊ¹ÓÃµÄÈí¼ş¼°°üº¬µÄÈÎºÎ×ÊÑ¶¡£
+ã€Œç½‘ç»œè®¾æ–½ã€	æŒ‡ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å‘å®¢æˆ·æä¾›çš„ç”¨äºå®¢æˆ·æˆ·å£ä¸‹è¿›è¡Œäº¤æ˜“å’ŒæŠ¥è¡¨çš„ç½‘ä¸Šè®¾æ–½ä»¥åŠå½“ä¸­æ‰€ä½¿ç”¨çš„è½¯ä»¶åŠåŒ…å«çš„ä»»ä½•èµ„è®¯ã€‚
 "Web Facility"	means the on-line facilities provided by RUI DA to the Client for trading and reporting under the Client's account(s), any information contained therein and the software comprised in them.
 
-1.2	±¾Ğ­ÒéÖĞ²åÈëµÄ±êÌâÖ»Îª·½±ã²ÎÔÄ£¬²»»áÓ°Ïì¶Ô±¾Ìõ¿î¼°Ìõ¼şµÄÚ¹ÊÍ¡£
+1.2	æœ¬åè®®ä¸­æ’å…¥çš„æ ‡é¢˜åªä¸ºæ–¹ä¾¿å‚é˜…ï¼Œä¸ä¼šå½±å“å¯¹æœ¬æ¡æ¬¾åŠæ¡ä»¶çš„è¯ é‡Šã€‚
 Headings are inserted for reference only and shall not affect the construction and interpretation of these Terms and Conditions.
 
-1.3	ÔÚ±¾Ìõ¿î¼°Ìõ¼şÄÚ£¬³ı·ÇÓëÎÄÒåÏàµÖ£¬Êö¼°ÈËÊ¿µÄ×Ö´Ê°üÀ¨¹«Ë¾¼°ÉÌºÅ£¬ÄĞĞÔ×Ö´Ê°üÀ¨Å®ĞÔº¬Òå£¬µ¥Êı×Ö ´Ê°üÀ¨¸´ÊıÒâÒå£¬·´Ö®ÒàÈ»¡£
+1.3	åœ¨æœ¬æ¡æ¬¾åŠæ¡ä»¶å†…ï¼Œé™¤éä¸æ–‡ä¹‰ç›¸æŠµï¼Œè¿°åŠäººå£«çš„å­—è¯åŒ…æ‹¬å…¬å¸åŠå•†å·ï¼Œç”·æ€§å­—è¯åŒ…æ‹¬å¥³æ€§å«ä¹‰ï¼Œå•æ•°å­— è¯åŒ…æ‹¬å¤æ•°æ„ä¹‰ï¼Œåä¹‹äº¦ç„¶ã€‚
 In these Terms and Conditions, unless inconsistent with the context, words denoting person include corporation and firm, words denoting masculine gender include feminine gender, and words denoting singular number include plural and vice versa.
 
-1.4	±¾Ğ­ÒéËùÌá¼°µÄ·¨¶¨ÌõÎÄ£¬Ğë½âÊÍÎª²»Ê±ĞŞ¶©»òÖØĞÂ°ä²¼µÄÌõÎÄ(²»ÂÛÔÚ±¾Ğ­ÒéÇ©ÊğÖ®ÈÕÇ°£¬»¹ÊÇÖ®ºóĞŞ¶© »òÖØĞÂ°ä²¼)£¬²¢°üÀ¨ÖØĞÂ°ä²¼µÄÌõÎÄ(²»ÂÛÓĞ·ñĞŞ¶©)£¬ÒÔ¼°¾İÖ®ÖÆ¶©µÄ¸½Êô·¨Àı¡£
+1.4	æœ¬åè®®æ‰€æåŠçš„æ³•å®šæ¡æ–‡ï¼Œé¡»è§£é‡Šä¸ºä¸æ—¶ä¿®è®¢æˆ–é‡æ–°é¢å¸ƒçš„æ¡æ–‡(ä¸è®ºåœ¨æœ¬åè®®ç­¾ç½²ä¹‹æ—¥å‰ï¼Œè¿˜æ˜¯ä¹‹åä¿®è®¢ æˆ–é‡æ–°é¢å¸ƒ)ï¼Œå¹¶åŒ…æ‹¬é‡æ–°é¢å¸ƒçš„æ¡æ–‡(ä¸è®ºæœ‰å¦ä¿®è®¢)ï¼Œä»¥åŠæ®ä¹‹åˆ¶è®¢çš„é™„å±æ³•ä¾‹ã€‚
 References to statutory provisions shall be construed as references to those provisions as respectively amended or re-enacted (whether before or after the date of signature of this Agreement) from time to time and shall include any provision of which they are re-enactments (whether with or without modification) and any subordinate legislation made under those provisions.
 
-2.	±£Ö¤ºÍ³ÂÊö Warranties and Representations
+2.	ä¿è¯å’Œé™ˆè¿° Warranties and Representations
 
-2.1	Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾°´Ö¤È¯¼°ÆÚ»õÌõÀı³ÖÅÆ£¬ÖĞÑë±àºÅÎª AYE774£¬ÓÃÓÚ½øĞĞÆÚ»õºÏÔ¼½»Ò×¡£ RUI DA is licensed with CE number AYE774 under the SFO for Dealing in futures contracts.
+2.1	ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æŒ‰è¯åˆ¸åŠæœŸè´§æ¡ä¾‹æŒç‰Œï¼Œä¸­å¤®ç¼–å·ä¸º AYE774ï¼Œç”¨äºè¿›è¡ŒæœŸè´§åˆçº¦äº¤æ˜“ã€‚ RUI DA is licensed with CE number AYE774 under the SFO for Dealing in futures contracts.
 
-2.2	ÔÚ½øĞĞÈÎºÎÆÚ»õºÏÔ¼½»Ò×Ç°£¬¿Í»§ÒÑÈÏÊ¶¼°Àí½âÏÂÊöÄÚÈİ  :
+2.2	åœ¨è¿›è¡Œä»»ä½•æœŸè´§åˆçº¦äº¤æ˜“å‰ï¼Œå®¢æˆ·å·²è®¤è¯†åŠç†è§£ä¸‹è¿°å†…å®¹  :
 Prior to entering into any transaction on Dealing in futures contracts, the Client is aware of and understands the followings:
 
-(a)	ºÏÔ¼Ìõ¿î Contract information: -½»Ò×ÆÚ»õ¡¢ºÏÔ¼µ¥Î»¡¢ÂòÂôÅÌ¡¢¿ª²Ö»òÆ½²Ö¡¢ÏÖĞĞ±¨¼ÛÒÔ¼°ÅÌÀà¡£
+(a)	åˆçº¦æ¡æ¬¾ Contract information: -äº¤æ˜“æœŸè´§ã€åˆçº¦å•ä½ã€ä¹°å–ç›˜ã€å¼€ä»“æˆ–å¹³ä»“ã€ç°è¡ŒæŠ¥ä»·ä»¥åŠç›˜ç±»ã€‚
 Trading Futures, contract size, buy or sell order, opening or closing trade, current quoted price, and order type.
 
-(b)	±£Ö¤½ğ Margin: - ¿Í»§±£Ö¤½ğµÄ´ó¸ÅÒªÇó¡¢¼Û¸ñ±ä¶¯±£Ö¤½ğµÄÖ§¸¶¡¢¿É×÷Îª±£Ö¤½ğµÄµÖÑºÆ·¡¢±£Ö¤½ğµÄÖ§¸¶Ï¸½Ú¡£
+(b)	ä¿è¯é‡‘ Margin: - å®¢æˆ·ä¿è¯é‡‘çš„å¤§æ¦‚è¦æ±‚ã€ä»·æ ¼å˜åŠ¨ä¿è¯é‡‘çš„æ”¯ä»˜ã€å¯ä½œä¸ºä¿è¯é‡‘çš„æŠµæŠ¼å“ã€ä¿è¯é‡‘çš„æ”¯ä»˜ç»†èŠ‚ã€‚
 Approximate client margin requirements, payment of variation margin, and provision of margin collateral, payment details of margin.
 
-(c)	½»Ò×·ÑÓÃ Transaction costs: -Ó¶½ğ¡¢ĞĞÊ¹·Ñ¼°ÆäËûÊÊÓÃÕ÷·Ñ¡£
+(c)	äº¤æ˜“è´¹ç”¨ Transaction costs: -ä½£é‡‘ã€è¡Œä½¿è´¹åŠå…¶ä»–é€‚ç”¨å¾è´¹ã€‚
 Commissions, exercise fees and applicable levies.
 
-(d)	ÆÚ»õ¼°£¯»òÆÚÈ¨½»Ò×·çÏÕ Knowledge on risks of Futures and/or Options trading: -¿Í»§Ó¦ÖªÏş´ÓÊÂÆÚ»õ¼°ÆÚÈ¨½»Ò×¾ßÓĞ·çÏÕ£¬²¢ÒÑÑ§Ï°¡¢ÕÆÎÕÆÚ»õ¼°ÆÚÈ¨½»Ò×·çÏÕ¹ÜÀíÖÆ¶È¡£¿Í»§Ó¦ÔÚ ¿ª»§Ç°¶Ô×ÔÉíµÄ¾­¼Ã³ĞÊÜÄÜÁ¦ºÍĞÄÀí³ĞÊÜÄÜÁ¦×ö³ö¿Í¹ÛÅĞ¶Ï£¬Ó¦×ĞÏ¸ÔÄ×xÌõ¿îÒÔ¼°ÓĞ¹ØÏã¸Û¸öÈË×ÊÁÏ£¨Ë½Òş£©ÌõÀıÖ®Í¨¸æ¡£
+(d)	æœŸè´§åŠï¼æˆ–æœŸæƒäº¤æ˜“é£é™© Knowledge on risks of Futures and/or Options trading: -å®¢æˆ·åº”çŸ¥æ™“ä»äº‹æœŸè´§åŠæœŸæƒäº¤æ˜“å…·æœ‰é£é™©ï¼Œå¹¶å·²å­¦ä¹ ã€æŒæ¡æœŸè´§åŠæœŸæƒäº¤æ˜“é£é™©ç®¡ç†åˆ¶åº¦ã€‚å®¢æˆ·åº”åœ¨ å¼€æˆ·å‰å¯¹è‡ªèº«çš„ç»æµæ‰¿å—èƒ½åŠ›å’Œå¿ƒç†æ‰¿å—èƒ½åŠ›åšå‡ºå®¢è§‚åˆ¤æ–­ï¼Œåº”ä»”ç»†é˜…è®€æ¡æ¬¾ä»¥åŠæœ‰å…³é¦™æ¸¯ä¸ªäººèµ„æ–™ï¼ˆç§éšï¼‰æ¡ä¾‹ä¹‹é€šå‘Šã€‚
 Customers shall be aware that Futures and Options trading are risky and ensure that they have already studied carefully and understood the risk management rules concerning Futures and Options trading. Before opening an account, Customers shall make an objective assessment of their risk-taking level from a financial and psychological perspective, and read carefully the Terms and Conditions and the Circular relating to the Personal Data (Privacy) Ordinance of Hong Kong.
 
-(e)	ÆÚ»õ¼°£¯»òÆÚÈ¨½»Ò×¹æÔò Knowledge on the rules for Futures and/or Options Trading: - ¿Í»§Ó¦ÖªÏşÆÚ»õ¼°ÆÚÈ¨µÄ·¨¹æºÍ½»Ò×¹æÔò¡£¸÷½»Ò×ËùµÄÆÚ»õ¼°ÆÚÈ¨½»Ò×¹æÔòÔÚÆäÏà¹ØÍøÕ¾ÓĞ¹«Ê¾£¬¿Í »§Ó¦ÔÚ½»Ò×¹ı³ÌÖĞÑÏ¸ñ×ñÊØ¡£
+(e)	æœŸè´§åŠï¼æˆ–æœŸæƒäº¤æ˜“è§„åˆ™ Knowledge on the rules for Futures and/or Options Trading: - å®¢æˆ·åº”çŸ¥æ™“æœŸè´§åŠæœŸæƒçš„æ³•è§„å’Œäº¤æ˜“è§„åˆ™ã€‚å„äº¤æ˜“æ‰€çš„æœŸè´§åŠæœŸæƒäº¤æ˜“è§„åˆ™åœ¨å…¶ç›¸å…³ç½‘ç«™æœ‰å…¬ç¤ºï¼Œå®¢ æˆ·åº”åœ¨äº¤æ˜“è¿‡ç¨‹ä¸­ä¸¥æ ¼éµå®ˆã€‚
 Customers shall have clear understanding of the laws, regulations and trading rules for Futures and Options trading. Trading rules for Futures and Options of the relevant Exchanges are published on their respective websites. Customers shall strictly adhere to such rules in the course of trading.
 
-(f)	¿Í»§±¾ÈËĞë¶ÔÆä´úÀíÈËµÄ´úÀíĞĞÎª³Ğµ£ÃñÊÂÔğÈÎ Knowledge on Customer?s civil liabilities arising out of the acts of their agent: - 
-¿Í»§´úÀíÈËÊÇ»ùÓÚ¿Í»§µÄÊÚÈ¨,´ú±í¿Í»§ÊµÊ©ÃñÊÂĞĞÎªµÄÈË£¬´úÀíÈËÏò¿Í»§¸ºÔğ¡£´úÀíÈËÔÚ´úÀíĞí¿ÉÈ¨ÄÚÒÔ¿Í»§ÃûÒå½øĞĞµÄĞĞÎª¼´ÊÓÎª¿Í»§×Ô¼º½øĞĞµÄĞĞÎª£¬¿Í»§¶Ô´úÀíÈË´úÀíĞĞÎªµÄºó¹û³Ğµ£Ò»ÇĞÔğÈÎ¡£ 
+(f)	å®¢æˆ·æœ¬äººé¡»å¯¹å…¶ä»£ç†äººçš„ä»£ç†è¡Œä¸ºæ‰¿æ‹…æ°‘äº‹è´£ä»» Knowledge on Customer?s civil liabilities arising out of the acts of their agent: - 
+å®¢æˆ·ä»£ç†äººæ˜¯åŸºäºå®¢æˆ·çš„æˆæƒ,ä»£è¡¨å®¢æˆ·å®æ–½æ°‘äº‹è¡Œä¸ºçš„äººï¼Œä»£ç†äººå‘å®¢æˆ·è´Ÿè´£ã€‚ä»£ç†äººåœ¨ä»£ç†è®¸å¯æƒå†…ä»¥å®¢æˆ·åä¹‰è¿›è¡Œçš„è¡Œä¸ºå³è§†ä¸ºå®¢æˆ·è‡ªå·±è¿›è¡Œçš„è¡Œä¸ºï¼Œå®¢æˆ·å¯¹ä»£ç†äººä»£ç†è¡Œä¸ºçš„åæœæ‰¿æ‹…ä¸€åˆ‡è´£ä»»ã€‚ 
 The Customer?s agent is authorized by the Customer to perform civil acts on its behalf, and the agent is accountable to the Customer. Civil acts performed by an agent in the Customer?s name within the scope of the agency shall be regarded as being performed by the Customer himself. The Customer shall bear all liabilities arising out of the acts of the agent under agency.
 
-(g)	ÃÜÂëµÄÊ¹ÓÃ¼°¹ÜÀí Knowledge on the use and management of password: - ¿Í»§»áÍ¬Ê±»ñÈ¡¿Í»§»§¿ÚºÅÂë¼°Ïà¶ÔÓ¦µÄ³õÊ¼½»Ò×ÃÜÂë¼°³õÊ¼×Ê½ğÃÜÂë¡£»ñÈ¡»§¿ÚºÅÂëÊÓÍ¬ÒÑ»ñÈ¡Ïà ¶ÔÓ¦µÄÃÜÂë¡£¿Í»§ÖªÏşÓ¦ÔÚÊ×´Î×ªÈë×Ê½ğÇ°¸ü¸ÄÉÏÊöÃÜÂë£¬ÎŞÕ“ÈÎºÎÇé¿ö¿Í»§Ê×´Î×ªÈë×Ê½ğºó¼´±»ÊÓ Îª¼ºĞŞ¸Ä³õÊ¼ÃÜÂë¡£
+(g)	å¯†ç çš„ä½¿ç”¨åŠç®¡ç† Knowledge on the use and management of password: - å®¢æˆ·ä¼šåŒæ—¶è·å–å®¢æˆ·æˆ·å£å·ç åŠç›¸å¯¹åº”çš„åˆå§‹äº¤æ˜“å¯†ç åŠåˆå§‹èµ„é‡‘å¯†ç ã€‚è·å–æˆ·å£å·ç è§†åŒå·²è·å–ç›¸ å¯¹åº”çš„å¯†ç ã€‚å®¢æˆ·çŸ¥æ™“åº”åœ¨é¦–æ¬¡è½¬å…¥èµ„é‡‘å‰æ›´æ”¹ä¸Šè¿°å¯†ç ï¼Œæ— è«–ä»»ä½•æƒ…å†µå®¢æˆ·é¦–æ¬¡è½¬å…¥èµ„é‡‘åå³è¢«è§† ä¸ºå·±ä¿®æ”¹åˆå§‹å¯†ç ã€‚
 Customers will be provided with an account number and the corresponding initial transaction password and initial transfer password. Being provided with an account number shall be deemed as having the corresponding password at the same time. Customers shall change the password before depositing any fund for the first time. In any event, Customers shall be deemed to have changed the password after they deposited fund for the first time.
 
-¿Í»§Ó¦±ÜÃâÊ¹ÓÃ±¾ÈËÖ¤¼şÉÏÏà¹Ø×ÊÁÏ×÷ÎªÊ¹ÓÃÃÜÂë²¢ÓĞÒåÎñÍ×ÉÆ¼°°²È«µØ±£¹Ü×Ô¼ºµÄ½»Ò×ÃÜÂë¼°×Ê½ğ ÃÜÂë¡£Òò¿Í»§Î´ÄÜÍ×ÉÆ¼°°²È«µØ±£¹ÜÉÏÊöÃÜÂë¶øÔì³ÉµÄÒ»ÇĞºó¹ûÓÉ¿Í»§×ÔĞĞ³Ğµ£¡£
+å®¢æˆ·åº”é¿å…ä½¿ç”¨æœ¬äººè¯ä»¶ä¸Šç›¸å…³èµ„æ–™ä½œä¸ºä½¿ç”¨å¯†ç å¹¶æœ‰ä¹‰åŠ¡å¦¥å–„åŠå®‰å…¨åœ°ä¿ç®¡è‡ªå·±çš„äº¤æ˜“å¯†ç åŠèµ„é‡‘ å¯†ç ã€‚å› å®¢æˆ·æœªèƒ½å¦¥å–„åŠå®‰å…¨åœ°ä¿ç®¡ä¸Šè¿°å¯†ç è€Œé€ æˆçš„ä¸€åˆ‡åæœç”±å®¢æˆ·è‡ªè¡Œæ‰¿æ‹…ã€‚
 Customers shall avoid using any data on their identity documents as a password and shall have the obligations to properly and securely keep the transaction password and the transfer password. Customers shall bear the entire liabilities arising out of the failure in keeping the passwords properly and securely.
 
-(h)	Í¨ÖªÊÂÏîµÄ²éÑ¯·½Ê½ Knowledge on notifiable events and enquiry channels: - Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«²»Ê±·¢³öÍ¨ÖªÊÂÏî£¬°üÀ¨µ«²»ÏŞÓÚ½»Ò×Ëù½»Ò×¹æÔò±ä¸üÍ¨Öª£¬Èğ´ï¹ú¼Ê ½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾±£Ö¤½ğ¡¢ÊÖĞø·ÑµÈ½»Ò×ºÍ½áËã…¢”µµ÷ÕûÍ¨Öª£¬¿Í»§½»Ò×½áËã±¨¸æ£¬×·¼Ó±£Ö¤½ğÍ¨ Öª£¬Ç¿ÖÆÆ½²ÖÍ¨ÖªÊé£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½»Ò×ÏµÍ³¡¢ĞĞÇéÏµÍ³¡¢ÍøÕ¾±ä¸üÍ¨ÖªµÈµÈ¡£Èğ´ï¹ú ¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«Í¨¹ı¹«Ë¾ÍøÕ¾¡¢¿Í»§ÍøÉÏ½»Ò×¶ËµÈ¹ÜµÀÏò¿Í»§·¢²¼²»Éæ¼°¿Í»§Ë½ÓĞ½»Ò×Çé¿öµÄ Í¨ÖªÊÂÏî¡£¿Í»§½»Ò×½áËã±¨¸æ¡¢×·¼Ó±£Ö¤½ğÍ¨Öª¡¢Ç¿ÖÆÆ½²ÖÍ¨ÖªÊé¡¢µ¥¶Àµ÷Õû±£Ö¤½ğÍ¨ÖªµÈ¿Í»§Ë½ÓĞ ±¨¸æ»òÍ¨ÖªÊÂÏî½«Í¨¹ı¿Í»§±¾ÉíÌá¹©µÄµçÓÊµØÖ·»òÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ïò¿Í»§Ìá¹©µÄµçÓÊÎ»Ö· µ¥¶À·¢²¼¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Í¨¹ıÉÏÊöÈÎºÎÒ»ÖÖ·½Ê½·¢²¼Í¨ÖªÊÂÏî¼´ÊÓÎªÒÑÂÄĞĞÁË¶Ô¿Í»§µÄ Í¨ÖªÒåÎñ¡£
+(h)	é€šçŸ¥äº‹é¡¹çš„æŸ¥è¯¢æ–¹å¼ Knowledge on notifiable events and enquiry channels: - ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†ä¸æ—¶å‘å‡ºé€šçŸ¥äº‹é¡¹ï¼ŒåŒ…æ‹¬ä½†ä¸é™äºäº¤æ˜“æ‰€äº¤æ˜“è§„åˆ™å˜æ›´é€šçŸ¥ï¼Œç‘è¾¾å›½é™… é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¿è¯é‡‘ã€æ‰‹ç»­è´¹ç­‰äº¤æ˜“å’Œç»“ç®—åƒæ•¸è°ƒæ•´é€šçŸ¥ï¼Œå®¢æˆ·äº¤æ˜“ç»“ç®—æŠ¥å‘Šï¼Œè¿½åŠ ä¿è¯é‡‘é€š çŸ¥ï¼Œå¼ºåˆ¶å¹³ä»“é€šçŸ¥ä¹¦ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸äº¤æ˜“ç³»ç»Ÿã€è¡Œæƒ…ç³»ç»Ÿã€ç½‘ç«™å˜æ›´é€šçŸ¥ç­‰ç­‰ã€‚ç‘è¾¾å›½ é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†é€šè¿‡å…¬å¸ç½‘ç«™ã€å®¢æˆ·ç½‘ä¸Šäº¤æ˜“ç«¯ç­‰ç®¡é“å‘å®¢æˆ·å‘å¸ƒä¸æ¶‰åŠå®¢æˆ·ç§æœ‰äº¤æ˜“æƒ…å†µçš„ é€šçŸ¥äº‹é¡¹ã€‚å®¢æˆ·äº¤æ˜“ç»“ç®—æŠ¥å‘Šã€è¿½åŠ ä¿è¯é‡‘é€šçŸ¥ã€å¼ºåˆ¶å¹³ä»“é€šçŸ¥ä¹¦ã€å•ç‹¬è°ƒæ•´ä¿è¯é‡‘é€šçŸ¥ç­‰å®¢æˆ·ç§æœ‰ æŠ¥å‘Šæˆ–é€šçŸ¥äº‹é¡¹å°†é€šè¿‡å®¢æˆ·æœ¬èº«æä¾›çš„ç”µé‚®åœ°å€æˆ–ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å‘å®¢æˆ·æä¾›çš„ç”µé‚®ä½å€ å•ç‹¬å‘å¸ƒã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é€šè¿‡ä¸Šè¿°ä»»ä½•ä¸€ç§æ–¹å¼å‘å¸ƒé€šçŸ¥äº‹é¡¹å³è§†ä¸ºå·²å±¥è¡Œäº†å¯¹å®¢æˆ·çš„ é€šçŸ¥ä¹‰åŠ¡ã€‚
 From time to time, RUI DA will notify the Customer of, including, but not limited to, amendments of trading rules, change of the RUI DA?s margin requirements, transaction fee and other trading and settlement information, customer transaction settlement report, notice of margin call, notice of forced liquidation, and notice on the change of the RUI DA?s trading system, quote system and websites. RUI DA will inform the Customers of notifiable events that are not related to Customers? private transactions through different channels including the website of RUI DA and the Customers? online trading terminal. Private reports and /or notifications, such as the customer transaction and settlement report, notice of margin call, notice of forced liquidation and notice on individual change of margin, will be sent to the Customers separately through e-mail address that having been provided by the Customers to RUI DA or having been provided by RUI DA to the Customers. RUI DA?s dissemination of notifications through any of the above channels will be regarded as having fully discharged its obligations of notification owed to the Customers.
 
-(i)	·çÏÕ¿ØÖÆÔ­Ôò/´ëÊ© Knowledge on risk management rules/measures: - ¿Í»§Í¨¹ıÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½øĞĞÆÚ»õ¼°/»òÆÚÈ¨½»Ò×¼´Í¬ÒâÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨½ø ĞĞ·çÏÕ¿ØÖÆ¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨ÔÚÆÚ»õ¼°/»òÆÚÈ¨½»Ò×Ïà¹Ø·¨ÂÉ·¨¹æµÈĞí¿ÉµÄ·¶Î§ÄÚ°´ÕÕ Ë«·½Ô¼¶¨µÄ·çÏÕ¿ØÖÆÌõ¼şÊµÊ©ÏàÓ¦·çÏÕ¿ØÖÆ´ëÊ©¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾°´ÕÕÔ¼¶¨µÄÌõ¼şÊµÊ©µÄ ·çÏÕ¿ØÖÆ´ëÊ©²úÉúµÄÒ»ÇĞÔğÈÎ¡¢ËğÊ§ºÍ·ÑÓÃ¾ùÓÉ¿Í»§ÍêÈ«³Ğµ£¡£
+(i)	é£é™©æ§åˆ¶åŸåˆ™/æªæ–½ Knowledge on risk management rules/measures: - å®¢æˆ·é€šè¿‡ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¿›è¡ŒæœŸè´§åŠ/æˆ–æœŸæƒäº¤æ˜“å³åŒæ„ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒè¿› è¡Œé£é™©æ§åˆ¶ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒåœ¨æœŸè´§åŠ/æˆ–æœŸæƒäº¤æ˜“ç›¸å…³æ³•å¾‹æ³•è§„ç­‰è®¸å¯çš„èŒƒå›´å†…æŒ‰ç…§ åŒæ–¹çº¦å®šçš„é£é™©æ§åˆ¶æ¡ä»¶å®æ–½ç›¸åº”é£é™©æ§åˆ¶æªæ–½ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æŒ‰ç…§çº¦å®šçš„æ¡ä»¶å®æ–½çš„ é£é™©æ§åˆ¶æªæ–½äº§ç”Ÿçš„ä¸€åˆ‡è´£ä»»ã€æŸå¤±å’Œè´¹ç”¨å‡ç”±å®¢æˆ·å®Œå…¨æ‰¿æ‹…ã€‚
 If the Customers conduct Futures and/or Options trading through RUI DA, the Customers will be deemed to have agreed that RUI DA shall have the right to conduct any risk management measures. So far as not contravening any laws and/or regulations relating to the respective Futures and/or Options trading, RUI DA shall have the right as agreed by the Customer to take any risk management measures. Customers shall bear the entire liabilities, losses and expenses incurred or caused by any risk management measures taken by RUI DA within the scope as agreed.
 
-(j)	Â× ¶Ø ½ğ Êô ½» Ò× Ëù £¨¼ò³Æ LME £©µÄÓĞ¹ØÌØµãKnowledge on the characteristics of London Metal Exchange(LME) : -
-LME	ÆÚ»õºÏÔ¼µÄ½áËã¹æÔò¹æ¶¨£¬ºÏÔ¼Î´µ½ÆÚÓ¯Àû¿ÉÒÔ×÷Îª½»Ò×±£Ö¤½ğµ«²»µÃÌáÇ°Ö§È¡¡£ºÏÔ¼Æ½²Ö±ØĞëÍ¨¹ıµ÷ÆÚ²ÅÄÜÍê³É£¬ƒÉ¸öºÏÔ¼Ö®¼äµ÷ÆÚµÄÉıÌùË®£¬ÎŞ·¨Í¨¹ı¼ÆËã»ñµÃ£¬¶øĞèÒªÒÔ¸÷¾­¼ÍÉÌµÄ±¨¼ÛÎªÒÀ¾İ¡£
+(j)	ä¼¦ æ•¦ é‡‘ å± äº¤ æ˜“ æ‰€ ï¼ˆç®€ç§° LME ï¼‰çš„æœ‰å…³ç‰¹ç‚¹Knowledge on the characteristics of London Metal Exchange(LME) : -
+LME	æœŸè´§åˆçº¦çš„ç»“ç®—è§„åˆ™è§„å®šï¼Œåˆçº¦æœªåˆ°æœŸç›ˆåˆ©å¯ä»¥ä½œä¸ºäº¤æ˜“ä¿è¯é‡‘ä½†ä¸å¾—æå‰æ”¯å–ã€‚åˆçº¦å¹³ä»“å¿…é¡»é€šè¿‡è°ƒæœŸæ‰èƒ½å®Œæˆï¼Œå…©ä¸ªåˆçº¦ä¹‹é—´è°ƒæœŸçš„å‡è´´æ°´ï¼Œæ— æ³•é€šè¿‡è®¡ç®—è·å¾—ï¼Œè€Œéœ€è¦ä»¥å„ç»çºªå•†çš„æŠ¥ä»·ä¸ºä¾æ®ã€‚
 As stipulated under the LME settlement rules of futures contract, earnings accrued before the maturity of a futures contract could be used as trading margin, but cannot be realized before the maturity date. Contract liquidation will be conducted via the way of carrying between contracts. The rate of the carried futures contracts cannot be ascertained by simple calculation and shall be determined by reference to the quotes of the participants in question.
 
-2.3	¿Í»§ÌØ´ËÉùÃ÷ :
+2.3	å®¢æˆ·ç‰¹æ­¤å£°æ˜ :
 The Client declares that :
-(a)	¿Í»§ÔÚ·¨ÂÉÉÏÓĞÄÜÁ¦ºÏ·¨ÓĞĞ§µØÇ©¶¨±¾Ğ­Òé£»
+(a)	å®¢æˆ·åœ¨æ³•å¾‹ä¸Šæœ‰èƒ½åŠ›åˆæ³•æœ‰æ•ˆåœ°ç­¾å®šæœ¬åè®®ï¼›
 the Client is legally capable of validly entering into this Agreement ;
-(b)	¿Í»§ÒÑÏêÔÄ±¾Ğ­ÒéÖ®ÖĞ/Ó¢ÎÄ±¾£¬ÆäÖĞÄÚÈİÒàÈ«²¿ÒÔ¿Í»§ÖªÏşµÄÓïÑÔ£¬Ïò¿Í»§½âÊÍÇå³ş¡£¿Í»§ÔŞ³É¼°Í¬Òâ±¾Ğ­ÒéÄÚÖ®Ò»ÇĞÌõ¿î¼°Ï¸Ôò;
+(b)	å®¢æˆ·å·²è¯¦é˜…æœ¬åè®®ä¹‹ä¸­/è‹±æ–‡æœ¬ï¼Œå…¶ä¸­å†…å®¹äº¦å…¨éƒ¨ä»¥å®¢æˆ·çŸ¥æ™“çš„è¯­è¨€ï¼Œå‘å®¢æˆ·è§£é‡Šæ¸…æ¥šã€‚å®¢æˆ·èµæˆåŠåŒæ„æœ¬åè®®å†…ä¹‹ä¸€åˆ‡æ¡æ¬¾åŠç»†åˆ™;
 the Client has read the Chinese/English version of this Agreement and that the contents of this Agreement have been fully explained to the Client in a language which the Client understands. The Client hereby agrees and consents to the terms and conditions herein contained;
-(c)	¿Í»§ÒÑ´ÓÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ´ú±íÈËÁË½âµ½¿ÉÄÜÓ°Ïì»§¿Ú½»Ò×µÄºÏÔ¼Ï¸Ôò¡¢ÊÕÈ¡±£Ö¤½ğÊÖĞø ¼°ÊÕ·Ñ³ÌĞò£¬¼°¿Í»§µÄÎ´Æ½²ÖºÏÔ¼¿ÉÄÜÔÚÎ´¾­¿Í»§Í¬ÒâÇé¿öÏÂ±»Æ½²ÖµÄ´¦¾³;
+(c)	å®¢æˆ·å·²ä»ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä»£è¡¨äººäº†è§£åˆ°å¯èƒ½å½±å“æˆ·å£äº¤æ˜“çš„åˆçº¦ç»†åˆ™ã€æ”¶å–ä¿è¯é‡‘æ‰‹ç»­ åŠæ”¶è´¹ç¨‹åºï¼ŒåŠå®¢æˆ·çš„æœªå¹³ä»“åˆçº¦å¯èƒ½åœ¨æœªç»å®¢æˆ·åŒæ„æƒ…å†µä¸‹è¢«å¹³ä»“çš„å¤„å¢ƒ;
 the Client has understood from RUI DA's representative(s) any contract specifications, Margin procedures, fee and charge schedule that may affect the Client?s trading activities in connection with the Account, and the circumstances under which the Client's positions may be closed without the Client's consent;
-(d)	¿Í»§ÔÚ±¾Ğ­ÒéÖĞËùÌá¹©µÄ×ÊÁÏÊÇÍêÕû¡¢ÕæÊµºÍÕıÈ·µÄ;ºÍ
+(d)	å®¢æˆ·åœ¨æœ¬åè®®ä¸­æ‰€æä¾›çš„èµ„æ–™æ˜¯å®Œæ•´ã€çœŸå®å’Œæ­£ç¡®çš„;å’Œ
 any information given by the Client in this Agreement is complete, true and correct; and
-(e)	¿Í»§ÊÇÎªÆä±¾Éí½øĞĞ½»Ò×£¬»òÎª¡¸»§¿Ú×îÖÕÊµÒæÓµÓĞÈËÉùÃ÷¡¹ËùÔØÁĞ×îÖÕÊµÒæÓµÓĞÈË½øĞĞ½»Ò×¡£
+(e)	å®¢æˆ·æ˜¯ä¸ºå…¶æœ¬èº«è¿›è¡Œäº¤æ˜“ï¼Œæˆ–ä¸ºã€Œæˆ·å£æœ€ç»ˆå®ç›Šæ‹¥æœ‰äººå£°æ˜ã€æ‰€è½½åˆ—æœ€ç»ˆå®ç›Šæ‹¥æœ‰äººè¿›è¡Œäº¤æ˜“ã€‚
 The Client is trading on his own account or for the account of the ultimate beneficial owner of the Account as set out in the "Declaration on the Ultimate Beneficial Owner of the Account".
-(f)	¿Í»§ÔÚ²Ù×÷Æä»§¿ÚÊ±£¬ÊÇÓÉÆä±¾ÈË·¢³ö½»Ò×Ö¸Ê¾¡£Èç¿Í»§Î¯ÈÎÁíÒ»ÃûÈËÊ¿´ú±íÆä·¢³ö½»Ò×Ö¸Ê¾£¬ĞèÌá ¹©¸ÃÃû»ñÎ¯ÈÎÈËÊ¿µÄÃû³Æ¼°µØÖ·¼°Î¯ÈÎÊé¡£
+(f)	å®¢æˆ·åœ¨æ“ä½œå…¶æˆ·å£æ—¶ï¼Œæ˜¯ç”±å…¶æœ¬äººå‘å‡ºäº¤æ˜“æŒ‡ç¤ºã€‚å¦‚å®¢æˆ·å§”ä»»å¦ä¸€åäººå£«ä»£è¡¨å…¶å‘å‡ºäº¤æ˜“æŒ‡ç¤ºï¼Œéœ€æ ä¾›è¯¥åè·å§”ä»»äººå£«çš„åç§°åŠåœ°å€åŠå§”ä»»ä¹¦ã€‚
 The Client operates his account by giving orders and instructions himself. If he appoints another person to give orders and instructions on his behalf, he shall notify RUI DA of the name and address of the person appointed to be accompanied by an appointment in writing.
-(g)	³ı¿Í»§ÒÑÁíĞĞÒÔÊéÃæÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Éê±¨µÄÍâ£¬¿Í»§²¢·ÇÈÎºÎ½»Ò×Ëù¡¢ÉÌ»á¡¢ ½áËãËù¡¢ ÒøĞĞ»òĞÅÍĞ¹«Ë¾Ô±¹¤»ò¸ß¼¶Ö°Ô±»ò¶­ÊÂ£¬»òÈÎºÎÓÚÏã¸Û»òÆäËûµØ·½³ÖÅÆ»ò×¢²áµÄÖ¤È¯¼°¨u»òÆÚ»õºÏÔ¼ ½»Ò×ÉÌ»ò¾­¼ÍµÄÁªÊôÈË£¬»ò¸Ã¾­¼Í»ò½»Ò×ÉÌµÄÈÎºÎ¸ß¼¶Ö°Ô±¡¢ºÏ»ïÈË¡¢¶­ÊÂ»ò¹ÍÔ±£»
+(g)	é™¤å®¢æˆ·å·²å¦è¡Œä»¥ä¹¦é¢å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ç”³æŠ¥çš„å¤–ï¼Œå®¢æˆ·å¹¶éä»»ä½•äº¤æ˜“æ‰€ã€å•†ä¼šã€ ç»“ç®—æ‰€ã€ é“¶è¡Œæˆ–ä¿¡æ‰˜å…¬å¸å‘˜å·¥æˆ–é«˜çº§èŒå‘˜æˆ–è‘£äº‹ï¼Œæˆ–ä»»ä½•äºé¦™æ¸¯æˆ–å…¶ä»–åœ°æ–¹æŒç‰Œæˆ–æ³¨å†Œçš„è¯åˆ¸åŠâ•±æˆ–æœŸè´§åˆçº¦ äº¤æ˜“å•†æˆ–ç»çºªçš„è”å±äººï¼Œæˆ–è¯¥ç»çºªæˆ–äº¤æ˜“å•†çš„ä»»ä½•é«˜çº§èŒå‘˜ã€åˆä¼™äººã€è‘£äº‹æˆ–é›‡å‘˜ï¼›
 the Customer, except as previously disclosed in writing to RUI DA, is not an officer or employee of any exchange, board of trade, clearing house, bank or trust company, or an affiliate of any dealer or broker in securities and/or futures contracts licensed or registered in Hong Kong or elsewhere, or an officer, partner, director or employee of any such broker or dealer;
-(h)	¿Í»§Ã÷°×Æä½»Ò×Ö®²úÆ·µÄĞÔÖÊ¼°·çÏÕ£¬²¢¾ßÓĞ³ä×ãµÄ¾»Öµ³Ğµ£·çÏÕ¼°¸ÃµÈ½»Ò×´øÀ´µÄÇ±ÔÚ¿÷Ëğ£»
+(h)	å®¢æˆ·æ˜ç™½å…¶äº¤æ˜“ä¹‹äº§å“çš„æ€§è´¨åŠé£é™©ï¼Œå¹¶å…·æœ‰å……è¶³çš„å‡€å€¼æ‰¿æ‹…é£é™©åŠè¯¥ç­‰äº¤æ˜“å¸¦æ¥çš„æ½œåœ¨äºæŸï¼›
 the Customer understands the nature and risks of the products in which he is trading and has sufficient net worth to be able to assume the risks and bear the potential losses of trading in such products.
-(i)	²¢ÎŞ¹ØÓÚ¿Í»§¶øÒÑ¾­·¢Éú¼°/»òÕıÔÚ³ÖĞøµÄÎ¥Ô¼ÊÂÏî»ò¿É±ä³ÉÎ¥Ô¼ÊÂÏîµÄÊÂÏî¡£
+(i)	å¹¶æ— å…³äºå®¢æˆ·è€Œå·²ç»å‘ç”ŸåŠ/æˆ–æ­£åœ¨æŒç»­çš„è¿çº¦äº‹é¡¹æˆ–å¯å˜æˆè¿çº¦äº‹é¡¹çš„äº‹é¡¹ã€‚
 no Event of Default or any event which may become an Event of Default has occurred and/or is continuing with respect to the Customer.
 
-2.4 ¿Í»§ÉùÃ÷¼°È·ÈÏ»§¿ÚµÄ¿ªÁ¢µØÊÇÏã¸ÛÌØ±ğĞĞÕşÇø£¬ÓĞ¹Ø»§¿ÚÒ»ÇĞ²Ù×÷ÊÂÒË¾ùÊÜÏã¸ÛÌØ±ğĞĞÕşÇøµÄ·¨ÂÉ¹ÜÏ½¡£¿Í»§±£Ö¤´ËÏîÍ¶×Ê·ûºÏ¿Í»§µÄ¾Ó½åµØ»ò³ÉÁ¢/ÉèÁ¢µØÇø»ò×¢²áµØÇøÖ®·¨ÂÉ¹æ¶¨²¢ÒÑ°ìÍ×Ò»ÇĞ±ØÒªµÄÉóÅúÊÖĞø¡£Ò»ÇĞÓÃÓÚ²Ù×÷»§¿ÚµÄ¿îÏî½«ÓÉ¿Í»§°²ÅÅÒÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒªÇóÖ®ÆäËû»õ±Ò»ò¸Û±Ò (ÊÓÇé¿ö¶ø¶¨) ´æ ÈëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ö¸¶¨Ö®ÒøĞĞ»§¿Ú¡£
+2.4 å®¢æˆ·å£°æ˜åŠç¡®è®¤æˆ·å£çš„å¼€ç«‹åœ°æ˜¯é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºï¼Œæœ‰å…³æˆ·å£ä¸€åˆ‡æ“ä½œäº‹å®œå‡å—é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºçš„æ³•å¾‹ç®¡è¾–ã€‚å®¢æˆ·ä¿è¯æ­¤é¡¹æŠ•èµ„ç¬¦åˆå®¢æˆ·çš„å±…è—‰åœ°æˆ–æˆç«‹/è®¾ç«‹åœ°åŒºæˆ–æ³¨å†Œåœ°åŒºä¹‹æ³•å¾‹è§„å®šå¹¶å·²åŠå¦¥ä¸€åˆ‡å¿…è¦çš„å®¡æ‰¹æ‰‹ç»­ã€‚ä¸€åˆ‡ç”¨äºæ“ä½œæˆ·å£çš„æ¬¾é¡¹å°†ç”±å®¢æˆ·å®‰æ’ä»¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¦æ±‚ä¹‹å…¶ä»–è´§å¸æˆ–æ¸¯å¸ (è§†æƒ…å†µè€Œå®š) å­˜ å…¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æŒ‡å®šä¹‹é“¶è¡Œæˆ·å£ã€‚
 The Client declares and acknowledges that the Account is opened in the Hong Kong Special Administrative Region, all the operations in relation to the Account shall be governed and enforced by the laws of the Hong Kong Special Administrative Region. The Client warrants that this investment complies with the laws and regulations of the Client's residing domicile or place of incorporation / establishment or place of registration and all the required approval has been granted.  The Client will arrange all the funds used for the operation of the Account to be deposited in any other currency as required by RUI DA or Hong Kong Dollars (as the case may be) to the bank designated by RUI DA.
 
-2.5	¿Í»§ºÍÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÔÚ±¾Ğ­ÒéÖĞÌá¹©µÄ×ÊÁÏÈçÓĞÊµÖÊ¸Ä±ä£¬ĞëÁ¢¿ÌÖª»áÁíÒ»·½¡£
+2.5	å®¢æˆ·å’Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åœ¨æœ¬åè®®ä¸­æä¾›çš„èµ„æ–™å¦‚æœ‰å®è´¨æ”¹å˜ï¼Œé¡»ç«‹åˆ»çŸ¥ä¼šå¦ä¸€æ–¹ã€‚
 The Client and RUI DA shall notify each other forthwith of any material changes in the information supplied in this Agreement.
 
-3.	»§¿Ú The Account
+3.	æˆ·å£ The Account
 
-3.1 ¿Í»§È·ÈÏ¡¸¿Í»§×ÊÁÏ¸½Â¼¡¹¼°¡¸»§¿Ú×îÖÕÊµÒæÓµÓĞÈËÉùÃ÷¡¹(ÈçÊÊÓÃ) ËùÔØ×ÊÁÏ£¬»òÒÔÆäËû·½·¨ÓÉ¿Í»§»ò¿Í»§ ´ú±íÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©Ö®ÓĞ¹Ø×ÊÁÏ¾ùÊôÍêÕû¡¢ÕæÊµ¼°ÕıÈ·¡£ÌÈ¸ÃµÈ×ÊÁÏÓĞÈÎºÎ±ä¸ü£¬¿Í»§½« »á¼´Ê±Í¨ÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡£¿Í»§ÌØ´ËÊÚÈ¨Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶Ô¿Í»§µÄĞÅÓÃ½øĞĞ²éÑ¯£¬ ÒÔºËÊµ¿Í»§ËùÌá¹©µÄ×ÊÁÏ¡£
+3.1 å®¢æˆ·ç¡®è®¤ã€Œå®¢æˆ·èµ„æ–™é™„å½•ã€åŠã€Œæˆ·å£æœ€ç»ˆå®ç›Šæ‹¥æœ‰äººå£°æ˜ã€(å¦‚é€‚ç”¨) æ‰€è½½èµ„æ–™ï¼Œæˆ–ä»¥å…¶ä»–æ–¹æ³•ç”±å®¢æˆ·æˆ–å®¢æˆ· ä»£è¡¨å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›ä¹‹æœ‰å…³èµ„æ–™å‡å±å®Œæ•´ã€çœŸå®åŠæ­£ç¡®ã€‚å€˜è¯¥ç­‰èµ„æ–™æœ‰ä»»ä½•å˜æ›´ï¼Œå®¢æˆ·å°† ä¼šå³æ—¶é€šçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€‚å®¢æˆ·ç‰¹æ­¤æˆæƒç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹å®¢æˆ·çš„ä¿¡ç”¨è¿›è¡ŒæŸ¥è¯¢ï¼Œ ä»¥æ ¸å®å®¢æˆ·æ‰€æä¾›çš„èµ„æ–™ã€‚
 The Client confirms that the information provided in the "Client Information Statement" and the "Declaration on the Ultimate Beneficial Owner of the Account" (if applicable) or otherwise provided by or on behalf of the Client to RUI DA in connection with the opening of the Account is complete, true and correct. The Client will inform RUI DA of any changes to that information forthwith. RUI DA is hereby authorized to conduct credit enquiries on the Client to verify the information provided.
 
-3.2 ¿Í»§±£Ö¤¿Í»§ÎªËù¿ª»§¿ÚÖ®×îÖÕÊµÒæÓµÓĞÈË£¬¿Í»§²¢·Ç´ú±íÆäËûÊÜÒæÈË¶ø³ÖÓĞ¸Ã»§¿Ú¡£Èç·ÇÉÏÊöÇéĞÎ,¿Í»§ÒÑ ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×÷³öÉùÃ÷²¢×÷³öÓĞ¹ØÖ¤Ã÷¼°³ĞÅµ¡£ÈçÓĞÈÎºÎ±ä¸ü£¬¿Í»§Í¬ÒâÁ¢¼´ÒÔÊéÃæÍ¨ÖªÈğ ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ËùÓĞ×îÖÕÊµÒæÓµÓĞÈËÖ®Éí·İ¼°ÓĞ¹Ø¸ÃµÈ×ÊÁÏÖ®±ä¸ü£¬¿Í»§ÒàÍ¬Òâ¸ÃµÈ×ÊÁÏ¿É¸ù¾İ´Ë ¿ª»§ºÏÔ¼µÚ 3.3 ¼° 3.4 ÌõÓèÒÔÅûÂ¶¡£
+3.2 å®¢æˆ·ä¿è¯å®¢æˆ·ä¸ºæ‰€å¼€æˆ·å£ä¹‹æœ€ç»ˆå®ç›Šæ‹¥æœ‰äººï¼Œå®¢æˆ·å¹¶éä»£è¡¨å…¶ä»–å—ç›Šäººè€ŒæŒæœ‰è¯¥æˆ·å£ã€‚å¦‚éä¸Šè¿°æƒ…å½¢,å®¢æˆ·å·² å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä½œå‡ºå£°æ˜å¹¶ä½œå‡ºæœ‰å…³è¯æ˜åŠæ‰¿è¯ºã€‚å¦‚æœ‰ä»»ä½•å˜æ›´ï¼Œå®¢æˆ·åŒæ„ç«‹å³ä»¥ä¹¦é¢é€šçŸ¥ç‘ è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ‰€æœ‰æœ€ç»ˆå®ç›Šæ‹¥æœ‰äººä¹‹èº«ä»½åŠæœ‰å…³è¯¥ç­‰èµ„æ–™ä¹‹å˜æ›´ï¼Œå®¢æˆ·äº¦åŒæ„è¯¥ç­‰èµ„æ–™å¯æ ¹æ®æ­¤ å¼€æˆ·åˆçº¦ç¬¬ 3.3 åŠ 3.4 æ¡äºˆä»¥æŠ«éœ²ã€‚
 The Client warrants that the Client is the ultimate beneficial owner of the Account and that the Client is not holding the Account on behalf of or for the benefit of any person. Where the aforesaid is not applicable, the Client has made a declaration together with the Client's warranty for whom is the ultimate beneficial owner of the Account. The Client agrees to immediately notify RUI DA in writing of the identity of all persons ultimately beneficially interested in the Account and any changes thereto and that this information may be disclosed in accordance with Clauses 3.3 and 3.4 of this Agreement.
 
-3.3 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«»á¶Ô»§¿ÚµÄÓĞ¹Ø×ÊÁÏÓèÒÔ±£ÃÜ£¬µ«Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨×ñÊØ¼à¹Ü¹æ ÔòÏòÓ¦Ö¤¼à»áµÄÒªÇó¼°ÈÎºÎÆäËû¼à¹Ü»ú¹¹ (²»ÂÛÏã¸Û»òº£Íâ) ¼°/»òÏòÆäÁªÊôÈËÅûÂ¶¡¸¿Í»§×ÊÁÏ¸½Â¼¡¹ÄÚ»ò»§ ¿ÚÄÚÖ®×ÊÁÏ¡£¿Í»§È·ÈÏÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶ÔÌá¹©ÉÏÊö×ÊÁÏ²»³Ğµ£ÈÎºÎÔğÈÎ¡£
+3.3 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†ä¼šå¯¹æˆ·å£çš„æœ‰å…³èµ„æ–™äºˆä»¥ä¿å¯†ï¼Œä½†ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒéµå®ˆç›‘ç®¡è§„ åˆ™å‘åº”è¯ç›‘ä¼šçš„è¦æ±‚åŠä»»ä½•å…¶ä»–ç›‘ç®¡æœºæ„ (ä¸è®ºé¦™æ¸¯æˆ–æµ·å¤–) åŠ/æˆ–å‘å…¶è”å±äººæŠ«éœ²ã€Œå®¢æˆ·èµ„æ–™é™„å½•ã€å†…æˆ–æˆ· å£å†…ä¹‹èµ„æ–™ã€‚å®¢æˆ·ç¡®è®¤ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹æä¾›ä¸Šè¿°èµ„æ–™ä¸æ‰¿æ‹…ä»»ä½•è´£ä»»ã€‚
 RUI DA will keep information relating to the Account confidential, but RUI DA has the right to disclose the information in the "Client Information Statement" or of the Account to SFC and any other regulatory bodies (whether in Hong Kong or elsewhere) as may be requested or otherwise for compliance of the governing rules, and/or disclose the same to the Affiliates. The Client confirms that RUI DA shall not be liable to the Client for providing such information.
 
-3.4 ¸ù¾İ¸öÈË×ÊÁÏ (Ë½Òş) ÌõÀı£¬¿Í»§Í¬ÒâÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÌá¹©Æä¸öÈË×ÊÁÏÓèÈÎºÎÏò»§¿ÚÌá¹©·şÎñÖ® ´úÀí¡¢´ú±í»òÆäÁªÊôÈË¡£¸ÃµÈ×ÊÁÏÄËÓÃÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÁªÊôÈËÎªÌá¹©Í¶×Ê¡¢ÆÚ»õºÏÔ¼½» Ò×¡¢¹ËÎÊ»òÆäËûÏà¹Ø·şÎñ¼°Ö´ĞĞÓĞ¹Ø¹æÔò»ò·¨ÂÉ»ò¼à¹ÜµÄ¹æ¶¨¡£
+3.4 æ ¹æ®ä¸ªäººèµ„æ–™ (ç§éš) æ¡ä¾‹ï¼Œå®¢æˆ·åŒæ„ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯æä¾›å…¶ä¸ªäººèµ„æ–™äºˆä»»ä½•å‘æˆ·å£æä¾›æœåŠ¡ä¹‹ ä»£ç†ã€ä»£è¡¨æˆ–å…¶è”å±äººã€‚è¯¥ç­‰èµ„æ–™ä¹ƒç”¨äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶è”å±äººä¸ºæä¾›æŠ•èµ„ã€æœŸè´§åˆçº¦äº¤ æ˜“ã€é¡¾é—®æˆ–å…¶ä»–ç›¸å…³æœåŠ¡åŠæ‰§è¡Œæœ‰å…³è§„åˆ™æˆ–æ³•å¾‹æˆ–ç›‘ç®¡çš„è§„å®šã€‚
 Pursuant to the Personal Data (Privacy) Ordinance, the Client agrees that RUI DA may provide the Client's personal data to any agent, representative or Affiliates which provide(s) services in connection with the Account. Such information is required to perform the investment, Dealing in futures contracts, advisor or other related services which RUI DA or the Affiliates offer(s) and to observe any rules or legal or regulatory requirements.
 
-¿Í»§ÖªÏ¤ÌÈÎ´ÄÜÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©ÓĞ¹Ø×ÊÁÏ£¬Õâ½«µ¼ÖÂÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÑÓ³Ù»ò²» ÄÜÖ´ĞĞ¿Í»§Ö®Ö¸Ê¾»ò²»ÄÜÌá¹©ËùĞèÖ®·şÎñ£¬ÌØ±ğÊÇÈç¹ûÒò´Ë¶øÓ°ÏìÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×ñÊØÓĞ¹Ø¹æÔò ¼°¼à¹ÜµÄ¹æ¶¨¡£¿Í»§¿ÉÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒªÇó²éÔÄ»ò¸üÕıÒÑÌá¹©×ÊÁÏ¡£
+å®¢æˆ·çŸ¥æ‚‰å€˜æœªèƒ½å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›æœ‰å…³èµ„æ–™ï¼Œè¿™å°†å¯¼è‡´ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å»¶è¿Ÿæˆ–ä¸ èƒ½æ‰§è¡Œå®¢æˆ·ä¹‹æŒ‡ç¤ºæˆ–ä¸èƒ½æä¾›æ‰€éœ€ä¹‹æœåŠ¡ï¼Œç‰¹åˆ«æ˜¯å¦‚æœå› æ­¤è€Œå½±å“ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸éµå®ˆæœ‰å…³è§„åˆ™ åŠç›‘ç®¡çš„è§„å®šã€‚å®¢æˆ·å¯å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¦æ±‚æŸ¥é˜…æˆ–æ›´æ­£å·²æä¾›èµ„æ–™ã€‚
 The Client acknowledges that any failure to supply the requested personal data may result in delay or RUI DA's inability to carry out the Client's instructions or provide requested services, particularly if it affects RUI DA's ability to ensure compliance with applicable rules and regulatory requirements.  The Client is entitled to request access to or to request the correction of data previously supplied to RUI DA.
 
-3.5 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»Ê±ĞŞ¶©Ö®¡¸ÆÚ»õºÏÔ¼½»Ò×ÂòÂôÏ¸Ôò¡¹ÒÑÏêÏ¸ÁĞÃ÷ÓĞ¹ØÖ®±£Ö¤½ğÒªÇó¼°ÂòÂôÏ¸Ôò£¬²¢²¹³ä¼°³ÉÎª±¾Ğ­ÒéµÄÒ»²¿·İ¡£
+3.5 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸æ—¶ä¿®è®¢ä¹‹ã€ŒæœŸè´§åˆçº¦äº¤æ˜“ä¹°å–ç»†åˆ™ã€å·²è¯¦ç»†åˆ—æ˜æœ‰å…³ä¹‹ä¿è¯é‡‘è¦æ±‚åŠä¹°å–ç»†åˆ™ï¼Œå¹¶è¡¥å……åŠæˆä¸ºæœ¬åè®®çš„ä¸€éƒ¨ä»½ã€‚
 The detailed terms and conditions for Margin requirements and Dealing in futures contracts are set out in the "Detail Instructions for Dealing in futures contracts", which may be amended by RUI DA from time to time and shall supplement and form part or this Agreement.
 
-3.6 ÌÈ±¾Ğ­ÒéÖ®Ìõ¿îÓĞÈÎºÎÖØ´ó¸Ä¶¯£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«»áÍ¨Öª¿Í»§¡£¿Í»§Í¬Òâ£¬¹«Ë¾¿ÉÓÚÈÎºÎÊ±ºò Í¨¹ıÏò¿Í»§·¢³öºÏÀíµÄÍ¨ÖªĞŞ¶©±¾Ğ­ÒéµÄÌõ¿î¡£±¾Ìõ¿îµÄÈÎºÎĞŞ¶©½«ÓÚ¸ÃÍ¨ÖªÖ¸Ã÷Ö®ÉúĞ§ÈÕÆÚÆğ¼´ÎªÉúĞ§£¬¼°Èç¿Í»§Ã»ÓĞ½áÊø»§¿Ú£¬Ôò¿Í»§½«±»ÊÓÎªÒÑ½ÓÊÜ±¾Ğ­ÒéÌõ¿îµÄĞŞ¶©¡£
+3.6 å€˜æœ¬åè®®ä¹‹æ¡æ¬¾æœ‰ä»»ä½•é‡å¤§æ”¹åŠ¨ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†ä¼šé€šçŸ¥å®¢æˆ·ã€‚å®¢æˆ·åŒæ„ï¼Œå…¬å¸å¯äºä»»ä½•æ—¶å€™ é€šè¿‡å‘å®¢æˆ·å‘å‡ºåˆç†çš„é€šçŸ¥ä¿®è®¢æœ¬åè®®çš„æ¡æ¬¾ã€‚æœ¬æ¡æ¬¾çš„ä»»ä½•ä¿®è®¢å°†äºè¯¥é€šçŸ¥æŒ‡æ˜ä¹‹ç”Ÿæ•ˆæ—¥æœŸèµ·å³ä¸ºç”Ÿæ•ˆï¼ŒåŠå¦‚å®¢æˆ·æ²¡æœ‰ç»“æŸæˆ·å£ï¼Œåˆ™å®¢æˆ·å°†è¢«è§†ä¸ºå·²æ¥å—æœ¬åè®®æ¡æ¬¾çš„ä¿®è®¢ã€‚
 RUI DA will notify the Client in the event of any material change to the terms of this Agreement. The Client agrees that it will be at the discretion of RUI DA to send any reasonable notices, amendments, revision or any material change on the terms and conditions of this Agreement to the Client. Amendments and revisions of this Agreement can be in force on a specified date if the account of the Client is still in place. In all these respects, the Client is deemed to accept the revision of this Agreement.
 
-3.7 ¿Í»§ÓÚ¡¸¿Í»§×ÊÁÏ¸½Â¼¡¹ÄÚËùÌá¹©Ö®ÈÎºÎÁªÂç×ÊÁÏ½«±»ÊÓ×÷¿Í»§ÓëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ö®¼ä¾­ÊÚÈ¨¼°ÓĞĞ§Ö®Í¨Ñ¶·½·¨¡£
+3.7 å®¢æˆ·äºã€Œå®¢æˆ·èµ„æ–™é™„å½•ã€å†…æ‰€æä¾›ä¹‹ä»»ä½•è”ç»œèµ„æ–™å°†è¢«è§†ä½œå®¢æˆ·ä¸ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¹‹é—´ç»æˆæƒåŠæœ‰æ•ˆä¹‹é€šè®¯æ–¹æ³•ã€‚
 Any contact details provided by the Client in the "Client Information Statement" shall be deemed to be the authorized and valid communication channel between the Client and RUI DA.
 
-3.8 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ¹ÍÔ±»ò´ú±í²»µÃ½ÓÊÜ¿Í»§Î¯ÈÎµÄ´úÀíÈË²Ù×÷¿Í»§µÄ»§¿Ú´ú±íÆä·¢³ö½»Ò×Ö¸Ê¾£¬³ı·ÇÁíÁ¢Ğ­Òé¡£
+3.8 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„é›‡å‘˜æˆ–ä»£è¡¨ä¸å¾—æ¥å—å®¢æˆ·å§”ä»»çš„ä»£ç†äººæ“ä½œå®¢æˆ·çš„æˆ·å£ä»£è¡¨å…¶å‘å‡ºäº¤æ˜“æŒ‡ç¤ºï¼Œé™¤éå¦ç«‹åè®®ã€‚
 None of RUI DA?s employees or representatives shall accept appointment by the client as agent to operate the client?s account and to give orders unless a separate agreement is entered into.
 
-3.9 Èç¹û¿Í»§°üÀ¨Ò»ÃûÒÔÉÏ¸öÈËÈËÊ¿£¨Ã¿ÃûÈËÊ¿Îª¡¸ÁªÃû»§¿Ú³ÖÓĞÈË¡¹£©£¬¸Ã»§¿Ú½«ÎªÓµÓĞÉú´æÕßÈ¡µÃÈ¨µÄÁªÃû »§¿Ú¡£ÓÚÈÎºÎÒ»ÃûÁªÃû»§¿Ú³ÖÓĞÈËÉí¹ÊÊ±£¬¸ÃÒÑ¹ÊÈËÊ¿ÓÚ»§¿ÚµÄÈ¨Òæ£¬½«¹éÓÚÉĞ´æÈËÊ¿ËùÓĞ¡£
-Where the Customer consists of more than one individual (each a ¡°joint account holder¡±), the Account shall be a joint account with the right of survivorship. Upon the death of any joint account holder, the interest of the deceased joint account holder in the Account will ensure to the benefits of the surviving joint account holder(s).
+3.9 å¦‚æœå®¢æˆ·åŒ…æ‹¬ä¸€åä»¥ä¸Šä¸ªäººäººå£«ï¼ˆæ¯åäººå£«ä¸ºã€Œè”åæˆ·å£æŒæœ‰äººã€ï¼‰ï¼Œè¯¥æˆ·å£å°†ä¸ºæ‹¥æœ‰ç”Ÿå­˜è€…å–å¾—æƒçš„è”å æˆ·å£ã€‚äºä»»ä½•ä¸€åè”åæˆ·å£æŒæœ‰äººèº«æ•…æ—¶ï¼Œè¯¥å·²æ•…äººå£«äºæˆ·å£çš„æƒç›Šï¼Œå°†å½’äºå°šå­˜äººå£«æ‰€æœ‰ã€‚
+Where the Customer consists of more than one individual (each a â€œjoint account holderâ€), the Account shall be a joint account with the right of survivorship. Upon the death of any joint account holder, the interest of the deceased joint account holder in the Account will ensure to the benefits of the surviving joint account holder(s).
 
-3.10 Óë±¾Ğ­ÒéÓĞ¹ØµÄÃ¿ÃûÁªÃû»§¿Ú³ÖÓĞÈËĞë¹²Í¬¼°¸÷±ğ³Ğµ£ÔğÈÎ¡£
+3.10 ä¸æœ¬åè®®æœ‰å…³çš„æ¯åè”åæˆ·å£æŒæœ‰äººé¡»å…±åŒåŠå„åˆ«æ‰¿æ‹…è´£ä»»ã€‚
 The liabilities of each joint account holder in connection with the Agreement shall be joint and several.
 
-3.11 ÈÎºÎÒ»ÃûÁªÃû»§¿Ú³ÖÓĞÈËÉí¹Ê²»»á¹¹³ÉĞ­ÒéµÄÖÕÖ¹£¬³ı·ÇÔÙÎŞÉĞ´æµÄÁªÃû»§¿Ú³ÖÓĞÈË¡£
+3.11 ä»»ä½•ä¸€åè”åæˆ·å£æŒæœ‰äººèº«æ•…ä¸ä¼šæ„æˆåè®®çš„ç»ˆæ­¢ï¼Œé™¤éå†æ— å°šå­˜çš„è”åæˆ·å£æŒæœ‰äººã€‚
 The death of any one joint account holder does not operate to terminate the Agreement unless there remains no surviving joint account holder.
 
-3.12 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶ÔÈÎºÎÒ»ÃûÁªÃû»§¿Ú³ÖÓĞÈË×÷³öµÄÈÎºÎÍ¨Öª¡¢¸¶¿î»ò½»¸¶£¬Ó¦ÎªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø ¹ÉÓĞÏŞ¹«Ë¾ÒÑÍêÈ«µØ¼°³ä·ÖµØÂÄĞĞÆä¸ù¾İĞ­ÒéÍ¨Öª¡¢¸¶¿î»ò½»¸¶¿Í»§µÄÔğÈÎ¡£
+3.12 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹ä»»ä½•ä¸€åè”åæˆ·å£æŒæœ‰äººä½œå‡ºçš„ä»»ä½•é€šçŸ¥ã€ä»˜æ¬¾æˆ–äº¤ä»˜ï¼Œåº”ä¸ºç‘è¾¾å›½é™…é‡‘èæ§ è‚¡æœ‰é™å…¬å¸å·²å®Œå…¨åœ°åŠå……åˆ†åœ°å±¥è¡Œå…¶æ ¹æ®åè®®é€šçŸ¥ã€ä»˜æ¬¾æˆ–äº¤ä»˜å®¢æˆ·çš„è´£ä»»ã€‚
 Any notice, payment or delivery by RUI DA to any one of the joint account holders shall be a full and sufficient discharge of RUI DA?s obligations to notify, pay or deliver to the Customer under the Agreement.
 
-3.13 Èç¹ûÈÎºÎÒ»ÃûÁªÃû»§¿Ú³ÖÓĞÈËÔÚ¾«ÉñÉÏÎŞĞĞÎªÄÜÁ¦»ò±»°ä²¼ÆÆ²úÁî»òÇåÅÌÁî£¬»òÈç¹ûÖ¤È¯»§¿ÚµÄ²Ù×÷ÊÜµ½ÈÎºÎ·¨Ôº·¨Áî»òÈÎºÎÖ÷¹Üµ±¾Ö¶ÔÈÎºÎÒ»ÃûÁªÃû»§¿Ú³ÖÓĞÈË·¢³öÍ¨ÖªµÄÓ°Ïì£¬Ö¤È¯»§¿ÚµÄ²Ù×÷£¨°üÀ¨ÌáÈ¡»ò×ªÒÆ×Ê½ğ»ò×Ê²ú£©½«»áÔİÊ±ÖĞÖ¹£¬Ö±ÖÁÎ¯ÈÎÆÆ²ú¹ÜÀíÈË»ò½Ó¹ÜÈË»òÒÑÕ÷µÃ½Ó¹ÜÈË»òÆÆ²ú¹ÜÀíÊğÊğ³¤µÄÍ¬Òâ»ò·¨Ôº·¨ÁîÒÑ¾­½â³ı»òÓĞ¹ØÍ¨ÖªÒÑ»ñ³·Ïú£¨ÊÓÇé¿ö¶ø¶¨£©ÎªÖ¹¡£
+3.13 å¦‚æœä»»ä½•ä¸€åè”åæˆ·å£æŒæœ‰äººåœ¨ç²¾ç¥ä¸Šæ— è¡Œä¸ºèƒ½åŠ›æˆ–è¢«é¢å¸ƒç ´äº§ä»¤æˆ–æ¸…ç›˜ä»¤ï¼Œæˆ–å¦‚æœè¯åˆ¸æˆ·å£çš„æ“ä½œå—åˆ°ä»»ä½•æ³•é™¢æ³•ä»¤æˆ–ä»»ä½•ä¸»ç®¡å½“å±€å¯¹ä»»ä½•ä¸€åè”åæˆ·å£æŒæœ‰äººå‘å‡ºé€šçŸ¥çš„å½±å“ï¼Œè¯åˆ¸æˆ·å£çš„æ“ä½œï¼ˆåŒ…æ‹¬æå–æˆ–è½¬ç§»èµ„é‡‘æˆ–èµ„äº§ï¼‰å°†ä¼šæš‚æ—¶ä¸­æ­¢ï¼Œç›´è‡³å§”ä»»ç ´äº§ç®¡ç†äººæˆ–æ¥ç®¡äººæˆ–å·²å¾å¾—æ¥ç®¡äººæˆ–ç ´äº§ç®¡ç†ç½²ç½²é•¿çš„åŒæ„æˆ–æ³•é™¢æ³•ä»¤å·²ç»è§£é™¤æˆ–æœ‰å…³é€šçŸ¥å·²è·æ’¤é”€ï¼ˆè§†æƒ…å†µè€Œå®šï¼‰ä¸ºæ­¢ã€‚
 In the event of any joint account holder being mentally incapacitated or if a bankruptcy order or winding up order is made against any joint account holder or if the operation of the Account is affected by any court order or notice from any competent authority against any joint account holder, the operation of the Account (including the withdrawal or transfer of funds or assets from the Account) will be suspended until an administrator or receiver is appointed or the consent of the receiver or Official Receiver is obtained or the court order is discharged or the relevant notice is removed (as the case may be).
 
-3.14 Èç¹Ë¿ÍÊÇºÏ»ïÉÌºÅ£º
+3.14 å¦‚é¡¾å®¢æ˜¯åˆä¼™å•†å·ï¼š
 Where the Customer is a partnership:
-(a)	²»ÂÛºÏ»ïÉÌºÅµÄ×é³É»òÃû³ÆÓĞÈÎºÎ×ª±ä»òºÏ»ïÈËÉí¹Ê¡¢ÆÆ²ú¡¢ÍËĞİ»òÓĞÈÎºÎĞÂºÏ»ïÈË¼ÓÃË»òÈÎºÎºÏ»ï ÈËµÄÈ¨Á¦ÓĞÈÎºÎ±ä¸ü»òÖÕÖ¹£¬±¾Ğ­Òé¶ÔºÏ»ïÉÌºÅµÄ²»Ê±µÄºÏ»ïÈË¹²Í¬¼°¸÷±ğµØ¾ßÓĞ·¨ÂÉµÄÔ¼ÊøÁ¦£»
+(a)	ä¸è®ºåˆä¼™å•†å·çš„ç»„æˆæˆ–åç§°æœ‰ä»»ä½•è½¬å˜æˆ–åˆä¼™äººèº«æ•…ã€ç ´äº§ã€é€€ä¼‘æˆ–æœ‰ä»»ä½•æ–°åˆä¼™äººåŠ ç›Ÿæˆ–ä»»ä½•åˆä¼™ äººçš„æƒåŠ›æœ‰ä»»ä½•å˜æ›´æˆ–ç»ˆæ­¢ï¼Œæœ¬åè®®å¯¹åˆä¼™å•†å·çš„ä¸æ—¶çš„åˆä¼™äººå…±åŒåŠå„åˆ«åœ°å…·æœ‰æ³•å¾‹çš„çº¦æŸåŠ›ï¼›
 the Agreement shall be binding on the partners of the partnership from time to time jointly and severally notwithstanding any change in the constitution or name of the partnership, or any change in the partners by reason of death, bankruptcy, retirement or admission of any new partner, or any modification or termination of any powers of any partner;
-(b)     ¼´Ê¹ÈÎºÎÆäËûºÏ»ïÈË»òÄâÊÜ±¾Ğ­ÒéÔ¼ÊøµÄÈÎºÎÆäËûÈËÊ¿²»ÊÜÔ¼Êø£¬Ã¿ÃûºÏ»ïÈËÈÔÊÜÔ¼Êø£»
+(b)     å³ä½¿ä»»ä½•å…¶ä»–åˆä¼™äººæˆ–æ‹Ÿå—æœ¬åè®®çº¦æŸçš„ä»»ä½•å…¶ä»–äººå£«ä¸å—çº¦æŸï¼Œæ¯ååˆä¼™äººä»å—çº¦æŸï¼›
 each partner shall be bound even though any other partner or any other person intended to be bound by the Agreement is not;
-(c)	Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨¾ÍÈÎºÎÊÂÒËµ¥¶ÀÓëÒ»ÃûºÏ»ïÈË½»Ò×£¬°üÀ¨½â³ı»ò³·Ïú¸ÃºÏ»ïÈËµÄÈÎºÎÔğÈÎ£¬¶ø²»Ó°ÏìÈÎºÎÆäËûºÏ»ïÈËµÄÔğÈÎ£»¼°
+(c)	ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒå°±ä»»ä½•äº‹å®œå•ç‹¬ä¸ä¸€ååˆä¼™äººäº¤æ˜“ï¼ŒåŒ…æ‹¬è§£é™¤æˆ–æ’¤é”€è¯¥åˆä¼™äººçš„ä»»ä½•è´£ä»»ï¼Œè€Œä¸å½±å“ä»»ä½•å…¶ä»–åˆä¼™äººçš„è´£ä»»ï¼›åŠ
 RUI DA shall be entitled to deal separately with a partner on any matter, including the release or discharge of the liability of that partner to any extent, without affecting the liability of any other partner; and
-(d)     ºÏ»ïÈË¶ÔÓÚÁíÒ»ºÏ»ïÈËµÄÔğÈÎ»òÕ®Îñ²¢ÎŞµ£±£»ò×÷³ö²¹¾ÈµÄÈ¨Àû¡£
+(d)     åˆä¼™äººå¯¹äºå¦ä¸€åˆä¼™äººçš„è´£ä»»æˆ–å€ºåŠ¡å¹¶æ— æ‹…ä¿æˆ–ä½œå‡ºè¡¥æ•‘çš„æƒåˆ©ã€‚
 no partner shall be entitled to the rights or remedies of a surety as regards the liability or obligations of another partner.
 
-4. ·¨ÖÆ¼°¹æÔò Laws and Rules
+4. æ³•åˆ¶åŠè§„åˆ™ Laws and Rules
 
-4.1 ·¨ÂÉºÍ·¨¹æ£ºÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ´úÀíÈË´ú±í¿Í»§»òÎª¿Í»§»§¿Ú£¨ÎŞÂÛÊÇÔÚÏã¸Û»¹ÊÇÔÚÆäËûµØ·½£©½øĞĞµÄËùÓĞ½»Ò×¾ùĞë×ñÊØ±¾Ğ­ÒéµÄÌõ¿îºÍÌõ¼ş£¬Ïã¸ÛÒÔ¼°ÆäËûÊÊÓÃË¾·¨¹ÜÏ½ÇøÓòµÄËùÓĞÊÊÓÃ·¨ÂÉ¡¢¹æÔòºÍÌõÀı£»ÒÔ¼°Ïã¸ÛÆÚ½»ËùÒÔ¼°ÉÏÊöÆäËû½»Ò×ËùºÍÊĞ³¡£¨¼°Ïà¹Ø½áËã¹«Ë¾£©Ëù²ÉÓÃµÄÏÜ·¨¡¢¹æÔò¡¢ÌõÀı¡¢³ÌÊ½¡¢ÕÂ³Ì¡¢¹ßÀıºÍ³£¹æ¡£¾Í°´¿Í»§Ö¸Áî¶ø´ï³ÉµÄ½»Ò×¶øÑÔ£¬ÉÏÊö½»Ò×ËùºÍ½áËã¹«Ë¾µÄ¹æÔò¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ºÍ¿Í»§¾ù¾ßÓĞÔ¼ÊøÁ¦£¬¶øÇÒÕâĞ©¹æÔò°üÀ¨µÄÄ³Ğ©Ìõ¿îÒªÇóÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÔÚÌØ¶¨Çé¿öÏÂ±ØĞëÅûÂ¶¿Í»§µÄĞÕÃû¡¢ÊÜÒæÈËÉí·İÒÔ¼°ÆäËûÏà¹Ø×ÊÁÏ¡£
+4.1 æ³•å¾‹å’Œæ³•è§„ï¼šç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä»£ç†äººä»£è¡¨å®¢æˆ·æˆ–ä¸ºå®¢æˆ·æˆ·å£ï¼ˆæ— è®ºæ˜¯åœ¨é¦™æ¸¯è¿˜æ˜¯åœ¨å…¶ä»–åœ°æ–¹ï¼‰è¿›è¡Œçš„æ‰€æœ‰äº¤æ˜“å‡é¡»éµå®ˆæœ¬åè®®çš„æ¡æ¬¾å’Œæ¡ä»¶ï¼Œé¦™æ¸¯ä»¥åŠå…¶ä»–é€‚ç”¨å¸æ³•ç®¡è¾–åŒºåŸŸçš„æ‰€æœ‰é€‚ç”¨æ³•å¾‹ã€è§„åˆ™å’Œæ¡ä¾‹ï¼›ä»¥åŠé¦™æ¸¯æœŸäº¤æ‰€ä»¥åŠä¸Šè¿°å…¶ä»–äº¤æ˜“æ‰€å’Œå¸‚åœºï¼ˆåŠç›¸å…³ç»“ç®—å…¬å¸ï¼‰æ‰€é‡‡ç”¨çš„å®ªæ³•ã€è§„åˆ™ã€æ¡ä¾‹ã€ç¨‹å¼ã€ç« ç¨‹ã€æƒ¯ä¾‹å’Œå¸¸è§„ã€‚å°±æŒ‰å®¢æˆ·æŒ‡ä»¤è€Œè¾¾æˆçš„äº¤æ˜“è€Œè¨€ï¼Œä¸Šè¿°äº¤æ˜“æ‰€å’Œç»“ç®—å…¬å¸çš„è§„åˆ™å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å’Œå®¢æˆ·å‡å…·æœ‰çº¦æŸåŠ›ï¼Œè€Œä¸”è¿™äº›è§„åˆ™åŒ…æ‹¬çš„æŸäº›æ¡æ¬¾è¦æ±‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åœ¨ç‰¹å®šæƒ…å†µä¸‹å¿…é¡»æŠ«éœ²å®¢æˆ·çš„å§“åã€å—ç›Šäººèº«ä»½ä»¥åŠå…¶ä»–ç›¸å…³èµ„æ–™ã€‚
 Regulatory and Compliance: All transactions made by the Client or on their behalf, whether in Hong Kong or elsewhere, between RUI DA or its agents are subject to the terms and conditions of this Agreement and all applicable laws, rules and regulations in Hong Kong and other applicable jurisdictions; and the constitution, rules, regulations, procedures, statutes and practices adopted by the Hong Kong Futures Exchange and the other exchanges and markets (and related clearing houses). The rules of the above exchange and clearing houses are binding on RUI DA and the Client in relation to the transactions effected in accordance with the Client's instructions and certain provisions of these Rules include the requirements of RUI DA. In certain circumstances, the Client's name, beneficiary identification, and other relevant data must be disclosed.
 
-4.2 ·¨ÂÉÔ¼ÊøÁ¦£º¿Í»§Í¬Òâ±¾Ğ­Òé£¨°üÀ¨µç×Ó½»Ò×Ìõ¿î£©¼°ÆäËùÓĞÌõ¿î½«¶Ô¿Í»§±¾Éí£¬ÒÔ¼°Æä¼Ì³ĞÈË¡¢ÒÅ²ú¡¢ÒÅ²úÖ´ĞĞÈËºÍ´úÀíÈË¡¢¼ÌÈÎÈËºÍ³ĞÈÃÈË¾ßÓĞ·¨ÂÉÔ¼ÊøÁ¦¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸ù¾İÓĞ¹Ø·¨ÂÉ¡¢¹æÔòºÍÌõÀıËù²ÉÈ¡µÄËùÓĞĞĞÎª¶¼½«¶Ô¿Í»§¾ßÓĞ·¨ÂÉÔ¼ÊøÁ¦¡£¿Í»§ÔÚÆÚ»õµÈÑÜÉúÆ·½»Ò×ÖĞ²»ÄÜÎ¥·´ÆäÓ¦×ñÊØµÄÈÎºÎ·¨ÂÉ¡¢¹æÔò»ò¹æ¶¨¡£Èô±¾Ğ­ÒéÈÎºÎÌõ¿îÓëÏÖĞĞ»ò½«À´ÈÎºÎ·¨ÂÉ¡¢Ïã¸Û¼à¹Ü»ú¹¹»òÈÎºÎ¶Ô±¾Ğ­ÒéµÄÊÂÏîÓÉ¹ÜÏ½È¨µÄÖ÷¹Ü»ú¹¹µÄ¹æÔòºÍÌõÀıÏàµÖ´¥£¬¸ÃĞ©Ìõ¿î½«±»ÊÓÎªÒÑ¸ù¾İÓĞ¹Ø·¨ÂÉ¡¢¹æÔòºÍÌõÀıÉ¾³ı»òĞŞ¸Ä£¬¶ø±¾Ğ­ÒéµÄÆäËû²¿·Ö¼ÌĞøÓĞĞ§¡£
+4.2 æ³•å¾‹çº¦æŸåŠ›ï¼šå®¢æˆ·åŒæ„æœ¬åè®®ï¼ˆåŒ…æ‹¬ç”µå­äº¤æ˜“æ¡æ¬¾ï¼‰åŠå…¶æ‰€æœ‰æ¡æ¬¾å°†å¯¹å®¢æˆ·æœ¬èº«ï¼Œä»¥åŠå…¶ç»§æ‰¿äººã€é—äº§ã€é—äº§æ‰§è¡Œäººå’Œä»£ç†äººã€ç»§ä»»äººå’Œæ‰¿è®©äººå…·æœ‰æ³•å¾‹çº¦æŸåŠ›ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ ¹æ®æœ‰å…³æ³•å¾‹ã€è§„åˆ™å’Œæ¡ä¾‹æ‰€é‡‡å–çš„æ‰€æœ‰è¡Œä¸ºéƒ½å°†å¯¹å®¢æˆ·å…·æœ‰æ³•å¾‹çº¦æŸåŠ›ã€‚å®¢æˆ·åœ¨æœŸè´§ç­‰è¡ç”Ÿå“äº¤æ˜“ä¸­ä¸èƒ½è¿åå…¶åº”éµå®ˆçš„ä»»ä½•æ³•å¾‹ã€è§„åˆ™æˆ–è§„å®šã€‚è‹¥æœ¬åè®®ä»»ä½•æ¡æ¬¾ä¸ç°è¡Œæˆ–å°†æ¥ä»»ä½•æ³•å¾‹ã€é¦™æ¸¯ç›‘ç®¡æœºæ„æˆ–ä»»ä½•å¯¹æœ¬åè®®çš„äº‹é¡¹ç”±ç®¡è¾–æƒçš„ä¸»ç®¡æœºæ„çš„è§„åˆ™å’Œæ¡ä¾‹ç›¸æŠµè§¦ï¼Œè¯¥äº›æ¡æ¬¾å°†è¢«è§†ä¸ºå·²æ ¹æ®æœ‰å…³æ³•å¾‹ã€è§„åˆ™å’Œæ¡ä¾‹åˆ é™¤æˆ–ä¿®æ”¹ï¼Œè€Œæœ¬åè®®çš„å…¶ä»–éƒ¨åˆ†ç»§ç»­æœ‰æ•ˆã€‚
 Legally binding: The Client agrees that this Agreement (including terms of electronic transaction) and all its terms shall be legally binding on the Client, inclusive their successors, probate, estate executors and agents, successors and transferees. Taken by RUI DA in accordance with the relevant laws, rules and regulations will be legally binding to the Client. The Client shall not violate any laws, rules or regulations to which they are subject in derivative transactions such as futures. If any provision of this Agreement conflicts with existing laws, Hong Kong regulators or any of the matters governed by this Agreement by the competent authority's rules and regulations, those provisions shall be deemed to have been removed or modified in accordance with the relevant laws, rules and regulations, and the remainder of this Agreement shall continue in effect.
 
-4.3 Ïã¸ÛË¾·¨¹ÜÏ½£º±¾Ğ­Òé½«ÊÜÖĞ»ªÈËÃñ¹²ºÍ¹úÏã¸ÛÌØ±ğĞĞÕşÇøÏã¸Û·¨ÂÉ¹ÜÏ½²¢¸ù¾İÏã¸Û·¨ÂÉ½âÊÍ¡£¿Í»§²»¿É³· »ØµØ½ÓÊÜÏã¸Û·¨Í¥µÄ·Ç×¨ÒµË¾·¨¹ÜÏ½¡£
+4.3 é¦™æ¸¯å¸æ³•ç®¡è¾–ï¼šæœ¬åè®®å°†å—ä¸­åäººæ°‘å…±å’Œå›½é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºé¦™æ¸¯æ³•å¾‹ç®¡è¾–å¹¶æ ¹æ®é¦™æ¸¯æ³•å¾‹è§£é‡Šã€‚å®¢æˆ·ä¸å¯æ’¤ å›åœ°æ¥å—é¦™æ¸¯æ³•åº­çš„éä¸“ä¸šå¸æ³•ç®¡è¾–ã€‚
 Hong Kong Jurisdiction: This Agreement shall be governed by and construed in accordance with the laws of Hong Kong of the Hong Kong Special Administrative Region of China. The Client irrevocably accepts the jurisdiction of Hong Kong.
 
-5.·şÎñ Services
+5.æœåŠ¡ Services
 
-5.1Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»»áÏò¿Í»§Ìá¹©È«È¨Î¯ÍĞ»§¿Ú·şÎñ¡£
+5.1ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸ä¼šå‘å®¢æˆ·æä¾›å…¨æƒå§”æ‰˜æˆ·å£æœåŠ¡ã€‚
 RUI DA shall not offer discretionary account services to the Client.
 
-5.2 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔÖ÷ÊÂÈËµÄÉí·İ½øĞĞÆÚ»õºÏÔ¼½»Ò×£¬³ı·ÇÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ïò¿Í»§ÁíĞĞ ·¢³öÍ¨Öª¡£
+5.2 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥ä¸»äº‹äººçš„èº«ä»½è¿›è¡ŒæœŸè´§åˆçº¦äº¤æ˜“ï¼Œé™¤éç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å‘å®¢æˆ·å¦è¡Œ å‘å‡ºé€šçŸ¥ã€‚
 RUI DA is acting as a principal for Dealing in futures contracts unless the Client is otherwise notified by RUI DA.
 
-5.3 ¾¡¹ÜĞë×ñÊØ±¾Ğ­ÒéËùÔØÖ®Ìõ¿î¼°Ï¸Ôò£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«ÓĞÈ¨ÔÚÆä¾ø¶ÔµÄ×ÃÇéÈ¨ÏÂ¾Ü¾ø½ÓÄÉ¿Í»§ Ö®ÈÎºÎÖ¸Ê¾£¬ÇÒÎãĞë¾Í´Ë¸øÓèÈÎºÎÀíÓÉ,°üÀ¨µ«²»ÏŞÓÚ  :
+5.3 å°½ç®¡é¡»éµå®ˆæœ¬åè®®æ‰€è½½ä¹‹æ¡æ¬¾åŠç»†åˆ™ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†æœ‰æƒåœ¨å…¶ç»å¯¹çš„é…Œæƒ…æƒä¸‹æ‹’ç»æ¥çº³å®¢æˆ· ä¹‹ä»»ä½•æŒ‡ç¤ºï¼Œä¸”æ¯‹é¡»å°±æ­¤ç»™äºˆä»»ä½•ç†ç”±,åŒ…æ‹¬ä½†ä¸é™äº  :
 Notwithstanding anything herein contained RUI DA shall be entitled in its absolute discretion, to refuse to accept any of the Client's instructions and shall not be obliged to give any reason for such refuse, including but not limited to the followings:
-(a) ½»Ò×Ö¸Ê¾²»·ûºÏÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ¹æ¶¨ºÍÒªÇó ;
+(a) äº¤æ˜“æŒ‡ç¤ºä¸ç¬¦åˆç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„è§„å®šå’Œè¦æ±‚ ;
 the trade instruction does not comply with the limitations and requirements specified by RUI DA;
-(b) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÚÍ·»òÊéÃæ¸øÓèµÄ¼Û¸ñÒÑÊ§Ğ§»òÒÑ±»Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾³·Ïú  ; the price given by RUI DA, verbally or in writing, shall have expired or has been withdrawn by RUI DA;
-(c) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»ÄÜÈ·ÊµµØÁË½â½»Ò×Ö¸Ê¾µÄÄÚÈİ ;
+(b) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å£å¤´æˆ–ä¹¦é¢ç»™äºˆçš„ä»·æ ¼å·²å¤±æ•ˆæˆ–å·²è¢«ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ’¤é”€  ; the price given by RUI DA, verbally or in writing, shall have expired or has been withdrawn by RUI DA;
+(c) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸èƒ½ç¡®å®åœ°äº†è§£äº¤æ˜“æŒ‡ç¤ºçš„å†…å®¹ ;
 the terms of the trade instruction cannot be determined with certainty by RUI DA; 
-(d) »§¿ÚÄÚÎŞ×ã¹»±£Ö¤½ğºÍ/»ò½áËã½ğ¶î ; ºÍ/»ò
+(d) æˆ·å£å†…æ— è¶³å¤Ÿä¿è¯é‡‘å’Œ/æˆ–ç»“ç®—é‡‘é¢ ; å’Œ/æˆ–
 there is a lack of funds in the Account for Margin and/or settlement; and/or 
-(e) ¿Í»§ÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÎ´Æ½²ÖÏŞ¶î¿ÉÄÜÒÑ¾­³¬³ö¡£
+(e) å®¢æˆ·åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„æœªå¹³ä»“é™é¢å¯èƒ½å·²ç»è¶…å‡ºã€‚
 the limit of open positions that the Client may acquire or maintain at RUI DA shall have exceeded.
 
-5.4 ÈçÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ĞĞÊ¹Æä¾ø¶ÔµÄ×ÃÇéÈ¨¶ø¾Ü¾øÖ´ĞĞ¿Í»§Ö¸Ê¾Ê±£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«¾Í´Ë¾¡Á¦Í¨Öª¿Í»§£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞĞëÖ¸³öÔ­Òò¡£
+5.4 å¦‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¡Œä½¿å…¶ç»å¯¹çš„é…Œæƒ…æƒè€Œæ‹’ç»æ‰§è¡Œå®¢æˆ·æŒ‡ç¤ºæ—¶ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†å°±æ­¤å°½åŠ›é€šçŸ¥å®¢æˆ·ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— é¡»æŒ‡å‡ºåŸå› ã€‚
 If RUI DA in its absolute discretion declines to accept any instruction from the Client, RUI DA will notify the Client accordingly without the need to specify reasons therefor.
 
-5.5 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞĞë¾Í¾Ü¾øÖ´ĞĞ¿Í»§Ö¸Ê¾»òÆäºóºöÂÔÍ¨Öª¿Í»§¶øÒıÖÂ¿Í»§ÔâÊÜÈÎºÎËğÊ§¡¢ÀûÈóËğÊ§¡¢Ëğº¦¡¢ÔğÈÎ¡¢³É±¾»ò¿ªÖ§³Ğµ£ÈÎºÎÔğÈÎ¡£
+5.5 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— é¡»å°±æ‹’ç»æ‰§è¡Œå®¢æˆ·æŒ‡ç¤ºæˆ–å…¶åå¿½ç•¥é€šçŸ¥å®¢æˆ·è€Œå¼•è‡´å®¢æˆ·é­å—ä»»ä½•æŸå¤±ã€åˆ©æ¶¦æŸå¤±ã€æŸå®³ã€è´£ä»»ã€æˆæœ¬æˆ–å¼€æ”¯æ‰¿æ‹…ä»»ä½•è´£ä»»ã€‚
 RUI DA shall not be liable in any way for any loss, loss of profit, damage, liability, cost or expense suffered or incurred by the Client arising out of or in connection with RUI DA declining to act on such instructions or omitting so as to notify the Client.
 
-5.6 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»±£Ö¤ÍøÂçÉèÊ©µÄ¿ÉÓÃĞÔ¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÒÔÔÚÎ´Ô¤ÏÈÍ¨Öª¿Í»§µÄ Çé¿öÏÂ×ÔĞĞÖĞÖ¹»òÏŞÖÆÍøÂçÉèÊ©µÄÊ¹ÓÃ£¬¶ø²»Ó°ÏìÔÚÖĞÖ¹»òÏŞÖÆÇ°Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ºÍ¿Í»§µÄÈ¨Àû ºÍ/»òÒåÎñ¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»»áÒòÎŞ·¨¿ØÖÆµÄÈÎºÎÊÂ¼ş¡¢ĞĞÎª»òÒÅÂ©¶øÖ±½Ó»ò¼ä½Óµ¼ÖÂµÄÈÎºÎËğ Ê§»òËğº¦³Ğµ£ÔğÈÎ£¬°üÀ¨µ«²»ÏŞÓÚÔÚÏò¿Í»§Ìá¹©·şÎñÊ±´«Êä»òÍ¨Ñ¶ÉèÊ©µÄ¹ÊÕÏ¶øµ¼ÖÂµÄÖ¸ÁîºÍ/»ò×ÊÑ¶´«ÊäµÄ ÑÓÎó»ò´íÎó¡£
+5.6 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸ä¿è¯ç½‘ç»œè®¾æ–½çš„å¯ç”¨æ€§ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯ä»¥åœ¨æœªé¢„å…ˆé€šçŸ¥å®¢æˆ·çš„ æƒ…å†µä¸‹è‡ªè¡Œä¸­æ­¢æˆ–é™åˆ¶ç½‘ç»œè®¾æ–½çš„ä½¿ç”¨ï¼Œè€Œä¸å½±å“åœ¨ä¸­æ­¢æˆ–é™åˆ¶å‰ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å’Œå®¢æˆ·çš„æƒåˆ© å’Œ/æˆ–ä¹‰åŠ¡ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸ä¼šå› æ— æ³•æ§åˆ¶çš„ä»»ä½•äº‹ä»¶ã€è¡Œä¸ºæˆ–é—æ¼è€Œç›´æ¥æˆ–é—´æ¥å¯¼è‡´çš„ä»»ä½•æŸ å¤±æˆ–æŸå®³æ‰¿æ‹…è´£ä»»ï¼ŒåŒ…æ‹¬ä½†ä¸é™äºåœ¨å‘å®¢æˆ·æä¾›æœåŠ¡æ—¶ä¼ è¾“æˆ–é€šè®¯è®¾æ–½çš„æ•…éšœè€Œå¯¼è‡´çš„æŒ‡ä»¤å’Œ/æˆ–èµ„è®¯ä¼ è¾“çš„ å»¶è¯¯æˆ–é”™è¯¯ã€‚
 RUI DA does not guarantee the availability of the Web Facility. RUI DA may in its sole discretion without prior notice to the Client suspend or restrict the Web Facility, without affecting the rights and/or obligations of RUI DA and the Client incurred prior to such suspension or restriction. RUI DA shall not be responsible for any loss or damage caused, directly or indirectly, by any events, actions or omissions beyond the control of RUI DA including, without limitation, any delays or inaccuracies in the transmission of orders and/or information due to failure of any transmission or communication facilities in delivering Services to the Client.
 
-5.7 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×÷ÎªÖ÷ÊÂÈËÊ±£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿É×ÔĞĞ¾ö¶¨ÄÄĞ©²úÆ·¿ÉÒÔÓÉ¿Í»§ÓëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½øĞĞ½»Ò×¡£¿Í»§³ĞÈÏ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ëù±¨µÄÂòÂô²î¼ÛÓÉÊĞ³¡Çé¿öÀ´¾ö¶¨£¬Òò´Ë£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÔÚÈÎºÎÊ±ºò¶¼²»Ğè¶ÔÈÎºÎ²úÆ·µÄÂòÂô²î¼Û×÷³ö±£Ö¤¡£Âò¼ÛÓëÂô¼Û¿ÉÒÔ±ä¶¯ºÜ¿ì£¬ÉõÖÁ½»Ò×µÄÖ´ĞĞ¿ÉÄÜ²»ÔÚÍøÂçÉèÊ©ËùÏÔÊ¾µÄ¼Û¸ñÍê³É¡£¿Í»§Í¬Òâ½ÓÊÜÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»Ê±·¢²¼µÄ¼Û¸ñÊÇµ±Ê±×îºÃµÄ¼Û¸ñ¡£
+5.7 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä½œä¸ºä¸»äº‹äººæ—¶ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯è‡ªè¡Œå†³å®šå“ªäº›äº§å“å¯ä»¥ç”±å®¢æˆ·ä¸ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¿›è¡Œäº¤æ˜“ã€‚å®¢æˆ·æ‰¿è®¤ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ‰€æŠ¥çš„ä¹°å–å·®ä»·ç”±å¸‚åœºæƒ…å†µæ¥å†³å®šï¼Œå› æ­¤ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åœ¨ä»»ä½•æ—¶å€™éƒ½ä¸éœ€å¯¹ä»»ä½•äº§å“çš„ä¹°å–å·®ä»·ä½œå‡ºä¿è¯ã€‚ä¹°ä»·ä¸å–ä»·å¯ä»¥å˜åŠ¨å¾ˆå¿«ï¼Œç”šè‡³äº¤æ˜“çš„æ‰§è¡Œå¯èƒ½ä¸åœ¨ç½‘ç»œè®¾æ–½æ‰€æ˜¾ç¤ºçš„ä»·æ ¼å®Œæˆã€‚å®¢æˆ·åŒæ„æ¥å—ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸æ—¶å‘å¸ƒçš„ä»·æ ¼æ˜¯å½“æ—¶æœ€å¥½çš„ä»·æ ¼ã€‚
 Where RUI DA is acting as a principal, RUI DA determines in its sole discretion which products to be tradable by the Client with RUI DA, and the Client acknowledges that the size of the Bid-Offer Spread quoted by RUI DA is determined by Market Conditions and therefore RUI DA shall not guarantee at all times the size of the Bid-Offer Spread of any product. Such bid and offer prices may vary in such a fast manner that trades may seem executed not at the advertised prices on the Web Facility, and the Client agrees to accept that such prices as RUI DA quotes from time to time as the best prices then available.
 
-5.8 ÌÈ¿Í»§ÄÜ¹»Í¨¹ıÍøÂçÉèÊ©²ÎÔÄ»§¿Ú×ÊÑ¶£¬¿Í»§ÏÖÍ¬Òâ½ÓÊÜÒÔÍøÂçÉèÊ©ÉÏÏÔÊ¾µÄ»§¿Ú×ÊÁÏ£¬×÷Îª´úÌæÒÔÓĞÓÊ¼ÄÓÊ¼ş»òµç×ÓÓÊ¼ş·½Ê½·¢ËÍÂòÂôÈ·ÈÏºÍ»§¿Ú½áËã¡£¿Í»§¿ÉÒÔÊéÃæĞÎÊ½Í¨ÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ËæÊ±³·Ïú¸ÃÏîÍ¬Òâ¡£
+5.8 å€˜å®¢æˆ·èƒ½å¤Ÿé€šè¿‡ç½‘ç»œè®¾æ–½å‚é˜…æˆ·å£èµ„è®¯ï¼Œå®¢æˆ·ç°åŒæ„æ¥å—ä»¥ç½‘ç»œè®¾æ–½ä¸Šæ˜¾ç¤ºçš„æˆ·å£èµ„æ–™ï¼Œä½œä¸ºä»£æ›¿ä»¥æœ‰é‚®å¯„é‚®ä»¶æˆ–ç”µå­é‚®ä»¶æ–¹å¼å‘é€ä¹°å–ç¡®è®¤å’Œæˆ·å£ç»“ç®—ã€‚å®¢æˆ·å¯ä»¥ä¹¦é¢å½¢å¼é€šçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸éšæ—¶æ’¤é”€è¯¥é¡¹åŒæ„ã€‚
 Where the Client can access Account information via the Web Facility, the Client hereby consents to accept the posting of such Account information on the Web Facility as delivery of trade confirmation and account statements in
 
 lieu of sending via postal mail or electronic mail.  The Client may revoke this consent at any time upon written notice to RUI DA.
 
-5.9 µ±Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Í×ÉÆÍê³ÉÁËÍ¨Ñ¶·¢·Å³ÌĞòºó£¬ÊéÃæÍ¨Ñ¶Ó¦±»ÊÓÎªÒÑ¾­·¢ËÍ¡£¿Í»§ÌÈÎ´ÄÜÊÕµ½Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾·¢ËÍµÄÑ¶Ï¢£¬²»µÃ½â³ıÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÔÚ¸ÃÍ¨Ñ¶·½ÃæµÄÈ¨ÀûºÍ¿Í»§ÔÚ¸ÃÍ¨Ñ¶·½ÃæµÄÒåÎñ¡£¿Í»§Ó¦¶¨Ê±²é¿´ÆäÓÃÓÚ½ÓÊÕÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Í¨ĞÅµÄÓÊÏä¡¢µç×ÓÓÊÏä¡¢´«Õæ»úºÍÆäËûÉè±¸¡£¶ÔÒò¿Í»§Î´ÄÜ¡¢ÑÓÎó»òÊèÓÚ¼ì²éÉÏÊöÍ¨ĞÅÀ´Ô´»òÉèÊ©¶øĞÎ³ÉµÄÈÎºÎËğÊ§£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«²»¸ºÈÎºÎÔğÈÎ¡£
+5.9 å½“ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¦¥å–„å®Œæˆäº†é€šè®¯å‘æ”¾ç¨‹åºåï¼Œä¹¦é¢é€šè®¯åº”è¢«è§†ä¸ºå·²ç»å‘é€ã€‚å®¢æˆ·å€˜æœªèƒ½æ”¶åˆ°ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å‘é€çš„è®¯æ¯ï¼Œä¸å¾—è§£é™¤ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åœ¨è¯¥é€šè®¯æ–¹é¢çš„æƒåˆ©å’Œå®¢æˆ·åœ¨è¯¥é€šè®¯æ–¹é¢çš„ä¹‰åŠ¡ã€‚å®¢æˆ·åº”å®šæ—¶æŸ¥çœ‹å…¶ç”¨äºæ¥æ”¶ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é€šä¿¡çš„é‚®ç®±ã€ç”µå­é‚®ç®±ã€ä¼ çœŸæœºå’Œå…¶ä»–è®¾å¤‡ã€‚å¯¹å› å®¢æˆ·æœªèƒ½ã€å»¶è¯¯æˆ–ç–äºæ£€æŸ¥ä¸Šè¿°é€šä¿¡æ¥æºæˆ–è®¾æ–½è€Œå½¢æˆçš„ä»»ä½•æŸå¤±ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†ä¸è´Ÿä»»ä½•è´£ä»»ã€‚
 Written communication is deemed to have been transmitted when RUI DA has duly completed the procedure of release. The Client's failure to receive any communication in writing released by RUI DA shall not relieve RUI DA's right and the Client's obligation with respect to that communication. Clients should require to check their mail, email, facsimile and other equipment for receiving communications from RUI DA. RUI DA shall not be liable for any loss arising from any delay, neglect and failure of such communication sources or facilities for clients.
 
-5.10¿Í»§È·ÈÏ£º
+5.10å®¢æˆ·ç¡®è®¤ï¼š
 Client acknowledges that
-(a) ÓÉÈğ´ï¹ú¼Ê·¢¸ø¿Í»§µÄÈÎºÎÊĞ³¡½¨ÒéºÍĞÅÏ¢²¢²»¹¹³ÉÈÎºÎÆÚ»õµÄ³öÊÛÒªÔ¼»ò¶ÔÂòÈëµÄÓÕµ¼£»
+(a) ç”±ç‘è¾¾å›½é™…å‘ç»™å®¢æˆ·çš„ä»»ä½•å¸‚åœºå»ºè®®å’Œä¿¡æ¯å¹¶ä¸æ„æˆä»»ä½•æœŸè´§çš„å‡ºå”®è¦çº¦æˆ–å¯¹ä¹°å…¥çš„è¯±å¯¼ï¼›
 Any advices, marketing information, news, promotion materials and proposals sent to clients on Futures Commodities by RUI DA will not constitute as an offer or an invitation for sales of Futures Commodities;
-(b) ´ËÀà½¨ÒéºÍĞÅÏ¢£¬¾¡¹ÜÊÇÒÔ´ÓÈğ´ï¹ú¼ÊÈÏÎª¿É¿¿µÄÀ´Ô´»ñÈ¡µÄĞÅÏ¢Îª»ù´¡µÄ£¬¿ÉÄÜÊÇ²»ÍêÕûµÄ£¬¶øÇÒ ¿ÉÄÜÎŞ·¨ºËÊµ£»¶øÇÒ
+(b) æ­¤ç±»å»ºè®®å’Œä¿¡æ¯ï¼Œå°½ç®¡æ˜¯ä»¥ä»ç‘è¾¾å›½é™…è®¤ä¸ºå¯é çš„æ¥æºè·å–çš„ä¿¡æ¯ä¸ºåŸºç¡€çš„ï¼Œå¯èƒ½æ˜¯ä¸å®Œæ•´çš„ï¼Œè€Œä¸” å¯èƒ½æ— æ³•æ ¸å®ï¼›è€Œä¸”
 Notwithstanding, such advices and proposals came from reliable sources, they still can be incomplete and cannot be verified; and
-(c) Èğ´ï¹ú¼Ê²»¶ÔÆä¸ø¿Í»§µÄÈÎºÎĞÅÏ¢»ò½»Ò×½¨ÒéµÄ×¼È·ĞÔ»òÍêÕûĞÔ×÷ÈÎºÎ³ÂÊö£¬µ£±£»ò±£Ö¤£¬Ò²²»¶ÔÆä ×¼È·ĞÔ»òÍêÕûĞÔ³Ğµ£ÈÎºÎÔğÈÎ¡£
+(c) ç‘è¾¾å›½é™…ä¸å¯¹å…¶ç»™å®¢æˆ·çš„ä»»ä½•ä¿¡æ¯æˆ–äº¤æ˜“å»ºè®®çš„å‡†ç¡®æ€§æˆ–å®Œæ•´æ€§ä½œä»»ä½•é™ˆè¿°ï¼Œæ‹…ä¿æˆ–ä¿è¯ï¼Œä¹Ÿä¸å¯¹å…¶ å‡†ç¡®æ€§æˆ–å®Œæ•´æ€§æ‰¿æ‹…ä»»ä½•è´£ä»»ã€‚
 RUI DA will not make any trading comments on any news, information and accuracy assessment given by the client and also will not act as guarantors, provide any guarantee or whatsoever. Moreover, RUI DA will not take any responsibilities or obligations as well.
 
-5.11 ¿Í»§³ĞÈÏ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¼°Æä¶­ÊÂ»ò¹ÍÔ±Ïò¿Í»§´«µİµÄÈÎºÎ½»Ò×½¨ÒéºÍÊĞ³¡Ñ¶Ï¢²¢²»¹¹³ÉÊÇÎª ¿Í»§´ï³É½»Ò×µÄÑûÇë»òÇëÇó¡£
+5.11 å®¢æˆ·æ‰¿è®¤ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åŠå…¶è‘£äº‹æˆ–é›‡å‘˜å‘å®¢æˆ·ä¼ é€’çš„ä»»ä½•äº¤æ˜“å»ºè®®å’Œå¸‚åœºè®¯æ¯å¹¶ä¸æ„æˆæ˜¯ä¸º å®¢æˆ·è¾¾æˆäº¤æ˜“çš„é‚€è¯·æˆ–è¯·æ±‚ã€‚
 The Client acknowledges that any trading recommendation and market information communicated by RUI DA and its directors or employees to the Client do not constitute an offer or solicitation for the Client to enter into a transaction.
 
-5.12 µ±ÍË»ØÓÊ¼ş£¬¿Í»§Í¬Òâ¼°Ê±¸üĞÂÆä»§¿Ú×ÊÁÏ£¬²¢½«ÈÎºÎ±ä»¯ÔÚÖ¸¶¨Ğ¡Ê±ÄÚÍ¨ÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡£¿Í»§È·ÈÏ£¬Èç¹ûÓÉÓÚ¿Í»§Î´ÄÜÌá¹©¡¢¸üĞÂºÍ/»òÍ¨ÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞ¹ØÆä»§¿ÚµÄ×îĞÂºÍ×¼È·µÄ×Ê ÁÏ¶øµ¼ÖÂÓÊ¼şÎŞ·¨ËÍ´ï»ò±»ÍË»Ø£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾³öÓÚ¶Ô¿Í»§»§¿Ú°²È«ºÍÍêÕûµÄ¿¼ÂÇ¿ÉÒÔÁÙÊ±»ò ÓÀ¾ÃËø±Õ»òÏŞÖÆÆä»§¿Ú¡£
+5.12 å½“é€€å›é‚®ä»¶ï¼Œå®¢æˆ·åŒæ„åŠæ—¶æ›´æ–°å…¶æˆ·å£èµ„æ–™ï¼Œå¹¶å°†ä»»ä½•å˜åŒ–åœ¨æŒ‡å®šå°æ—¶å†…é€šçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€‚å®¢æˆ·ç¡®è®¤ï¼Œå¦‚æœç”±äºå®¢æˆ·æœªèƒ½æä¾›ã€æ›´æ–°å’Œ/æˆ–é€šçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰å…³å…¶æˆ·å£çš„æœ€æ–°å’Œå‡†ç¡®çš„èµ„ æ–™è€Œå¯¼è‡´é‚®ä»¶æ— æ³•é€è¾¾æˆ–è¢«é€€å›ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å‡ºäºå¯¹å®¢æˆ·æˆ·å£å®‰å…¨å’Œå®Œæ•´çš„è€ƒè™‘å¯ä»¥ä¸´æ—¶æˆ– æ°¸ä¹…é”é—­æˆ–é™åˆ¶å…¶æˆ·å£ã€‚
 When mail is returned, Client agrees to update his account information forthwith and notify any changes to RUI DA within specified time. Client understand that if they fails to provide, update and/or notify RUI DA of their current information about his account, then the mail could not be served or returned. Due to account security, RUI DA may consider temporarily or permanently lock or restrict its account
 
-5.13 Èç¿Í»§Í¬ÒâÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÒÔµç×ÓĞÎÊ½Ïò¿Í»§·¢³öÈÎºÎÍ¨Öª¡¢³É½»µ¥¾İ¡¢½»Ò×È·ÈÏ¡¢¶¨ÆÚ½áµ¥¼°Í¨Ñ¶£¨ÈçÓĞ£©£¨¡¸µç×ÓÍ¨Ñ¶¡¹£©£¬Ôò¿Í»§Í¬Òâ½ÓÊÜ¼°³Ğµ£ÓĞ¹Ø·¢ËÍ¼°½ÓÊÕµç×ÓÍ¨Ñ¶µÄËùÓĞ·çÏÕ£¬Æä·çÏÕ°üÀ¨µ«²»ÏŞÓÚ£º
-Where the Customer has agreed that RUI DA may send any notice, contract notes, confirmations, periodic statements and communication (if any) to the Customer in electronic form (¡°Electronic Communication¡±), and the Customer agrees to accept and bear all the risks associated with the sending and receiving of the Electronic Communication, including but not limited to the risks as follows:
-(a) Í¸¹ı»¥ÁªÍø»òÆäËûµç×ÓÃ½½é´«µİ¡¢·¢ËÍ¼°½ÓÊÕµÄµç×ÓÍ¨Ñ¶ÔÚ±¾ÖÊÉÏÊÇ²»¿É¿¿µÄÃ½½é£¬¿ÉÄÜÒò»¥ÁªÍø²» ¿ÉÔ¤²âµÄ½»Í¨×èÈû¡¢ËùÊ¹ÓÃÃ½ÌåµÄ¹«ÖÚĞÔÖÊ¼°ÆäËûÒòËØ£¬µ¼ÖÂ¸ÉÈÅ¡¢´«ÊäÖĞ¶Ï¡¢ÑÓ³Ù´«Êä»ò´íÎó×ÊÁÏ ´«Êä£»
+5.13 å¦‚å®¢æˆ·åŒæ„ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯ä»¥ç”µå­å½¢å¼å‘å®¢æˆ·å‘å‡ºä»»ä½•é€šçŸ¥ã€æˆäº¤å•æ®ã€äº¤æ˜“ç¡®è®¤ã€å®šæœŸç»“å•åŠé€šè®¯ï¼ˆå¦‚æœ‰ï¼‰ï¼ˆã€Œç”µå­é€šè®¯ã€ï¼‰ï¼Œåˆ™å®¢æˆ·åŒæ„æ¥å—åŠæ‰¿æ‹…æœ‰å…³å‘é€åŠæ¥æ”¶ç”µå­é€šè®¯çš„æ‰€æœ‰é£é™©ï¼Œå…¶é£é™©åŒ…æ‹¬ä½†ä¸é™äºï¼š
+Where the Customer has agreed that RUI DA may send any notice, contract notes, confirmations, periodic statements and communication (if any) to the Customer in electronic form (â€œElectronic Communicationâ€), and the Customer agrees to accept and bear all the risks associated with the sending and receiving of the Electronic Communication, including but not limited to the risks as follows:
+(a) é€è¿‡äº’è”ç½‘æˆ–å…¶ä»–ç”µå­åª’ä»‹ä¼ é€’ã€å‘é€åŠæ¥æ”¶çš„ç”µå­é€šè®¯åœ¨æœ¬è´¨ä¸Šæ˜¯ä¸å¯é çš„åª’ä»‹ï¼Œå¯èƒ½å› äº’è”ç½‘ä¸ å¯é¢„æµ‹çš„äº¤é€šé˜»å¡ã€æ‰€ä½¿ç”¨åª’ä½“çš„å…¬ä¼—æ€§è´¨åŠå…¶ä»–å› ç´ ï¼Œå¯¼è‡´å¹²æ‰°ã€ä¼ è¾“ä¸­æ–­ã€å»¶è¿Ÿä¼ è¾“æˆ–é”™è¯¯èµ„æ–™ ä¼ è¾“ï¼›
 communication, sending and receiving of the Electronic Communication conducted through the internet or other electronic media is, inherently an unreliable medium and may be subject to interruption, transmission blackout, delayed transmission or incorrect data transmission due to, where applicable, unpredictable traffic congestion, the public nature of the media used or other reasons;
-(b) Í¸¹ı»¥ÁªÍø»òÆäËûµç×ÓÃ½½é´«µİ¡¢·¢ËÍ¼°½ÓÊÕµÄµç×ÓÍ¨Ñ¶¿ÉÄÜÎ´±»Ö´ĞĞ»ò±»ÑÓÎó£»¼°
+(b) é€è¿‡äº’è”ç½‘æˆ–å…¶ä»–ç”µå­åª’ä»‹ä¼ é€’ã€å‘é€åŠæ¥æ”¶çš„ç”µå­é€šè®¯å¯èƒ½æœªè¢«æ‰§è¡Œæˆ–è¢«å»¶è¯¯ï¼›åŠ
 communication sending and receiving of the Electronic Communication conducted through the internet or other electronic media may not be executed or may be delayed; and
-(c) ÔÚ·ûºÏÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓÚË½ÒşÌõÀıµÄÒåÎñÏÂ£¬Í¸¹ı»¥ÁªÍø»òÆäËûµç×ÓÃ½½é´«µİ¡¢·¢ËÍ¼°½Ó ÊÕµÄ¸öÈË×ÊÁÏ¿ÉÄÜ±»Î´¾­ÊÚÈ¨µÄµÚÈı·½»ñÈ¡¡£
+(c) åœ¨ç¬¦åˆç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸äºç§éšæ¡ä¾‹çš„ä¹‰åŠ¡ä¸‹ï¼Œé€è¿‡äº’è”ç½‘æˆ–å…¶ä»–ç”µå­åª’ä»‹ä¼ é€’ã€å‘é€åŠæ¥ æ”¶çš„ä¸ªäººèµ„æ–™å¯èƒ½è¢«æœªç»æˆæƒçš„ç¬¬ä¸‰æ–¹è·å–ã€‚
 subject to the obligations of RUI DA under the PDPO, communication and sending and receiving of personal data through the internet or other electronic media may be accessed by unauthorized third parties;,
-¶øÇÒ¿Í»§È·ÈÏ¼°Í¬Òâ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡¢ÆäÁªÊôÈË¼°Ïà¹ØÈËÊ¿¾ùÎŞĞë¾ÍÒÔÉÏÇé¿öÕĞÖÂ»òÓĞ¹ØµÄºó
-¹û¶Ô¿Í»§»òÈÎºÎÆäËûÈËÊ¿³Ğµ£ÈÎºÎÔğÈÎ»ò¸ºÔğ£¬²¢ÌØ´Ë·ÅÆúËùÓĞÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡¢ÆäÁªÊôÈË¼°/»òÓĞ¹ØÈËÊ¿¾ÍÉÏÊöÊÂÒË×÷³öÉêË÷µÄÈ¨Á¦¡£
+è€Œä¸”å®¢æˆ·ç¡®è®¤åŠåŒæ„ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€å…¶è”å±äººåŠç›¸å…³äººå£«å‡æ— é¡»å°±ä»¥ä¸Šæƒ…å†µæ‹›è‡´æˆ–æœ‰å…³çš„å
+æœå¯¹å®¢æˆ·æˆ–ä»»ä½•å…¶ä»–äººå£«æ‰¿æ‹…ä»»ä½•è´£ä»»æˆ–è´Ÿè´£ï¼Œå¹¶ç‰¹æ­¤æ”¾å¼ƒæ‰€æœ‰å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€å…¶è”å±äººåŠ/æˆ–æœ‰å…³äººå£«å°±ä¸Šè¿°äº‹å®œä½œå‡ºç”³ç´¢çš„æƒåŠ›ã€‚
 and the Customer acknowledges and agrees that neither RUI DA, nor its Affiliates, nor the Relevant Persons will assume any liability or responsibility to the Customer or to any other person for any consequences arising therefrom or in connection therewith and hereby waives all the rights of making any claims against RUI DA, its Affiliates and/or the Relevant Persons in connection therewith.
 
-5.14 ¾¡¹ÜÓĞ±¾Ğ­ÒéÆäËûÈÎºÎÌõ¿îµÄ¹æ¶¨£¬ÔÚ²»ÏŞÓÚÒÔÏÂÇé¿öÏÂ, Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÄÜ²»Ê±Í¨¹ıÆäËûÊÊ µ±ÇşµÀ£¨°üÀ¨µ«²»ÏŞÓÚÍ¨¹ıÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÍøÒ³»ò¿Í»§µÄÍøÉÏ½»Ò×ÖÕ¶Ë£©¾ÍÈô¸ÉÊÂÏîÍ¨Öª¿Í »§£º
+5.14 å°½ç®¡æœ‰æœ¬åè®®å…¶ä»–ä»»ä½•æ¡æ¬¾çš„è§„å®šï¼Œåœ¨ä¸é™äºä»¥ä¸‹æƒ…å†µä¸‹, ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯èƒ½ä¸æ—¶é€šè¿‡å…¶ä»–é€‚ å½“æ¸ é“ï¼ˆåŒ…æ‹¬ä½†ä¸é™äºé€šè¿‡ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ç½‘é¡µæˆ–å®¢æˆ·çš„ç½‘ä¸Šäº¤æ˜“ç»ˆç«¯ï¼‰å°±è‹¥å¹²äº‹é¡¹é€šçŸ¥å®¢ æˆ·ï¼š
 Notwithstanding any other provisions of this Agreement, in relation to but not limited to the following, RUI DA may also notify the Customer through other channels as appropriate from time to time, including but not limited to via the website of RUI DA or through the Customer?s online trading terminal:
-(a) ÊÊÓÃµÄ½»Ò×¹æÔò¡¢Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ±£Ö¤½ğÒªÇó¡¢½»Ò×·ÑÓÃ¡¢ÆäËûÖÖÀàµÄ½»Ò×ºÍ½áËã×Ê
-ÁÏ¡¢½»Ò×ÖÆ¶È¡¢±¨¼ÛÖÆ¶È»òÍøÒ³µÄ¸ü¸Ä»òĞŞ¸Ä£»¼°
+(a) é€‚ç”¨çš„äº¤æ˜“è§„åˆ™ã€ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä¿è¯é‡‘è¦æ±‚ã€äº¤æ˜“è´¹ç”¨ã€å…¶ä»–ç§ç±»çš„äº¤æ˜“å’Œç»“ç®—èµ„
+æ–™ã€äº¤æ˜“åˆ¶åº¦ã€æŠ¥ä»·åˆ¶åº¦æˆ–ç½‘é¡µçš„æ›´æ”¹æˆ–ä¿®æ”¹ï¼›åŠ
 changes or amendments to applicable trading rules, RUI DA?s Margin requirements, transaction fees, other types of trading and settlement information, trading system, quote system or website; and
-(b) ¾ßÌå¹ØÓÚ¿Í»§µÄ×ÊÁÏ£¬ÀıÈç½»Ò×½áËã±¨¸æ¡¢±£Ö¤½ğ×·ÊÕÍ¨Öª¡¢Ç¿ÖÆÇåËãÍ¨Öª¡¢±£Ö¤½ğµÄ¸ö±ğ±ä¸üÍ¨Öª ¼°/»òÈÎºÎÖÖÀàµÄ½»Ò×ºÍ½áËã×ÊÁÏ¡£
+(b) å…·ä½“å…³äºå®¢æˆ·çš„èµ„æ–™ï¼Œä¾‹å¦‚äº¤æ˜“ç»“ç®—æŠ¥å‘Šã€ä¿è¯é‡‘è¿½æ”¶é€šçŸ¥ã€å¼ºåˆ¶æ¸…ç®—é€šçŸ¥ã€ä¿è¯é‡‘çš„ä¸ªåˆ«å˜æ›´é€šçŸ¥ åŠ/æˆ–ä»»ä½•ç§ç±»çš„äº¤æ˜“å’Œç»“ç®—èµ„æ–™ã€‚
 information specifically related to the Customer, such as transaction settlement reports, notices of margin calls, notices of forced liquidation, notices of individual changes in Margin and/or any type of transactional and settlement information.
 
-6.±£Ö¤½ğ¡¢¸¶¿îºÍ½»¸¶ Margin, Payments and Delivery
+6.ä¿è¯é‡‘ã€ä»˜æ¬¾å’Œäº¤ä»˜ Margin, Payments and Delivery
 
-6.1 ÔÚ²»Ëğº¦·¨ÂÉ¸³ÓèÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÒ»°ãÁôÖÃÈ¨¡¢µÖÏúÈ¨»òÀàËÆÈ¨ÀûÏÂ£¬²¢ÇÒ³ıÁËÕâĞ©È¨ÀûÍâ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¼°ÆäÁªÊôÈËÒÔÈÎºÎĞÎÊ½ÎŞÂÛÔÚºÎ´¦ÓµÓĞµÄ¿Í»§µÄËùÓĞ²Æ²ú£¬²»¹ÜÓÃÓÚºÎÖÖÄ¿µÄ (°üÀ¨±£¹Ü) £¬µÚÒ»¼°ÓÅÏÈÁôÖÃÈ¨Ó¦¹éÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨³öÊÛ¸ÃµÈ²Æ²ú (Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×È»ñÊÚÈ¨£¬×÷³öÊÛ¸ÃµÈ²Æ²úÓĞ¹ØµÄÒ»ÇĞÊÂÏî) £¬²¢¿É½«ËùµÃ¿îÏîÓÃÓÚµÖÏú¼°³¥»¹¿Í»§ÔğÈÎ£¬²»¹ÜÆäËûÈÎºÎÈËÊÇ·ñ¶Ô¸ÃµÈ²Æ²úÓĞÈÎºÎÈ¨Òæ£¬»òÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ôø·ñ¾ÍÓĞ¹Ø²Æ²úµæÖ§£¬Òà²»¹Ü¿Í»§ÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÉèÁ¢¶àÉÙ¸ö»§¿Ú¡£
+6.1 åœ¨ä¸æŸå®³æ³•å¾‹èµ‹äºˆç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä¸€èˆ¬ç•™ç½®æƒã€æŠµé”€æƒæˆ–ç±»ä¼¼æƒåˆ©ä¸‹ï¼Œå¹¶ä¸”é™¤äº†è¿™äº›æƒåˆ©å¤–ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åŠå…¶è”å±äººä»¥ä»»ä½•å½¢å¼æ— è®ºåœ¨ä½•å¤„æ‹¥æœ‰çš„å®¢æˆ·çš„æ‰€æœ‰è´¢äº§ï¼Œä¸ç®¡ç”¨äºä½•ç§ç›®çš„ (åŒ…æ‹¬ä¿ç®¡) ï¼Œç¬¬ä¸€åŠä¼˜å…ˆç•™ç½®æƒåº”å½’äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒå‡ºå”®è¯¥ç­‰è´¢äº§ (ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å…¹è·æˆæƒï¼Œä½œå‡ºå”®è¯¥ç­‰è´¢äº§æœ‰å…³çš„ä¸€åˆ‡äº‹é¡¹) ï¼Œå¹¶å¯å°†æ‰€å¾—æ¬¾é¡¹ç”¨äºæŠµé”€åŠå¿è¿˜å®¢æˆ·è´£ä»»ï¼Œä¸ç®¡å…¶ä»–ä»»ä½•äººæ˜¯å¦å¯¹è¯¥ç­‰è´¢äº§æœ‰ä»»ä½•æƒç›Šï¼Œæˆ–ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ›¾å¦å°±æœ‰å…³è´¢äº§å«æ”¯ï¼Œäº¦ä¸ç®¡å®¢æˆ·åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¾ç«‹å¤šå°‘ä¸ªæˆ·å£ã€‚
 Without prejudice and in addition to any general lien, right of set-off or similar right to which RUI DA may be entitled by law, all of the Client's properties held anywhere by RUI DA and the Affiliates in any form for any purposes, including safekeeping, shall be subject to a first and paramount lien in the favour of RUI DA. RUI DA shall also have the right to sell such properties (and RUI DA is authorized to do all such things necessary in connection with such sale) and utilize the proceeds to offset and discharge the Client's Liabilities, regardless of whether any other person is interested in or RUI DA has made advances in connection with such property, and irrespective of the number of accounts the Client may carry with RUI DA.
 
-6.2 ÒÔ½áËã»õ±ÒÎª±ÒÖµµÄ±£Ö¤½ğÊıÄ¿£¬ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×ÔĞĞ¾ö¶¨£¬½«ÔÚÈÎºÎÊ±ºò¶¼ÓÉ¿Í»§Î¬³ÖÔÚËûµÄËùÓĞ»§¿ÚÖĞ¡£¸Ã±£Ö¤½ğÒªÇóÓ¦ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔÊéÃæĞÎÊ½²»Ê±×÷³ö¹æ¶¨¡£ÌÈ¿Í»§ÒÔ½áËã»õ±ÒÍâµÄÆäËû»õ±Ò½«±£Ö¤½ğ´æÈëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾£¬±£Ö¤½ğµÄÊıÄ¿½«ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾°´ÊĞ³¡Ìõ¼ş¾ö¶¨µÄ»ãÂÊ×ª»»³É½áËã»õ±Ò¡£Èç¹ûÂòÂôÔÚ½»Ò×Ëù½øĞĞ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÒÔÒªÇóÊÕÈ¡¸ßÓÚ¸Ã½»Ò×ËùºÍ/»òÆä½áËãËù¹æ¶¨µÄ±£Ö¤½ğ¡£ÌÈÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒªÇó×·¼Ó±£Ö¤½ğ£¬¿Í»§±ØĞëÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¹æ¶¨µÄÊ±¼äÆÚÏŞÄÚÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´æÈë¸Ã×·¼Ó±£Ö¤½ğ¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÒÔ×ÔĞĞ²¢ÇÒÔÚÈÎºÎÊ±ºò¶¼¿ÉÒÔ¸ü¸Ä±£Ö¤½ğÒªÇó¡£ÒÔÍùµÄ±£Ö¤½ğÒªÇó²»»áÈ·Á¢ÈÎºÎÏÈÀı£¬ÕâĞ©ÒªÇóÒ»µ©±»¸ü¸Ä£¬¾Í¿ÉÊÊÓÃÓÚÊÜ¸Ã¸ü¸ÄÓ°ÏìµÄÏÖ´æ½»Ò×ºÍĞÂ½»Ò×¡£
+6.2 ä»¥ç»“ç®—è´§å¸ä¸ºå¸å€¼çš„ä¿è¯é‡‘æ•°ç›®ï¼Œç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è‡ªè¡Œå†³å®šï¼Œå°†åœ¨ä»»ä½•æ—¶å€™éƒ½ç”±å®¢æˆ·ç»´æŒåœ¨ä»–çš„æ‰€æœ‰æˆ·å£ä¸­ã€‚è¯¥ä¿è¯é‡‘è¦æ±‚åº”ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥ä¹¦é¢å½¢å¼ä¸æ—¶ä½œå‡ºè§„å®šã€‚å€˜å®¢æˆ·ä»¥ç»“ç®—è´§å¸å¤–çš„å…¶ä»–è´§å¸å°†ä¿è¯é‡‘å­˜å…¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ï¼Œä¿è¯é‡‘çš„æ•°ç›®å°†ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æŒ‰å¸‚åœºæ¡ä»¶å†³å®šçš„æ±‡ç‡è½¬æ¢æˆç»“ç®—è´§å¸ã€‚å¦‚æœä¹°å–åœ¨äº¤æ˜“æ‰€è¿›è¡Œï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯ä»¥è¦æ±‚æ”¶å–é«˜äºè¯¥äº¤æ˜“æ‰€å’Œ/æˆ–å…¶ç»“ç®—æ‰€è§„å®šçš„ä¿è¯é‡‘ã€‚å€˜ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¦æ±‚è¿½åŠ ä¿è¯é‡‘ï¼Œå®¢æˆ·å¿…é¡»åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è§„å®šçš„æ—¶é—´æœŸé™å†…åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å­˜å…¥è¯¥è¿½åŠ ä¿è¯é‡‘ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯ä»¥è‡ªè¡Œå¹¶ä¸”åœ¨ä»»ä½•æ—¶å€™éƒ½å¯ä»¥æ›´æ”¹ä¿è¯é‡‘è¦æ±‚ã€‚ä»¥å¾€çš„ä¿è¯é‡‘è¦æ±‚ä¸ä¼šç¡®ç«‹ä»»ä½•å…ˆä¾‹ï¼Œè¿™äº›è¦æ±‚ä¸€æ—¦è¢«æ›´æ”¹ï¼Œå°±å¯é€‚ç”¨äºå—è¯¥æ›´æ”¹å½±å“çš„ç°å­˜äº¤æ˜“å’Œæ–°äº¤æ˜“ã€‚
 The margin amount in settlement currency is determined by RUI DA and will be fully maintained by the Client at his accounts. The margin requirements shall be made by RUI DA in writing from time to time. If margin from Client deposit into RUI DA in other settlement currencies, the amount of margin will be converted into settlement currency by RUI DA at market rate in according by market. If transaction is made on Exchange, RUI DA may request a margin higher than that provided by the Exchange and/or Clearing House. In the event that RUI DA requires additional margin, Client must deposit additional margin to RUI DA within the time limit prescribed.  RUI DA may change the margin requirements at any time. Once changed, previous margin requirements do not establish and these requirements, and its affected to apply existing transactions and new transactions.
 
-6.3 Èç¹û¿Í»§µÄ±£Ö¤½ğÎ´ÄÜ´ïµ½ÒªÇó£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÈ«È¨ÊµÊ©ÈÎºÎ¿É±£ÕÏÆäÀûÒæµÄĞĞÎª¡£¸ÃĞĞÎª °üÀ¨µ«²»ÏŞÓÚ :
+6.3 å¦‚æœå®¢æˆ·çš„ä¿è¯é‡‘æœªèƒ½è¾¾åˆ°è¦æ±‚ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯å…¨æƒå®æ–½ä»»ä½•å¯ä¿éšœå…¶åˆ©ç›Šçš„è¡Œä¸ºã€‚è¯¥è¡Œä¸º åŒ…æ‹¬ä½†ä¸é™äº :
 Where the Client fails to meet a Margin requirement, RUI DA shall have an absolute discretion to carry out any acts as it deems fit to protect its interest. Such acts include, but are not limited to:
-(a) ½«Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´ú¿Í»§³ÖÓĞµÄÈÎºÎÎ´Æ½²ÖºÏÔ¼Æ½²Ö£¬¶ø²»Ğè¿Í»§Í¬Òâ£¬ºÍ/»ò
+(a) å°†ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»£å®¢æˆ·æŒæœ‰çš„ä»»ä½•æœªå¹³ä»“åˆçº¦å¹³ä»“ï¼Œè€Œä¸éœ€å®¢æˆ·åŒæ„ï¼Œå’Œ/æˆ–
 closing out the contracts which RUI DA entered into with or on behalf of the Client without the Client's consent; and/or
-(b) È¡ÏûÈÎºÎ»òËùÓĞÎ´Íê³ÉµÄÏŞ¼ÛÅÌ»òÈÎºÎÔÚ¿Í»§Ö¸Ê¾ÏÂ×÷³öÖ®³ĞÅµ¡£
+(b) å–æ¶ˆä»»ä½•æˆ–æ‰€æœ‰æœªå®Œæˆçš„é™ä»·ç›˜æˆ–ä»»ä½•åœ¨å®¢æˆ·æŒ‡ç¤ºä¸‹ä½œå‡ºä¹‹æ‰¿è¯ºã€‚
 canceling any or all outstanding orders or any commitments instructed by the Client.
 
-ÈÎºÎ´ËÀàĞĞÎª¾ù¶Ô¿Í»§ÓĞÔ¼ÊøÁ¦£¬ÕıÈç¿Í»§ÒÑ¸øÓèÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÕıÈ·Ö¸Ê¾¡£ ÔÚ½øĞĞ¸ÃÀàĞĞÎª Ê±£¬¿Í»§Í¬ÒâÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶Ô¿Í»§Ã»ÓĞÈÎºÎĞÔÖÊµÄÒåÎñ»òÔğÈÎÀ´¼õÉÙ»òÏû³ı¿Í»§µÄËğÊ§¡£
+ä»»ä½•æ­¤ç±»è¡Œä¸ºå‡å¯¹å®¢æˆ·æœ‰çº¦æŸåŠ›ï¼Œæ­£å¦‚å®¢æˆ·å·²ç»™äºˆç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ­£ç¡®æŒ‡ç¤ºã€‚ åœ¨è¿›è¡Œè¯¥ç±»è¡Œä¸º æ—¶ï¼Œå®¢æˆ·åŒæ„ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹å®¢æˆ·æ²¡æœ‰ä»»ä½•æ€§è´¨çš„ä¹‰åŠ¡æˆ–è´£ä»»æ¥å‡å°‘æˆ–æ¶ˆé™¤å®¢æˆ·çš„æŸå¤±ã€‚
 Any such acts shall be binding upon the Client as if proper instructions to effect the same have been duly given to RUI DA by the Client, and the Client irrevocably accepts that in carrying out such acts, RUI DA owes no duty or obligation of whatever nature to the Client to minimize or eliminate the Client's loss.
 
-6.4 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×È»ñÊÚÈ¨½«ÈÎºÎ¿Í»§»§¿ÚÄÚµÄÏÖ½ğ½áÓà£¬´æ´¢ÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÈÏÎªºÏÊÊµÄ½ğÈÚ»ú¹¹(°üÀ¨ÈÎºÎÒøĞĞ)¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨±£Áô¸ÃµÈ´æ¿îµÄÈÎºÎÀûÒæ¡£
+6.4 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å…¹è·æˆæƒå°†ä»»ä½•å®¢æˆ·æˆ·å£å†…çš„ç°é‡‘ç»“ä½™ï¼Œå­˜å‚¨äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¤ä¸ºåˆé€‚çš„é‡‘èæœºæ„(åŒ…æ‹¬ä»»ä½•é“¶è¡Œ)ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒä¿ç•™è¯¥ç­‰å­˜æ¬¾çš„ä»»ä½•åˆ©ç›Šã€‚
 RUI DA is authorized to deposit any monies and other properties in any accounts of the Client with any such financial institution (including with Bank) as RUI DA shall think fit, and RUI DA shall be entitled to retain any benefits resulting from such deposit.
 
-6.5 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÊÕµ½¿Í»§´æÈë¿Í»§»§¿ÚµÄËùÓĞ¿îÏî¡¢Ö¤È¯»òÆäËû²Æ²ú¶¼Ó¦ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔÊÜÍĞÈËÉí·İ³ÖÓĞ²¢ÓëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾±¾ÉíµÄ×Ê²ú·Ö¿ª¡£ÕâĞ©×Ê²ú²»µÃ³ÉÎªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µ±ÆÆ²ú»ò½áÒµÖ®²¿·İ×Ê²ú£¬¶øÓ¦ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÁÙÊ±ÇåÅÌÈË¡¢ÇåÅÌÈË»òÏàËÆµÄ¹ÙÔ±¾¡¿ì½«¸ÃµÈ²Æ²ú¹é»¹¿Í»§¡£
+6.5 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ”¶åˆ°å®¢æˆ·å­˜å…¥å®¢æˆ·æˆ·å£çš„æ‰€æœ‰æ¬¾é¡¹ã€è¯åˆ¸æˆ–å…¶ä»–è´¢äº§éƒ½åº”ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥å—æ‰˜äººèº«ä»½æŒæœ‰å¹¶ä¸ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ¬èº«çš„èµ„äº§åˆ†å¼€ã€‚è¿™äº›èµ„äº§ä¸å¾—æˆä¸ºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å½“ç ´äº§æˆ–ç»“ä¸šä¹‹éƒ¨ä»½èµ„äº§ï¼Œè€Œåº”ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä¸´æ—¶æ¸…ç›˜äººã€æ¸…ç›˜äººæˆ–ç›¸ä¼¼çš„å®˜å‘˜å°½å¿«å°†è¯¥ç­‰è´¢äº§å½’è¿˜å®¢æˆ·ã€‚
 All monies or other property received by RUI DA from the Client for the account of the Client shall be held by RUI DA as trustee and segregated from RUI DA's own assets. These assets so held by RUI DA shall not form part of the assets of RUI DA for insolvency or winding up purposes but shall be returned to the Client promptly upon the appointment of a provisional liquidator, liquidator or similar officer over all or any part of RUI DA's business or assets.
 
-6.6 ¿Í»§¿ÉÒÔÊéÃæĞÎÊ½Í¨ÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´Ó»§¿ÚÌáÈ¡¿îÏîµÄÒâÏò¡£²»¹Ü´æÈëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ ¹«Ë¾µÄ±£Ö¤½ğÊÇºÎÖÖÀà»õ±Ò£¬¿Í»§ÒÔ½áËã»õ±Ò»òÆäËû»õ±ÒÌáÈ¡ ¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»á²»Ê±Ïò¿Í»§¹« ²¼Ìá¿îËùĞèµÄÍ¨ÖªÆÚÏŞ¡£
+6.6 å®¢æˆ·å¯ä»¥ä¹¦é¢å½¢å¼é€šçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»æˆ·å£æå–æ¬¾é¡¹çš„æ„å‘ã€‚ä¸ç®¡å­˜å…¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™ å…¬å¸çš„ä¿è¯é‡‘æ˜¯ä½•ç§ç±»è´§å¸ï¼Œå®¢æˆ·ä»¥ç»“ç®—è´§å¸æˆ–å…¶ä»–è´§å¸æå– ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¼šä¸æ—¶å‘å®¢æˆ·å…¬ å¸ƒææ¬¾æ‰€éœ€çš„é€šçŸ¥æœŸé™ã€‚
 The Client may make withdrawals from the Account by giving RUI DA sufficient notice in writing of his intention to withdraw. Notwithstanding the currency in which the Margin was deposited into RUI DA, the Client can withdraw in Settlement Currency or other currency. The minimum notice period shall be made known to the Client from time to time.
 
-7.½»Ò× Transaction
+7.äº¤æ˜“ Transaction
 
-7.1 ¿Í»§¿ÉÒÔ¿ÚÍ·»òÊéÃæĞÎÊ½ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©½»Ò×Ö¸Ê¾¡£¿Í»§ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ëù×÷µÄÈÎºÎÖ¸Ê¾£¬Ö»»áÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔ¿ÚÍ·»òÊéÃæĞÎÊ½³ĞÈÏÊÕµ½¸ÃÖ¸Ê¾Ê±²Å±»ÊÓÎªÒÑ±»Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÊÕµ½¡£ÈçÖ»ÓĞ¿Í»§µÄ´«Êä£¬¶øÃ»ÓĞÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ¿ÚÍ·»òÊéÃæ»ØÓ¦£¬Ôò¸ÃÖ¸Ê¾²»¹¹³ÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ºÍ¿Í»§Ö®¼äµÄÓĞĞ§Ö¸Ê¾¡£
+7.1 å®¢æˆ·å¯ä»¥å£å¤´æˆ–ä¹¦é¢å½¢å¼å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›äº¤æ˜“æŒ‡ç¤ºã€‚å®¢æˆ·å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ‰€ä½œçš„ä»»ä½•æŒ‡ç¤ºï¼Œåªä¼šåœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥å£å¤´æˆ–ä¹¦é¢å½¢å¼æ‰¿è®¤æ”¶åˆ°è¯¥æŒ‡ç¤ºæ—¶æ‰è¢«è§†ä¸ºå·²è¢«ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ”¶åˆ°ã€‚å¦‚åªæœ‰å®¢æˆ·çš„ä¼ è¾“ï¼Œè€Œæ²¡æœ‰ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„å£å¤´æˆ–ä¹¦é¢å›åº”ï¼Œåˆ™è¯¥æŒ‡ç¤ºä¸æ„æˆç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å’Œå®¢æˆ·ä¹‹é—´çš„æœ‰æ•ˆæŒ‡ç¤ºã€‚
 The Client shall provide RUI DA with instructions orally or in writing. Any instruction made by the Client to RUI DA shall only be deemed to have been received by RUI DA when such instruction has been acknowledged by RUI DA orally or in writing. The mere transmission of an instruction by the Client shall not constitute a valid instruction between RUI DA and the Client.
 
-7.2 ¿Í»§Ó¦¶Ô¿Í»§»§¿Ú´úÂëµÄ±£ÃÜĞÔ¡¢°²È«ĞÔºÍÊ¹ÓÃ³Ğµ£È«²¿ÔğÈÎ¡£¿Í»§Ó¦¾ÍÊ¹ÓÃ¿Í»§»§¿Ú´úÂëËùÏÂµÄÖ¸ÁîºÍÖ´ĞĞµÄ½»Ò×¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸ºÔğ£¬¼´Ê¹¸ÃÊ¹ÓÃ¿ÉÄÜÎ´¾­ÊÚÈ¨»ò²»ºÏ·¨µÄ¡£¿Í»§Í¬Òâ£¬ÌÈÓöÏÂÁĞÇé¿ö£¬Ó¦Á¢¿ÌÍ¨ÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾  :
+7.2 å®¢æˆ·åº”å¯¹å®¢æˆ·æˆ·å£ä»£ç çš„ä¿å¯†æ€§ã€å®‰å…¨æ€§å’Œä½¿ç”¨æ‰¿æ‹…å…¨éƒ¨è´£ä»»ã€‚å®¢æˆ·åº”å°±ä½¿ç”¨å®¢æˆ·æˆ·å£ä»£ç æ‰€ä¸‹çš„æŒ‡ä»¤å’Œæ‰§è¡Œçš„äº¤æ˜“å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è´Ÿè´£ï¼Œå³ä½¿è¯¥ä½¿ç”¨å¯èƒ½æœªç»æˆæƒæˆ–ä¸åˆæ³•çš„ã€‚å®¢æˆ·åŒæ„ï¼Œå€˜é‡ä¸‹åˆ—æƒ…å†µï¼Œåº”ç«‹åˆ»é€šçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸  :
 The Client shall be wholly responsible for the confidentiality, security and use of the Client's Account Codes. The Client shall be liable to RUI DA for orders placed and trades executed with the use of the Client's Account Codes even if such use may be unauthorized or wrongful. The Client agrees to notify RUI DA immediately when:
-(a) ¿Í»§ÒÑ·¢³öÖ¸Ê¾£¬µ«Î´ÊÕµ½¸ÃÖ¸Ê¾µÄ×¼È·ÊéÃæÈ·ÈÏ ;
+(a) å®¢æˆ·å·²å‘å‡ºæŒ‡ç¤ºï¼Œä½†æœªæ”¶åˆ°è¯¥æŒ‡ç¤ºçš„å‡†ç¡®ä¹¦é¢ç¡®è®¤ ;
 he has placed an instruction but has not received an accurate acknowledgement in writing; 
-(b) ¿Í»§ÊÕµ½ÊéÃæÈ·ÈÏ£¬µ«ÓĞ¹ØÖ¸Ê¾²¢·Ç¿Í»§Ëù·¢³ö  ;
+(b) å®¢æˆ·æ”¶åˆ°ä¹¦é¢ç¡®è®¤ï¼Œä½†æœ‰å…³æŒ‡ç¤ºå¹¶éå®¢æˆ·æ‰€å‘å‡º  ;
 he has received an acknowledgement of an instruction in writing that he did not place; 
-(c) ¿Í»§·¢ÏÖÓĞÈËÎ´¾­ÊÚÈ¨½øÈëÆä»§¿Ú ; ºÍ/»ò
+(c) å®¢æˆ·å‘ç°æœ‰äººæœªç»æˆæƒè¿›å…¥å…¶æˆ·å£ ; å’Œ/æˆ–
 he becomes aware of any unauthorized access to his Account; and/or 
-(d) ¿Í»§Ê¹ÓÃÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾·şÎñÊ±Óöµ½À§ÄÑ
+(d) å®¢æˆ·ä½¿ç”¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœåŠ¡æ—¶é‡åˆ°å›°éš¾
 he has difficulties in accessing RUI DA's Services.
 
-7.3 µ±Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µ£ÈÎÖ÷ÊÂÈË£¬Ïò¿Í»§Ìá¹©ÂòÂô¼Û¸ñÊ±£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾°´ÆäÌá¹©ÂòÂôµÄ¼Û¸ñÖ´ĞĞ¿Í»§µÄ½»Ò×Ö¸Ê¾µÄÔğÈÎÖ»ÏŞÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Óë¿Í»§¶©¶¨µÄ½»Ò×¶îÉÏÏŞ¡£
+7.3 å½“ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ‹…ä»»ä¸»äº‹äººï¼Œå‘å®¢æˆ·æä¾›ä¹°å–ä»·æ ¼æ—¶ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æŒ‰å…¶æä¾›ä¹°å–çš„ä»·æ ¼æ‰§è¡Œå®¢æˆ·çš„äº¤æ˜“æŒ‡ç¤ºçš„è´£ä»»åªé™äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸å®¢æˆ·è®¢å®šçš„äº¤æ˜“é¢ä¸Šé™ã€‚
 Where RUI DA is acting as a principal and giving out bid and offer prices to the Client, the obligation of RUI DA to execute the Client's trade instruction at the prices given by RUI DA shall be limited to an amount specified and advised by RUI DA to the Client.
 
-7.4 Èç¹ûÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ËùÌá¹©µÄÂòÂô¼Û¸ñÓĞÎó£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«²»¶ÔÓÉ´ËÔì³ÉµÄ´íÎó¸ºÔğ£¬²¢±£Áô¶ÔÏà¹Ø»§¿Ú×÷³ö±ØÒª¸üÕı»òµ÷ÕûµÄÈ¨Àû¡£ÈÎºÎÔ´ÓÚÉÏÊö±¨¼Û´íÎóµÄÕù¶Ë½«°´ÕÕ´íÎóÊ±¹«Æ½ÊĞ³¡¼ÛÖµ½â¾ö¡£²¢Í¬ÒâÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞĞëÒòÎ´ÄÜ·ûºÏ¿Í»§Ö¸ÁîµÄÈÎºÎÌõ¼ş¶øµ¼ÖÂµÄËğÊ§³Ğµ£ÈÎºÎÔğÈÎ£¬ÒàÎŞĞëÎªÒò°´±¾Ğ­ÒéÖ´ĞĞÈÎºÎ½»Ò×¶øµ¼ÖÂµÄËğÊ§¸ºÔğ£¬³ı·ÇËğÊ§ÊÇÒòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÈÎºÎ¹ÍÔ±»ò´úÀíÈË¹ÊÒâÎ¥Ô¼Ôì³ÉµÄ¡£
+7.4 å¦‚æœç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ‰€æä¾›çš„ä¹°å–ä»·æ ¼æœ‰è¯¯ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†ä¸å¯¹ç”±æ­¤é€ æˆçš„é”™è¯¯è´Ÿè´£ï¼Œå¹¶ä¿ç•™å¯¹ç›¸å…³æˆ·å£ä½œå‡ºå¿…è¦æ›´æ­£æˆ–è°ƒæ•´çš„æƒåˆ©ã€‚ä»»ä½•æºäºä¸Šè¿°æŠ¥ä»·é”™è¯¯çš„äº‰ç«¯å°†æŒ‰ç…§é”™è¯¯æ—¶å…¬å¹³å¸‚åœºä»·å€¼è§£å†³ã€‚å¹¶åŒæ„ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— é¡»å› æœªèƒ½ç¬¦åˆå®¢æˆ·æŒ‡ä»¤çš„ä»»ä½•æ¡ä»¶è€Œå¯¼è‡´çš„æŸå¤±æ‰¿æ‹…ä»»ä½•è´£ä»»ï¼Œäº¦æ— é¡»ä¸ºå› æŒ‰æœ¬åè®®æ‰§è¡Œä»»ä½•äº¤æ˜“è€Œå¯¼è‡´çš„æŸå¤±è´Ÿè´£ï¼Œé™¤éæŸå¤±æ˜¯å› ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä»»ä½•é›‡å‘˜æˆ–ä»£ç†äººæ•…æ„è¿çº¦é€ æˆçš„ã€‚
 RUI DA will not be liable for any errors to the bid and offer prices caused by them. RUI DA reserves rights to make the necessary corrections or adjustments to the relevant accounts. Any dispute arising from such bid and offer prices error will be resolved with respect to the fair market price at the time the errors occurred. RUI DA shall not be liable for any loss failure resulting from any conditions. RUI DA shall not be liable for any loss resulting from the execution of any transaction under this Agreement, unless its loss is caused defaults by employee or agent of RUI DA.
 
-7.5 ĞĞÊ¹ÆÚÈ¨: ¿Í»§Ã÷°×Ò»Ğ©½»Ò×ËùºÍ½áËã¹«Ë¾¶ÔÌá½»ĞĞÊ¹Ö¸ÁîÉèÓĞ½ØÖ¹Ê±¼ä£¬¶øÇÒÔÚ½ØÖ¹Ê±¼äÖ®Ç°»¹Ã»ÓĞ·¢³öĞĞÊ¹Ö¸Áî£¬ÔòÆÚÈ¨»á±äµÃºÁÎŞ¼ÛÖµ¡£¿Í»§Ò²Àí½â£¬³ı·ÇÁíÓĞÖ¸Áî£¬Ä³Ğ©½»Ò×ËùºÍ½áËã¹«Ë¾½«»á×Ô¶¯ĞĞÊ¹Ä³Ğ©¡¸¼ÛÄÚ¡¹ÆÚÈ¨¡£¿Í»§È·ÈÏ¶ÔÆäĞĞÊ¹»ò×èÖ¹ĞĞÊ¹(ÊÓÇé¿ö¶ø¶¨)ÆÚÈ¨ºÏÔ¼µÄĞĞÎª³Ğµ£ÍêÈ«µÄÔğÈÎ;³ı·ÇÊÕµ½¿Í»§µÄÃ÷È·Ö¸Áî£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞĞë¶ÔÆÚÈ¨ºÏÔ¼²ÉÈ¡ÈÎºÎĞĞÎª£¬°üÀ¨µ«²»ÏŞÓÚÔÚµ½ÆÚÈÕÖ®Ç°ĞĞÊ¹ÓĞ¼ÛÖµµÄÆÚÈ¨»ò×èÖ¹¶ÔÆÚÈ¨×Ô¶¯ĞĞÊ¹µÄÈÎºÎĞĞÎª¡£¿Í»§½øÒ»²½È·ÈÏ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÉèÁ¢µÄĞĞÊ¹½ØÖ¹Ê±¼ä¿ÉÄÜÔçÓÚ½»Ò×ËùºÍ½áËã¹«Ë¾ÉèÁ¢µÄ½ØÖ¹Ê±¼ä¡£
-Exercise Option: Clients should understand some exchanges and clearing house have a cut-off time for submission of their exercise instructions. If such instructions have not been received before the cut-off time, their option contracts will become worthless.  However, clients also need to understand that their option contracts will be automatically exercised by some of the exchanges and clearing houses if their contracts are¡¸in the money¡¹unless otherwise directed. Clients should recognize that it is their responsibilities whether they like to exercise their option contracts or not (depending on circumstances). RUI DA will not act on behalf of their clients to do anything including exercising, preventing an automatic take up or whatsoever unless receiving instructions from clients. Clients should also recognize that the cut-off time for exercising an option contract by RUI DA is earlier than that provided by relevant exchanges and clearing houses.
+7.5 è¡Œä½¿æœŸæƒ: å®¢æˆ·æ˜ç™½ä¸€äº›äº¤æ˜“æ‰€å’Œç»“ç®—å…¬å¸å¯¹æäº¤è¡Œä½¿æŒ‡ä»¤è®¾æœ‰æˆªæ­¢æ—¶é—´ï¼Œè€Œä¸”åœ¨æˆªæ­¢æ—¶é—´ä¹‹å‰è¿˜æ²¡æœ‰å‘å‡ºè¡Œä½¿æŒ‡ä»¤ï¼Œåˆ™æœŸæƒä¼šå˜å¾—æ¯«æ— ä»·å€¼ã€‚å®¢æˆ·ä¹Ÿç†è§£ï¼Œé™¤éå¦æœ‰æŒ‡ä»¤ï¼ŒæŸäº›äº¤æ˜“æ‰€å’Œç»“ç®—å…¬å¸å°†ä¼šè‡ªåŠ¨è¡Œä½¿æŸäº›ã€Œä»·å†…ã€æœŸæƒã€‚å®¢æˆ·ç¡®è®¤å¯¹å…¶è¡Œä½¿æˆ–é˜»æ­¢è¡Œä½¿(è§†æƒ…å†µè€Œå®š)æœŸæƒåˆçº¦çš„è¡Œä¸ºæ‰¿æ‹…å®Œå…¨çš„è´£ä»»;é™¤éæ”¶åˆ°å®¢æˆ·çš„æ˜ç¡®æŒ‡ä»¤ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— é¡»å¯¹æœŸæƒåˆçº¦é‡‡å–ä»»ä½•è¡Œä¸ºï¼ŒåŒ…æ‹¬ä½†ä¸é™äºåœ¨åˆ°æœŸæ—¥ä¹‹å‰è¡Œä½¿æœ‰ä»·å€¼çš„æœŸæƒæˆ–é˜»æ­¢å¯¹æœŸæƒè‡ªåŠ¨è¡Œä½¿çš„ä»»ä½•è¡Œä¸ºã€‚å®¢æˆ·è¿›ä¸€æ­¥ç¡®è®¤ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¾ç«‹çš„è¡Œä½¿æˆªæ­¢æ—¶é—´å¯èƒ½æ—©äºäº¤æ˜“æ‰€å’Œç»“ç®—å…¬å¸è®¾ç«‹çš„æˆªæ­¢æ—¶é—´ã€‚
+Exercise Option: Clients should understand some exchanges and clearing house have a cut-off time for submission of their exercise instructions. If such instructions have not been received before the cut-off time, their option contracts will become worthless.  However, clients also need to understand that their option contracts will be automatically exercised by some of the exchanges and clearing houses if their contracts areã€Œin the moneyã€unless otherwise directed. Clients should recognize that it is their responsibilities whether they like to exercise their option contracts or not (depending on circumstances). RUI DA will not act on behalf of their clients to do anything including exercising, preventing an automatic take up or whatsoever unless receiving instructions from clients. Clients should also recognize that the cut-off time for exercising an option contract by RUI DA is earlier than that provided by relevant exchanges and clearing houses.
 
-7.6 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨°´Æä¾ø¶Ô×ÃÇéÈ¨£¨µ«²¢²»ÊÜÔ¼Êø£©¸ù¾İÈÎºÎÖ¸Ê¾¶ÔÈÎºÎ½»Ò×Ëù¡¢½áËãËù¼°¨u»òÈÎºÎÆäËûÈËÊ¿²ÉÈ¡ÈÎºÎĞĞ¶¯£¬×·ÌÖ¹ØÓÚ¸ÃµÈ½»Ò×Ëù»ò½áËãËù»òÆäËûÈËÊ¿Î´ÄÜ¸ù¾İÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´ú¿Í»§Ëù¶©Á¢Ö®ÆÚ»õºÏÔ¼»òÆÚÈ¨ºÏÔ¼½É¸¶µÄÈÎºÎ¿îÏî¼°¨u»ò½»ÊÕµÄÈÎºÎÉÌÆ·ÊıÁ¿£¬µ«ÈôÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²ÉÈ¡¸ÃµÈĞĞ¶¯£¬¿Í»§Ó¦È«ÊıÃÖ³¥Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¾ÍÆä²ÉÈ¡¸ÃµÈĞĞ¶¯ËùÒıÖÂ»òÓëÆäÓĞ¹ØÖ®Ò»ÇĞ¿ªÖ§¡¢Ë÷³¥¡¢×·ÊÕ¡¢Åâ³¥¼°·ÑÓÃ£¨°üÀ¨ÃÖ³¥È«Êı·¨ÂÉ·ÑÓÃ£©¡£
+7.6 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒæŒ‰å…¶ç»å¯¹é…Œæƒ…æƒï¼ˆä½†å¹¶ä¸å—çº¦æŸï¼‰æ ¹æ®ä»»ä½•æŒ‡ç¤ºå¯¹ä»»ä½•äº¤æ˜“æ‰€ã€ç»“ç®—æ‰€åŠâ•±æˆ–ä»»ä½•å…¶ä»–äººå£«é‡‡å–ä»»ä½•è¡ŒåŠ¨ï¼Œè¿½è®¨å…³äºè¯¥ç­‰äº¤æ˜“æ‰€æˆ–ç»“ç®—æ‰€æˆ–å…¶ä»–äººå£«æœªèƒ½æ ¹æ®ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»£å®¢æˆ·æ‰€è®¢ç«‹ä¹‹æœŸè´§åˆçº¦æˆ–æœŸæƒåˆçº¦ç¼´ä»˜çš„ä»»ä½•æ¬¾é¡¹åŠâ•±æˆ–äº¤æ”¶çš„ä»»ä½•å•†å“æ•°é‡ï¼Œä½†è‹¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é‡‡å–è¯¥ç­‰è¡ŒåŠ¨ï¼Œå®¢æˆ·åº”å…¨æ•°å¼¥å¿ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°±å…¶é‡‡å–è¯¥ç­‰è¡ŒåŠ¨æ‰€å¼•è‡´æˆ–ä¸å…¶æœ‰å…³ä¹‹ä¸€åˆ‡å¼€æ”¯ã€ç´¢å¿ã€è¿½æ”¶ã€èµ”å¿åŠè´¹ç”¨ï¼ˆåŒ…æ‹¬å¼¥å¿å…¨æ•°æ³•å¾‹è´¹ç”¨ï¼‰ã€‚
 RUI DA shall be entitled, in its absolute discretion, but shall not be bound, to act on any Instruction to take any action whatsoever or howsoever against any exchange, clearing house and/or any other person in respect of any failure by such exchange, clearing house and/or other person to make any payment or delivery of any amount or quantity of any monies and/or Commodities in respect of any Futures Contract or Option Contract entered into by RUI DA on behalf of the Customer provided that if any such action is taken by RUI DA, the Customer shall indemnify RUI DA in respect of all costs, claims, demands, damages and expenses (including legal costs on a full indemnity basis) arising out of or in connection with the taking of such action.
 
-7.7 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨ÒÔµç×Ó¼à²ì»ò¼ÇÂ¼×Ôµç»°¡¢µç×ÓÍ¾¾¶»òÆäËû·½Ê½×÷³öÖ®ËùÓĞÖ¸Ê¾¡£¿Í»§²¢Í¬ Òâ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÒÔÔÚ±£ÁôÆÚºó´İ»ÙÕâĞ©¼ÇÂ¼¡£
+7.7 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒä»¥ç”µå­ç›‘å¯Ÿæˆ–è®°å½•è‡ªç”µè¯ã€ç”µå­é€”å¾„æˆ–å…¶ä»–æ–¹å¼ä½œå‡ºä¹‹æ‰€æœ‰æŒ‡ç¤ºã€‚å®¢æˆ·å¹¶åŒ æ„ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯ä»¥åœ¨ä¿ç•™æœŸåæ‘§æ¯è¿™äº›è®°å½•ã€‚
 RUI DA has the right to electronically monitor or record all instructions placed through telephone, Electronic Means or otherwise. The Client agrees that RUI DA will have the right to destroy such recordings after the retention period.
 
-7.8 ¿Í»§Í¬Òâ,ÔÚ²»Î¥·´Ö¤È¯¼°ÆÚ»õÌõÀı»òÈÎºÎÊÊÓÃÌõÀıÏÂ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÖ´ĞĞÓë¿Í»§ÓĞ¹ØÆÚ»õºÏ Ô¼½»Ò×ÂòÂôÅÌÏà·´µÄ³Ö²Ö£¬²»ÂÛÊÇÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÁªÊôÈË×ÔĞĞ½»Ò×»ò´úÆäËû¿Í»§½»Ò×¡£
+7.8 å®¢æˆ·åŒæ„,åœ¨ä¸è¿åè¯åˆ¸åŠæœŸè´§æ¡ä¾‹æˆ–ä»»ä½•é€‚ç”¨æ¡ä¾‹ä¸‹ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯æ‰§è¡Œä¸å®¢æˆ·æœ‰å…³æœŸè´§åˆ çº¦äº¤æ˜“ä¹°å–ç›˜ç›¸åçš„æŒä»“ï¼Œä¸è®ºæ˜¯ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶è”å±äººè‡ªè¡Œäº¤æ˜“æˆ–ä»£å…¶ä»–å®¢æˆ·äº¤æ˜“ã€‚
 The Client consents that RUI DA may, subject to the provisions of the SFO or any applicable law, take the opposite position to the Client's order in relation to any Dealing in futures contracts, whether on RUI DA's own account or for the account of the Affiliates or other clients of RUI DA.
 
-7.9 ¿Í»§¿ÉÄÜ»áÊÜµ½ÒòÖ¤¼à»á¸ù¾İÓĞ¹ØµÄ¹æÕÂ»òÒòÈÎºÎÆäËûÔ­ÒòÎªÏû¼õ»òÏŞÖÆÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´¦Àí¿Í »§Î´Æ½²ÖºÏÔ¼µÄ½»Ò×ÄÜÁ¦¶ø²ÉÈ¡µÄĞĞ¶¯Ó°Ïì£¬²¢ÇÒÔÚÕâĞ©Çé¿öÏÂ£¬¿Í»§¿ÉÄÜ±»ÒªÇó¼õÉÙÆäÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø ¹ÉÓĞÏŞ¹«Ë¾µÄÎ´Æ½²Ö½»Ò×»ò½«ÆäÆ½²Ö¡£
+7.9 å®¢æˆ·å¯èƒ½ä¼šå—åˆ°å› è¯ç›‘ä¼šæ ¹æ®æœ‰å…³çš„è§„ç« æˆ–å› ä»»ä½•å…¶ä»–åŸå› ä¸ºæ¶ˆå‡æˆ–é™åˆ¶ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¤„ç†å®¢ æˆ·æœªå¹³ä»“åˆçº¦çš„äº¤æ˜“èƒ½åŠ›è€Œé‡‡å–çš„è¡ŒåŠ¨å½±å“ï¼Œå¹¶ä¸”åœ¨è¿™äº›æƒ…å†µä¸‹ï¼Œå®¢æˆ·å¯èƒ½è¢«è¦æ±‚å‡å°‘å…¶äºç‘è¾¾å›½é™…é‡‘èæ§ è‚¡æœ‰é™å…¬å¸çš„æœªå¹³ä»“äº¤æ˜“æˆ–å°†å…¶å¹³ä»“ã€‚
 The Client may be affected by any curtailment of, or restriction on, the capacity of RUI DA to trade in respect of open positions as a result of action taken by SFC under applicable rules and regulations or for any other reason, and that in such circumstances, the Client may be required to reduce or close out his open positions with RUI DA.
 
-7.10 ¿Í»§È·ÈÏ²¢Í¬Òâ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÊÜÆÚ½»Ëù¹æÔòËùÔ¼Êø£¬ÔÚÆÚ½»ËùÈÏÎª¿Í»§ËùÀÛ»ıµÄ²ÖÅÌÕıÔÚ»ò ¿ÉÄÜ»á¶ÔÈÎºÎÒ»¸ö»ò¶à¸öÓÉÆÚ½»Ëù³ÉÁ¢¼°¨u»òÓªÔËµÄÌØ¶¨µÄÊĞ³¡Ôì³ÉËğº¦»òÕıÔÚ»ò¿ÉÄÜ»á¶ÔÄ³¸ö»ò¶à¸öÓÉÆÚ ½»Ëù³ÉÁ¢¼°¨u»òÓªÔËµÄÊĞ³¡£¨ÊÓºõÊôºÎÇé¿ö¶ø¶¨£©µÄ¹«Æ½¼°ÓĞÖÈĞòµÄÔË×÷²úÉú²»Á¼Ó°Ïì£¬¸ÃµÈ¹æÔòÈİĞíÆÚ½»Ëù²ÉÈ¡ĞĞ¶¯£¬ÏŞÖÆ³Ö²ÖµÄÊıÁ¿»ò¹æ¶¨¿É´ú±í¿Í»§½«ºÏÔ¼Æ½²Ö¡£
+7.10 å®¢æˆ·ç¡®è®¤å¹¶åŒæ„ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å—æœŸäº¤æ‰€è§„åˆ™æ‰€çº¦æŸï¼Œåœ¨æœŸäº¤æ‰€è®¤ä¸ºå®¢æˆ·æ‰€ç´¯ç§¯çš„ä»“ç›˜æ­£åœ¨æˆ– å¯èƒ½ä¼šå¯¹ä»»ä½•ä¸€ä¸ªæˆ–å¤šä¸ªç”±æœŸäº¤æ‰€æˆç«‹åŠâ•±æˆ–è¥è¿çš„ç‰¹å®šçš„å¸‚åœºé€ æˆæŸå®³æˆ–æ­£åœ¨æˆ–å¯èƒ½ä¼šå¯¹æŸä¸ªæˆ–å¤šä¸ªç”±æœŸ äº¤æ‰€æˆç«‹åŠâ•±æˆ–è¥è¿çš„å¸‚åœºï¼ˆè§†ä¹å±ä½•æƒ…å†µè€Œå®šï¼‰çš„å…¬å¹³åŠæœ‰ç§©åºçš„è¿ä½œäº§ç”Ÿä¸è‰¯å½±å“ï¼Œè¯¥ç­‰è§„åˆ™å®¹è®¸æœŸäº¤æ‰€é‡‡å–è¡ŒåŠ¨ï¼Œé™åˆ¶æŒä»“çš„æ•°é‡æˆ–è§„å®šå¯ä»£è¡¨å®¢æˆ·å°†åˆçº¦å¹³ä»“ã€‚
 The Customer acknowledges and agrees that RUI DA shall be bound by the HKFE Rules which permit HKFE to take steps to limit the positions or require the closing out of contracts on behalf of the Customer if, in the opinion of HKFE, the Customer is accumulating positions which are or may be detrimental to any particular market or markets established and/or operated by HKFE or which are or may be capable of adversely affecting the fair and orderly operation of any market or markets established and/or operated by HKFE as the case may be.
 
-7.11 ÌÈÈô¿Í»§ÔÚÈÎºÎÊ±ºò¾Í½øĞĞÓëÆÚ»õºÏÔ¼»òÆÚÈ¨ºÏÔ¼ÓĞ¹ØµÄ½»Ò×¶øÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔÍâµÄÆÚ½»Ëù ²ÎÓëÕß¿ªÁ¢Ò»¸ö»ò¶à¸ö»§¿Ú£¬¼°ÌÈÈôÕâĞ©»§¿ÚµÄÎ´Æ½²ÖºÏÔ¼×Ü¶î´ïµ½ÆÚ½»ËùÎ¯Ô±»á¹æ¶¨µÄ¡¸´ó¶îÎ´Æ½²ÖºÏ Ô¼¡¹±ê×¼£¬¿Í»§Ó¦¼´Ê±ÏòÆÚ½»Ëù±¨¸æ¸Ã¡¸´ó¶îÎ´Æ½²ÖºÏÔ¼¡¹£¬²¢ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆÚ½»Ëù£¨ÊÓ ÊôºÎÇé¿ö¶ø¶¨£©Ìá¹©ÆäËù¹æ¶¨µÄÓë¸Ã¡¸´ó¶îÎ´Æ½²ÖºÏÔ¼¡¹ÓĞ¹ØµÄ×ÊÁÏ£¨°üÀ¨¿Í»§¼°×îÖÕÊµÒæÓµÓĞÈËµÄÃû³Æ£¬ »ò£¨ÈçÊô¹«Ë¾»òÍÅÌå£©¸Ã¹«Ë¾»òÍÅÌå¹É±¾µÄ×îÖÕÊµÒæÓµÓĞÈË¸öÈËµÄÃû³Æ£¬°üÀ¨Í¸¹ı´úÃûÈË»òĞÅÍĞĞÎÊ½³ÖÓĞÀû ÒæµÄÊÜÒæÈË£©£¬¼°ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆÚ½»Ëù£¨ÊÓÊôºÎÇé¿ö¶ø¶¨£©Ìá¹©ÆäËùÒªÇóµÄÈÎºÎÆäËû×ÊÁÏ£¨ÊÓÊôºÎÇé¿ö¶ø¶¨£©¡£
-If the Customer shall at any time open one or more accounts with participants of HKFE other than RUI DA for the purpose of carrying out transactions relating to Futures Contracts or Option Contracts and if the open positions in such accounts in aggregate amount to a ¡°Large Open Position¡± as determined by the board of the HKFE, the Customer shall report to HKFE immediately of such ¡°Large Open Position¡± and provide RUI DA or HKFE (as the case may be) with such information as RUI DA or HKFE (as the case may be) may require in connection therewith (including the name of the Customer and of the Ultimate Beneficiary or, in the case of a company or body corporate, of the individuals who are the ultimate beneficial owners of the share capital of the company or body corporate, including a beneficiary holding an interest through a nominee or trust of such ¡°Large Open Position¡±) and also provide RUI DA or HKFE (as the case may be) with any other information as may be required by RUI DA or HKFE (as the case may be).
+7.11 å€˜è‹¥å®¢æˆ·åœ¨ä»»ä½•æ—¶å€™å°±è¿›è¡Œä¸æœŸè´§åˆçº¦æˆ–æœŸæƒåˆçº¦æœ‰å…³çš„äº¤æ˜“è€Œåœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥å¤–çš„æœŸäº¤æ‰€ å‚ä¸è€…å¼€ç«‹ä¸€ä¸ªæˆ–å¤šä¸ªæˆ·å£ï¼ŒåŠå€˜è‹¥è¿™äº›æˆ·å£çš„æœªå¹³ä»“åˆçº¦æ€»é¢è¾¾åˆ°æœŸäº¤æ‰€å§”å‘˜ä¼šè§„å®šçš„ã€Œå¤§é¢æœªå¹³ä»“åˆ çº¦ã€æ ‡å‡†ï¼Œå®¢æˆ·åº”å³æ—¶å‘æœŸäº¤æ‰€æŠ¥å‘Šè¯¥ã€Œå¤§é¢æœªå¹³ä»“åˆçº¦ã€ï¼Œå¹¶å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–æœŸäº¤æ‰€ï¼ˆè§† å±ä½•æƒ…å†µè€Œå®šï¼‰æä¾›å…¶æ‰€è§„å®šçš„ä¸è¯¥ã€Œå¤§é¢æœªå¹³ä»“åˆçº¦ã€æœ‰å…³çš„èµ„æ–™ï¼ˆåŒ…æ‹¬å®¢æˆ·åŠæœ€ç»ˆå®ç›Šæ‹¥æœ‰äººçš„åç§°ï¼Œ æˆ–ï¼ˆå¦‚å±å…¬å¸æˆ–å›¢ä½“ï¼‰è¯¥å…¬å¸æˆ–å›¢ä½“è‚¡æœ¬çš„æœ€ç»ˆå®ç›Šæ‹¥æœ‰äººä¸ªäººçš„åç§°ï¼ŒåŒ…æ‹¬é€è¿‡ä»£åäººæˆ–ä¿¡æ‰˜å½¢å¼æŒæœ‰åˆ© ç›Šçš„å—ç›Šäººï¼‰ï¼ŒåŠå‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–æœŸäº¤æ‰€ï¼ˆè§†å±ä½•æƒ…å†µè€Œå®šï¼‰æä¾›å…¶æ‰€è¦æ±‚çš„ä»»ä½•å…¶ä»–èµ„æ–™ï¼ˆè§†å±ä½•æƒ…å†µè€Œå®šï¼‰ã€‚
+If the Customer shall at any time open one or more accounts with participants of HKFE other than RUI DA for the purpose of carrying out transactions relating to Futures Contracts or Option Contracts and if the open positions in such accounts in aggregate amount to a â€œLarge Open Positionâ€ as determined by the board of the HKFE, the Customer shall report to HKFE immediately of such â€œLarge Open Positionâ€ and provide RUI DA or HKFE (as the case may be) with such information as RUI DA or HKFE (as the case may be) may require in connection therewith (including the name of the Customer and of the Ultimate Beneficiary or, in the case of a company or body corporate, of the individuals who are the ultimate beneficial owners of the share capital of the company or body corporate, including a beneficiary holding an interest through a nominee or trust of such â€œLarge Open Positionâ€) and also provide RUI DA or HKFE (as the case may be) with any other information as may be required by RUI DA or HKFE (as the case may be).
 
-7.12 ¿Í»§Ó¦ÂÄĞĞËùÓĞÏà¹ØÊĞ³¡¼°½»Ò×Ëù£¨°üÀ¨µ«²»ÏŞÓÚ¡¶Ö¤È¯¼°ÆÚ»õ£¨ºÏÔ¼ÏŞÁ¿¼°ĞëÉê±¨µÄ³Ö²ÖÁ¿£©¹æÔò¡·)ÊÊÓÃ µÄËùÓĞÍ¨±¨ÒªÇó£¬¼°²»Ó¦³¬¹ı¸ù¾İÏà¹ØÊĞ³¡¼°½»Ò×Ëù¶©Ã÷¹ØÓÚºÏÔ¼ÏŞÁ¿¼°ĞëÉê±¨µÄ³Ö²ÖÁ¿¹æÔòËùÔØÖ®ÓĞ¹ØÆÚ »õÀà±ğ¼°ÖÖÀàµÄÏŞ¶î£¨ÈçÓĞ£©¡£¿Í»§³ĞÈÏÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»Ó¦£¨ÊÊÓÃ·¨Àı»ò·¨¹æÒªÇó³ıÍâ£©ÎªÈÎ ºÎ¿Í»§µÄ½»Ò×Í¨±¨¡¢Éê±¨»ò»ã±¨¸ºÉÏÔğÈÎ£¨°üÀ¨¸ù¾İ¡¶Ö¤È¯¼°ÆÚ»õÌõÀı¡·µÚ XV ²¿»òÏàµÈ·¨Àı¹æ¶¨µÄÉÏ±¨£¨ÈçÊÊÓÃ£©£©£¬²¢³ĞÅµÆä½«²»»áÒÀÀµÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½â³ıÆä¸ù¾İÊÊÓÃ·¨Àı»ò·¨¹æ¹æ¶¨µÄ½»Ò×Í¨±¨¡¢Éê±¨»ò»ã±¨ÔğÈÎ¡£
+7.12 å®¢æˆ·åº”å±¥è¡Œæ‰€æœ‰ç›¸å…³å¸‚åœºåŠäº¤æ˜“æ‰€ï¼ˆåŒ…æ‹¬ä½†ä¸é™äºã€Šè¯åˆ¸åŠæœŸè´§ï¼ˆåˆçº¦é™é‡åŠé¡»ç”³æŠ¥çš„æŒä»“é‡ï¼‰è§„åˆ™ã€‹)é€‚ç”¨ çš„æ‰€æœ‰é€šæŠ¥è¦æ±‚ï¼ŒåŠä¸åº”è¶…è¿‡æ ¹æ®ç›¸å…³å¸‚åœºåŠäº¤æ˜“æ‰€è®¢æ˜å…³äºåˆçº¦é™é‡åŠé¡»ç”³æŠ¥çš„æŒä»“é‡è§„åˆ™æ‰€è½½ä¹‹æœ‰å…³æœŸ è´§ç±»åˆ«åŠç§ç±»çš„é™é¢ï¼ˆå¦‚æœ‰ï¼‰ã€‚å®¢æˆ·æ‰¿è®¤ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸åº”ï¼ˆé€‚ç”¨æ³•ä¾‹æˆ–æ³•è§„è¦æ±‚é™¤å¤–ï¼‰ä¸ºä»» ä½•å®¢æˆ·çš„äº¤æ˜“é€šæŠ¥ã€ç”³æŠ¥æˆ–æ±‡æŠ¥è´Ÿä¸Šè´£ä»»ï¼ˆåŒ…æ‹¬æ ¹æ®ã€Šè¯åˆ¸åŠæœŸè´§æ¡ä¾‹ã€‹ç¬¬ XV éƒ¨æˆ–ç›¸ç­‰æ³•ä¾‹è§„å®šçš„ä¸ŠæŠ¥ï¼ˆå¦‚é€‚ç”¨ï¼‰ï¼‰ï¼Œå¹¶æ‰¿è¯ºå…¶å°†ä¸ä¼šä¾èµ–ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è§£é™¤å…¶æ ¹æ®é€‚ç”¨æ³•ä¾‹æˆ–æ³•è§„è§„å®šçš„äº¤æ˜“é€šæŠ¥ã€ç”³æŠ¥æˆ–æ±‡æŠ¥è´£ä»»ã€‚
 The Customer shall comply with all applicable notification requirements established by the relevant market or exchange (including, without limitation, those applicable under the Securities and Futures (Contracts Limits and Reportable Positions) Rules) and shall not exceed the prescribed limit for the relevant Futures class and type in accordance with the contract limits and reportable position rules established by the relevant market or exchange, if any. The Customer acknowledges that RUI DA shall not (except to the extent required by Applicable Laws and Regulations) be responsible for any of the Customer?s transaction notification, filing or reporting obligations (including, where applicable, any filings required pursuant to Part XV of the Ordinance or equivalent legislation) and undertakes that he shall not rely on RUI DA to discharge his transaction notification, filing or reporting obligations pursuant to Applicable Laws and Regulations.
 
-7.13 ¿Í»§Í¬Òâ°´Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»Ê±Í¨Öª¿Í»§µÄÀûÂÊ¼°ÆäËûÌõ¿î¾ÍËùÓĞÓâÆÚÎ´¸¶¿îÏîÖ§¸¶ÀûÏ¢ (°üÀ¨ ¿Í»§±»²Ã¶¨ËùÇ·Õ®ÎñÖ®Ç°ËùÒıÆğµÄÀûÏ¢)¡£Èç¹û¿Í»§Ö¸ÁîÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½øĞĞÈÎºÎÒÔÍâ±Ò±ê¼ÛµÄÆÚ »õ½»Ò×£¬Ôò(i)ÈÎºÎÒò¸ÃÍâ±ÒµÄ»ãÂÊ²¨¶¯ËùĞÎ³ÉµÄËğÒæÍêÈ«¹éÓÚ¿Í»§»§¿Ú£¬·çÏÕÓÉ¿Í»§³Ğµ££»(ii)±£Ö¤½ğÓ¦ÒÔÈğ ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×ÔÖ÷¾ö¶¨µÄ±ÒÖÖºÍ½ğ¶îÀ´¼ÇÂ¼£»¶øÇÒ(iii) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»ñÊÚÈ¨¿ÉÒÔ×Ô Ö÷¾ö¶¨ÒÔ»õ±ÒÊĞ³¡µ±Ê±±¨¼ÛÎª»ù´¡¶øÈ·¶¨µÄ»ãÂÊ½«»§¿ÚÖĞµÄ×Ê½ğÔÚÔ­±ÒÖÖºÍÉÏÊöÍâ±ÒÖ®¼ä½øĞĞ×ª»»¡£Èç¹ûÎŞ ÂÛ³öÓÚºÎÖÖÄ¿µÄ£¬¿Í»§±»ÒªÇó½«ÆäÇ·Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ×Ê½ğ×ª»»³ÉÔ­ÏÈµ½ÆÚÕ®ÎñËùÓÃ±ÒÖÖÖ®ÍâµÄ »õ±Ò£¬Ôò¿Í»§Ó¦ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ö§¸¶¶îÍâµÄ½ğ¶îÒÔ±£Ö¤Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÊÕµ½µÄÒÑ×ª »»ºóµÄ½ğ¶îµÈÍ¬ÓÚÎ´×ª»»Ç°Ó¦ÊÕµÄ½ğ¶î¡£
+7.13 å®¢æˆ·åŒæ„æŒ‰ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸æ—¶é€šçŸ¥å®¢æˆ·çš„åˆ©ç‡åŠå…¶ä»–æ¡æ¬¾å°±æ‰€æœ‰é€¾æœŸæœªä»˜æ¬¾é¡¹æ”¯ä»˜åˆ©æ¯ (åŒ…æ‹¬ å®¢æˆ·è¢«è£å®šæ‰€æ¬ å€ºåŠ¡ä¹‹å‰æ‰€å¼•èµ·çš„åˆ©æ¯)ã€‚å¦‚æœå®¢æˆ·æŒ‡ä»¤ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¿›è¡Œä»»ä½•ä»¥å¤–å¸æ ‡ä»·çš„æœŸ è´§äº¤æ˜“ï¼Œåˆ™(i)ä»»ä½•å› è¯¥å¤–å¸çš„æ±‡ç‡æ³¢åŠ¨æ‰€å½¢æˆçš„æŸç›Šå®Œå…¨å½’äºå®¢æˆ·æˆ·å£ï¼Œé£é™©ç”±å®¢æˆ·æ‰¿æ‹…ï¼›(ii)ä¿è¯é‡‘åº”ä»¥ç‘ è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è‡ªä¸»å†³å®šçš„å¸ç§å’Œé‡‘é¢æ¥è®°å½•ï¼›è€Œä¸”(iii) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è·æˆæƒå¯ä»¥è‡ª ä¸»å†³å®šä»¥è´§å¸å¸‚åœºå½“æ—¶æŠ¥ä»·ä¸ºåŸºç¡€è€Œç¡®å®šçš„æ±‡ç‡å°†æˆ·å£ä¸­çš„èµ„é‡‘åœ¨åŸå¸ç§å’Œä¸Šè¿°å¤–å¸ä¹‹é—´è¿›è¡Œè½¬æ¢ã€‚å¦‚æœæ—  è®ºå‡ºäºä½•ç§ç›®çš„ï¼Œå®¢æˆ·è¢«è¦æ±‚å°†å…¶æ¬ ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„èµ„é‡‘è½¬æ¢æˆåŸå…ˆåˆ°æœŸå€ºåŠ¡æ‰€ç”¨å¸ç§ä¹‹å¤–çš„ è´§å¸ï¼Œåˆ™å®¢æˆ·åº”å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ”¯ä»˜é¢å¤–çš„é‡‘é¢ä»¥ä¿è¯ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ”¶åˆ°çš„å·²è½¬ æ¢åçš„é‡‘é¢ç­‰åŒäºæœªè½¬æ¢å‰åº”æ”¶çš„é‡‘é¢ã€‚
 The Client agrees to pay interest on all overdue balances (including interest arising before a judgment debt is obtained against the Client) at such rate and on such other terms as RUI DA has notified the Client from time to time. If Client requests RUI DA to carry out any futures trading in foreign currencies, (i) any profit or loss arising in exchange rate of foreign currency fluctuations is respond to the account and all risk is borne by Client; (ii) the currency margin shall be recorded by RUI DA; and (iii) RUI DA have right to decide convert the deposit in the account between original currency and foreign currency at the exchange rate determined on the basis of the prevailing quotation by market. In any event, Client is required to convert its outstanding amount to RUI DA into currency of the original maturity, the Client shall pay additional amounts to RUI DA to ensure the converted amount received is equivalent to the amount due before the conversion to RUI DA.
 
-7.14 ÔÚÏã¸ÛÆÚ½»ËùÍâ½øĞĞµÄ½»Ò×£ºÈç¹û¿Í»§Ï£ÍûÔÚÏã¸ÛÆÚ½»ËùÒÔÍâµÄÊĞ³¡ÉÏ½øĞĞÈÎºÎÆÚ»õºÏÔ¼µÈÑÜÉúÆ·µÄ½»Ò×£¬ Ôò´ËÀà½»Ò×ĞëÊÜ´ËµÈÊĞ³¡£¨¶ø·ÇÏã¸ÛÆÚ½»ËùÊĞ³¡£©µÄ¹æÔòºÍÌõÀıËù¹ÜÖÆ£¬ÓÉ´Ë¿Í»§ÔÚÕâĞ©½»Ò×ÖĞËùµÃµ½µÄ±£ »¤Ë®×¼ºÍÖÖÀà¿ÉÄÜÃ÷ÏÔ²»Í¬ÓÚÏã¸ÛÆÚ½»Ëù¹æÔòËùÌá¹©µÄ±£»¤Ë®×¼ºÍÖÖÀà¡£¿Í»§Ó¦Ö÷¶¯ÁË½â´ËµÈÊĞ³¡µÄ¹æÔòºÍ ÌõÀı£¬²»µÃÒÔ²»ÖªÇé¡¢²»ÁË½âÎªÀíÓÉ¶øÃâ³ı´ËµÈÊĞ³¡½»Ò×¹æÔòºÍÌõÀıµÄÔ¼Êø¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»á ¾¡Á¦Öª»á¿Í»§£¬µ«ÎŞÂÛÈçºÎÎŞĞèÒò¿Í»§ÓÉÓÚ´ËµÈÊĞ³¡½»Ò×¹æÔòºÍÌõÀı»òÒÅÂ©Ïò¿Í»§Öª»á¶øµ¼ÖÂµÄÈÎºÎÀûÈó¡¢ ËğÊ§¡¢·ÑÓÃ¡¢Åâ³¥»ò¿ªÖ§¶ø¸ºÈÎºÎÔğÈÎ¡£
+7.14 åœ¨é¦™æ¸¯æœŸäº¤æ‰€å¤–è¿›è¡Œçš„äº¤æ˜“ï¼šå¦‚æœå®¢æˆ·å¸Œæœ›åœ¨é¦™æ¸¯æœŸäº¤æ‰€ä»¥å¤–çš„å¸‚åœºä¸Šè¿›è¡Œä»»ä½•æœŸè´§åˆçº¦ç­‰è¡ç”Ÿå“çš„äº¤æ˜“ï¼Œ åˆ™æ­¤ç±»äº¤æ˜“é¡»å—æ­¤ç­‰å¸‚åœºï¼ˆè€Œéé¦™æ¸¯æœŸäº¤æ‰€å¸‚åœºï¼‰çš„è§„åˆ™å’Œæ¡ä¾‹æ‰€ç®¡åˆ¶ï¼Œç”±æ­¤å®¢æˆ·åœ¨è¿™äº›äº¤æ˜“ä¸­æ‰€å¾—åˆ°çš„ä¿ æŠ¤æ°´å‡†å’Œç§ç±»å¯èƒ½æ˜æ˜¾ä¸åŒäºé¦™æ¸¯æœŸäº¤æ‰€è§„åˆ™æ‰€æä¾›çš„ä¿æŠ¤æ°´å‡†å’Œç§ç±»ã€‚å®¢æˆ·åº”ä¸»åŠ¨äº†è§£æ­¤ç­‰å¸‚åœºçš„è§„åˆ™å’Œ æ¡ä¾‹ï¼Œä¸å¾—ä»¥ä¸çŸ¥æƒ…ã€ä¸äº†è§£ä¸ºç†ç”±è€Œå…é™¤æ­¤ç­‰å¸‚åœºäº¤æ˜“è§„åˆ™å’Œæ¡ä¾‹çš„çº¦æŸã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¼š å°½åŠ›çŸ¥ä¼šå®¢æˆ·ï¼Œä½†æ— è®ºå¦‚ä½•æ— éœ€å› å®¢æˆ·ç”±äºæ­¤ç­‰å¸‚åœºäº¤æ˜“è§„åˆ™å’Œæ¡ä¾‹æˆ–é—æ¼å‘å®¢æˆ·çŸ¥ä¼šè€Œå¯¼è‡´çš„ä»»ä½•åˆ©æ¶¦ã€ æŸå¤±ã€è´¹ç”¨ã€èµ”å¿æˆ–å¼€æ”¯è€Œè´Ÿä»»ä½•è´£ä»»ã€‚
 Transactions out of Hong Kong Futures Exchange: If the Client wishes to trade in derivatives, such as futures contracts, other than the Hong Kong Futures Exchange market, such transactions are subject to such market (not the Hong Kong Futures Exchange Market). The protection offered to the Client in such transactions may be significantly different from the level and type of protection provided by the Rules of Hong Kong Futures Exchange (HKFE). Client shall take the initiative to understand the rules and regulations of these markets and shall not be relieved of such market trading rules and regulations on the grounds of ignorance. RUI DA will endeavor to inform the Client but in any event shall not be liable for any profits, losses, costs, damages or expenses resulting from any omission of giving notice to the Client of such market trading rules and regulations.
 
-7.15 ¿Í»§Ã÷°×Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»»á½ÓÊÜÈÎºÎµÚÈı·½Ö¸Áî£¬³ı·Ç¿Í»§ÒÑÕıÊ½Ç©Êğ²¢µİ½»Ò»ÓĞĞ§µÄÊÚÈ¨ Êé£¬Ã÷È·ÊÚÈ¨Ò»ÊğÃûµÄµÚÈı·½´ú±íÆä·¢³ö½»Ò×Ö¸Áî¡£¿Í»§Í¬Òâ¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒòÒÀÀµµÚÈı·½´ú ±í¿Í»§·¢³öµÄÖ¸Áî¶øµ¼ÖÂµÄÕùÒé¡¢ËğÊ§¡¢·ÑÓÃ¡¢¿ªÖ§ÒÔ¼°ÆäËûË÷Åâ¸ºÔğ¡£Èç¹û¿Í»§¾ö¶¨¹ÍÓÃµÚÈı·½ÎªÆä·¢³ö ½»Ò×Ö¸Áî£¬¿Í»§Í¬ÒâÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©¸ÃÖ¸¶¨µÄµÚÈı·½×¼È·ÕæÊµµÄÉí·İÈÏ¶¨ºÍ¸öÈË×ÊÁÏ¡£
+7.15 å®¢æˆ·æ˜ç™½ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸ä¼šæ¥å—ä»»ä½•ç¬¬ä¸‰æ–¹æŒ‡ä»¤ï¼Œé™¤éå®¢æˆ·å·²æ­£å¼ç­¾ç½²å¹¶é€’äº¤ä¸€æœ‰æ•ˆçš„æˆæƒ ä¹¦ï¼Œæ˜ç¡®æˆæƒä¸€ç½²åçš„ç¬¬ä¸‰æ–¹ä»£è¡¨å…¶å‘å‡ºäº¤æ˜“æŒ‡ä»¤ã€‚å®¢æˆ·åŒæ„å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å› ä¾èµ–ç¬¬ä¸‰æ–¹ä»£ è¡¨å®¢æˆ·å‘å‡ºçš„æŒ‡ä»¤è€Œå¯¼è‡´çš„äº‰è®®ã€æŸå¤±ã€è´¹ç”¨ã€å¼€æ”¯ä»¥åŠå…¶ä»–ç´¢èµ”è´Ÿè´£ã€‚å¦‚æœå®¢æˆ·å†³å®šé›‡ç”¨ç¬¬ä¸‰æ–¹ä¸ºå…¶å‘å‡º äº¤æ˜“æŒ‡ä»¤ï¼Œå®¢æˆ·åŒæ„å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›è¯¥æŒ‡å®šçš„ç¬¬ä¸‰æ–¹å‡†ç¡®çœŸå®çš„èº«ä»½è®¤å®šå’Œä¸ªäººèµ„æ–™ã€‚
 Client understands that RUI DA will not accept any third party instructions unless the Client has duly signed and submitted a valid power of attorney to expressly authorized third party to lodge trade instructions on its behalf. Client agrees to be responsible for any disputes, losses, charges, expenses and other claims arising out of the instructions issued by RUI DA on behalf of the Client. If Client decides to third party to lodge trade instructions, the Client agrees to provide RUI DA with real identity and personal information of designated third party.
  
 
-8.·ÑÓÃ Charges
+8.è´¹ç”¨ Charges
 
-8.1¿Í»§Ó¦°´ÒªÇóÖ§¸¶Òò¿Í»§ËùÊ¹ÓÃµÄ·şÎñ¶øÇ·Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ºÍÈÎºÎÆäËû¸÷·½(°üÀ¨µ«²»ÏŞÓÚ¹ÜÀí »ú¹¹¡¢½»Ò×Ëù¡¢½áËãËù¡¢Õş¸®²¿ÃÅºÍÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ´úÀí)ÕĞÖÂµÄ¾­¼Í·ÑÓÃ¡¢Ó¶½ğ¡¢·ÑÓÃ¡¢¹Ø Ë°¡¢Ë°ÊÕ¡¢Õ÷ÊÕµÄ·ÑÓÃ¡¢ÀûÏ¢ÒÔ¼°ÆäËûÒ»ÇĞ·ÑÓÃ¡£¿Í»§ÌØ´ËÊÚÈ¨Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´Ó»§¿ÚÖĞ¿Û³ıÉÏ Êö·ÑÓÃµÄÈÎºÎ½ğ¶î¡£Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ó¦²»Ê±Ïò¿Í»§Ìá¹©ÓĞ¹ØÉÏÊö·ÑÓÃµÄËµÃ÷(ÒÔ¼°¸¶¿îÔ­Òò)¡£ 
+8.1å®¢æˆ·åº”æŒ‰è¦æ±‚æ”¯ä»˜å› å®¢æˆ·æ‰€ä½¿ç”¨çš„æœåŠ¡è€Œæ¬ ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å’Œä»»ä½•å…¶ä»–å„æ–¹(åŒ…æ‹¬ä½†ä¸é™äºç®¡ç† æœºæ„ã€äº¤æ˜“æ‰€ã€ç»“ç®—æ‰€ã€æ”¿åºœéƒ¨é—¨å’Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä»£ç†)æ‹›è‡´çš„ç»çºªè´¹ç”¨ã€ä½£é‡‘ã€è´¹ç”¨ã€å…³ ç¨ã€ç¨æ”¶ã€å¾æ”¶çš„è´¹ç”¨ã€åˆ©æ¯ä»¥åŠå…¶ä»–ä¸€åˆ‡è´¹ç”¨ã€‚å®¢æˆ·ç‰¹æ­¤æˆæƒç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»æˆ·å£ä¸­æ‰£é™¤ä¸Š è¿°è´¹ç”¨çš„ä»»ä½•é‡‘é¢ã€‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åº”ä¸æ—¶å‘å®¢æˆ·æä¾›æœ‰å…³ä¸Šè¿°è´¹ç”¨çš„è¯´æ˜(ä»¥åŠä»˜æ¬¾åŸå› )ã€‚ 
 The Client shall pay on demand such brokerage, commission, fee, duty, tax, levy, interest and all other charges incurred by the Client to RUI DA and all other parties (including without limitation, regulators, exchanges, clearing houses, governments and agents of RUI DA) arising out of usage of Services, and the Client hereby authorizes RUI DA to withdraw the amount of any of such aforesaid charges from the Account A description of the charges (and the basis for payment) payable by the Client to RUI DA shall be provided to the Client from time to time.
 
-8.2 ¿Í»§Ç·¸¶Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄ¿îÕ®½«°´ÕÕÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²»Ê±Í¨Öª¿Í»§µÄÏ¢ÂÊÊÕÈ¡Àû Ï¢¡£¸ÃÀûÏ¢ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×ÔĞĞÈ·¶¨£¬²¢ÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸ù¾İÊĞ³¡Ìõ¼ş²»Ê±Í¨Öª¿Í»§¡£
+8.2 å®¢æˆ·æ¬ ä»˜ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„æ¬¾å€ºå°†æŒ‰ç…§ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸æ—¶é€šçŸ¥å®¢æˆ·çš„æ¯ç‡æ”¶å–åˆ© æ¯ã€‚è¯¥åˆ©æ¯ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è‡ªè¡Œç¡®å®šï¼Œå¹¶ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ ¹æ®å¸‚åœºæ¡ä»¶ä¸æ—¶é€šçŸ¥å®¢æˆ·ã€‚
 Clients will be charged by interest on their debts owed to RUI DA. It is at RUI DA's discretion on the rate of interest depending on market conditions which will be notified to the clients from time to time.
 
-8.3 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¾Í´ú¿Í»§³ÖÓĞµÄÈÎºÎÏÖ½ğ½áÓàËù×¬È¡»òÊÕÈ¡µÄÈÎºÎÀûÏ¢Ó¦¾ø¶ÔÊôÓÚÈğ´ï¹ú¼Ê½ğÈÚ ¿Ø¹ÉÓĞÏŞ¹«Ë¾ËùÓĞ¡£
+8.3 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°±ä»£å®¢æˆ·æŒæœ‰çš„ä»»ä½•ç°é‡‘ç»“ä½™æ‰€èµšå–æˆ–æ”¶å–çš„ä»»ä½•åˆ©æ¯åº”ç»å¯¹å±äºç‘è¾¾å›½é™…é‡‘è æ§è‚¡æœ‰é™å…¬å¸æ‰€æœ‰ã€‚
 Any interest earned or received on any credit cash balance held by RUI DA on behalf of the Customer shall belong to RUI DA absolutely.
 
-9.ÖÕÖ¹ Termination
+9.ç»ˆæ­¢ Termination
 
-9.1 ±¾Ğ­Òé¿ÉÓÉÈÎºÎÒ»·½ÒÔÊéÃæÍ¨Öª¶Ô·½ÖÕÖ¹£¬Î¨¿Í»§Ö»¿ÉÓÚÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾È·Êµ½Ó»ñÓĞ¹ØÍ¨Öªºó µÄ×îÉÙÁ½¸öÓªÒµÈÕºó·½ÊÓ×÷ÖÕÖ¹±¾Ğ­Òé£¬ÓĞ¹ØÖÕÖ¹²»µÃÓ°ÏìÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓÚ±¾Ğ­ÒéÖÕÖ¹Ç°Ó¦ÓĞÖ®ÈÎºÎ½»Ò×£¬ÇÒ²»»áÓ°ÏìÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓÚÖÕÖ¹Ç°Ó¦ÓĞÖ®ÈÎºÎÈ¨Àû¡¢È¨Á¦»òÔğÈÎ¡£Èğ´ï¹ú¼Ê½ğÈÚ ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÒÔÒÀÔÚ´ËÖ®Ç°Ìá¼°¹ıµÄ³ÌĞò½«ÉÏÊöËùÌá¼°µÄ»§¿ÚÇåÅÌ»ò½«»§¿Ú×ªÈÃ¸ø¾­¿Í»§ÓëÈğ´ï¹ú¼Ê½ğÈÚ ¿Ø¹ÉÓĞÏŞ¹«Ë¾Í¬ÒâµÄ¾­¼Í»ò½»Ò×ÉÌ¡£
+9.1 æœ¬åè®®å¯ç”±ä»»ä½•ä¸€æ–¹ä»¥ä¹¦é¢é€šçŸ¥å¯¹æ–¹ç»ˆæ­¢ï¼Œå”¯å®¢æˆ·åªå¯äºåœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ç¡®å®æ¥è·æœ‰å…³é€šçŸ¥å çš„æœ€å°‘ä¸¤ä¸ªè¥ä¸šæ—¥åæ–¹è§†ä½œç»ˆæ­¢æœ¬åè®®ï¼Œæœ‰å…³ç»ˆæ­¢ä¸å¾—å½±å“ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸äºæœ¬åè®®ç»ˆæ­¢å‰åº”æœ‰ä¹‹ä»»ä½•äº¤æ˜“ï¼Œä¸”ä¸ä¼šå½±å“ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸äºç»ˆæ­¢å‰åº”æœ‰ä¹‹ä»»ä½•æƒåˆ©ã€æƒåŠ›æˆ–è´£ä»»ã€‚ç‘è¾¾å›½é™…é‡‘è æ§è‚¡æœ‰é™å…¬å¸å¯ä»¥ä¾åœ¨æ­¤ä¹‹å‰æåŠè¿‡çš„ç¨‹åºå°†ä¸Šè¿°æ‰€æåŠçš„æˆ·å£æ¸…ç›˜æˆ–å°†æˆ·å£è½¬è®©ç»™ç»å®¢æˆ·ä¸ç‘è¾¾å›½é™…é‡‘è æ§è‚¡æœ‰é™å…¬å¸åŒæ„çš„ç»çºªæˆ–äº¤æ˜“å•†ã€‚
 This Agreement may be terminated by either party hereto by written notice on the other party provided that this Agreement shall not be deemed to be terminated by the Client until 2 business days after actual receipt by RUI DA of such notice and the termination shall not affect any Transaction entered into by RUI DA prior to the termination of this Agreement and shall be without prejudice to any accrued rights, power or duties of RUI DA prior to the termination. RUI DA may liquidate the Account as herein before provided or transfer the Account to such broker or dealer as agreed by the Client and RUI DA.
 
-9.2 ÔÚ¹Ø±Õ»§¿ÚÊ±£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ó¦½«»§¿ÚÀïËùÊ£ÏÂµÄÕı½áÓà³¥»¹¸ø¿Í»§»ò¿Í»§Ó¦½«»§¿ÚÀïµÄÈÎºÎ ¸º½áÓà³¥»¹¸øÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡£¿Í»§Ó¦Á¢¼´Ïò Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½áÇåËùÓĞÎ´Çå»¹µÄÕ®Îñ£¬Á¬Í¬ËùÓĞÊÕÈ¡µÄ·ÑÓÃ  (°üÀ¨ºÏÀíµÄ·¨ÂÉ·ÑÓÃ)¡£
+9.2 åœ¨å…³é—­æˆ·å£æ—¶ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åº”å°†æˆ·å£é‡Œæ‰€å‰©ä¸‹çš„æ­£ç»“ä½™å¿è¿˜ç»™å®¢æˆ·æˆ–å®¢æˆ·åº”å°†æˆ·å£é‡Œçš„ä»»ä½• è´Ÿç»“ä½™å¿è¿˜ç»™ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€‚å®¢æˆ·åº”ç«‹å³å‘ ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ç»“æ¸…æ‰€æœ‰æœªæ¸…è¿˜çš„å€ºåŠ¡ï¼Œè¿åŒæ‰€æœ‰æ”¶å–çš„è´¹ç”¨  (åŒ…æ‹¬åˆç†çš„æ³•å¾‹è´¹ç”¨)ã€‚
 Upon closure of the Account, RUI DA shall repay the Client any positive balance left in the Account or the Client shall repay RUI DA any negative balance in the Account. The Client shall promptly settle all liabilities outstanding to RUI DA, together with all costs of collection (including reasonable legal fees).
 
-9.3µ±³öÏÖÒÔÏÂÈÎºÎÎ¥Ô¼ÊÂÏî£º
-Upon the happening of any one of the following events, each an ¡°Event of Default¡±:
+9.3å½“å‡ºç°ä»¥ä¸‹ä»»ä½•è¿çº¦äº‹é¡¹ï¼š
+Upon the happening of any one of the following events, each an â€œEvent of Defaultâ€:
 
-(a) Èç¹ûÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÈÏÎª¿Í»§ÒÑ¾­Î¥·´»òÎ´ÄÜÂÄĞĞ±¾Ğ­ÒéµÄÈÎºÎÌõ¿î£»
+(a) å¦‚æœç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¤ä¸ºå®¢æˆ·å·²ç»è¿åæˆ–æœªèƒ½å±¥è¡Œæœ¬åè®®çš„ä»»ä½•æ¡æ¬¾ï¼›
 if, in RUI DA?s opinion, the Customer has breached or failed to perform any terms of the Agreement;
-(b) ¿Í»§ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×÷³öµÄÈÎºÎÉùÃ÷¡¢±£Ö¤»ò³ĞÅµÔÚ×÷³öÊ±»òÔÚÆäºóÔÚÈÎºÎ·½Ãæ±ä³É²» ÕıÈ·£»
+(b) å®¢æˆ·å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä½œå‡ºçš„ä»»ä½•å£°æ˜ã€ä¿è¯æˆ–æ‰¿è¯ºåœ¨ä½œå‡ºæ—¶æˆ–åœ¨å…¶ååœ¨ä»»ä½•æ–¹é¢å˜æˆä¸ æ­£ç¡®ï¼›
 if any representation, warranty or undertaking given by the Customer to RUI DA was when given or hereafter becomes incorrect in any respect;
-(c) ¿Í»§ÎŞ·¨°´ÕÕÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒªÇóÖ§¸¶»òÓâÆÚÎ´ÄÜÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆä¼¯ÍÅ ¹«Ë¾³ÉÔ±Ö§¸¶ÈÎºÎ´æ¿î»òÓ¦Ö§¸¶¿îÏî¡¢»òÎ´ÄÜÏò¹«Ë¾Ìá½»ÈÎºÎÎÄ¼ş»ò½»¸¶ÈÎºÎÓĞ¼ÛÖ¤È¯£»
+(c) å®¢æˆ·æ— æ³•æŒ‰ç…§ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¦æ±‚æ”¯ä»˜æˆ–é€¾æœŸæœªèƒ½å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶é›†å›¢ å…¬å¸æˆå‘˜æ”¯ä»˜ä»»ä½•å­˜æ¬¾æˆ–åº”æ”¯ä»˜æ¬¾é¡¹ã€æˆ–æœªèƒ½å‘å…¬å¸æäº¤ä»»ä½•æ–‡ä»¶æˆ–äº¤ä»˜ä»»ä½•æœ‰ä»·è¯åˆ¸ï¼›
 the Client fails to effect any payment, overdue payment, placing deposits, guarantee or any other securities collateral to RUI DA or RUI DA?s Affiliates.
-(d) µ±µÚÈı·½Ïò¿Í»§×÷³öÆÆ²ú³ÊÇë£¬»ò¾Í¿Í»§µÄ×ÔÔ¸»òÇ¿ÖÆÇåÅÌÒÑ×÷³öÃüÁî»òÒÑÍ¨¹ı¾öÒé°¸£¬»òÒÑÕÙ¿ª»áÒéÉóÒé¿Í»§Ó¦·ñ½øĞĞÇåÅÌµÄ¾öÒé°¸£¬»ò¿Í»§ÎªÆäÕ®È¨ÈËµÄÀûÒæ×÷³ö»ò½¨ÒéÈÎºÎÕ®Îñ°²ÅÅ»òÕ®ÎñÖØÕû£»
+(d) å½“ç¬¬ä¸‰æ–¹å‘å®¢æˆ·ä½œå‡ºç ´äº§å‘ˆè¯·ï¼Œæˆ–å°±å®¢æˆ·çš„è‡ªæ„¿æˆ–å¼ºåˆ¶æ¸…ç›˜å·²ä½œå‡ºå‘½ä»¤æˆ–å·²é€šè¿‡å†³è®®æ¡ˆï¼Œæˆ–å·²å¬å¼€ä¼šè®®å®¡è®®å®¢æˆ·åº”å¦è¿›è¡Œæ¸…ç›˜çš„å†³è®®æ¡ˆï¼Œæˆ–å®¢æˆ·ä¸ºå…¶å€ºæƒäººçš„åˆ©ç›Šä½œå‡ºæˆ–å»ºè®®ä»»ä½•å€ºåŠ¡å®‰æ’æˆ–å€ºåŠ¡é‡æ•´ï¼›
 a petition for bankruptcy is filed against or an order is made or resolution passed for the voluntary or compulsory winding up of the Customer, or a meeting is convened to consider a resolution that the Customer should be so wound up, or the Customer makes or proposes any arrangements or compositions for the benefit of any of its creditors;
-(e) Èô¿Í»§ÓëÈÎºÎ·ÇÆäÁªÊôÈËºÏ²¢»ò½áºÏ»ò³öÊÛÆäËùÓĞ»òÊµÖÊ²¿·ÖÒµÎñ»ò×Ê²ú£»
+(e) è‹¥å®¢æˆ·ä¸ä»»ä½•éå…¶è”å±äººåˆå¹¶æˆ–ç»“åˆæˆ–å‡ºå”®å…¶æ‰€æœ‰æˆ–å®è´¨éƒ¨åˆ†ä¸šåŠ¡æˆ–èµ„äº§ï¼›
 if the Customer merges or consolidates with any person that is not an affiliate of the Customer or sells all or a substantial portion of its business or assets;
-(f) ¿Í»§ÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÁªÊôÈË¿ªÉèµÄ»§¿Ú±»·¢³öÈÎºÎ²ÆÎï¿ÛÑºÁî¡¢Ö´ĞĞÁî»òÏàÓ¦µÄÊÖ Áî»òÃüÁî£»
+(f) å®¢æˆ·äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶è”å±äººå¼€è®¾çš„æˆ·å£è¢«å‘å‡ºä»»ä½•è´¢ç‰©æ‰£æŠ¼ä»¤ã€æ‰§è¡Œä»¤æˆ–ç›¸åº”çš„æ‰‹ ä»¤æˆ–å‘½ä»¤ï¼›
 any warrant or order of attachment, execution or distress or equivalent order is issued against any of the accounts of the Customer with RUI DA or any of RUI DA?s Affiliates;
-(g) ÈÎºÎµÚÈı·½¾Í»§¿ÚÖĞµÄÈÎºÎÆÚ»õºÏÔ¼¡¢ÆÚÈ¨ºÏÔ¼»ò¿îÏî»òÆäËû×Ê²úÌá³öÉêË÷£»
+(g) ä»»ä½•ç¬¬ä¸‰æ–¹å°±æˆ·å£ä¸­çš„ä»»ä½•æœŸè´§åˆçº¦ã€æœŸæƒåˆçº¦æˆ–æ¬¾é¡¹æˆ–å…¶ä»–èµ„äº§æå‡ºç”³ç´¢ï¼›
 any third party asserts a claim in respect of any Futures Contract, Option Contract or monies or other assets in the Account;
-(h) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Òò¿Í»§Î´ÄÜÎ¬³Ö±£Ö¤½ğ¹æ¶¨»òÆäËûÔ­Òò¶øÈÏÎª¶Ô±£ÕÏÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞ
-ÏŞ¹«Ë¾µÄÀûÒæÎª±ØĞèµÄ£»
+(h) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å› å®¢æˆ·æœªèƒ½ç»´æŒä¿è¯é‡‘è§„å®šæˆ–å…¶ä»–åŸå› è€Œè®¤ä¸ºå¯¹ä¿éšœç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰
+é™å…¬å¸çš„åˆ©ç›Šä¸ºå¿…éœ€çš„ï¼›
 RUI DA considers it necessary to protect the interests of RUI DA because of the Customer?s failure to maintain the Margin requirements or otherwise;
-(i) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÈÏÎªÊÇ×ñÊØÊÊÓÃ·¨ÂÉ·¨¹æËù±ØĞëµÄ£»
+(i) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¤ä¸ºæ˜¯éµå®ˆé€‚ç”¨æ³•å¾‹æ³•è§„æ‰€å¿…é¡»çš„ï¼›
 RUI DA considers it necessary to comply with Applicable Laws and Regulations;
-(j) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÈÏÎª¿Í»§ÔÚÒµÎñ¡¢²ÆÎñ»òÆäËûÇé¿ö»ò»·¾³·½Ãæ³öÏÖÖØ´ó²»Àû×ª±ä£¬¿ÉÄÜÓ° Ïì¿Í»§ÂÄĞĞ±¾Ğ­ÒéµÄÔğÈÎµÄÄÜÁ¦£»
+(j) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¤ä¸ºå®¢æˆ·åœ¨ä¸šåŠ¡ã€è´¢åŠ¡æˆ–å…¶ä»–æƒ…å†µæˆ–ç¯å¢ƒæ–¹é¢å‡ºç°é‡å¤§ä¸åˆ©è½¬å˜ï¼Œå¯èƒ½å½± å“å®¢æˆ·å±¥è¡Œæœ¬åè®®çš„è´£ä»»çš„èƒ½åŠ›ï¼›
 in RUI DA?s opinion, there occurs any material adverse change in the business, financial or other conditions or circumstances of the Customer which may prejudice its ability to perform its obligations under the Agreement;
-(k) ¿Í»§Î¬³Ö»§¿Ú»òÂÄĞĞ±¾Ğ­ÒéÔğÈÎ³ÉÎªÎ¥·¨£»»ò
+(k) å®¢æˆ·ç»´æŒæˆ·å£æˆ–å±¥è¡Œæœ¬åè®®è´£ä»»æˆä¸ºè¿æ³•ï¼›æˆ–
 it shall become unlawful for the Customer to maintain the account(s) or to perform any of its obligations under the Agreement; or
-(l) Èç¿Í»§Îª¸öÈË£¬¶øÆäÉí¹Ê»ò¾«ÉñÉÏÎŞĞĞÎªÄÜÁ¦¡£
-where the Customer is an individual, he dies or otherwise become mentally incapacitated;, Ôò¿Í»§Ç·¸¶Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄËùÓĞ¿îÏîÓ¦¼´Ê±µ½ÆÚ²¢ĞëÖ§¸¶£¬¶øÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨ ¼°¿ÉÆä°´¾ø¶Ô×ÃÇéÈ¨¾ö¶¨£¬ÔÚÎãĞë¸øÓèÍ¨Öª»òÒªÇó¼°ÔÚ²»»áÓ°ÏìÆäÓµÓĞµÄÈÎºÎÆäËûÈ¨Àû»ò²¹¾ÈµÄÇé¿öÏÂ£¬¼´Ê±£º
+(l) å¦‚å®¢æˆ·ä¸ºä¸ªäººï¼Œè€Œå…¶èº«æ•…æˆ–ç²¾ç¥ä¸Šæ— è¡Œä¸ºèƒ½åŠ›ã€‚
+where the Customer is an individual, he dies or otherwise become mentally incapacitated;, åˆ™å®¢æˆ·æ¬ ä»˜ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„æ‰€æœ‰æ¬¾é¡¹åº”å³æ—¶åˆ°æœŸå¹¶é¡»æ”¯ä»˜ï¼Œè€Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒ åŠå¯å…¶æŒ‰ç»å¯¹é…Œæƒ…æƒå†³å®šï¼Œåœ¨æ¯‹é¡»ç»™äºˆé€šçŸ¥æˆ–è¦æ±‚åŠåœ¨ä¸ä¼šå½±å“å…¶æ‹¥æœ‰çš„ä»»ä½•å…¶ä»–æƒåˆ©æˆ–è¡¥æ•‘çš„æƒ…å†µä¸‹ï¼Œå³æ—¶ï¼š
 all amounts owing by the Customer to RUI DA shall become immediately due and payable and RUI DA shall be entitled and may, in its absolute discretion, without notice or demand and without prejudice to any other rights or remedies available to RUI DA, forthwith to:
-(i) È¡ÏûÈÎºÎÈÔÎ´Ö´ĞĞµÄÆÚ»õ»òÆÚÈ¨ÂòÂôÖ¸Ê¾£»
+(i) å–æ¶ˆä»»ä½•ä»æœªæ‰§è¡Œçš„æœŸè´§æˆ–æœŸæƒä¹°å–æŒ‡ç¤ºï¼›
 cancel any outstanding Instructions for the purchase or sale of Futures or Options;
-(ii) ½«Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´ú¿Í»§³ÖÓĞµÄÈÎºÎÎ´Æ½²ÖºÏÔ¼Æ½²Ö²¢½«¸ù¾İÓĞ¹ØÆÚ»õºÏÔ¼»òÆÚÈ¨ºÏÔ¼½ø ĞĞÉÌÆ·½»ÊÕ£»
+(ii) å°†ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»£å®¢æˆ·æŒæœ‰çš„ä»»ä½•æœªå¹³ä»“åˆçº¦å¹³ä»“å¹¶å°†æ ¹æ®æœ‰å…³æœŸè´§åˆçº¦æˆ–æœŸæƒåˆçº¦è¿› è¡Œå•†å“äº¤æ”¶ï¼›
 close out any open positions held by RUI DA on behalf of the Customer and make or take delivery of Commodities pursuant to the relevant Futures Contract or Option Contract;
-(iii) ½èÈë»ò¹ºÂòÈÎºÎÎª¿Í»§ÓÚÈÎºÎÎ´Æ½²ÖÆÚ»õºÏÔ¼ÏÂÓÃ×÷½»ÊÕËùĞèµÄÉÌÆ·£»
+(iii) å€Ÿå…¥æˆ–è´­ä¹°ä»»ä½•ä¸ºå®¢æˆ·äºä»»ä½•æœªå¹³ä»“æœŸè´§åˆçº¦ä¸‹ç”¨ä½œäº¤æ”¶æ‰€éœ€çš„å•†å“ï¼›
 borrow or purchase any Commodity required to be delivered under any open Futures Contract on behalf of the Customer;
-(iv) ĞĞÊ¹Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´ú¿Í»§³ÖÓĞµÄÈÎºÎÆÚÈ¨£»
+(iv) è¡Œä½¿ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»£å®¢æˆ·æŒæœ‰çš„ä»»ä½•æœŸæƒï¼›
 exercise any Option held by RUI DA on behalf of the Customer;
-(v) ³öÊÛ»òÒÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÈÏÎªÇ¡µ±µÄÆäËû·½Ê½´¦ÖÃËùÓĞ»òÈÎºÎ²¿·İ±£Ö¤½ğ»òÆäËûÈğ´ï¹ú¼Ê ½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´ú¿Í³ÖÓĞµÄ·ÇÏÖ½ğ×Ê²ú£»¼°¨u»ò
+(v) å‡ºå”®æˆ–ä»¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¤ä¸ºæ°å½“çš„å…¶ä»–æ–¹å¼å¤„ç½®æ‰€æœ‰æˆ–ä»»ä½•éƒ¨ä»½ä¿è¯é‡‘æˆ–å…¶ä»–ç‘è¾¾å›½é™… é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»£å®¢æŒæœ‰çš„éç°é‡‘èµ„äº§ï¼›åŠâ•±æˆ–
 sell or otherwise dispose of in such manner as RUI DA thinks fit all or any part of the Margin or any other assets held by RUI DA on behalf of the Customer which are not in the form of cash; and/or
-(vi) ĞĞÊ¹ÆäÔÚ±¾Ğ­ÒéÖ®ÏÂµÄÈÎºÎÈ¨Àû¡£
+(vi) è¡Œä½¿å…¶åœ¨æœ¬åè®®ä¹‹ä¸‹çš„ä»»ä½•æƒåˆ©ã€‚
 exercise any of its rights under the Agreement.
 
-9.4 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ã»ÓĞÒåÎñÏò¿Í»§½»¸¶ÈÎºÎ½ğ¶îµÄ»ù´¡ÉÌÆ·»ò¾ÍÈÎºÎÆÚ»õºÏÔ¼»òÆÚÈ¨ºÏÔ¼Ïò¿Í»§½» ¸¶ÈÎºÎ¿îÏî£¬Ö±ÖÁ¿Í»§¹ØÓÚÈÎºÎ´ËµÈºÏÔ¼»ò²»ÂÛÈçºÎ¸ù¾İĞ­ÒéµÄÌõ¿îÇ·Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄËùÓĞ¿î ÏîºÍÕ®ÏîÒÑ¾­ÁË½á»òÇå»¹ÖÁÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÂúÒâµÄ³Ì¶ÈÎªÖ¹¡£
+9.4 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ²¡æœ‰ä¹‰åŠ¡å‘å®¢æˆ·äº¤ä»˜ä»»ä½•é‡‘é¢çš„åŸºç¡€å•†å“æˆ–å°±ä»»ä½•æœŸè´§åˆçº¦æˆ–æœŸæƒåˆçº¦å‘å®¢æˆ·äº¤ ä»˜ä»»ä½•æ¬¾é¡¹ï¼Œç›´è‡³å®¢æˆ·å…³äºä»»ä½•æ­¤ç­‰åˆçº¦æˆ–ä¸è®ºå¦‚ä½•æ ¹æ®åè®®çš„æ¡æ¬¾æ¬ ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„æ‰€æœ‰æ¬¾ é¡¹å’Œå€ºé¡¹å·²ç»äº†ç»“æˆ–æ¸…è¿˜è‡³ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ»¡æ„çš„ç¨‹åº¦ä¸ºæ­¢ã€‚
 RUI DA shall not be obliged to deliver to the Customer any amount of the underlying Commodity or any money to the Customer in respect of any Futures Contract or Option Contract until all sums due from and liabilities of the Customer to RUI DA in respect of any such contract or otherwise howsoever in accordance with the terms of the Agreement have been satisfied or discharged to the satisfaction of RUI DA.
 
-9.5 ÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾²ÉÈ¡µÚ 9.3 ÌõÖĞÁĞ³öµÄÈÎºÎĞĞ¶¯ºó£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«ÔÚ¿ÉĞĞµÄÇé ¿öÏÂ¾¡¿ìÍ¨Öª¿Í»§¡£
+9.5 åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é‡‡å–ç¬¬ 9.3 æ¡ä¸­åˆ—å‡ºçš„ä»»ä½•è¡ŒåŠ¨åï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†åœ¨å¯è¡Œçš„æƒ… å†µä¸‹å°½å¿«é€šçŸ¥å®¢æˆ·ã€‚
  
 After RUI DA has taken any action referred to in Clause 9.3, RUI DA will give notice to the Customer as soon as practicable.
 
-10.ÕùÒé Dispute
+10.äº‰è®® Dispute
 
-10.1¾¡¹Ü±¾Ìõ¿î¼°Ìõ¼şµÚ 14 ÌõµÄ¹æ¶¨£¬Èô·²Éæ¼°Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Óë¿Í»§Ö®¼äµÄÈÎºÎÕùÒé£¬Èç¿Í»§Ìá ³öÒªÇó£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Í¬ÒâÒÀÕÕ¡¶Ö¤È¯¼°ÆÚ»õ¹æÔò¡·½«ÕùÒéÌá½»ÖÙ²Ã¡£
+10.1å°½ç®¡æœ¬æ¡æ¬¾åŠæ¡ä»¶ç¬¬ 14 æ¡çš„è§„å®šï¼Œè‹¥å‡¡æ¶‰åŠç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸å®¢æˆ·ä¹‹é—´çš„ä»»ä½•äº‰è®®ï¼Œå¦‚å®¢æˆ·æ å‡ºè¦æ±‚ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸åŒæ„ä¾ç…§ã€Šè¯åˆ¸åŠæœŸè´§è§„åˆ™ã€‹å°†äº‰è®®æäº¤ä»²è£ã€‚
 Notwithstanding clause 14 of these Terms and Conditions, in relation to any dispute between RUI DA and the Client, RUI DA should, if the Client so requires, agree to refer the dispute to arbitration in accordance with the Securities and Futures Rules.
 
-11. ¹ØÓÚ¸öÈË×ÊÁÏ(Ë½Òş)ÌõÀı(Ë½ÎÈÌõÀı)µÄ¿Í»§Í¨Öª
-Circular to Clients relating to The Personal Data (privacy) Ordinance (¡°The Ordinance¡±)
+11. å…³äºä¸ªäººèµ„æ–™(ç§éš)æ¡ä¾‹(ç§ç¨³æ¡ä¾‹)çš„å®¢æˆ·é€šçŸ¥
+Circular to Clients relating to The Personal Data (privacy) Ordinance (â€œThe Ordinanceâ€)
 
-11.1 ¿Í»§ÔÚÉêÇë¿ªÁ¢»§¿Ú¡¢ÑÓĞø»§¿Ú¼°½¨Á¢»òÑÓĞøĞÅ´û±ãÀû·şÎñÊ±£¬Òª²»Ê±ÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©ÓĞ ¹ØµÄ×ÊÁÏ¡£
+11.1 å®¢æˆ·åœ¨ç”³è¯·å¼€ç«‹æˆ·å£ã€å»¶ç»­æˆ·å£åŠå»ºç«‹æˆ–å»¶ç»­ä¿¡è´·ä¾¿åˆ©æœåŠ¡æ—¶ï¼Œè¦ä¸æ—¶å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›æœ‰ å…³çš„èµ„æ–™ã€‚
 From time to time, it is necessary for clients to supply RUI DA with data in connection with the opening or continuation of accounts and the establishment or continuation of credit facilities.
 
-11.2 ÈôÎ´ÄÜÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©ËùĞè×ÊÁÏ»áµ¼ÖÂÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞ·¨¿ªÁ¢»òÑÓĞø»§¿Ú»ò ½¨Á¢»òÑÓĞø¡£
+11.2 è‹¥æœªèƒ½å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›æ‰€éœ€èµ„æ–™ä¼šå¯¼è‡´ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— æ³•å¼€ç«‹æˆ–å»¶ç»­æˆ·å£æˆ– å»ºç«‹æˆ–å»¶ç»­ã€‚
 Failure to supply such data may result in RUI DA being unable to open or continue accounts or establish.
 
-11.3 ÔÚ¿Í»§ÓëÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÕı³£ÒµÎñÍùÀ´¹ı³ÌÖĞ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Òà»áÊÕ¼¯¿Í»§µÄ×Ê ÁÏ¡£
+11.3 åœ¨å®¢æˆ·ä¸ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„æ­£å¸¸ä¸šåŠ¡å¾€æ¥è¿‡ç¨‹ä¸­ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸äº¦ä¼šæ”¶é›†å®¢æˆ·çš„èµ„ æ–™ã€‚
 It is also the case that data collected from clients in the ordinary course of the continuation of the business relationship.
 
-11.4 ¿Í»§µÄ×ÊÁÏ½«¿ÉÄÜ»áÓÃÓÚÏÂÁĞÓÃÍ¾ :
+11.4 å®¢æˆ·çš„èµ„æ–™å°†å¯èƒ½ä¼šç”¨äºä¸‹åˆ—ç”¨é€” :
 The purposes for which data relating to a client may be used are as follows: 
-(a) ÎªÌá¹©·şÎñºÍĞÅ´û±ãÀû¸ø¿Í»§Ö®ÈÕ³£ÔË×÷  ;
+(a) ä¸ºæä¾›æœåŠ¡å’Œä¿¡è´·ä¾¿åˆ©ç»™å®¢æˆ·ä¹‹æ—¥å¸¸è¿ä½œ  ;
 the daily operation of the services and credit facilities provided to clients; 
-(b) ×÷ĞÅ´û¼ì²é ;
+(b) ä½œä¿¡è´·æ£€æŸ¥ ;
 conducting credit checks;
-(c) Ğ­ÖúÆäËû½ğÈÚ»ú¹¹×÷ĞÅ´û¼ì²é ;
+(c) ååŠ©å…¶ä»–é‡‘èæœºæ„ä½œä¿¡è´·æ£€æŸ¥ ;
 assisting other financial institutions to conduct credit checks; 
-(d) È·±£¿Í»§µÄĞÅÓÃÎ¬³ÖÁ¼ºÃ ;
+(d) ç¡®ä¿å®¢æˆ·çš„ä¿¡ç”¨ç»´æŒè‰¯å¥½ ;
 ensuring ongoing credit worthiness of clients; 
-(e) Îª¿Í»§Éè¼ÆĞÅ´û±ãÀû·şÎñ»òÓĞ¹Ø²úÆ· ;
+(e) ä¸ºå®¢æˆ·è®¾è®¡ä¿¡è´·ä¾¿åˆ©æœåŠ¡æˆ–æœ‰å…³äº§å“ ;
 designing credit facilities or related products for clients' use; 
-(f) Ğû´«ĞÅ´û±ãÀû·şÎñ»òÓĞ¹Ø²úÆ· ;
+(f) å®£ä¼ ä¿¡è´·ä¾¿åˆ©æœåŠ¡æˆ–æœ‰å…³äº§å“ ;
 marketing credit facilities or related products;
-(g) È·¶¨Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶Ô¿Í»§»ò¿Í»§¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÕ®Îñ   ; determining the amount of indebtedness owed to or by clients;
-(h) Ïò¿Í»§¼°Îª¿Í»§Ìá¹©µ£±£»òµÖÑºµÄÈËÊ¿×·ÊÕÇ·¿î  ;
+(g) ç¡®å®šç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹å®¢æˆ·æˆ–å®¢æˆ·å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„å€ºåŠ¡   ; determining the amount of indebtedness owed to or by clients;
+(h) å‘å®¢æˆ·åŠä¸ºå®¢æˆ·æä¾›æ‹…ä¿æˆ–æŠµæŠ¼çš„äººå£«è¿½æ”¶æ¬ æ¬¾  ;
 collection of amounts outstanding from clients and those providing security for clients' obligation; 
-(i) ¸ù¾İÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ğë×ñÊØµÄ¹æÔò¡¢ÌõÀı¼°·¨ÀıÒªÇó×÷³öÅûÂ¶ ; ºÍ/»ò
-to make disclosure under the requirements of any rule, regulation or law binding on RUI DA; and/or (j) ÓëÉÏÊöÓĞ¹ØµÄÓÃÍ¾¡£
+(i) æ ¹æ®ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é¡»éµå®ˆçš„è§„åˆ™ã€æ¡ä¾‹åŠæ³•ä¾‹è¦æ±‚ä½œå‡ºæŠ«éœ² ; å’Œ/æˆ–
+to make disclosure under the requirements of any rule, regulation or law binding on RUI DA; and/or (j) ä¸ä¸Šè¿°æœ‰å…³çš„ç”¨é€”ã€‚
 purposes relating thereto.
 
-11.5 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»á°Ñ¿Í»§µÄ×ÊÁÏ±£ÃÜ£¬µ«Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉÄÜ»á°ÑÓĞ¹Ø×ÊÁÏÌá¹©¸ø    : Data held by RUI DA relating to a client will be kept confidential but RUI DA may provide such information to:
-(a) ÈÎºÎ´úÀíÈË¡¢³Ğ°üÉÌ,»òÌá¹©ĞĞÕş¡¢µçÑ¶¡¢µçÄÔ¡¢Ö§¸¶¡¢»òÆäËûºÍÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒµÎñÔË×÷
-ÓĞ¹ØµÄ·şÎñÖ®µÚÈıÕß·şÎñ¹©Ó¦ÈË ;
+11.5 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¼šæŠŠå®¢æˆ·çš„èµ„æ–™ä¿å¯†ï¼Œä½†ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯èƒ½ä¼šæŠŠæœ‰å…³èµ„æ–™æä¾›ç»™    : Data held by RUI DA relating to a client will be kept confidential but RUI DA may provide such information to:
+(a) ä»»ä½•ä»£ç†äººã€æ‰¿åŒ…å•†,æˆ–æä¾›è¡Œæ”¿ã€ç”µè®¯ã€ç”µè„‘ã€æ”¯ä»˜ã€æˆ–å…¶ä»–å’Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸šåŠ¡è¿ä½œ
+æœ‰å…³çš„æœåŠ¡ä¹‹ç¬¬ä¸‰è€…æœåŠ¡ä¾›åº”äºº ;
 any  agent,  contractor  or  third  party  service  provider  who  provides  administrative,  telecommunications, computer, payment or other services to RUI DA in connection with the operation of its business;
-(b) ÈÎºÎÆäÁªÊôÈË ;
+(b) ä»»ä½•å…¶è”å±äºº ;
 any of the Affiliates;
-(c) ÈÎºÎ¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞ±£ÃÜÔğÈÎµÄÈË£¬°üÀ¨¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞ±£ÃÜ×ÊÁÏ³Ğ ÅµµÄ×¨ÒµÈËÊ¿¼°´úÀíÈË (°üÀ¨ÂÉÊ¦¡¢»á¼ÆÊ¦¼°ÊÕÕÊ´úÀíµÈ) ;
+(c) ä»»ä½•å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰ä¿å¯†è´£ä»»çš„äººï¼ŒåŒ…æ‹¬å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰ä¿å¯†èµ„æ–™æ‰¿ è¯ºçš„ä¸“ä¸šäººå£«åŠä»£ç†äºº (åŒ…æ‹¬å¾‹å¸ˆã€ä¼šè®¡å¸ˆåŠæ”¶å¸ä»£ç†ç­‰) ;
 any other person under a duty of confidentiality to RUI DA including professionals and agents (including lawyers, accountants and debt collection agents) who have undertaken to keep such information confidential;
-(d) ÈÎºÎºÍ¿Í»§ÒÑÓĞ½»Ò×»ò¼Æ»®ÓĞ½»Ò×µÄ½ğÈÚ»ú¹¹  ;
+(d) ä»»ä½•å’Œå®¢æˆ·å·²æœ‰äº¤æ˜“æˆ–è®¡åˆ’æœ‰äº¤æ˜“çš„é‡‘èæœºæ„  ;
 any financial institution with which the client has or proposes to have dealings;
-(e) ÈÎºÎÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÊµ¼Ê»ò½¨ÒéÊÜÈÃÈË»ò²ÎÓëÈË»ò¸½Êô²ÎÓëÈË»òÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ ¹«Ë¾¶Ô¿Í»§µÄÈ¨ÀûµÄÊÜÈÃÈË ; ºÍ/»ò
+(e) ä»»ä½•ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„å®é™…æˆ–å»ºè®®å—è®©äººæˆ–å‚ä¸äººæˆ–é™„å±å‚ä¸äººæˆ–ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™ å…¬å¸å¯¹å®¢æˆ·çš„æƒåˆ©çš„å—è®©äºº ; å’Œ/æˆ–
 any actual or proposed assignee of RUI DA or participant or sub-participant or transferee of RUI DA's rights in respect of the client; and/or
-(f) ÈÎºÎÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÔğÈÎÏòÆäËûÕş¸®»ò¼à¹Ü»ú¹¹ÅûÂ¶Ö®¸ÃµÈ×ÊÁÏ¡£
+(f) ä»»ä½•ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰è´£ä»»å‘å…¶ä»–æ”¿åºœæˆ–ç›‘ç®¡æœºæ„æŠ«éœ²ä¹‹è¯¥ç­‰èµ„æ–™ã€‚
 any other governmental or regulatory authorities to which RUI DA is under a duty to disclose such data.
 
-11.6 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿É½«ÆäÊÕ¼¯Ö®ÈÎºÎ¸öÈË×ÊÁÏÓëÏã¸Û»òº£ÍâÖ®Õş¸®ÍÅÌå¡¢ÆäËû¼à¹Ü»ú¹¹¡¢¹«Ë¾¡¢»ú ¹¹»ò¸öÈËÊÕ¼¯Ö®×ÊÁÏÏà¶Ô¡¢±È½Ï¡¢×ªÒÆ»ò½»»»ÒÔ×÷ÎªºËÊµÓĞ¹Ø×ÊÁÏÖ®ÓÃÍ¾¡£
+11.6 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯å°†å…¶æ”¶é›†ä¹‹ä»»ä½•ä¸ªäººèµ„æ–™ä¸é¦™æ¸¯æˆ–æµ·å¤–ä¹‹æ”¿åºœå›¢ä½“ã€å…¶ä»–ç›‘ç®¡æœºæ„ã€å…¬å¸ã€æœº æ„æˆ–ä¸ªäººæ”¶é›†ä¹‹èµ„æ–™ç›¸å¯¹ã€æ¯”è¾ƒã€è½¬ç§»æˆ–äº¤æ¢ä»¥ä½œä¸ºæ ¸å®æœ‰å…³èµ„æ–™ä¹‹ç”¨é€”ã€‚
 RUI DA may match, compare, transfer or exchange any personal data collected by it with the data collected by government bodies, other regulatory authorities, corporations, organizations or individuals in Hong Kong or overseas for the purposes of verifying those data.
 
-11.7 ¸ù¾İË½ÒşÌõÀıÖĞµÄÌõ¿î£¬¿Í»§ :
+11.7 æ ¹æ®ç§éšæ¡ä¾‹ä¸­çš„æ¡æ¬¾ï¼Œå®¢æˆ· :
 Under and in accordance with the terms of The Ordinance, client :
-(a) ÓĞÈ¨Éó²éÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÊÇ·ñ³ÖÓĞËûµÄ×ÊÁÏ¼°ÓĞÈ¨²éÔÄÓĞ¹ØµÄ×ÊÁÏ   ;
-has the right to check whether RUI DA holds data about him and the right of access to such data; (b) ÓĞÈ¨ÒªÇóÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸ÄÕıÓĞ¹ØËû²»×¼È·µÄ×ÊÁÏ ; ºÍ
+(a) æœ‰æƒå®¡æŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ˜¯å¦æŒæœ‰ä»–çš„èµ„æ–™åŠæœ‰æƒæŸ¥é˜…æœ‰å…³çš„èµ„æ–™   ;
+has the right to check whether RUI DA holds data about him and the right of access to such data; (b) æœ‰æƒè¦æ±‚ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ”¹æ­£æœ‰å…³ä»–ä¸å‡†ç¡®çš„èµ„æ–™ ; å’Œ
 has the right to require RUI DA to correct any data relating to him which is inaccurate; and
-(c) ÓĞÈ¨²éÏ¤Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶ÔÓÚ×ÊÁÏµÄÕş²ß¼°Êµ¼ÊÔËÓÃ¼°±»¸æÖªÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ ³ÖÓĞ¹ØÓÚËûµÄºÎÖÖ¸öÈË×ÊÁÏ¡£
+(c) æœ‰æƒæŸ¥æ‚‰ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹äºèµ„æ–™çš„æ”¿ç­–åŠå®é™…è¿ç”¨åŠè¢«å‘ŠçŸ¥ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ æŒæœ‰å…³äºä»–çš„ä½•ç§ä¸ªäººèµ„æ–™ã€‚
 has the right to ascertain RUI DA's policies and practices in relation to data and to be informed of the kind of personal data held by RUI DA.
 
-11.8 ¸ù¾İË½ÒşÌõÀıµÄ¹æ¶¨£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÓĞÈ¨¾Í´¦ÀíÈÎºÎ²éÔÄ×ÊÁÏµÄÒªÇóÊÕÈ¡ºÏÀí·ÑÓÃ¡£
+11.8 æ ¹æ®ç§éšæ¡ä¾‹çš„è§„å®šï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æœ‰æƒå°±å¤„ç†ä»»ä½•æŸ¥é˜…èµ„æ–™çš„è¦æ±‚æ”¶å–åˆç†è´¹ç”¨ã€‚
 In accordance with the terms of The Ordinance, RUI DA has the right to charge a reasonable fee for the processing of any data access request.
 
-11.9 ÈÎºÎ¹ØÓÚ×ÊÁÏ²éÔÄ»ò¸ÄÕı×ÊÁÏ£¬»ò¹ØÓÚ×ÊÁÏÕş²ß¼°Êµ¼ÊÓ¦ÓÃ¼°×ÊÁÏÖÖÀàµÄÒªÇó£¬Ó¦ÏòÏÂÁĞÈËÊ¿Ìá³ö    :
+11.9 ä»»ä½•å…³äºèµ„æ–™æŸ¥é˜…æˆ–æ”¹æ­£èµ„æ–™ï¼Œæˆ–å…³äºèµ„æ–™æ”¿ç­–åŠå®é™…åº”ç”¨åŠèµ„æ–™ç§ç±»çš„è¦æ±‚ï¼Œåº”å‘ä¸‹åˆ—äººå£«æå‡º    :
 The person to whom requests for access to data or correction of data for information regarding policies and practices and kinds of data held are to be addressed is as follows:
-·¨¹æ²¿	 Compliance Department
-Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾	 Rui Da International Finance Holding Limited
-Ïã¸Û ÖĞ»·»Êºó´óµÀÖĞ99ºÅ	 Units 3305-06, 33/F, The Center,
-ÖĞ»·ÖĞĞÄ33Â¥3305-06ÊÒ	 99 Queen?s Road Central, Central, Hong Kong.
-µç»°: (852)2534 2000 ´«Õæ: (852)2563 2368	 Tel: (852)2534 2000 Fax: (852)2563 2368
+æ³•è§„éƒ¨	 Compliance Department
+ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸	 Rui Da International Finance Holding Limited
+é¦™æ¸¯ ä¸­ç¯çš‡åå¤§é“ä¸­99å·	 Units 3305-06, 33/F, The Center,
+ä¸­ç¯ä¸­å¿ƒ33æ¥¼3305-06å®¤	 99 Queen?s Road Central, Central, Hong Kong.
+ç”µè¯: (852)2534 2000 ä¼ çœŸ: (852)2563 2368	 Tel: (852)2534 2000 Fax: (852)2563 2368
 
-12. ÃâÔğÉùÃ÷/²»¿É¿¹Á¦ Disclaimer / Force Majeure
+12. å…è´£å£°æ˜/ä¸å¯æŠ—åŠ› Disclaimer / Force Majeure
 
-12.1 ÓĞ¹ØÈÎºÎµÚÈıÕßÖ®Ê§Ö°£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎãĞëÏò¿Í»§³Ğµ£ÈÎºÎÔğÈÎ¡£
+12.1 æœ‰å…³ä»»ä½•ç¬¬ä¸‰è€…ä¹‹å¤±èŒï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ¯‹é¡»å‘å®¢æˆ·æ‰¿æ‹…ä»»ä½•è´£ä»»ã€‚
 RUI DA shall not be liable to the Client in any way in respect of the failure of obligation of any third party.
 
-12.2 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔ¿ÚÍ·¡¢ÊéÃæ»ò´«Õæ·½Ê½£¬»òµç×ÓÍ¾¾¶»ò»§¿ÚÅú×¼Ö®ÆäËû·½Ê½ (Í¸¹ıÓÊ¼Ä³ıÍâ) ¸ø Óè¿Í»§Ö®È«²¿Í¨Ñ¶¾ùÊÓ×÷¿Í»§ÓÚÑ¶Ï¢·¢³öÊ±ÊÕµ½£¬¿Í»§ÓĞÔğÈÎ³Ğµ£ÒòÈÎºÎ¸ÃµÈ´«µİÊ§ÎóËù´øÀ´Ö®ËùÓĞºó¹û¡£
+12.2 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥å£å¤´ã€ä¹¦é¢æˆ–ä¼ çœŸæ–¹å¼ï¼Œæˆ–ç”µå­é€”å¾„æˆ–æˆ·å£æ‰¹å‡†ä¹‹å…¶ä»–æ–¹å¼ (é€è¿‡é‚®å¯„é™¤å¤–) ç»™ äºˆå®¢æˆ·ä¹‹å…¨éƒ¨é€šè®¯å‡è§†ä½œå®¢æˆ·äºè®¯æ¯å‘å‡ºæ—¶æ”¶åˆ°ï¼Œå®¢æˆ·æœ‰è´£ä»»æ‰¿æ‹…å› ä»»ä½•è¯¥ç­‰ä¼ é€’å¤±è¯¯æ‰€å¸¦æ¥ä¹‹æ‰€æœ‰åæœã€‚
 All communications from RUI DA to the Client through verbal, written or facsimile form, or Electronic Means or otherwise authorized under the Account (other than via postage) shall be deemed to be received by the Client at the time of the message being sent out and the Client shall be liable for any consequence arising from any failure of such transmission.
 
-12.3 Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎãĞë¾ÍÈÎºÎÖ±½Ó»ò¼ä½ÓÒòÈÎºÎÕş¸®¸ÉÔ¤¡¢ÈÎºÎÓĞ¹ØÖ¤¼à»á¼°ÈÎºÎÆäËû¼à¹Ü»ú¹¹ (²»ÂÛÏã¸Û»òº£Íâ) ËùÊµÊ©Ö®½ô¼±´ëÊ©»òÔİÍ£½»Ò×¡¢Éç»á¶¯ÂÒ¡¢¿Ö²ÀÖ÷ÒåĞĞÎª¡¢Õ½Õù¡¢°Õ¹¤¡¢×ÔÈ»ÔÖº¦»òÈÎºÎ ÆäËû·ÇÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉºÏÀí¿ØÖÆÖ®ÊÂ¼ş¶øÒıÖÂµÄËğÊ§»òÒò¶øÎ´ÄÜ½øĞĞ¿Í»§Ö®Ö¸Ê¾¶ø¸ºÔğ¡£
+12.3 ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ¯‹é¡»å°±ä»»ä½•ç›´æ¥æˆ–é—´æ¥å› ä»»ä½•æ”¿åºœå¹²é¢„ã€ä»»ä½•æœ‰å…³è¯ç›‘ä¼šåŠä»»ä½•å…¶ä»–ç›‘ç®¡æœºæ„ (ä¸è®ºé¦™æ¸¯æˆ–æµ·å¤–) æ‰€å®æ–½ä¹‹ç´§æ€¥æªæ–½æˆ–æš‚åœäº¤æ˜“ã€ç¤¾ä¼šåŠ¨ä¹±ã€ææ€–ä¸»ä¹‰è¡Œä¸ºã€æˆ˜äº‰ã€ç½¢å·¥ã€è‡ªç„¶ç¾å®³æˆ–ä»»ä½• å…¶ä»–éç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯åˆç†æ§åˆ¶ä¹‹äº‹ä»¶è€Œå¼•è‡´çš„æŸå¤±æˆ–å› è€Œæœªèƒ½è¿›è¡Œå®¢æˆ·ä¹‹æŒ‡ç¤ºè€Œè´Ÿè´£ã€‚
 RUI DA shall not be liable for any losses or for any failure to carry out the Client's instructions arising from or resulting  directly  or  indirectly  from  any  government  restriction,  the  imposition  of  emergency  procedures  or suspension of trading by the SFC and any other regulatory bodies (whether in Hong Kong or elsewhere), civil disorder, acts or threatened acts of terrorism, war, strikes, natural disasters or any other event beyond RUI DA's reasonable control.
 
-12.4 ÎŞÂÛÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»¹ÊÇÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÈÎºÎ¶­ÊÂ£¬¹ÍÔ±»ò¾­¼ÍÈË¾ùÎŞĞë¶Ô¿Í»§Òò ÒÔÏÂÔ­Òò¶øÊÜµ½µÄËğÊ§£¬Ö§³ö»òËğº¦¸ºÔğ£º
+12.4 æ— è®ºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¿˜æ˜¯ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä»»ä½•è‘£äº‹ï¼Œé›‡å‘˜æˆ–ç»çºªäººå‡æ— é¡»å¯¹å®¢æˆ·å›  ä»¥ä¸‹åŸå› è€Œå—åˆ°çš„æŸå¤±ï¼Œæ”¯å‡ºæˆ–æŸå®³è´Ÿè´£ï¼š
 Neither RUI DA nor RUI DA's directors, employees, account executives, agents are liable to make any forms of compensation to clients due to the following liabilities:
-(a) ÒòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞ·¨¿ØÖÆµÄÈÎºÎÔ­Òò¶øµ¼ÖÂÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÎŞ·¨ÂÄĞĞ¸ù¾İ±¾
-Ğ­ÒéÓ¦ÂÄĞĞµÄÒåÎñ£¬»ò×÷Îª¿Í»§µÄ¾­¼ÍÈËÓ¦ÂÄĞĞµÄÔğÈÎ»òÒåÎñ£»»ò
+(a) å› ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— æ³•æ§åˆ¶çš„ä»»ä½•åŸå› è€Œå¯¼è‡´ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ— æ³•å±¥è¡Œæ ¹æ®æœ¬
+åè®®åº”å±¥è¡Œçš„ä¹‰åŠ¡ï¼Œæˆ–ä½œä¸ºå®¢æˆ·çš„ç»çºªäººåº”å±¥è¡Œçš„è´£ä»»æˆ–ä¹‰åŠ¡ï¼›æˆ–
 Because of any reason out of the control of RUI DA or RUI DA is unable to perform its obligations under this Agreement or as an agent or broker of its clients; or
-(b) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸ù¾İ»òÒÀÀµ¿Í»§·¢³öµÄÈÎºÎÖ¸ÁîĞĞÊÂ£¬ÎŞÂÛ¸ÃÖ¸ÁîÊÇ·ñ¸ù¾İÈğ´ï¹ú¼Ê½ğÈÚ ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÈÎºÎ¶­ÊÂ£¬¹ÍÔ±»ò¾­¼ÍÈËµÄÍÆ¼ö£¬ÌáÊ¾»òÒâ¼û×÷³öµÄ£»»ò
+(b) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ ¹æ®æˆ–ä¾èµ–å®¢æˆ·å‘å‡ºçš„ä»»ä½•æŒ‡ä»¤è¡Œäº‹ï¼Œæ— è®ºè¯¥æŒ‡ä»¤æ˜¯å¦æ ¹æ®ç‘è¾¾å›½é™…é‡‘è æ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶ä»»ä½•è‘£äº‹ï¼Œé›‡å‘˜æˆ–ç»çºªäººçš„æ¨èï¼Œæç¤ºæˆ–æ„è§ä½œå‡ºçš„ï¼›æˆ–
 RUI DA will act on behalf of the Client on any instructions given by the Client, no matter these instructions are made in accordance with any recommendation, suggestion or opinions from RUI DA, any of its directors, employees, account executives, brokers; or
-(c) Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÈÎºÎ¶­ÊÂ£¬¹ÍÔ±»ò´úÀíÈËÓë¿Í»§»§¿ÚÓĞ¹ØµÄÈÎºÎĞĞÎª»òºöÂÔ£¬³ı·ÇËğÊ§ÊÇÓÉÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆä¶­ÊÂ£¬¹ÍÔ±»ò´úÀíÈËµÄÆÛÆ­£¬¹ıÊ§»ò¹ÊÒâÎ¥Ô¼Ôì³ÉµÄ£»»ò
+(c) ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶ä»»ä½•è‘£äº‹ï¼Œé›‡å‘˜æˆ–ä»£ç†äººä¸å®¢æˆ·æˆ·å£æœ‰å…³çš„ä»»ä½•è¡Œä¸ºæˆ–å¿½ç•¥ï¼Œé™¤éæŸå¤±æ˜¯ç”±ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶è‘£äº‹ï¼Œé›‡å‘˜æˆ–ä»£ç†äººçš„æ¬ºéª—ï¼Œè¿‡å¤±æˆ–æ•…æ„è¿çº¦é€ æˆçš„ï¼›æˆ–
 RUI DA, any of its directors, employees, accounts executives or agents are not liable to any duties of care in relating to client's account unless the loss is caused by fraud, negligence or intentionally breach of contract by RUI DA, any of its directors, employees or agents; or
-(d) Óë±¾Ğ­ÒéÓĞ¹ØµÄ»õ±Ò×ª»»¡£
+(d) ä¸æœ¬åè®®æœ‰å…³çš„è´§å¸è½¬æ¢ã€‚
 Any Currency conversion in connection with this Agreement.
 
-12.5 ÔÚ²»Ó°ÏìÉÏÊö 12.4 ÌõµÄÆÕ±éĞÔµÄÇé¿öÏÂ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÈÎºÎ¶­ÊÂ£¬¹ÍÔ±»ò¾­¼ÍÈË²»¶ÔÈÎºÎ ¿Í»§ÒòÊ¹ÓÃµç×Ó½»Ò×·şÎñÏµÍ³µÄ²»±ã£¬ÑÓÎó»òÎŞ·¨Ê¹ÓÃ¶øÃÉÊÜµÄ»ò¾İ³ÆÃÉÊÜµÄ»òÓĞ¹ØµÄËğÊ§£¬Ö§³ö»òËğº¦¸º ÈÎºÎÔğÈÎ£¨ÎŞÂÛÊÇ¹ıÊ§»òÆäËû£©Òà²»¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÑÓÎó»ò±»Ö¸³ÆÑÓÎó»òÎ´ÄÜÖ´ĞĞ¿Í»§µÄÖ¸Áî ¸ºÔğ£¬¼´Ê¹Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÑ±»¸æÖª¸ÃĞ©ËğÊ§»òËğº¦µÄ¿ÉÄÜĞÔ¡£
+12.5 åœ¨ä¸å½±å“ä¸Šè¿° 12.4 æ¡çš„æ™®éæ€§çš„æƒ…å†µä¸‹ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶ä»»ä½•è‘£äº‹ï¼Œé›‡å‘˜æˆ–ç»çºªäººä¸å¯¹ä»»ä½• å®¢æˆ·å› ä½¿ç”¨ç”µå­äº¤æ˜“æœåŠ¡ç³»ç»Ÿçš„ä¸ä¾¿ï¼Œå»¶è¯¯æˆ–æ— æ³•ä½¿ç”¨è€Œè’™å—çš„æˆ–æ®ç§°è’™å—çš„æˆ–æœ‰å…³çš„æŸå¤±ï¼Œæ”¯å‡ºæˆ–æŸå®³è´Ÿ ä»»ä½•è´£ä»»ï¼ˆæ— è®ºæ˜¯è¿‡å¤±æˆ–å…¶ä»–ï¼‰äº¦ä¸å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å»¶è¯¯æˆ–è¢«æŒ‡ç§°å»¶è¯¯æˆ–æœªèƒ½æ‰§è¡Œå®¢æˆ·çš„æŒ‡ä»¤ è´Ÿè´£ï¼Œå³ä½¿ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å·²è¢«å‘ŠçŸ¥è¯¥äº›æŸå¤±æˆ–æŸå®³çš„å¯èƒ½æ€§ã€‚
 Without any prejudice to the generality of 12.4, RUI DA, any of its directors, employees or brokers are not liable for any loss which arises from the inefficiency, inconvenience, delay or incapacities in the use of any electronic trading service (no matter negligence or otherwise) which fails to execute, delay execution or failure to execute the instructions of the Client even if RUI DA has been advised of the possibility of such loss or damage.
 
-12.6 ¿Í»§Í¬ÒâÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÈÎºÎ¶­ÊÂ£¬¹ÍÔ±»ò¾­¼ÍÈË(²¢Ê¹Æä³öÓÚÍêÈ«ÃâÔğ×´Ì¬)³Ğµ£ÃÖ³¥Ôğ ÈÎ£¬µ±ÖĞ°üÀ¨ËùÓĞÒòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾´ú¿Í»§½øĞĞµÄÈÎºÎ½»Ò×»ò¸ù¾İ±¾Ğ­Òé»ò¿Í»§µÄÖ¸Áî»òÍ¨Ñ¶×÷ ³ö»òÃ»ÓĞ×÷³öµÄÈÎºÎĞĞÎª¶øÖ±½Ó»ò¼ä½ÓÃÉÊÜ»ò²úÉú»òÓĞ¹ØµÄ³É±¾£¬ÉêË÷£¬ÒªÇó£¬Ëğº¦£¬ÔğÈÎºÍÖ§³ö(°üÀ¨ÍêÈ« ÃÖ²¹»ù×¼·¨ÂÉ·ÑÓÃ)µÄÔğÈÎ¡£¶øÇÒ£¬¿Í»§Í¬Òâ²ÉÈ¡±ØÒªµÄ£¬»òÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÈÏÎªÓĞÀûµÄ´ëÊ©ÒÔĞí ¿É»òÈ·ÈÏÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×÷Îª¿Í»§µÄ´úÀíÈË»ò¸ù¾İ±¾Ğ­Òé´úÀí¿Í»§¶ø×öµÄÈÎºÎÊÂÇé¡£¿Í»§ÒàÍ¬Òâ ¼°Ê±Ö§¸¶Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒòÖ´ĞĞ±¾Ğ­ÒéÌõ¿î¶ø²úÉúµÄËùÓĞËğº¦£¬³É±¾ºÍÖ§³ö¡£
+12.6 å®¢æˆ·åŒæ„å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶ä»»ä½•è‘£äº‹ï¼Œé›‡å‘˜æˆ–ç»çºªäºº(å¹¶ä½¿å…¶å‡ºäºå®Œå…¨å…è´£çŠ¶æ€)æ‰¿æ‹…å¼¥å¿è´£ ä»»ï¼Œå½“ä¸­åŒ…æ‹¬æ‰€æœ‰å› ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»£å®¢æˆ·è¿›è¡Œçš„ä»»ä½•äº¤æ˜“æˆ–æ ¹æ®æœ¬åè®®æˆ–å®¢æˆ·çš„æŒ‡ä»¤æˆ–é€šè®¯ä½œ å‡ºæˆ–æ²¡æœ‰ä½œå‡ºçš„ä»»ä½•è¡Œä¸ºè€Œç›´æ¥æˆ–é—´æ¥è’™å—æˆ–äº§ç”Ÿæˆ–æœ‰å…³çš„æˆæœ¬ï¼Œç”³ç´¢ï¼Œè¦æ±‚ï¼ŒæŸå®³ï¼Œè´£ä»»å’Œæ”¯å‡º(åŒ…æ‹¬å®Œå…¨ å¼¥è¡¥åŸºå‡†æ³•å¾‹è´¹ç”¨)çš„è´£ä»»ã€‚è€Œä¸”ï¼Œå®¢æˆ·åŒæ„é‡‡å–å¿…è¦çš„ï¼Œæˆ–ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è®¤ä¸ºæœ‰åˆ©çš„æªæ–½ä»¥è®¸ å¯æˆ–ç¡®è®¤ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä½œä¸ºå®¢æˆ·çš„ä»£ç†äººæˆ–æ ¹æ®æœ¬åè®®ä»£ç†å®¢æˆ·è€Œåšçš„ä»»ä½•äº‹æƒ…ã€‚å®¢æˆ·äº¦åŒæ„ åŠæ—¶æ”¯ä»˜ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å› æ‰§è¡Œæœ¬åè®®æ¡æ¬¾è€Œäº§ç”Ÿçš„æ‰€æœ‰æŸå®³ï¼Œæˆæœ¬å’Œæ”¯å‡ºã€‚
 The Client agrees to indemnify RUI DA, any of its directors, employees, accounts executives or brokers (Complete exemption from total liabilities and obligations) including any transactions made by RUI DA on the Client's behalf of his trading, or in respect of costs, claims, loss, damages, liabilities and expenses (including full compensation of the underlying legal expenses) incurred directly or indirectly. The Client also agrees to pay promptly all damages, costs and expenses arising from the implementation of the terms of this Agreement.
 
-12.7 ¿Í»§³ĞÅµÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾»òÆäÈÎºÎ¶­ÊÂ£¬¹ÍÔ±»ò¾­¼ÍÈËËùÓĞÒò¿Í»§Î¥·´±¾Ğ­ÒéÌõ¿î¶ø²úÉúµÄËğ Ê§³Ğµ£ÃÖ³¥ÔğÈÎµ±ÖĞ°üÀ¨³É±¾¡¢ÉêË÷¡¢ÔğÈÎºÍÖ§³ö¸ºÔğ£¬°üÀ¨Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÊÕÈ¡Ç·Õ®»ò½áÊø»§ ¿Ú¶ø²úÉúµÄºÏÀíºÍ±ØĞëµÄ·ÑÓÃ¡£
+12.7 å®¢æˆ·æ‰¿è¯ºå‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æˆ–å…¶ä»»ä½•è‘£äº‹ï¼Œé›‡å‘˜æˆ–ç»çºªäººæ‰€æœ‰å› å®¢æˆ·è¿åæœ¬åè®®æ¡æ¬¾è€Œäº§ç”Ÿçš„æŸ å¤±æ‰¿æ‹…å¼¥å¿è´£ä»»å½“ä¸­åŒ…æ‹¬æˆæœ¬ã€ç”³ç´¢ã€è´£ä»»å’Œæ”¯å‡ºè´Ÿè´£ï¼ŒåŒ…æ‹¬ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æ”¶å–æ¬ å€ºæˆ–ç»“æŸæˆ· å£è€Œäº§ç”Ÿçš„åˆç†å’Œå¿…é¡»çš„è´¹ç”¨ã€‚
 The Client agrees to undertake the costs, claims, loss, liabilities, expenses, reasonable and necessary cost of expenses to RUI DA, any of its directors, employees or brokers arising from the breach of the terms of this Agreement.
 
-13. Ò»°ã¹æ¶¨ General
+13. ä¸€èˆ¬è§„å®š General
 
-13.1 ¿Í»§ÊÚÈ¨Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¶Ô¿Í»§½øĞĞĞÅÓÃ×ÉÑ¯»ò²éÖ¤£¬ÒÔÈ·¶¨¿Í»§Ö®²ÆÕş×´¿ö¼°Í¶×ÊÄ¿±ê¡£
+13.1 å®¢æˆ·æˆæƒç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯¹å®¢æˆ·è¿›è¡Œä¿¡ç”¨å’¨è¯¢æˆ–æŸ¥è¯ï¼Œä»¥ç¡®å®šå®¢æˆ·ä¹‹è´¢æ”¿çŠ¶å†µåŠæŠ•èµ„ç›®æ ‡ã€‚
 The Client authorizes RUI DA to conduct a credit enquiry or check on the Client for the purpose of ascertaining the Client's financial situation and investment objectives.
  
-13.2 ±¾Ğ­ÒéÖ®Ìõ¿î½«»á¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ö®³Ğ¼ÌÈË¡¢ÊÜÈÃÈË¼°¸öÈË´ú±í (ÈçÊÊÓÃ) ÓĞÔ¼ÊøÁ¦¼°ÀûÒæ¡£Èğ ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Òà¿ÉÔÚÎ´¾­¿Í»§Ö®ÊÂÏÈÍ¬Òâ»òÅú×¼£¬½«±¾Ğ­ÒéÖ®È«²¿»ò²¿·İÖ®È¨Àû»òÒåÎñÊÚÓèÈÎºÎ ÈË¡£´ËÍâ£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ÉËæÊ±½«Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×·ÌÖÎ´³¥»¹¿îÏîÖ®È¨Á¦ÊÚÓèÈğ´ï ¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¹ÍÓÃÖ®ÊÕÕÊ¹«Ë¾»ò´úÀíÈË¡£
+13.2 æœ¬åè®®ä¹‹æ¡æ¬¾å°†ä¼šå¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¹‹æ‰¿ç»§äººã€å—è®©äººåŠä¸ªäººä»£è¡¨ (å¦‚é€‚ç”¨) æœ‰çº¦æŸåŠ›åŠåˆ©ç›Šã€‚ç‘ è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸äº¦å¯åœ¨æœªç»å®¢æˆ·ä¹‹äº‹å…ˆåŒæ„æˆ–æ‰¹å‡†ï¼Œå°†æœ¬åè®®ä¹‹å…¨éƒ¨æˆ–éƒ¨ä»½ä¹‹æƒåˆ©æˆ–ä¹‰åŠ¡æˆäºˆä»»ä½• äººã€‚æ­¤å¤–ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¯éšæ—¶å°†ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è¿½è®¨æœªå¿è¿˜æ¬¾é¡¹ä¹‹æƒåŠ›æˆäºˆç‘è¾¾ å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é›‡ç”¨ä¹‹æ”¶å¸å…¬å¸æˆ–ä»£ç†äººã€‚
 The provisions of this Agreement shall be binding on and ensure to the benefit of RUI DA's successors, assigns and personal representatives (where applicable). RUI DA may assign all or part of RUI DA's rights and obligations under this Agreement to any person without the Client's prior consent or approval. Without prejudice to the generality of the foregoing, RUI DA may at any time assign the outstanding balance of the Account owing to RUI DA to any contractual credit management organization or collection agent employed by RUI DA for debt recovery proceeding.
 
-13.3 ¿Í»§Í¬ÒâÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾·¢³öÖ®½áËãµ¥Ìá¼°Ö®ËùÓĞÊÂÏî£¬ÈçÔÚ½áËãµ¥´«µİºóÖ®¶ş¸ö¹¤×÷ÌìÄÚ£¬¿Í »§Ã»ÓĞÒÔÊéÃæ·´¶Ô£¬ÔòÓ¦±»ÊÓÎªÒÑ±»¿Í»§½ÓÊÜ¡£
+13.3 å®¢æˆ·åŒæ„ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å‘å‡ºä¹‹ç»“ç®—å•æåŠä¹‹æ‰€æœ‰äº‹é¡¹ï¼Œå¦‚åœ¨ç»“ç®—å•ä¼ é€’åä¹‹äºŒä¸ªå·¥ä½œå¤©å†…ï¼Œå®¢ æˆ·æ²¡æœ‰ä»¥ä¹¦é¢åå¯¹ï¼Œåˆ™åº”è¢«è§†ä¸ºå·²è¢«å®¢æˆ·æ¥å—ã€‚
 The Client hereby agrees to accept statements of accounts issued by RUI DA shall be conclusive as to all matters stated therein if not objected to in writing by the Client within TWO business days after dispatch of the same.
 
-13.4 ±¾Ğ­ÒéËùÔØÌõ¿î¡¢Ìõ¼ş¼°Ï¸Ôò¸Å²»Ê¹Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¸ºÉÏÈÎºÎÔğÈÎÏò¿Í»§ÅûÂ¶ÆäÒÔÈÎºÎÉí·İ´úÈÎ ºÎÆäËûÈËÊ¿»òÆä±¾ÉíËù½øĞĞÂòÂô¹ı³ÌÖĞÈÎºÎ»ñÏ¤Ö®ÊÂÒË¡£
+13.4 æœ¬åè®®æ‰€è½½æ¡æ¬¾ã€æ¡ä»¶åŠç»†åˆ™æ¦‚ä¸ä½¿ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸è´Ÿä¸Šä»»ä½•è´£ä»»å‘å®¢æˆ·æŠ«éœ²å…¶ä»¥ä»»ä½•èº«ä»½ä»£ä»» ä½•å…¶ä»–äººå£«æˆ–å…¶æœ¬èº«æ‰€è¿›è¡Œä¹°å–è¿‡ç¨‹ä¸­ä»»ä½•è·æ‚‰ä¹‹äº‹å®œã€‚
 Nothing herein contained shall place RUI DA under any duty to disclose to the Client any fact or thing which comes to its notice in the course of acting in any capacity for any other person or in its own capacity.
 
-13.5 ÌÈÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾µÄÒµÎñÓĞÖØ´ó±ä¸ü,²¢ÇÒ¿ÉÄÜÓ°ÏìÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Îª¿Í»§Ìá¹©µÄ·şÎñ, Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«»áÍ¨Öª¿Í»§¡£
+13.5 å€˜ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸çš„ä¸šåŠ¡æœ‰é‡å¤§å˜æ›´,å¹¶ä¸”å¯èƒ½å½±å“ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä¸ºå®¢æˆ·æä¾›çš„æœåŠ¡, ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†ä¼šé€šçŸ¥å®¢æˆ·ã€‚
 RUI DA will notify the Client of material changes in respect of RUI DA's business which may affect its provision of services to the Client.
 
-13.6 ÌÈ¿Í»§ÎªÒ»ÈËÒÔÉÏ£¬Ôò¸÷ÈËĞë³Ğµ£¹²Í¬¼°¸ö±ğÔğÈÎ£¬ÇÒ¿Í»§Ò»´Ê½«°´ÎÄÒåÚ¹ÊÍ£¬°üÀ¨ÈÎºÎÒ»ÈË»ò¸÷ÈËÔÚÄÚ£¬ ¶øÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾½«ÓĞÈ¨ÓëÆäÖĞÈÎºÎÈËÊ¿¸ö±ğÍùÀ´½»Ò×£¬°üÀ¨ÔÚÈÎºÎ³Ì¶ÈÉÏ½â³ıÄ³ÈËÖ®ÔğÈÎ¶ø²» Ó°ÏìÆäËûÈËÊ¿Ó¦¸ºÖ®ÔğÈÎ¡£
+13.6 å€˜å®¢æˆ·ä¸ºä¸€äººä»¥ä¸Šï¼Œåˆ™å„äººé¡»æ‰¿æ‹…å…±åŒåŠä¸ªåˆ«è´£ä»»ï¼Œä¸”å®¢æˆ·ä¸€è¯å°†æŒ‰æ–‡ä¹‰è¯ é‡Šï¼ŒåŒ…æ‹¬ä»»ä½•ä¸€äººæˆ–å„äººåœ¨å†…ï¼Œ è€Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å°†æœ‰æƒä¸å…¶ä¸­ä»»ä½•äººå£«ä¸ªåˆ«å¾€æ¥äº¤æ˜“ï¼ŒåŒ…æ‹¬åœ¨ä»»ä½•ç¨‹åº¦ä¸Šè§£é™¤æŸäººä¹‹è´£ä»»è€Œä¸ å½±å“å…¶ä»–äººå£«åº”è´Ÿä¹‹è´£ä»»ã€‚
 Where the Client consists of more than one person, the liability of each of the Client will be joint and several and references to the Client will be construed as the context requires, to any or each of the Client. RUI DA will be entitled to deal separately with any of the Client including the discharge of any liabilities to any extent without affecting the liability of the others.
 
-14. ¹ÜÏ½·¨ÂÉ¼°Ë¾·¨¹ÜÏ½È¨ Governing Law and Jurisdiction
+14. ç®¡è¾–æ³•å¾‹åŠå¸æ³•ç®¡è¾–æƒ Governing Law and Jurisdiction
 
-14.1 ±¾Ğ­Òé¼°ÆäÖ´ĞĞ£¬Ó¦ÊÜÖĞ»ªÈËÃñ¹²ºÍ¹úÏã¸ÛÌØ±ğĞĞÕşÇø·¨ÂÉ¹ÜÏ½ºÍ½âÊÍ ; ÆäÌõÎÄÒà±ØĞë³ÖĞøÓĞĞ§£¬Ğ§Á¦¸²¸Ç ¿Í»§ÔÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¿ªÉè»òÖØĞÂ¿ªÉèµÄ¸ö±ğ¼°È«²¿»§¿Ú£¬²¢¶ÔÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾¡¢Æä ÒµÈ¨¼Ì³ĞÈËÓë³ĞÈÃÈË (²»ÂÛÍ¨¹ıºÏ²¢»òÆäËû·½Ê½) ¼°¿Í»§µÄ¼Ì³ĞÈË£¬ÒÅÖöÖ´ĞĞÈË¡¢ÒÅ²ú¹ÜÀíÈË¡¢ÒÅ²ú³ĞÊÜÈË¡¢ ÒÅ²ú¼Ì³ĞÈË£¬·¨¶¨´ú±í¼°³ĞÈÃÈË¾ßÓĞÔ¼ÊøÁ¦¡£¿Í»§×È·ş´ÓÏã¸ÛÌØ±ğĞĞÕşÇø·¨ÔºµÄÉóÅĞÈ¨¡£Èç·¨Í¥ÅĞ¾ö±¾Ğ­Òé Ä³Ğ©×ÖÑÛ¡¢¾ä×Ó¡¢Ìõ¿î»ò¶ÎÂä²»ÄÜÖ´ĞĞ»òÎ¥·¨£¬±¾Ğ­ÒéÆäÓà²¿·İÈÔ¿ÉÖ´ĞĞ¼°ºÏ·¨¡£
+14.1 æœ¬åè®®åŠå…¶æ‰§è¡Œï¼Œåº”å—ä¸­åäººæ°‘å…±å’Œå›½é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºæ³•å¾‹ç®¡è¾–å’Œè§£é‡Š ; å…¶æ¡æ–‡äº¦å¿…é¡»æŒç»­æœ‰æ•ˆï¼Œæ•ˆåŠ›è¦†ç›– å®¢æˆ·åœ¨ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸å¼€è®¾æˆ–é‡æ–°å¼€è®¾çš„ä¸ªåˆ«åŠå…¨éƒ¨æˆ·å£ï¼Œå¹¶å¯¹ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ã€å…¶ ä¸šæƒç»§æ‰¿äººä¸æ‰¿è®©äºº (ä¸è®ºé€šè¿‡åˆå¹¶æˆ–å…¶ä»–æ–¹å¼) åŠå®¢æˆ·çš„ç»§æ‰¿äººï¼Œé—å˜±æ‰§è¡Œäººã€é—äº§ç®¡ç†äººã€é—äº§æ‰¿å—äººã€ é—äº§ç»§æ‰¿äººï¼Œæ³•å®šä»£è¡¨åŠæ‰¿è®©äººå…·æœ‰çº¦æŸåŠ›ã€‚å®¢æˆ·å…¹æœä»é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºæ³•é™¢çš„å®¡åˆ¤æƒã€‚å¦‚æ³•åº­åˆ¤å†³æœ¬åè®® æŸäº›å­—çœ¼ã€å¥å­ã€æ¡æ¬¾æˆ–æ®µè½ä¸èƒ½æ‰§è¡Œæˆ–è¿æ³•ï¼Œæœ¬åè®®å…¶ä½™éƒ¨ä»½ä»å¯æ‰§è¡ŒåŠåˆæ³•ã€‚
 Hong Kong Special Administrative Region of the People's Republic of China and its provisions shall be continuous; shall cover individually and collectively all accounts which the Client may open or re-open with RUI DA; and shall insure to the benefit of, and bind RUI DA, RUI DA's successors and assigns, whether by merger, consolidation or otherwise, as well as the heirs, executors, administrators, legatees, successors, personal representatives and assigns of the Client and the Client hereby submits to the jurisdiction of the court of Hong Kong Special Administrative Region. In the event that certain words, sentences, clauses or paragraphs in this Agreement are held unenforceable or against the law by a court of law, then only that word, sentence, clause or paragraph will be considered as such. The rest of this Agreement will be enforceable and within the law.
 
-15. ÆäËû Miscellaneous
+15. å…¶ä»– Miscellaneous
 
-15.1 ±¾Ğ­ÒéÈÎºÎÌõÎÄ²»µÃ³·³ı¡¢ÅÅ³ı»òÏŞÖÆ¸ù¾İÏã¸ÛÌØ±ğĞĞÕşÇø·¨Àı¶Ô¿Í»§Ëù¸³ÓèÖ®ÈÎºÎÈ¨Àû»òÈğ´ï¹ú¼Ê½ğÈÚ¿Ø ¹ÉÓĞÏŞ¹«Ë¾Ğë³Ğµ£µÄÔğÈÎ£¬³ı·Ç¾­Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ÒÔÊéÃæÌá³ö£¬·ñÔò²»µÃ·ÅÆúÖ´ĞĞ¡¢¸ü¸Ä¡¢ĞŞ¸Ä »òĞŞ¶©±¾Ğ­ÒéµÄÈÎºÎÌõÎÄ¡£
+15.1 æœ¬åè®®ä»»ä½•æ¡æ–‡ä¸å¾—æ’¤é™¤ã€æ’é™¤æˆ–é™åˆ¶æ ¹æ®é¦™æ¸¯ç‰¹åˆ«è¡Œæ”¿åŒºæ³•ä¾‹å¯¹å®¢æˆ·æ‰€èµ‹äºˆä¹‹ä»»ä½•æƒåˆ©æˆ–ç‘è¾¾å›½é™…é‡‘èæ§ è‚¡æœ‰é™å…¬å¸é¡»æ‰¿æ‹…çš„è´£ä»»ï¼Œé™¤éç»ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä»¥ä¹¦é¢æå‡ºï¼Œå¦åˆ™ä¸å¾—æ”¾å¼ƒæ‰§è¡Œã€æ›´æ”¹ã€ä¿®æ”¹ æˆ–ä¿®è®¢æœ¬åè®®çš„ä»»ä½•æ¡æ–‡ã€‚
 No provision of this Agreement shall operate to remove, exclude or restrict any rights of the Client or obligations of RUI DA under the laws of Hong Kong Special Administrative Region or shall in any respects be waived, altered, modified or amended unless such waiver, alteration, modification or amendment be committed in writing by RUI DA.
 
-15.2 ±¾Ğ­ÒéÏÂµÄËùÓĞ½»Ò×¶¼Ó¦ÓÉÖ¤È¯¼°ÆÚ»õÌõÀıÒÔ¼°µ±Ê±ÈÎºÎÔÚ½»Ò×Ëù»òÆäËûÊĞ³¡ÒÔ¼°½»Ò×½áËãËùÉúĞ§µÄÏÜ·¨¡¢ ÌõÀı¡¢¹æÕÂ Ï°¹ß¡¢ÓÃ·¨¡¢²Ã¾öºÍ½âÊÍµÄÖÆÔ¼¡£¸ù¾İ¸Û½»Ëù¡¢Áª½»Ëù¡¢ÆÚ½»Ëù¡¢½áËãËù¡¢Ö¤¼à»á¼°/»òÆäËû¼à ¹Ü»ú¹¹µÄÒªÇó£¬Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾ĞëÏòËüÃÇÍ¸Â¶ÓĞ¹Ø¿Í»§µÄĞÕÃû¡¢ÊÜÒæÉí·İºÍÆäËû¿ÉÄÜÒªÇóÌá¹©µÄ ×ÊÑ¶¡£¿Í»§Í¬ÒâÓÚÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ö¸¶¨µÄÊ±¼äÄÚÏòÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾Ìá¹©ÒÔÉÏ×ÊÑ¶£¬ÒÔ ±ãÈğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×ñĞĞÒÔÉÏÒªÇó¡£¿Í»§½÷²»¿É³·»ØµØÊÚÈ¨Èğ´ï¹ú¼Ê½ğÈÚ¿Ø¹ÉÓĞÏŞ¹«Ë¾×÷³öÈÎºÎ¸Ã µÈÅûÂ¶¡£
+15.2 æœ¬åè®®ä¸‹çš„æ‰€æœ‰äº¤æ˜“éƒ½åº”ç”±è¯åˆ¸åŠæœŸè´§æ¡ä¾‹ä»¥åŠå½“æ—¶ä»»ä½•åœ¨äº¤æ˜“æ‰€æˆ–å…¶ä»–å¸‚åœºä»¥åŠäº¤æ˜“ç»“ç®—æ‰€ç”Ÿæ•ˆçš„å®ªæ³•ã€ æ¡ä¾‹ã€è§„ç«  ä¹ æƒ¯ã€ç”¨æ³•ã€è£å†³å’Œè§£é‡Šçš„åˆ¶çº¦ã€‚æ ¹æ®æ¸¯äº¤æ‰€ã€è”äº¤æ‰€ã€æœŸäº¤æ‰€ã€ç»“ç®—æ‰€ã€è¯ç›‘ä¼šåŠ/æˆ–å…¶ä»–ç›‘ ç®¡æœºæ„çš„è¦æ±‚ï¼Œç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸é¡»å‘å®ƒä»¬é€éœ²æœ‰å…³å®¢æˆ·çš„å§“åã€å—ç›Šèº«ä»½å’Œå…¶ä»–å¯èƒ½è¦æ±‚æä¾›çš„ èµ„è®¯ã€‚å®¢æˆ·åŒæ„äºç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æŒ‡å®šçš„æ—¶é—´å†…å‘ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸æä¾›ä»¥ä¸Šèµ„è®¯ï¼Œä»¥ ä¾¿ç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸éµè¡Œä»¥ä¸Šè¦æ±‚ã€‚å®¢æˆ·è°¨ä¸å¯æ’¤å›åœ°æˆæƒç‘è¾¾å›½é™…é‡‘èæ§è‚¡æœ‰é™å…¬å¸ä½œå‡ºä»»ä½•è¯¥ ç­‰æŠ«éœ²ã€‚
 All Transactions under this Agreement shall be subject to the SFO and any constitution, rules, regulations, customs, usage, rulings and interpretations, from time to time in force of the exchange or other market, and of their clearing houses, if any, where the transactions are executed. RUI DA is required, upon the request of HKEx, the Stock Exchange, the Futures Exchange, the Clearing House, the SFC and/or other regulatory authorities, to disclose the name, beneficial identity and such other information concerning the Client as may be required, and the Client agrees to provide such information to RUI DA within the time RUI DA specified for RUI DA to comply with such requirement. The Client irrevocably authorizes RUI DA to make any such disclosure.
 
-15.3	¿Í»§Í¬Òâ£¬ÌÈ±¾Ìõ¿î¼°Ìõ¼şµÄÖĞÎÄ±¾ÓëÓ¢ÎÄ±¾ÓĞÈÎºÎ²»Ò»ÖÂÖ®´¦£¬±ØĞëÒÔÓ¢ÎÄ±¾Îª×¼¡£
+15.3	å®¢æˆ·åŒæ„ï¼Œå€˜æœ¬æ¡æ¬¾åŠæ¡ä»¶çš„ä¸­æ–‡æœ¬ä¸è‹±æ–‡æœ¬æœ‰ä»»ä½•ä¸ä¸€è‡´ä¹‹å¤„ï¼Œå¿…é¡»ä»¥è‹±æ–‡æœ¬ä¸ºå‡†ã€‚
 The Client agrees that if there is any inconsistency between the Chinese and English versions of these Terms and Conditions, the English version shall prevail.

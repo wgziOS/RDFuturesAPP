@@ -25,6 +25,7 @@
     // Do any additional setup after loading the view.
     
     [self pageViewInit];
+    [self.advertisementViewModel.advertisementCommand execute:nil];
 }
 
 
