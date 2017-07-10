@@ -2610,7 +2610,7 @@
 					CE87C4FE1E650DDD00103EDE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 5GT7M52QLG;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -3192,7 +3192,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDFuturesApp/RDFuturesApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhibin Lin (UH2HAG56T3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5GT7M52QLG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3221,8 +3221,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruida.RDFutures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
-				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -3235,7 +3235,7 @@
 				CODE_SIGN_ENTITLEMENTS = RDFuturesApp/RDFuturesApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhibin Lin (UH2HAG56T3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5GT7M52QLG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3264,8 +3264,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruida.RDFutures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bd41e1be-82d1-4585-98f0-2fb3d46175db";
-				PROVISIONING_PROFILE_SPECIFIER = RDFutures_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
