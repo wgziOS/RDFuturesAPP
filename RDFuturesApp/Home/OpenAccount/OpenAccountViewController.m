@@ -39,7 +39,7 @@
     [_readButton setImage:[UIImage imageNamed:@"unselected_icon"] forState:UIControlStateNormal];
     sectionBtnCount = 1;
     
-    titleArray = @[@"1.經紀資料",@"2.客戶協議條款",@"3.互聯網期貨合約交易服務條款及條件",@"4.風險披露聲明"];
+    titleArray = @[@"1.经纪资料",@"2.期货合约交易服务之一般条款及条件",@"3.互联网期货合约交易服务条款及条件",@"4.风险披露声明",@"5.关于买卖恒生指数期货及期权的免责声明"];
     
 
     [self loadContentStr];
@@ -54,10 +54,11 @@
 #pragma mark -
 - (NSArray *)loadContentStr{
     if (!contentArray) {
-        contentArray = @[[NSString turnTxtStringWithResourceStr:@"1.經紀資料"],
-                         [NSString turnTxtStringWithJianStr:@"2.客戶協議條款"],
-                         [NSString turnTxtStringWithResourceStr:@"3.互聯網期貨合約交易服務條款及條件"],
-                         [NSString turnTxtStringWithResourceStr:@"4.風險披露聲明"]];
+        contentArray = @[[NSString turnTxtStringWithJianStr:@"1.经纪资料"],
+                         [NSString turnTxtStringWithJianStr:@"2.期货合约交易服务之一般条款及条件"],
+                         [NSString turnTxtStringWithJianStr:@"3.互联网期货合约交易服务条款及条件"],
+                         [NSString turnTxtStringWithJianStr:@"4.风险披露声明"],
+                         [NSString turnTxtStringWithJianStr:@"5.关于买卖恒生指数期货及期权的免责声明"]];
     }
     return contentArray;
 
@@ -105,7 +106,7 @@
         dataArray = [NSMutableArray array];
     }
     // Todo: 加载数据模型
-    NSArray *groupNames = @[@[@""],@[@""],@[@""],@[@""]];
+    NSArray *groupNames = @[@[@""],@[@""],@[@""],@[@""],@[@""]];
     //这是模型类
     
     //这是一个分组的模型类
